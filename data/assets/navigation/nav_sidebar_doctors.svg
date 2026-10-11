@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="720" viewBox="0 0 240 720">
+    <defs>
+        <!-- Deep rich navy background gradient -->
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#071E54" />
+            <stop offset="60%" stop-color="#0A2568" />
+            <stop offset="100%" stop-color="#071945" />
+        </linearGradient>
+        
+        <!-- Active cyan/azure pill gradient matching mockup -->
+        <linearGradient id="activePillGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#00A3E0" />
+            <stop offset="100%" stop-color="#0077B6" />
+        </linearGradient>
+        
+        <!-- Caduceus glow / accent -->
+        <linearGradient id="brandCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#38BDF8" />
+            <stop offset="100%" stop-color="#00A3E0" />
+        </linearGradient>
+    </defs>
+
+    <!-- Sidebar Main Background -->
+    <rect x="0" y="0" width="240" height="720" fill="url(#bgGradient)" />
+    
+    <!-- Right subtle border separator -->
+    <line x1="239.5" y1="0" x2="239.5" y2="720" stroke="#16326E" stroke-width="1" />
+
+    <!-- BRAND / LOGO SECTION -->
+    <g id="brand_header" transform="translate(18, 22)">
+        <!-- Caduceus Medical Emblem -->
+        <g stroke="url(#brandCyan)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <!-- Center Staff -->
+            <line x1="16" y1="6" x2="16" y2="38" stroke="#FFFFFF" stroke-width="2" />
+            <circle cx="16" cy="4" r="2.5" fill="#38BDF8" stroke="#FFFFFF" stroke-width="1" />
+            
+            <!-- Dual Coiled Serpents -->
+            <path d="M10 14 C13 10 19 10 22 14 C25 18 19 22 16 24 C13 22 7 18 10 14 Z" stroke-width="1.6" />
+            <path d="M10 26 C13 22 19 22 22 26 C25 30 19 34 16 36 C13 34 7 30 10 26 Z" stroke-width="1.6" />
+            
+            <!-- Wing Spreads -->
+            <path d="M16 11 C11 7 4 8 2 12 C6 14 11 13 16 14" stroke-width="1.5" />
+            <path d="M16 11 C21 7 28 8 30 12 C26 14 21 13 16 14" stroke-width="1.5" />
+        </g>
+
+        <!-- Brand Text -->
+        <text x="42" y="22" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" 
+              font-size="16px" font-weight="700" fill="#FFFFFF" letter-spacing="0.3px">PharmaForce</text>
+        <text x="42" y="38" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" 
+              font-size="15px" font-weight="600" fill="#38BDF8">360°</text>
+    </g>
+
+    <!-- Subtle horizontal separator below logo -->
+    <line x1="16" y1="88" x2="224" y2="88" stroke="#163470" stroke-width="0.8" stroke-dasharray="3,3" />
+
+    <!-- NAVIGATION MENU ITEMS -->
+    
+        <!-- Menu Item: Executive Overview -->
+        <g id="menu_overview">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="26" y="146" width="6.5" height="6.5" rx="1.5" />
+            <rect x="35.5" y="146" width="6.5" height="6.5" rx="1.5" />
+            <rect x="26" y="155.5" width="6.5" height="6.5" rx="1.5" />
+            <rect x="35.5" y="155.5" width="6.5" height="6.5" rx="1.5" />
+        </g>
+        
+            
+        <text x="52" y="159" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Executive Overview</text>
+        
+        </g>
+        
+        <!-- Menu Item: Doctors (KOLs) -->
+        <g id="menu_doctors">
+            
+            <!-- Active item pill -->
+            <rect x="12" y="188" width="216" height="40" rx="10" fill="url(#activePillGradient)" stroke="#38BDF8" stroke-width="1" />
+            <!-- Inner subtle glow -->
+            <rect x="13" y="189" width="214" height="38" rx="9" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1" />
+            
+            
+        <g stroke="#FFFFFF" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="34" cy="204" r="4" />
+            <path d="M26 217 C26 212 29.5 211 34 211 C38.5 211 42 212 42 217" />
+            <path d="M29 207 V211 C29 214 39 214 39 211 V207" stroke="#38BDF8" stroke-width="1.3" />
+        </g>
+        
+            
+        <text x="52" y="213" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="600" fill="#FFFFFF">Doctors (KOLs)</text>
+        
+        </g>
+        
+        <!-- Menu Item: Medical Representatives -->
+        <g id="menu_medical_reps">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="31" cy="258" r="3.5" />
+            <path d="M24 271 C24 267 27 266 31 266 C35 266 38 267 38 271" />
+            <circle cx="39" cy="256" r="2.8" stroke="#6487B8" />
+            <path d="M37 263 C39 263 44 264 44 269" stroke="#6487B8" />
+        </g>
+        
+            
+        <text x="52" y="267" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Medical Representatives</text>
+        
+        </g>
+        
+        <!-- Menu Item: Bricks -->
+        <g id="menu_bricks">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="25,309 31,311 37,309 43,311 43,324 37,322 31,324 25,322" />
+            <line x1="31" y1="311" x2="31" y2="324" stroke="#6487B8" />
+            <line x1="37" y1="309" x2="37" y2="322" stroke="#6487B8" />
+        </g>
+        
+            
+        <text x="52" y="321" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Bricks</text>
+        
+        </g>
+        
+        <!-- Menu Item: Visits -->
+        <g id="menu_visits">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="25" y="363" width="18" height="16" rx="2.5" />
+            <line x1="25" y1="368" x2="43" y2="368" stroke="#6487B8" />
+            <line x1="29" y1="361" x2="29" y2="364" />
+            <line x1="39" y1="361" x2="39" y2="364" />
+            <path d="M29 373 L32 376 L39 370" stroke="#9BB3D6" stroke-width="1.8" />
+        </g>
+        
+            
+        <text x="52" y="375" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Visits</text>
+        
+        </g>
+        
+        <!-- Menu Item: Drugs &amp; Market Comparisons -->
+        <g id="menu_drugs">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M26 430 L37 419 A4.5 4.5 0 0 0 31 413 L20 424 A4.5 4.5 0 0 0 26 430 Z" />
+            <line x1="25" y1="420" x2="33" y2="428" stroke="#6487B8" stroke-width="1.5" />
+        </g>
+        
+            
+        <text x="52" y="429" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Drugs &amp; Market Comparisons</text>
+        
+        </g>
+        
+        <!-- Menu Item: Distributors &amp; Stock -->
+        <g id="menu_distributors">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M34 470 L43 474.5 L34 479 L25 474.5 Z" />
+            <path d="M25 474.5 V484 L34 488.5 V479" stroke="#6487B8" />
+            <path d="M43 474.5 V484 L34 488.5" />
+        </g>
+        
+            
+        <text x="52" y="483" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Distributors &amp; Stock</text>
+        
+        </g>
+        
+        <!-- Menu Item: Expenses &amp; Budget -->
+        <g id="menu_expenses">
+            
+            
+        <g stroke="#9BB3D6" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="24" y="526" width="20" height="15" rx="3" />
+            <path d="M24 530 H44" stroke="#6487B8" />
+            <circle cx="39" cy="535" r="1.5" fill="#9BB3D6" />
+        </g>
+        
+            
+        <text x="52" y="537" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif" 
+              font-size="11.5px" font-weight="500" fill="#C8DCF5">Expenses &amp; Budget</text>
+        
+        </g>
+        
+
+    <!-- BOTTOM SYSTEM BADGE / COPYRIGHT -->
+    <g id="sidebar_footer" transform="translate(18, 680)">
+        <circle cx="8" cy="8" r="3" fill="#10B981" />
+        <text x="18" y="11" font-family="'Segoe UI', sans-serif" font-size="9px" font-weight="500" fill="#6487B8">v2.4 Greater Cairo Market</text>
+    </g>
+</svg>
