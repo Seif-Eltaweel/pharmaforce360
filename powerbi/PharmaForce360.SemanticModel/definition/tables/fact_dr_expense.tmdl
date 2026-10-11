@@ -1,0 +1,82 @@
+table fact_dr_expense
+	lineageTag: 77d5e5bd-3ae2-456b-8ab2-51bf6db2acba
+
+	column Expense_ID
+		dataType: string
+		lineageTag: e2826976-46b1-4d4d-b49c-ff1a9cc1dd9e
+		summarizeBy: none
+		sourceColumn: Expense_ID
+
+	column Date_Key
+		dataType: int64
+		formatString: 0
+		lineageTag: d1c1c516-fcf4-4a51-b5bf-09a54eff2cad
+		summarizeBy: none
+		sourceColumn: Date_Key
+
+	column Rep_ID
+		dataType: string
+		lineageTag: 884184bb-0efa-4751-889f-efe5ad34a809
+		summarizeBy: none
+		sourceColumn: Rep_ID
+
+	column Doctor_ID
+		dataType: string
+		lineageTag: bd685cc1-d67b-432b-ae89-ed10af41e96b
+		summarizeBy: none
+		sourceColumn: Doctor_ID
+
+	column Brick_ID
+		dataType: string
+		lineageTag: ec9f5519-2c7d-44d5-997d-8e8036da8bca
+		summarizeBy: none
+		sourceColumn: Brick_ID
+
+	column Expense_Category
+		dataType: string
+		lineageTag: 360ed0c2-9732-4340-85b1-424252884ed8
+		summarizeBy: none
+		sourceColumn: Expense_Category
+
+	column Amount_Of_Money_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: d578f354-0ae4-406a-8460-5a7fadd87f31
+		summarizeBy: none
+		sourceColumn: Amount_Of_Money_EGP
+
+	column Doctor_Persona
+		dataType: string
+		lineageTag: 06edb220-8523-4e50-a566-c07d25dec7d7
+		summarizeBy: none
+		sourceColumn: Doctor_Persona
+
+	column Is_Free_Rider
+		dataType: boolean
+		lineageTag: 574259a0-f102-425b-988a-25fc1f7362ef
+		summarizeBy: none
+		sourceColumn: Is_Free_Rider
+
+	column Incremental_Rx_Lift_Units
+		dataType: int64
+		formatString: 0
+		lineageTag: 21d9d4c3-bc4a-4e77-b993-0d552a06db2f
+		summarizeBy: none
+		sourceColumn: Incremental_Rx_Lift_Units
+
+	column Approval_Status
+		dataType: string
+		lineageTag: 67fd0721-99fe-4bbb-b6e8-7dd0de24dd05
+		summarizeBy: none
+		sourceColumn: Approval_Status
+
+	partition fact_dr_expense = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_dr_expense.csv"), [Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Expense_ID", type text}, {"Date_Key", Int64.Type}, {"Rep_ID", type text}, {"Doctor_ID", type text}, {"Brick_ID", type text}, {"Expense_Category", type text}, {"Amount_Of_Money_EGP", type number}, {"Doctor_Persona", type text}, {"Is_Free_Rider", type logical}, {"Incremental_Rx_Lift_Units", Int64.Type}, {"Approval_Status", type text}})
+				in
+				    #"Changed Type"
+

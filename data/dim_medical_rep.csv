@@ -1,0 +1,33 @@
+Rep_ID,Rep_Name,Assigned_Line,Home_Zone,Assigned_Brick_IDs,Hire_Date,Tenure_Months,Predecessor_Rep_ID,Handover_Date,Is_Replacement_Rep,Target_Bonus_Pct
+REP-001,Ahmed Mansour,Cardiovascular,East Cairo,BRK-01;BRK-02;BRK-03,2023-03-01,30,,,False,0.15
+REP-002,Karim El-Sayed,Cardiovascular,New Cairo,BRK-05;BRK-06;BRK-07,2023-03-01,43,,,False,0.15
+REP-003,Mohamed Tarek,Cardiovascular,Downtown & Central,BRK-09;BRK-10;BRK-11,2023-03-01,52,,,False,0.15
+REP-004,Youssef Nabil,Cardiovascular,Giza & Dokki,BRK-13;BRK-14;BRK-15,2023-03-01,38,,,False,0.15
+REP-005,Omar Sherif,Cardiovascular,South Cairo,BRK-18;BRK-19;BRK-20,2023-03-01,34,,,False,0.15
+REP-006,Khaled Fawzy,Cardiovascular,West Cairo (October),BRK-22;BRK-23;BRK-24,2023-03-01,31,,,False,0.15
+REP-007,Hassan Radi,Cardiovascular,East Cairo,BRK-01;BRK-02;BRK-03,2023-03-01,52,,,False,0.15
+REP-008,Amr Shalaby,Cardiovascular,New Cairo,BRK-05;BRK-06;BRK-07,2023-03-01,44,,,False,0.15
+REP-009,Mina Tharwat,Cardiovascular,Downtown & Central,BRK-09;BRK-10;BRK-11,2023-03-01,30,,,False,0.15
+REP-010,George Samy,Cardiovascular,Giza & Dokki,BRK-13;BRK-14;BRK-15,2023-03-01,49,,,False,0.15
+REP-011,Peter Magdy,Cardiovascular,South Cairo,BRK-18;BRK-19;BRK-20,2023-03-01,42,,,False,0.15
+REP-012,Tamer Hosny,Cardiovascular,West Cairo (October),BRK-22;BRK-23;BRK-24,2023-03-01,46,,,False,0.15
+REP-013,Mahmoud Samir,Cardiovascular,East Cairo,BRK-01;BRK-02;BRK-03,2023-03-01,34,,,False,0.15
+REP-014,Sherif Zaki,Cardiovascular,New Cairo,BRK-05;BRK-06;BRK-07,2023-03-01,34,,,False,0.15
+REP-015,Islam Farag,Cardiovascular,Downtown & Central,BRK-09;BRK-10;BRK-11,2023-03-01,47,,,False,0.15
+REP-016,Ramy Bahaa,Cardiovascular,Giza & Dokki,BRK-13;BRK-14;BRK-15,2023-03-01,44,,,False,0.15
+REP-017,Nouran El-Shazly,Respiratory / CNS,South Cairo,BRK-18;BRK-19;BRK-20,2023-03-01,27,,,False,0.15
+REP-018,Dina Gaber,Respiratory / CNS,West Cairo (October),BRK-22;BRK-23;BRK-24,2023-03-01,31,,,False,0.15
+REP-019,Salma Rostom,Respiratory / CNS,East Cairo,BRK-01;BRK-02;BRK-03,2023-03-01,47,,,False,0.15
+REP-020,Yara Medhat,Respiratory / CNS,New Cairo,BRK-05;BRK-06;BRK-07,2023-03-01,26,,,False,0.15
+REP-021,Heba Mostafa,Respiratory / CNS,Downtown & Central,BRK-09;BRK-10;BRK-11,2023-03-01,45,,,False,0.15
+REP-022,Rania Adel,Respiratory / CNS,Giza & Dokki,BRK-13;BRK-14;BRK-15,2023-03-01,44,,,False,0.15
+REP-023,Mariam Fikry,Respiratory / CNS,South Cairo,BRK-18;BRK-19;BRK-20,2023-03-01,25,,,False,0.15
+REP-024,Aya Ashraf,Respiratory / CNS,West Cairo (October),BRK-22;BRK-23;BRK-24,2023-03-01,47,,,False,0.15
+REP-025,Engy Emad,Respiratory / CNS,East Cairo,BRK-01;BRK-02;BRK-03,2023-03-01,35,,,False,0.15
+REP-026,Farah Zaher,Respiratory / CNS,New Cairo,BRK-05;BRK-06;BRK-07,2023-03-01,53,,,False,0.15
+REP-027,Nada Hatem,Respiratory / CNS,Downtown & Central,BRK-09;BRK-10;BRK-11,2023-03-01,29,,,False,0.15
+REP-028,Sarah Wafik,Respiratory / CNS,Giza & Dokki,BRK-13;BRK-14;BRK-15,2023-03-01,25,,,False,0.15
+REP-029,Haidy Shawky,Respiratory / CNS,South Cairo,BRK-18;BRK-19;BRK-20,2025-05-01,10,REP-008,2025-05-01,True,0.15
+REP-030,Donia Hany,Respiratory / CNS,West Cairo (October),BRK-22;BRK-23;BRK-24,2025-06-01,11,REP-009,2025-06-01,True,0.15
+REP-031,Lobna Yehia,Respiratory / CNS,East Cairo,BRK-01;BRK-02;BRK-03,2025-07-01,6,REP-010,2025-07-01,True,0.15
+REP-032,Zeina Barakat,Respiratory / CNS,New Cairo,BRK-05;BRK-06;BRK-07,2025-08-01,7,REP-011,2025-08-01,True,0.15

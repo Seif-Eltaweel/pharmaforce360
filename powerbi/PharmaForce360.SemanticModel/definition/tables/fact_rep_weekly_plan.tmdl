@@ -1,0 +1,96 @@
+table fact_rep_weekly_plan
+	lineageTag: f04852d0-b731-4056-a440-76ba43ea84f0
+
+	column Plan_ID
+		dataType: string
+		lineageTag: abac86e8-3489-41bb-aa9d-71494dc8c044
+		summarizeBy: none
+		sourceColumn: Plan_ID
+
+	column Rep_ID
+		dataType: string
+		lineageTag: 1127cd79-6023-4db1-90ce-fe5926dba4e4
+		summarizeBy: none
+		sourceColumn: Rep_ID
+
+	column Week_Start_Date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 282dcc6f-44de-4e6f-b81b-17f7e2997575
+		summarizeBy: none
+		sourceColumn: Week_Start_Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Week_Number
+		dataType: int64
+		formatString: 0
+		lineageTag: 12da5985-f3d5-4d6a-ab91-652c00c9b5b7
+		summarizeBy: sum
+		sourceColumn: Week_Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 55bce6b9-4769-4931-874e-1b4de943516a
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Plan_Submission_Status
+		dataType: string
+		lineageTag: 2a186a50-2144-450a-bd6d-cf1d6068f197
+		summarizeBy: none
+		sourceColumn: Plan_Submission_Status
+
+	column Planned_Doctor_Visits
+		dataType: int64
+		formatString: 0
+		lineageTag: e1ffed9b-e06f-43de-b982-f7ce6ba4b8e5
+		summarizeBy: sum
+		sourceColumn: Planned_Doctor_Visits
+
+		annotation SummarizationSetBy = Automatic
+
+	column Planned_Pharmacy_Visits
+		dataType: int64
+		formatString: 0
+		lineageTag: c65df7b3-7a75-4238-b756-bd8fda55362a
+		summarizeBy: sum
+		sourceColumn: Planned_Pharmacy_Visits
+
+		annotation SummarizationSetBy = Automatic
+
+	column Submission_Date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 2d2a8b56-e817-40ed-ade5-6e287bf95ad8
+		summarizeBy: none
+		sourceColumn: Submission_Date
+
+		variation Variation
+			isDefault
+			relationship: 6303c546-df2b-484e-bb32-ad7c90e049b0
+			defaultHierarchy: LocalDateTable_806422c2-cef7-4c30-9b92-0fca7f746e37.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Manager_Approved
+		dataType: boolean
+		lineageTag: cca34976-1812-4c10-ac29-724d4defffc0
+		summarizeBy: none
+		sourceColumn: Manager_Approved
+
+	partition fact_rep_weekly_plan = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_rep_weekly_plan.csv"), [Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Plan_ID", type text}, {"Rep_ID", type text}, {"Week_Start_Date", type date}, {"Week_Number", Int64.Type}, {"Year", Int64.Type}, {"Plan_Submission_Status", type text}, {"Planned_Doctor_Visits", Int64.Type}, {"Planned_Pharmacy_Visits", Int64.Type}, {"Submission_Date", type date}, {"Manager_Approved", type logical}})
+				in
+				    #"Changed Type"
+

@@ -1,0 +1,62 @@
+table dim_brick_territory
+	lineageTag: ab9cd420-97ef-4040-96a7-481f2d41a600
+
+	column Brick_ID
+		dataType: string
+		lineageTag: 6189c765-b590-47b2-a67b-5feebe577ac4
+		summarizeBy: none
+		sourceColumn: Brick_ID
+
+	column Brick_Name
+		dataType: string
+		lineageTag: 1d884f96-ece4-4086-991e-7e50eda3d1a4
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: Brick_Name
+
+	column Zone
+		dataType: string
+		lineageTag: 01b3165a-251f-4b72-a344-676d7bf585a4
+		summarizeBy: none
+		sourceColumn: Zone
+
+	column Tier
+		dataType: int64
+		formatString: 0
+		lineageTag: 09d3896d-31e4-466e-81f6-6eba23ad739b
+		summarizeBy: none
+		sourceColumn: Tier
+
+	column Latitude
+		dataType: double
+		formatString: #,0.0000
+		lineageTag: ea55f023-02d0-4df6-8aee-78ed04f6a83e
+		dataCategory: Latitude
+		summarizeBy: average
+		sourceColumn: Latitude
+
+	column Longitude
+		dataType: double
+		formatString: #,0.0000
+		lineageTag: 0d199ed9-aa85-488b-a4cf-ecbe2a43a621
+		dataCategory: Longitude
+		summarizeBy: average
+		sourceColumn: Longitude
+
+	column Territory_Potential_Index
+		dataType: double
+		formatString: #,0.00
+		lineageTag: b4e2b587-8af7-4bba-b0ec-2722ff5da72b
+		summarizeBy: none
+		sourceColumn: Territory_Potential_Index
+
+	partition dim_brick_territory = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_brick_territory.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Brick_ID", type text}, {"Brick_Name", type text}, {"Zone", type text}, {"Tier", Int64.Type}, {"Latitude", type number}, {"Longitude", type number}, {"Territory_Potential_Index", type number}})
+				in
+				    #"Changed Type"
+

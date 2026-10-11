@@ -1,0 +1,701 @@
+Doctor_ID,Doctor_Name,Specialty,Classification,Schedule_Pattern,Primary_Brick_ID,Primary_Clinic_Address,Weekly_Patient_Volume,Preferred_Visit_Time,Academic_Affiliation
+DOC-0001,Dr. Mark Johnson,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-06,93 Fifth Settlement South Medical Tower,111,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0002,Dr. Donald Walker,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-02,179 Nasr City West Medical Tower,104,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0003,Dr. Noah Rhodes,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-32,25 El Manial & Roda Island Medical Tower,31,Evening Clinic (PM),Practicing Specialist
+DOC-0004,Dr. Steven Miller,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-12,94 Shubra Medical Tower,33,Evening Clinic (PM),Practicing Specialist
+DOC-0005,Dr. Javier Johnson,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-11,39 Garden City & Kasr Al-Ainy Medical Tower,57,Hospital Clinic (AM),Specialist Physician
+DOC-0006,Dr. Daniel Wagner,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-07,58 First & Third Settlements Medical Tower,30,Evening Clinic (PM),Practicing Specialist
+DOC-0007,Dr. Alexander Gonzalez,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-05,18 Fifth Settlement North Medical Tower,58,Evening Clinic (PM),Practicing Specialist
+DOC-0008,Dr. Matthew Gardner,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,86 Smart Village Complex Medical Tower,89,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0009,Dr. Daniel Lawrence,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-34,19 Hadayek El Kobba & El Zaytoun Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0010,Dr. Robert Smith,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-20,67 Mokattam Medical Tower,57,Hospital Clinic (AM),Fellow of Royal College
+DOC-0011,Dr. Robert Wolfe,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-03,45 Heliopolis (Masr El Gedida) Medical Tower,29,Hospital Clinic (AM),Practicing Specialist
+DOC-0012,Dr. Gerald Moore,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-02,66 Nasr City West Medical Tower,104,Evening Clinic (PM),Specialist Physician
+DOC-0013,Dr. Tyler Rogers,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-34,105 Hadayek El Kobba & El Zaytoun Medical Tower,25,Hospital Clinic (AM),Practicing Specialist
+DOC-0014,Dr. Brandon Davis,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-10,107 Zamalek Medical Tower,38,Evening Clinic (PM),Practicing Specialist
+DOC-0015,Dr. Ryan Munoz,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-11,56 Garden City & Kasr Al-Ainy Medical Tower,152,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0016,Dr. Robert Blair,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-25,17 6th October Dist 6-12 Medical Tower,118,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0017,Dr. Joshua Dudley,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-02,138 Nasr City West Medical Tower,134,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0018,Dr. James Arnold,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-28,96 Hadayek Al-Ahram Medical Tower,107,Evening Clinic (PM),Specialist Physician
+DOC-0019,Dr. Ronald Montgomery,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-09,7 Downtown (Wust El Balad) Medical Tower,106,Evening Clinic (PM),Fellow of Royal College
+DOC-0020,Dr. Scott Ray,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-27,176 Smart Village Complex Medical Tower,100,Evening Clinic (PM),Consultant Physician
+DOC-0021,Dr. Michael Williams,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-19,66 New Maadi & Zahraa Medical Tower,101,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0022,Dr. Darren Roberts,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-11,117 Garden City & Kasr Al-Ainy Medical Tower,98,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0023,Dr. Bobby Hall,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-21,133 Helwan & 15th of May Medical Tower,47,Evening Clinic (PM),Practicing Specialist
+DOC-0024,Dr. Brian Ramirez,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-32,72 El Manial & Roda Island Medical Tower,81,Evening Clinic (PM),Specialist Physician
+DOC-0025,Dr. Mark Diaz,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-01,102 Nasr City East Medical Tower,54,Evening Clinic (PM),Fellow of Royal College
+DOC-0026,Dr. Jacob Clark,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-33,74 El Obour City Medical Tower,213,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0027,Dr. Derek Zuniga,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-20,151 Mokattam Medical Tower,75,Evening Clinic (PM),Specialist Physician
+DOC-0028,Dr. Matthew Lynch,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-15,108 Agouza Medical Tower,42,Evening Clinic (PM),Practicing Specialist
+DOC-0029,Dr. Christopher Daniel,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-32,11 El Manial & Roda Island Medical Tower,131,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0030,Dr. Christopher Gray,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-08,52 Madinaty & Rehab Medical Tower,51,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0031,Dr. William Bowman,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-10,151 Zamalek Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0032,Dr. Justin Cohen,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-15,120 Agouza Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0033,Dr. Ryan Parsons,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-05,116 Fifth Settlement North Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0034,Dr. Daryl Johnson,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-34,58 Hadayek El Kobba & El Zaytoun Medical Tower,171,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0035,Dr. Ethan Adams,Endocrinology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-30,152 Imbaba & Al-Warraq Medical Tower,110,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0036,Dr. Daniel Hahn,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-05,119 Fifth Settlement North Medical Tower,36,Evening Clinic (PM),Practicing Specialist
+DOC-0037,Dr. Shawn Edwards,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-16,12 Giza City & Faisal Medical Tower,100,Evening Clinic (PM),Consultant Physician
+DOC-0038,Dr. Matthew Foster,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-16,65 Giza City & Faisal Medical Tower,82,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0039,Dr. Thomas Ellis,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-29,162 Shubra El-Kheima Medical Tower,52,Hospital Clinic (AM),Practicing Specialist
+DOC-0040,Dr. Derek Wright,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-03,50 Heliopolis (Masr El Gedida) Medical Tower,73,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0041,Dr. Justin Baker,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,164 Sheikh Zayed Central Medical Tower,45,Hospital Clinic (AM),Practicing Specialist
+DOC-0042,Dr. Kevin Hurst,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-27,71 Smart Village Complex Medical Tower,143,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0043,Dr. James Robinson,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-06,131 Fifth Settlement South Medical Tower,26,Evening Clinic (PM),Practicing Specialist
+DOC-0044,Dr. Zachary Hicks,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-30,174 Imbaba & Al-Warraq Medical Tower,53,Hospital Clinic (AM),Practicing Specialist
+DOC-0045,Dr. Brandon Williams,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-34,61 Hadayek El Kobba & El Zaytoun Medical Tower,31,Evening Clinic (PM),Practicing Specialist
+DOC-0046,Dr. Brian Burton,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-28,147 Hadayek Al-Ahram Medical Tower,204,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0047,Dr. Ricky Henderson,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-35,67 Old Cairo & Sayeda Zeinab Medical Tower,74,Hospital Clinic (AM),Consultant Physician
+DOC-0048,Dr. Arthur James,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-17,19 Haram (Al-Ahram) Medical Tower,30,Evening Clinic (PM),Practicing Specialist
+DOC-0049,Dr. Zachary Rice,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-09,9 Downtown (Wust El Balad) Medical Tower,93,Evening Clinic (PM),Fellow of Royal College
+DOC-0050,Dr. Wesley Valencia,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-31,172 Ain Shams & Matareya Medical Tower,188,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0051,Dr. Adam Le,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-03,67 Heliopolis (Masr El Gedida) Medical Tower,66,Evening Clinic (PM),Fellow of Royal College
+DOC-0052,Dr. Michael Herrera,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-11,141 Garden City & Kasr Al-Ainy Medical Tower,72,Evening Clinic (PM),Specialist Physician
+DOC-0053,Dr. Derek Davidson,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-35,130 Old Cairo & Sayeda Zeinab Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0054,Dr. Brian Graham,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-34,26 Hadayek El Kobba & El Zaytoun Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0055,Dr. Jesse Mckay,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-11,33 Garden City & Kasr Al-Ainy Medical Tower,71,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0056,Dr. Shawn Baker,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-05,104 Fifth Settlement North Medical Tower,174,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0057,Dr. Jonathan White,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-30,38 Imbaba & Al-Warraq Medical Tower,54,Evening Clinic (PM),Fellow of Royal College
+DOC-0058,Dr. Thomas Harrell,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-32,8 El Manial & Roda Island Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0059,Dr. Edwin Fowler,Endocrinology,Class C (Occasional),Daily_Sat_Thu,BRK-22,88 Sheikh Zayed Central Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0060,Dr. Lee Hernandez,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-17,71 Haram (Al-Ahram) Medical Tower,36,Hospital Clinic (AM),Practicing Specialist
+DOC-0061,Dr. Phillip Ryan,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-33,50 El Obour City Medical Tower,61,Evening Clinic (PM),Specialist Physician
+DOC-0062,Dr. Richard Moreno,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-17,97 Haram (Al-Ahram) Medical Tower,32,Hospital Clinic (AM),Practicing Specialist
+DOC-0063,Dr. Aaron Nguyen,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-16,62 Giza City & Faisal Medical Tower,28,Evening Clinic (PM),Practicing Specialist
+DOC-0064,Dr. Alec Hickman,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-10,168 Zamalek Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0065,Dr. Shawn Decker,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-32,100 El Manial & Roda Island Medical Tower,42,Evening Clinic (PM),Practicing Specialist
+DOC-0066,Dr. Eric Brown,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-31,27 Ain Shams & Matareya Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0067,Dr. Shawn Arroyo,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-33,90 El Obour City Medical Tower,49,Evening Clinic (PM),Practicing Specialist
+DOC-0068,Dr. Bradley Tucker,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-27,32 Smart Village Complex Medical Tower,165,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0069,Dr. Benjamin Hodges,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,103 Shubra Medical Tower,102,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0070,Dr. Ralph Anderson,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-33,43 El Obour City Medical Tower,65,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0071,Dr. John Pierce,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-22,80 Sheikh Zayed Central Medical Tower,164,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0072,Dr. Derek Brennan,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-30,172 Imbaba & Al-Warraq Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0073,Dr. Jay Lewis,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-32,140 El Manial & Roda Island Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0074,Dr. Joshua Blair,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-28,49 Hadayek Al-Ahram Medical Tower,49,Evening Clinic (PM),Practicing Specialist
+DOC-0075,Dr. Curtis Collins,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-11,94 Garden City & Kasr Al-Ainy Medical Tower,180,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0076,Dr. Zachary Santos,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-14,65 Dokki Medical Tower,107,Hospital Clinic (AM),Fellow of Royal College
+DOC-0077,Dr. Jeffrey Holmes,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-04,60 Sheraton & Nozha Medical Tower,49,Evening Clinic (PM),Practicing Specialist
+DOC-0078,Dr. Bryan Walker,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-11,84 Garden City & Kasr Al-Ainy Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0079,Dr. George Chapman,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-03,150 Heliopolis (Masr El Gedida) Medical Tower,109,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0080,Dr. David Robinson,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-14,7 Dokki Medical Tower,103,Hospital Clinic (AM),Consultant Physician
+DOC-0081,Dr. Benjamin Welch,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-18,156 Maadi Sarayat & Degla Medical Tower,57,Evening Clinic (PM),Consultant Physician
+DOC-0082,Dr. Darryl Whitehead,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-32,32 El Manial & Roda Island Medical Tower,149,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0083,Dr. Scott Jones,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-31,165 Ain Shams & Matareya Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0084,Dr. David Caldwell,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-10,138 Zamalek Medical Tower,84,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0085,Dr. Daniel Anderson,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-14,113 Dokki Medical Tower,54,Evening Clinic (PM),Practicing Specialist
+DOC-0086,Dr. Timothy Duncan,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-10,89 Zamalek Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0087,Dr. John Mueller,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-24,102 6th October Dist 1-5 Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0088,Dr. Robert Lee,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-18,106 Maadi Sarayat & Degla Medical Tower,184,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0089,Dr. Brent Jordan,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-22,149 Sheikh Zayed Central Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0090,Dr. Jeff Owens,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-08,117 Madinaty & Rehab Medical Tower,53,Evening Clinic (PM),Consultant Physician
+DOC-0091,Dr. Nicholas Nunez,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-29,122 Shubra El-Kheima Medical Tower,107,Hospital Clinic (AM),Consultant Physician
+DOC-0092,Dr. William Garcia,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-07,61 First & Third Settlements Medical Tower,54,Evening Clinic (PM),Practicing Specialist
+DOC-0093,Dr. James Morgan,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,79 Shubra Medical Tower,63,Evening Clinic (PM),Consultant Physician
+DOC-0094,Dr. Scott Wright,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-28,34 Hadayek Al-Ahram Medical Tower,187,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0095,Dr. Connor West,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-27,83 Smart Village Complex Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0096,Dr. Javier Ramirez,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-29,142 Shubra El-Kheima Medical Tower,28,Hospital Clinic (AM),Practicing Specialist
+DOC-0097,Dr. David Leblanc,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-20,57 Mokattam Medical Tower,83,Evening Clinic (PM),Consultant Physician
+DOC-0098,Dr. Jeremy Callahan,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-18,155 Maadi Sarayat & Degla Medical Tower,96,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0099,Dr. Joshua Williams,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-17,29 Haram (Al-Ahram) Medical Tower,193,Hospital Clinic (AM),"Associate Professor, Al-Azhar University"
+DOC-0100,Dr. Zachary Huff,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-11,25 Garden City & Kasr Al-Ainy Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0101,Dr. Wayne House,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-07,16 First & Third Settlements Medical Tower,90,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0102,Dr. Samuel Martin,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-25,51 6th October Dist 6-12 Medical Tower,58,Evening Clinic (PM),Consultant Physician
+DOC-0103,Dr. John Lewis,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-24,30 6th October Dist 1-5 Medical Tower,41,Hospital Clinic (AM),Practicing Specialist
+DOC-0104,Dr. James Brown,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-34,60 Hadayek El Kobba & El Zaytoun Medical Tower,96,Evening Clinic (PM),Specialist Physician
+DOC-0105,Dr. James Galloway,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-04,18 Sheraton & Nozha Medical Tower,94,Evening Clinic (PM),Consultant Physician
+DOC-0106,Dr. Derek Bowers,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-06,42 Fifth Settlement South Medical Tower,42,Evening Clinic (PM),Practicing Specialist
+DOC-0107,Dr. Jesse Henderson,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-08,21 Madinaty & Rehab Medical Tower,59,Evening Clinic (PM),Specialist Physician
+DOC-0108,Dr. Tyler Cowan,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-33,142 El Obour City Medical Tower,114,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0109,Dr. Justin Higgins,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-20,12 Mokattam Medical Tower,123,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0110,Dr. Christopher Phillips,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-31,68 Ain Shams & Matareya Medical Tower,101,Evening Clinic (PM),Consultant Physician
+DOC-0111,Dr. Wayne Riley,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-30,154 Imbaba & Al-Warraq Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0112,Dr. Joshua Adkins,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-30,156 Imbaba & Al-Warraq Medical Tower,79,Hospital Clinic (AM),Specialist Physician
+DOC-0113,Dr. Anthony Silva,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-22,10 Sheikh Zayed Central Medical Tower,85,Evening Clinic (PM),Fellow of Royal College
+DOC-0114,Dr. Jonathan Farrell,Endocrinology,Class C (Occasional),Daily_Sat_Thu,BRK-26,66 Hadayek October Medical Tower,54,Hospital Clinic (AM),Practicing Specialist
+DOC-0115,Dr. Christopher Yu,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-29,74 Shubra El-Kheima Medical Tower,93,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0116,Dr. Bobby Lopez,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-28,94 Hadayek Al-Ahram Medical Tower,136,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0117,Dr. Kurt Leonard,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-01,7 Nasr City East Medical Tower,62,Evening Clinic (PM),Specialist Physician
+DOC-0118,Dr. David Wilson,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-06,172 Fifth Settlement South Medical Tower,219,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0119,Dr. Steve Sanchez,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-27,147 Smart Village Complex Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0120,Dr. Kristopher Harvey,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-32,82 El Manial & Roda Island Medical Tower,109,Hospital Clinic (AM),Fellow of Royal College
+DOC-0121,Dr. Jason Silva,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-15,68 Agouza Medical Tower,50,Evening Clinic (PM),Fellow of Royal College
+DOC-0122,Dr. Joseph Donovan,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-06,34 Fifth Settlement South Medical Tower,103,Hospital Clinic (AM),"Associate Professor, Al-Azhar University"
+DOC-0123,Dr. Dan Moran,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-35,46 Old Cairo & Sayeda Zeinab Medical Tower,53,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0124,Dr. David Foster,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-20,170 Mokattam Medical Tower,100,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0125,Dr. Michael Evans,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-33,57 El Obour City Medical Tower,96,Hospital Clinic (AM),Specialist Physician
+DOC-0126,Dr. Eugene Walton,Chest & Pulmonology,Class A (KOL),Daily_Sat_Thu,BRK-22,19 Sheikh Zayed Central Medical Tower,131,Hospital Clinic (AM),"Associate Professor, Al-Azhar University"
+DOC-0127,Dr. Benjamin Ellis,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-01,42 Nasr City East Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0128,Dr. Zachary Ferrell,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-29,90 Shubra El-Kheima Medical Tower,28,Evening Clinic (PM),Practicing Specialist
+DOC-0129,Dr. Benjamin Lewis,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-25,163 6th October Dist 6-12 Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0130,Dr. Derek Mahoney,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-36,9 El Shorouk & Badr (NAC Axis) Medical Tower,32,Evening Clinic (PM),Practicing Specialist
+DOC-0131,Dr. Stanley Suarez,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-25,47 6th October Dist 6-12 Medical Tower,50,Evening Clinic (PM),Practicing Specialist
+DOC-0132,Dr. Jacob Moore,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-05,27 Fifth Settlement North Medical Tower,30,Evening Clinic (PM),Practicing Specialist
+DOC-0133,Dr. Roy Warner,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-13,64 Mohandessin Medical Tower,200,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0134,Dr. Logan Archer,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-25,131 6th October Dist 6-12 Medical Tower,32,Evening Clinic (PM),Practicing Specialist
+DOC-0135,Dr. Matthew Smith,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-09,44 Downtown (Wust El Balad) Medical Tower,53,Hospital Clinic (AM),Practicing Specialist
+DOC-0136,Dr. Robert Evans,Endocrinology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-08,168 Madinaty & Rehab Medical Tower,179,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0137,Dr. Matthew Mcmillan,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-17,153 Haram (Al-Ahram) Medical Tower,39,Evening Clinic (PM),Practicing Specialist
+DOC-0138,Dr. Chad Wilson,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-33,39 El Obour City Medical Tower,75,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0139,Dr. Brian Tran,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-27,166 Smart Village Complex Medical Tower,42,Hospital Clinic (AM),Practicing Specialist
+DOC-0140,Dr. Dominic Jacobs,Chest & Pulmonology,Class A (KOL),Daily_Sat_Thu,BRK-26,92 Hadayek October Medical Tower,114,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0141,Dr. Mitchell Harris,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-01,53 Nasr City East Medical Tower,99,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0142,Dr. Mark Baker,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-14,108 Dokki Medical Tower,152,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0143,Dr. John Whitehead,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-24,66 6th October Dist 1-5 Medical Tower,212,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0144,Dr. Ryan Davis,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-02,5 Nasr City West Medical Tower,108,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0145,Dr. Jeff Hill,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-06,170 Fifth Settlement South Medical Tower,99,Evening Clinic (PM),Consultant Physician
+DOC-0146,Dr. Aaron Wise,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-17,14 Haram (Al-Ahram) Medical Tower,52,Evening Clinic (PM),Fellow of Royal College
+DOC-0147,Dr. Mark Green,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-13,139 Mohandessin Medical Tower,77,Evening Clinic (PM),Fellow of Royal College
+DOC-0148,Dr. Patrick Arnold,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,76 Shubra Medical Tower,108,Evening Clinic (PM),Specialist Physician
+DOC-0149,Dr. Jeffrey Smith,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-04,39 Sheraton & Nozha Medical Tower,97,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0150,Dr. Benjamin Ware,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-12,169 Shubra Medical Tower,28,Evening Clinic (PM),Practicing Specialist
+DOC-0151,Dr. Stuart Gardner,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-34,165 Hadayek El Kobba & El Zaytoun Medical Tower,59,Evening Clinic (PM),Specialist Physician
+DOC-0152,Dr. Ruben Aguilar,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-34,133 Hadayek El Kobba & El Zaytoun Medical Tower,171,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0153,Dr. Charles Anderson,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-24,144 6th October Dist 1-5 Medical Tower,72,Hospital Clinic (AM),Specialist Physician
+DOC-0154,Dr. Eric Nolan,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-31,90 Ain Shams & Matareya Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0155,Dr. Robert Valencia,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-27,118 Smart Village Complex Medical Tower,72,Evening Clinic (PM),Fellow of Royal College
+DOC-0156,Dr. Steven Clark,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-07,26 First & Third Settlements Medical Tower,88,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0157,Dr. David Garcia,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-07,79 First & Third Settlements Medical Tower,72,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0158,Dr. Richard Henson,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-23,21 Sheikh Zayed Beverly Hills Medical Tower,58,Evening Clinic (PM),Practicing Specialist
+DOC-0159,Dr. Jason Oliver,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-28,31 Hadayek Al-Ahram Medical Tower,46,Hospital Clinic (AM),Practicing Specialist
+DOC-0160,Dr. Christopher Spears,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-33,142 El Obour City Medical Tower,106,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0161,Dr. Sean Cherry,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-29,58 Shubra El-Kheima Medical Tower,51,Evening Clinic (PM),Fellow of Royal College
+DOC-0162,Dr. Robert Keith,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-26,15 Hadayek October Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0163,Dr. Alexander Doyle,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-20,58 Mokattam Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0164,Dr. Gary Galvan,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-10,40 Zamalek Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0165,Dr. Robert Shields,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-27,158 Smart Village Complex Medical Tower,58,Evening Clinic (PM),Practicing Specialist
+DOC-0166,Dr. Robert Adams,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-09,46 Downtown (Wust El Balad) Medical Tower,92,Evening Clinic (PM),Fellow of Royal College
+DOC-0167,Dr. Richard Rodriguez,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-13,16 Mohandessin Medical Tower,191,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0168,Dr. Shane Garrison,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-18,61 Maadi Sarayat & Degla Medical Tower,34,Evening Clinic (PM),Practicing Specialist
+DOC-0169,Dr. Daniel Velasquez,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-17,153 Haram (Al-Ahram) Medical Tower,57,Evening Clinic (PM),Specialist Physician
+DOC-0170,Dr. Joe Torres,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-21,93 Helwan & 15th of May Medical Tower,42,Evening Clinic (PM),Practicing Specialist
+DOC-0171,Dr. Robert Perez,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-26,20 Hadayek October Medical Tower,121,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0172,Dr. Alexander Lee,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-21,121 Helwan & 15th of May Medical Tower,63,Evening Clinic (PM),Specialist Physician
+DOC-0173,Dr. Garrett Lin,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-06,120 Fifth Settlement South Medical Tower,171,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0174,Dr. Walter Ramirez,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-12,156 Shubra Medical Tower,55,Evening Clinic (PM),Practicing Specialist
+DOC-0175,Dr. Martin Ross,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-11,19 Garden City & Kasr Al-Ainy Medical Tower,197,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0176,Dr. William Herrera,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-31,20 Ain Shams & Matareya Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0177,Dr. Todd Wilson,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,17 Agouza Medical Tower,83,Evening Clinic (PM),Consultant Physician
+DOC-0178,Dr. Wesley White,Endocrinology,Class C (Occasional),Daily_Sat_Thu,BRK-02,66 Nasr City West Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0179,Dr. Victor Baker,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-28,162 Hadayek Al-Ahram Medical Tower,34,Evening Clinic (PM),Practicing Specialist
+DOC-0180,Dr. Brian Hamilton,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-11,177 Garden City & Kasr Al-Ainy Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0181,Dr. Nicholas Edwards,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-11,77 Garden City & Kasr Al-Ainy Medical Tower,74,Evening Clinic (PM),Fellow of Royal College
+DOC-0182,Dr. Larry Dixon,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-01,175 Nasr City East Medical Tower,126,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0183,Dr. James Ray,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-31,157 Ain Shams & Matareya Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0184,Dr. David Fletcher,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-04,114 Sheraton & Nozha Medical Tower,103,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0185,Dr. Aaron Frost,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-11,10 Garden City & Kasr Al-Ainy Medical Tower,52,Hospital Clinic (AM),Fellow of Royal College
+DOC-0186,Dr. Joshua Ball,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-31,65 Ain Shams & Matareya Medical Tower,69,Evening Clinic (PM),Consultant Physician
+DOC-0187,Dr. Patrick Lambert,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-03,17 Heliopolis (Masr El Gedida) Medical Tower,52,Evening Clinic (PM),Fellow of Royal College
+DOC-0188,Dr. Jackson Jones,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,109 Agouza Medical Tower,83,Evening Clinic (PM),Specialist Physician
+DOC-0189,Dr. Matthew Rivera,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-31,174 Ain Shams & Matareya Medical Tower,83,Hospital Clinic (AM),Fellow of Royal College
+DOC-0190,Dr. Erik Charles,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-25,42 6th October Dist 6-12 Medical Tower,73,Evening Clinic (PM),Fellow of Royal College
+DOC-0191,Dr. Nathan Evans,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,32 Shubra Medical Tower,109,Evening Clinic (PM),Fellow of Royal College
+DOC-0192,Dr. Eric Ortiz,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-32,71 El Manial & Roda Island Medical Tower,78,Evening Clinic (PM),Specialist Physician
+DOC-0193,Dr. James Phillips,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-24,151 6th October Dist 1-5 Medical Tower,55,Hospital Clinic (AM),Fellow of Royal College
+DOC-0194,Dr. Cameron Fisher,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-10,49 Zamalek Medical Tower,102,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0195,Dr. Todd Byrd,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-27,137 Smart Village Complex Medical Tower,31,Hospital Clinic (AM),Practicing Specialist
+DOC-0196,Dr. Steven Gilbert,Endocrinology,Class A (KOL),Daily_Sat_Thu,BRK-07,162 First & Third Settlements Medical Tower,196,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0197,Dr. Eric Kelley,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-23,17 Sheikh Zayed Beverly Hills Medical Tower,61,Evening Clinic (PM),Specialist Physician
+DOC-0198,Dr. Aaron Mitchell,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-12,113 Shubra Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0199,Dr. Jeffrey Carpenter,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-23,67 Sheikh Zayed Beverly Hills Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0200,Dr. Matthew Marshall,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-19,100 New Maadi & Zahraa Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0201,Dr. Jeremy Lewis,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-09,26 Downtown (Wust El Balad) Medical Tower,207,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0202,Dr. John Santana,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-05,168 Fifth Settlement North Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0203,Dr. Robert Jackson,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-05,115 Fifth Settlement North Medical Tower,82,Evening Clinic (PM),Consultant Physician
+DOC-0204,Dr. Bradley Robertson,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-20,33 Mokattam Medical Tower,58,Hospital Clinic (AM),Practicing Specialist
+DOC-0205,Dr. Mark Rogers,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-16,161 Giza City & Faisal Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0206,Dr. Robert Potter,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-20,31 Mokattam Medical Tower,35,Hospital Clinic (AM),Practicing Specialist
+DOC-0207,Dr. Michael Walker,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-19,105 New Maadi & Zahraa Medical Tower,136,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0208,Dr. Curtis Johnson,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-22,128 Sheikh Zayed Central Medical Tower,50,Evening Clinic (PM),Consultant Physician
+DOC-0209,Dr. David Alvarez,Neurology,Class B (Core),Daily_Sat_Thu,BRK-04,22 Sheraton & Nozha Medical Tower,73,Hospital Clinic (AM),Fellow of Royal College
+DOC-0210,Dr. Samuel Jones,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-05,97 Fifth Settlement North Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0211,Dr. Jason Soto,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-04,97 Sheraton & Nozha Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0212,Dr. Cory Horton,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-18,157 Maadi Sarayat & Degla Medical Tower,39,Evening Clinic (PM),Practicing Specialist
+DOC-0213,Dr. Johnny Sanchez,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-15,170 Agouza Medical Tower,33,Evening Clinic (PM),Practicing Specialist
+DOC-0214,Dr. Matthew Smith,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-05,92 Fifth Settlement North Medical Tower,26,Evening Clinic (PM),Practicing Specialist
+DOC-0215,Dr. Paul Carrillo,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-12,114 Shubra Medical Tower,153,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0216,Dr. Brian Coleman,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-09,15 Downtown (Wust El Balad) Medical Tower,32,Evening Clinic (PM),Practicing Specialist
+DOC-0217,Dr. Christopher Rubio,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-09,84 Downtown (Wust El Balad) Medical Tower,81,Evening Clinic (PM),Specialist Physician
+DOC-0218,Dr. Joseph Williams,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,101 Smart Village Complex Medical Tower,99,Evening Clinic (PM),Fellow of Royal College
+DOC-0219,Dr. David Charles,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-21,154 Helwan & 15th of May Medical Tower,101,Evening Clinic (PM),Consultant Physician
+DOC-0220,Dr. Jesus Solis,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-07,110 First & Third Settlements Medical Tower,64,Evening Clinic (PM),Consultant Physician
+DOC-0221,Dr. Michael Travis,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-20,13 Mokattam Medical Tower,30,Hospital Clinic (AM),Practicing Specialist
+DOC-0222,Dr. Kyle Dodson,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-36,96 El Shorouk & Badr (NAC Axis) Medical Tower,57,Hospital Clinic (AM),Fellow of Royal College
+DOC-0223,Dr. Steven Salazar,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-32,136 El Manial & Roda Island Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0224,Dr. Nathan Wagner,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-22,18 Sheikh Zayed Central Medical Tower,109,Evening Clinic (PM),Consultant Physician
+DOC-0225,Dr. Ronald Kelley,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,126 Shubra Medical Tower,94,Evening Clinic (PM),Specialist Physician
+DOC-0226,Dr. Steven Manning,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-31,55 Ain Shams & Matareya Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0227,Dr. John Green,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-21,160 Helwan & 15th of May Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0228,Dr. David Walsh,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-28,80 Hadayek Al-Ahram Medical Tower,186,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0229,Dr. Ralph Boyd,Endocrinology,Class B (Core),Daily_Sat_Thu,BRK-05,112 Fifth Settlement North Medical Tower,86,Evening Clinic (PM),Fellow of Royal College
+DOC-0230,Dr. Mark Hill,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-04,121 Sheraton & Nozha Medical Tower,90,Evening Clinic (PM),Fellow of Royal College
+DOC-0231,Dr. Billy Mitchell,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,119 Smart Village Complex Medical Tower,88,Evening Clinic (PM),Consultant Physician
+DOC-0232,Dr. Devon Flores,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-01,103 Nasr City East Medical Tower,70,Evening Clinic (PM),Specialist Physician
+DOC-0233,Dr. Joshua Taylor,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-34,82 Hadayek El Kobba & El Zaytoun Medical Tower,38,Evening Clinic (PM),Practicing Specialist
+DOC-0234,Dr. David Benson,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-12,115 Shubra Medical Tower,149,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0235,Dr. Michael Brown,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-33,127 El Obour City Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0236,Dr. Jason Daniels,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-19,172 New Maadi & Zahraa Medical Tower,25,Evening Clinic (PM),Practicing Specialist
+DOC-0237,Dr. Jason Clark,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-24,122 6th October Dist 1-5 Medical Tower,59,Evening Clinic (PM),Specialist Physician
+DOC-0238,Dr. Jason Stein,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-23,24 Sheikh Zayed Beverly Hills Medical Tower,50,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0239,Dr. Kevin Dominguez,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-10,111 Zamalek Medical Tower,77,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0240,Dr. Scott Cannon,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-18,160 Maadi Sarayat & Degla Medical Tower,93,Hospital Clinic (AM),Fellow of Royal College
+DOC-0241,Dr. James Smith,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-04,41 Sheraton & Nozha Medical Tower,63,Hospital Clinic (AM),Consultant Physician
+DOC-0242,Dr. Guy Molina,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-33,165 El Obour City Medical Tower,148,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0243,Dr. Scott Ashley,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-30,54 Imbaba & Al-Warraq Medical Tower,132,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0244,Dr. Jason Adkins,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-01,42 Nasr City East Medical Tower,72,Evening Clinic (PM),Fellow of Royal College
+DOC-0245,Dr. Joshua Morrison,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-30,123 Imbaba & Al-Warraq Medical Tower,91,Evening Clinic (PM),Fellow of Royal College
+DOC-0246,Dr. Daniel Robinson,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-29,90 Shubra El-Kheima Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0247,Dr. Jeffrey Johnson,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,118 Sheikh Zayed Central Medical Tower,54,Evening Clinic (PM),Practicing Specialist
+DOC-0248,Dr. George Shelton,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-35,76 Old Cairo & Sayeda Zeinab Medical Tower,51,Evening Clinic (PM),Practicing Specialist
+DOC-0249,Dr. Jared Martin,Endocrinology,Class C (Occasional),Daily_Sat_Thu,BRK-20,57 Mokattam Medical Tower,38,Evening Clinic (PM),Practicing Specialist
+DOC-0250,Dr. John Anderson,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-28,77 Hadayek Al-Ahram Medical Tower,55,Hospital Clinic (AM),Specialist Physician
+DOC-0251,Dr. Marcus Johnson,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-24,72 6th October Dist 1-5 Medical Tower,55,Evening Clinic (PM),Practicing Specialist
+DOC-0252,Dr. James Elliott,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-08,86 Madinaty & Rehab Medical Tower,58,Hospital Clinic (AM),Practicing Specialist
+DOC-0253,Dr. Alexander Day,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-09,93 Downtown (Wust El Balad) Medical Tower,31,Evening Clinic (PM),Practicing Specialist
+DOC-0254,Dr. Chad Murray,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-35,64 Old Cairo & Sayeda Zeinab Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0255,Dr. Anthony Gray,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-10,15 Zamalek Medical Tower,87,Evening Clinic (PM),Consultant Physician
+DOC-0256,Dr. Daniel Murphy,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-04,89 Sheraton & Nozha Medical Tower,27,Hospital Clinic (AM),Practicing Specialist
+DOC-0257,Dr. Philip Gray,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-27,16 Smart Village Complex Medical Tower,75,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0258,Dr. Paul Decker,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-04,91 Sheraton & Nozha Medical Tower,92,Hospital Clinic (AM),Fellow of Royal College
+DOC-0259,Dr. David Miller,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-14,111 Dokki Medical Tower,47,Evening Clinic (PM),Practicing Specialist
+DOC-0260,Dr. Alec Ryan,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-04,55 Sheraton & Nozha Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0261,Dr. Zachary Bell,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-04,121 Sheraton & Nozha Medical Tower,53,Evening Clinic (PM),Fellow of Royal College
+DOC-0262,Dr. Matthew Harrington,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-23,110 Sheikh Zayed Beverly Hills Medical Tower,40,Evening Clinic (PM),Practicing Specialist
+DOC-0263,Dr. Matthew Webster,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-25,11 6th October Dist 6-12 Medical Tower,74,Evening Clinic (PM),Consultant Physician
+DOC-0264,Dr. Travis Gonzalez,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-26,174 Hadayek October Medical Tower,105,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0265,Dr. Alex Hernandez,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-33,176 El Obour City Medical Tower,103,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0266,Dr. Cameron Caldwell,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-04,141 Sheraton & Nozha Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0267,Dr. Justin Robinson,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-25,53 6th October Dist 6-12 Medical Tower,161,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0268,Dr. Michael Wang,Neurology,Class B (Core),Daily_Sat_Thu,BRK-34,93 Hadayek El Kobba & El Zaytoun Medical Tower,109,Evening Clinic (PM),Specialist Physician
+DOC-0269,Dr. Christopher Lawson,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-36,112 El Shorouk & Badr (NAC Axis) Medical Tower,96,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0270,Dr. Paul Wilson,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-31,82 Ain Shams & Matareya Medical Tower,100,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0271,Dr. Robert Oconnell,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-31,150 Ain Shams & Matareya Medical Tower,96,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0272,Dr. Brian Johnson,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-12,50 Shubra Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0273,Dr. Eric Byrd,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-18,101 Maadi Sarayat & Degla Medical Tower,95,Evening Clinic (PM),Fellow of Royal College
+DOC-0274,Dr. Tyler Sanders,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-06,17 Fifth Settlement South Medical Tower,88,Evening Clinic (PM),Fellow of Royal College
+DOC-0275,Dr. Miguel Jones,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-12,12 Shubra Medical Tower,45,Hospital Clinic (AM),Practicing Specialist
+DOC-0276,Dr. Michael Burton,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-03,74 Heliopolis (Masr El Gedida) Medical Tower,52,Evening Clinic (PM),Consultant Physician
+DOC-0277,Dr. Brian Barton,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-34,120 Hadayek El Kobba & El Zaytoun Medical Tower,72,Evening Clinic (PM),Consultant Physician
+DOC-0278,Dr. Samuel Burke,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-19,51 New Maadi & Zahraa Medical Tower,55,Evening Clinic (PM),Practicing Specialist
+DOC-0279,Dr. Bryan Riggs,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-26,148 Hadayek October Medical Tower,101,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0280,Dr. Richard Reed,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-14,119 Dokki Medical Tower,52,Evening Clinic (PM),Practicing Specialist
+DOC-0281,Dr. Jeffrey Wood,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-29,153 Shubra El-Kheima Medical Tower,54,Evening Clinic (PM),Practicing Specialist
+DOC-0282,Dr. Jonathan Peterson,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-10,42 Zamalek Medical Tower,40,Evening Clinic (PM),Practicing Specialist
+DOC-0283,Dr. Samuel Short,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-14,89 Dokki Medical Tower,155,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0284,Dr. Brian Yu,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-12,59 Shubra Medical Tower,72,Evening Clinic (PM),Consultant Physician
+DOC-0285,Dr. Mark Poole,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-29,16 Shubra El-Kheima Medical Tower,101,Hospital Clinic (AM),Consultant Physician
+DOC-0286,Dr. Michael Graham,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-18,162 Maadi Sarayat & Degla Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0287,Dr. Nicholas Sheppard,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-07,167 First & Third Settlements Medical Tower,64,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0288,Dr. Devin Morton,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-13,29 Mohandessin Medical Tower,59,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0289,Dr. Joshua Webb,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,58 Sheikh Zayed Central Medical Tower,40,Hospital Clinic (AM),Practicing Specialist
+DOC-0290,Dr. Jeffrey Simon,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-14,121 Dokki Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0291,Dr. Derrick Christian,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-31,16 Ain Shams & Matareya Medical Tower,94,Hospital Clinic (AM),Fellow of Royal College
+DOC-0292,Dr. Ronald Miller,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-01,64 Nasr City East Medical Tower,67,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0293,Dr. Stephen Sanchez,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-22,9 Sheikh Zayed Central Medical Tower,120,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0294,Dr. John Bishop,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-05,87 Fifth Settlement North Medical Tower,145,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0295,Dr. James Johnson,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-31,84 Ain Shams & Matareya Medical Tower,31,Evening Clinic (PM),Practicing Specialist
+DOC-0296,Dr. Samuel White,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-27,56 Smart Village Complex Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0297,Dr. Daniel Salinas,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-10,11 Zamalek Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0298,Dr. Gerald Beard,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-25,153 6th October Dist 6-12 Medical Tower,219,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0299,Dr. Michael Hill,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-29,69 Shubra El-Kheima Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0300,Dr. Adam Vaughan,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-07,168 First & Third Settlements Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0301,Dr. Bradley Cortez,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-16,38 Giza City & Faisal Medical Tower,50,Evening Clinic (PM),Practicing Specialist
+DOC-0302,Dr. John Chang,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-31,170 Ain Shams & Matareya Medical Tower,101,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0303,Dr. Michael Brewer,Endocrinology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-12,173 Shubra Medical Tower,209,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0304,Dr. John Mcguire,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-17,25 Haram (Al-Ahram) Medical Tower,107,Hospital Clinic (AM),Fellow of Royal College
+DOC-0305,Dr. Brandon Walker,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-35,149 Old Cairo & Sayeda Zeinab Medical Tower,98,Evening Clinic (PM),Specialist Physician
+DOC-0306,Dr. Michael Torres,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-33,12 El Obour City Medical Tower,176,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0307,Dr. Kevin Kennedy,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-21,156 Helwan & 15th of May Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0308,Dr. Joseph Coleman,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,147 Smart Village Complex Medical Tower,85,Hospital Clinic (AM),Specialist Physician
+DOC-0309,Dr. Patrick Rivera,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-13,100 Mohandessin Medical Tower,54,Evening Clinic (PM),Consultant Physician
+DOC-0310,Dr. Michael Nelson,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-26,140 Hadayek October Medical Tower,170,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0311,Dr. David Martinez,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-01,130 Nasr City East Medical Tower,98,Evening Clinic (PM),Fellow of Royal College
+DOC-0312,Dr. Corey Wilson,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-28,153 Hadayek Al-Ahram Medical Tower,34,Evening Clinic (PM),Practicing Specialist
+DOC-0313,Dr. Joshua Gill,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-13,36 Mohandessin Medical Tower,184,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0314,Dr. Cody Robinson,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-05,128 Fifth Settlement North Medical Tower,148,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0315,Dr. John Hardy,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-07,178 First & Third Settlements Medical Tower,93,Evening Clinic (PM),Fellow of Royal College
+DOC-0316,Dr. William Warren,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-29,179 Shubra El-Kheima Medical Tower,36,Evening Clinic (PM),Practicing Specialist
+DOC-0317,Dr. Douglas Garcia,Neurology,Class B (Core),Daily_Sat_Thu,BRK-06,139 Fifth Settlement South Medical Tower,89,Evening Clinic (PM),Consultant Physician
+DOC-0318,Dr. Cory Perez,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-05,96 Fifth Settlement North Medical Tower,74,Evening Clinic (PM),Consultant Physician
+DOC-0319,Dr. Christopher Smith,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-28,99 Hadayek Al-Ahram Medical Tower,116,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0320,Dr. Joseph Hill,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-08,101 Madinaty & Rehab Medical Tower,86,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0321,Dr. William Tran,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-32,115 El Manial & Roda Island Medical Tower,88,Hospital Clinic (AM),Fellow of Royal College
+DOC-0322,Dr. Michael Martinez,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-35,112 Old Cairo & Sayeda Zeinab Medical Tower,161,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0323,Dr. Sean Henry,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-10,14 Zamalek Medical Tower,195,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0324,Dr. Shane Andrews,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-15,141 Agouza Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0325,Dr. John Alexander,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-10,18 Zamalek Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0326,Dr. Cody Williams,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-29,74 Shubra El-Kheima Medical Tower,55,Hospital Clinic (AM),Practicing Specialist
+DOC-0327,Dr. Todd Woods,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-25,28 6th October Dist 6-12 Medical Tower,69,Evening Clinic (PM),Consultant Physician
+DOC-0328,Dr. Rodney Morales,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-24,42 6th October Dist 1-5 Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0329,Dr. Benjamin Soto,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-29,18 Shubra El-Kheima Medical Tower,56,Evening Clinic (PM),Fellow of Royal College
+DOC-0330,Dr. Anthony Hernandez,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-04,28 Sheraton & Nozha Medical Tower,105,Evening Clinic (PM),Consultant Physician
+DOC-0331,Dr. Justin Torres,Neurology,Class B (Core),Daily_Sat_Thu,BRK-34,114 Hadayek El Kobba & El Zaytoun Medical Tower,98,Evening Clinic (PM),Specialist Physician
+DOC-0332,Dr. Xavier Wilson,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-20,104 Mokattam Medical Tower,55,Evening Clinic (PM),Practicing Specialist
+DOC-0333,Dr. Phillip Obrien,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-32,117 El Manial & Roda Island Medical Tower,152,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0334,Dr. Richard Perez,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-03,149 Heliopolis (Masr El Gedida) Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0335,Dr. Joseph Hayes,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-01,128 Nasr City East Medical Tower,136,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0336,Dr. Jeremy Dalton,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-15,7 Agouza Medical Tower,59,Evening Clinic (PM),Consultant Physician
+DOC-0337,Dr. William Torres,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-07,113 First & Third Settlements Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0338,Dr. Marc Lynch,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-29,97 Shubra El-Kheima Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0339,Dr. Patrick Meza,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-33,94 El Obour City Medical Tower,85,Evening Clinic (PM),Consultant Physician
+DOC-0340,Dr. Daniel Clark,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-21,74 Helwan & 15th of May Medical Tower,106,Evening Clinic (PM),Fellow of Royal College
+DOC-0341,Dr. Matthew Moore,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-28,40 Hadayek Al-Ahram Medical Tower,173,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0342,Dr. Christopher Jones,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-20,142 Mokattam Medical Tower,103,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0343,Dr. Aaron Hayes,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-28,49 Hadayek Al-Ahram Medical Tower,93,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0344,Dr. Kirk Carter,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-01,165 Nasr City East Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0345,Dr. David Mann,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-06,147 Fifth Settlement South Medical Tower,60,Hospital Clinic (AM),Fellow of Royal College
+DOC-0346,Dr. Michael Gibson,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-31,61 Ain Shams & Matareya Medical Tower,38,Evening Clinic (PM),Practicing Specialist
+DOC-0347,Dr. Michael Bradshaw,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-08,119 Madinaty & Rehab Medical Tower,138,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0348,Dr. Richard Weber,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-27,131 Smart Village Complex Medical Tower,99,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0349,Dr. Matthew Peck,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-03,47 Heliopolis (Masr El Gedida) Medical Tower,83,Evening Clinic (PM),Fellow of Royal College
+DOC-0350,Dr. Jeffery Stephens,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-17,69 Haram (Al-Ahram) Medical Tower,55,Evening Clinic (PM),Consultant Physician
+DOC-0351,Dr. Matthew Kerr,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-28,102 Hadayek Al-Ahram Medical Tower,34,Hospital Clinic (AM),Practicing Specialist
+DOC-0352,Dr. Ronald Jones,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-08,103 Madinaty & Rehab Medical Tower,34,Evening Clinic (PM),Practicing Specialist
+DOC-0353,Dr. Christopher Parker,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-20,131 Mokattam Medical Tower,69,Evening Clinic (PM),Consultant Physician
+DOC-0354,Dr. Paul Carroll,Neurology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-07,120 First & Third Settlements Medical Tower,168,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0355,Dr. Dylan Martinez,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-03,70 Heliopolis (Masr El Gedida) Medical Tower,75,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0356,Dr. Michael Lyons,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-13,10 Mohandessin Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0357,Dr. Tommy Mason,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-17,15 Haram (Al-Ahram) Medical Tower,54,Evening Clinic (PM),Specialist Physician
+DOC-0358,Dr. Johnny Miller,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-03,89 Heliopolis (Masr El Gedida) Medical Tower,85,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0359,Dr. Andrew Reynolds,Chest & Pulmonology,Class A (KOL),Daily_Sat_Thu,BRK-16,16 Giza City & Faisal Medical Tower,131,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0360,Dr. Frank Wright,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-10,165 Zamalek Medical Tower,92,Evening Clinic (PM),Fellow of Royal College
+DOC-0361,Dr. Brandon Hayden,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,105 Shubra Medical Tower,97,Evening Clinic (PM),Specialist Physician
+DOC-0362,Dr. Russell Johnston,Chest & Pulmonology,Class A (KOL),Daily_Sat_Thu,BRK-05,50 Fifth Settlement North Medical Tower,101,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0363,Dr. Trevor Key,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-16,166 Giza City & Faisal Medical Tower,79,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0364,Dr. Michael Adams,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-28,29 Hadayek Al-Ahram Medical Tower,76,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0365,Dr. Andrew Avila,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-19,13 New Maadi & Zahraa Medical Tower,29,Hospital Clinic (AM),Practicing Specialist
+DOC-0366,Dr. John Pearson,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-08,179 Madinaty & Rehab Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0367,Dr. Thomas White,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-12,34 Shubra Medical Tower,61,Evening Clinic (PM),Fellow of Royal College
+DOC-0368,Dr. Kevin Walters,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-33,167 El Obour City Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0369,Dr. John Davis,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-36,132 El Shorouk & Badr (NAC Axis) Medical Tower,106,Evening Clinic (PM),Specialist Physician
+DOC-0370,Dr. Gregory Cook,Neurology,Class B (Core),Daily_Sat_Thu,BRK-19,129 New Maadi & Zahraa Medical Tower,84,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0371,Dr. Michael Hodge,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-02,152 Nasr City West Medical Tower,30,Evening Clinic (PM),Practicing Specialist
+DOC-0372,Dr. Gary Steele,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-36,157 El Shorouk & Badr (NAC Axis) Medical Tower,53,Evening Clinic (PM),Consultant Physician
+DOC-0373,Dr. Dwayne Landry,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-15,146 Agouza Medical Tower,135,Hospital Clinic (AM),"Associate Professor, Al-Azhar University"
+DOC-0374,Dr. Robert Pierce,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-19,119 New Maadi & Zahraa Medical Tower,39,Hospital Clinic (AM),Practicing Specialist
+DOC-0375,Dr. Jesse Edwards,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,42 Shubra Medical Tower,105,Evening Clinic (PM),Consultant Physician
+DOC-0376,Dr. Frank Cordova,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-32,88 El Manial & Roda Island Medical Tower,167,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0377,Dr. Jared Robertson,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-33,135 El Obour City Medical Tower,172,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0378,Dr. William Sandoval,Neurology,Class A (KOL),Daily_Sat_Thu,BRK-05,128 Fifth Settlement North Medical Tower,152,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0379,Dr. Joshua Gutierrez,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-30,34 Imbaba & Al-Warraq Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0380,Dr. Cody Cox,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-03,82 Heliopolis (Masr El Gedida) Medical Tower,102,Evening Clinic (PM),Specialist Physician
+DOC-0381,Dr. Peter Garrett,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-23,173 Sheikh Zayed Beverly Hills Medical Tower,46,Hospital Clinic (AM),Practicing Specialist
+DOC-0382,Dr. Peter Harris,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-11,16 Garden City & Kasr Al-Ainy Medical Tower,97,Evening Clinic (PM),Consultant Physician
+DOC-0383,Dr. Joshua Pennington,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-09,52 Downtown (Wust El Balad) Medical Tower,29,Hospital Clinic (AM),Practicing Specialist
+DOC-0384,Dr. Jeffrey Wolfe,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-22,69 Sheikh Zayed Central Medical Tower,157,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0385,Dr. Bryan Dudley,Chest & Pulmonology,Class A (KOL),Daily_Sat_Thu,BRK-16,109 Giza City & Faisal Medical Tower,136,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0386,Dr. Lee Allen,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-13,161 Mohandessin Medical Tower,127,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0387,Dr. Christopher Pierce,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-11,71 Garden City & Kasr Al-Ainy Medical Tower,165,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0388,Dr. Juan Davis,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-11,76 Garden City & Kasr Al-Ainy Medical Tower,25,Evening Clinic (PM),Practicing Specialist
+DOC-0389,Dr. Willie Durham,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-02,31 Nasr City West Medical Tower,61,Evening Clinic (PM),Consultant Physician
+DOC-0390,Dr. Joel Wilson,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-09,172 Downtown (Wust El Balad) Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0391,Dr. Ronnie Jimenez,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-18,50 Maadi Sarayat & Degla Medical Tower,87,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0392,Dr. Mitchell Hicks,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-15,66 Agouza Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0393,Dr. Donald Davenport,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-32,21 El Manial & Roda Island Medical Tower,98,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0394,Dr. William Sanchez,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-31,15 Ain Shams & Matareya Medical Tower,62,Evening Clinic (PM),Fellow of Royal College
+DOC-0395,Dr. Juan Reyes,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-32,80 El Manial & Roda Island Medical Tower,43,Hospital Clinic (AM),Practicing Specialist
+DOC-0396,Dr. Thomas Romero,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-16,94 Giza City & Faisal Medical Tower,82,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0397,Dr. Shawn Shields,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-25,179 6th October Dist 6-12 Medical Tower,176,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0398,Dr. Donald Tyler,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-18,165 Maadi Sarayat & Degla Medical Tower,54,Evening Clinic (PM),Practicing Specialist
+DOC-0399,Dr. Jason Villa,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-27,80 Smart Village Complex Medical Tower,173,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0400,Dr. Jordan Hoover,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-15,55 Agouza Medical Tower,34,Evening Clinic (PM),Practicing Specialist
+DOC-0401,Dr. Douglas Evans,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-02,7 Nasr City West Medical Tower,52,Evening Clinic (PM),Practicing Specialist
+DOC-0402,Dr. Kevin Duarte,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-06,98 Fifth Settlement South Medical Tower,40,Evening Clinic (PM),Practicing Specialist
+DOC-0403,Dr. John Hernandez,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-29,49 Shubra El-Kheima Medical Tower,50,Evening Clinic (PM),Specialist Physician
+DOC-0404,Dr. Joshua Reed,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-36,27 El Shorouk & Badr (NAC Axis) Medical Tower,49,Hospital Clinic (AM),Practicing Specialist
+DOC-0405,Dr. Juan Daniels,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-29,177 Shubra El-Kheima Medical Tower,85,Evening Clinic (PM),Specialist Physician
+DOC-0406,Dr. Jesse Morris,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-03,36 Heliopolis (Masr El Gedida) Medical Tower,58,Hospital Clinic (AM),Practicing Specialist
+DOC-0407,Dr. Colin Terry,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-05,52 Fifth Settlement North Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0408,Dr. Kenneth Hall,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-20,160 Mokattam Medical Tower,123,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0409,Dr. Reginald Williams,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-16,23 Giza City & Faisal Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0410,Dr. Patrick Thornton,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-14,130 Dokki Medical Tower,55,Evening Clinic (PM),Practicing Specialist
+DOC-0411,Dr. Robert Hughes,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-20,69 Mokattam Medical Tower,36,Evening Clinic (PM),Practicing Specialist
+DOC-0412,Dr. Matthew Hoover,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-25,71 6th October Dist 6-12 Medical Tower,48,Hospital Clinic (AM),Practicing Specialist
+DOC-0413,Dr. William Simpson,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-06,10 Fifth Settlement South Medical Tower,140,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0414,Dr. Andrew Shaw,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-30,128 Imbaba & Al-Warraq Medical Tower,86,Evening Clinic (PM),Consultant Physician
+DOC-0415,Dr. Kevin Kane,Endocrinology,Class C (Occasional),Daily_Sat_Thu,BRK-09,81 Downtown (Wust El Balad) Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0416,Dr. Shane Alexander,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-29,73 Shubra El-Kheima Medical Tower,111,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0417,Dr. Joseph Bryant,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-03,135 Heliopolis (Masr El Gedida) Medical Tower,108,Evening Clinic (PM),Specialist Physician
+DOC-0418,Dr. Nathan Ortiz,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-20,25 Mokattam Medical Tower,216,Hospital Clinic (AM),"Associate Professor, Al-Azhar University"
+DOC-0419,Dr. Matthew Moore,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-01,145 Nasr City East Medical Tower,73,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0420,Dr. John Costa,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-26,108 Hadayek October Medical Tower,109,Evening Clinic (PM),Consultant Physician
+DOC-0421,Dr. George Schwartz,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,9 Smart Village Complex Medical Tower,57,Evening Clinic (PM),Fellow of Royal College
+DOC-0422,Dr. Matthew Christian,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-09,15 Downtown (Wust El Balad) Medical Tower,102,Evening Clinic (PM),Consultant Physician
+DOC-0423,Dr. Samuel Villarreal,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-17,24 Haram (Al-Ahram) Medical Tower,94,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0424,Dr. James Stewart,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-20,52 Mokattam Medical Tower,50,Evening Clinic (PM),Practicing Specialist
+DOC-0425,Dr. Nathan Malone,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-31,79 Ain Shams & Matareya Medical Tower,85,Evening Clinic (PM),Consultant Physician
+DOC-0426,Dr. Shane Johnson,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,86 Agouza Medical Tower,106,Evening Clinic (PM),Specialist Physician
+DOC-0427,Dr. Barry Welch,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-14,77 Dokki Medical Tower,84,Evening Clinic (PM),Fellow of Royal College
+DOC-0428,Dr. Thomas Bright,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-06,151 Fifth Settlement South Medical Tower,32,Evening Clinic (PM),Practicing Specialist
+DOC-0429,Dr. Paul Hamilton,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-13,118 Mohandessin Medical Tower,120,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0430,Dr. Brett Schultz,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-25,173 6th October Dist 6-12 Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0431,Dr. Shane Wallace,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-13,118 Mohandessin Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0432,Dr. Michael Berger,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-19,29 New Maadi & Zahraa Medical Tower,50,Evening Clinic (PM),Fellow of Royal College
+DOC-0433,Dr. Angel Flynn,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-14,131 Dokki Medical Tower,217,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0434,Dr. Edward Brooks,Neurology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-18,132 Maadi Sarayat & Degla Medical Tower,123,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0435,Dr. Charles Schmidt,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-35,177 Old Cairo & Sayeda Zeinab Medical Tower,63,Evening Clinic (PM),Fellow of Royal College
+DOC-0436,Dr. Keith Sparks,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-28,149 Hadayek Al-Ahram Medical Tower,155,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0437,Dr. Christopher Miller,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-07,17 First & Third Settlements Medical Tower,26,Evening Clinic (PM),Practicing Specialist
+DOC-0438,Dr. Seth Harvey,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-09,124 Downtown (Wust El Balad) Medical Tower,47,Evening Clinic (PM),Practicing Specialist
+DOC-0439,Dr. David Durham,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-19,162 New Maadi & Zahraa Medical Tower,50,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0440,Dr. Charles Murray,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-30,85 Imbaba & Al-Warraq Medical Tower,71,Evening Clinic (PM),Specialist Physician
+DOC-0441,Dr. David Scott,Endocrinology,Class B (Core),Daily_Sat_Thu,BRK-36,152 El Shorouk & Badr (NAC Axis) Medical Tower,103,Evening Clinic (PM),Fellow of Royal College
+DOC-0442,Dr. Adam Ballard,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-13,83 Mohandessin Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0443,Dr. Steven Byrd,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-18,163 Maadi Sarayat & Degla Medical Tower,101,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0444,Dr. Christopher Alexander,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-28,53 Hadayek Al-Ahram Medical Tower,36,Evening Clinic (PM),Practicing Specialist
+DOC-0445,Dr. Gregory Matthews,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-01,42 Nasr City East Medical Tower,81,Hospital Clinic (AM),Consultant Physician
+DOC-0446,Dr. Mark Coleman,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-13,68 Mohandessin Medical Tower,93,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0447,Dr. David Bruce,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-35,176 Old Cairo & Sayeda Zeinab Medical Tower,76,Evening Clinic (PM),Consultant Physician
+DOC-0448,Dr. Curtis Cruz,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-10,116 Zamalek Medical Tower,30,Hospital Clinic (AM),Practicing Specialist
+DOC-0449,Dr. John Young,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-20,124 Mokattam Medical Tower,149,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0450,Dr. Kenneth Andrews,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-14,28 Dokki Medical Tower,86,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0451,Dr. Willie Phillips,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,88 Sheikh Zayed Central Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0452,Dr. William Barrett,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-21,32 Helwan & 15th of May Medical Tower,137,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0453,Dr. Donald Knight,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-21,17 Helwan & 15th of May Medical Tower,194,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0454,Dr. Michael Garner,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-10,170 Zamalek Medical Tower,33,Evening Clinic (PM),Practicing Specialist
+DOC-0455,Dr. Anthony Obrien,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-25,166 6th October Dist 6-12 Medical Tower,94,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0456,Dr. Jonathan Strong,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-23,176 Sheikh Zayed Beverly Hills Medical Tower,159,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0457,Dr. Dustin Lindsey,Neurology,Class A (KOL),Daily_Sat_Thu,BRK-33,53 El Obour City Medical Tower,102,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0458,Dr. Lawrence Gomez,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-34,169 Hadayek El Kobba & El Zaytoun Medical Tower,95,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0459,Dr. Mark Oliver,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-35,157 Old Cairo & Sayeda Zeinab Medical Tower,59,Evening Clinic (PM),Practicing Specialist
+DOC-0460,Dr. Michael Le,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-25,175 6th October Dist 6-12 Medical Tower,53,Hospital Clinic (AM),Practicing Specialist
+DOC-0461,Dr. Matthew Massey,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,20 Agouza Medical Tower,104,Evening Clinic (PM),Fellow of Royal College
+DOC-0462,Dr. Mark Berger,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-34,166 Hadayek El Kobba & El Zaytoun Medical Tower,54,Evening Clinic (PM),Practicing Specialist
+DOC-0463,Dr. Matthew Parker,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,11 Shubra Medical Tower,104,Evening Clinic (PM),Consultant Physician
+DOC-0464,Dr. Jeremiah Riley,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-13,164 Mohandessin Medical Tower,200,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0465,Dr. Nicholas Davis,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-11,63 Garden City & Kasr Al-Ainy Medical Tower,46,Evening Clinic (PM),Practicing Specialist
+DOC-0466,Dr. Edward Burgess,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-09,83 Downtown (Wust El Balad) Medical Tower,77,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0467,Dr. Christopher Anderson,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-08,60 Madinaty & Rehab Medical Tower,104,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0468,Dr. Joshua Mata,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-02,63 Nasr City West Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0469,Dr. Joseph Mcintyre,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-03,15 Heliopolis (Masr El Gedida) Medical Tower,43,Hospital Clinic (AM),Practicing Specialist
+DOC-0470,Dr. Ronald Scott,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-12,69 Shubra Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0471,Dr. Roger Olson,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-23,178 Sheikh Zayed Beverly Hills Medical Tower,96,Evening Clinic (PM),Specialist Physician
+DOC-0472,Dr. Robert Francis,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-31,170 Ain Shams & Matareya Medical Tower,143,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0473,Dr. George Wilson,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-22,42 Sheikh Zayed Central Medical Tower,54,Hospital Clinic (AM),Consultant Physician
+DOC-0474,Dr. Victor Taylor,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-19,7 New Maadi & Zahraa Medical Tower,80,Evening Clinic (PM),Consultant Physician
+DOC-0475,Dr. Vincent Dalton,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-09,79 Downtown (Wust El Balad) Medical Tower,82,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0476,Dr. Nathaniel Whitney,Endocrinology,Class B (Core),Daily_Sat_Thu,BRK-30,103 Imbaba & Al-Warraq Medical Tower,65,Evening Clinic (PM),Fellow of Royal College
+DOC-0477,Dr. Walter Ballard,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-24,143 6th October Dist 1-5 Medical Tower,36,Evening Clinic (PM),Practicing Specialist
+DOC-0478,Dr. Jacob Gibbs,Endocrinology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-18,119 Maadi Sarayat & Degla Medical Tower,93,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0479,Dr. Adrian Herrera,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-12,166 Shubra Medical Tower,40,Evening Clinic (PM),Practicing Specialist
+DOC-0480,Dr. Jesse Chambers,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-08,69 Madinaty & Rehab Medical Tower,96,Evening Clinic (PM),Consultant Physician
+DOC-0481,Dr. Michael Richards,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-01,90 Nasr City East Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0482,Dr. Rodney Bentley,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-05,174 Fifth Settlement North Medical Tower,52,Hospital Clinic (AM),Practicing Specialist
+DOC-0483,Dr. Brian Hall,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-20,95 Mokattam Medical Tower,32,Evening Clinic (PM),Practicing Specialist
+DOC-0484,Dr. Alexander Henson,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-11,13 Garden City & Kasr Al-Ainy Medical Tower,94,Evening Clinic (PM),Consultant Physician
+DOC-0485,Dr. Justin Herman,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-36,97 El Shorouk & Badr (NAC Axis) Medical Tower,49,Evening Clinic (PM),Practicing Specialist
+DOC-0486,Dr. Daniel Brown,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-26,107 Hadayek October Medical Tower,188,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0487,Dr. Rodney Blankenship,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,95 Sheikh Zayed Central Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0488,Dr. Eric Ortiz,Neurology,Class C (Occasional),Daily_Sat_Thu,BRK-04,120 Sheraton & Nozha Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0489,Dr. Charles Shah,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-28,149 Hadayek Al-Ahram Medical Tower,25,Evening Clinic (PM),Practicing Specialist
+DOC-0490,Dr. Eric Vasquez,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,153 Shubra Medical Tower,60,Evening Clinic (PM),Fellow of Royal College
+DOC-0491,Dr. Brent Clay,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-06,75 Fifth Settlement South Medical Tower,96,Hospital Clinic (AM),Specialist Physician
+DOC-0492,Dr. Chad Chavez,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-22,147 Sheikh Zayed Central Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0493,Dr. Michael Paul,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-07,50 First & Third Settlements Medical Tower,97,Evening Clinic (PM),Specialist Physician
+DOC-0494,Dr. Tracy Barnes,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-22,115 Sheikh Zayed Central Medical Tower,218,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0495,Dr. Patrick Moore,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-26,8 Hadayek October Medical Tower,73,Evening Clinic (PM),Fellow of Royal College
+DOC-0496,Dr. Jason Garcia,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-28,73 Hadayek Al-Ahram Medical Tower,72,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0497,Dr. John Russell,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-14,74 Dokki Medical Tower,109,Evening Clinic (PM),Consultant Physician
+DOC-0498,Dr. Trevor Johnson,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-21,132 Helwan & 15th of May Medical Tower,69,Evening Clinic (PM),Specialist Physician
+DOC-0499,Dr. Jacob Ramos,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-25,145 6th October Dist 6-12 Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0500,Dr. Trevor Foley,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-20,130 Mokattam Medical Tower,76,Evening Clinic (PM),Specialist Physician
+DOC-0501,Dr. Brett Jennings,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-28,58 Hadayek Al-Ahram Medical Tower,71,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0502,Dr. Joshua Levine,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-21,166 Helwan & 15th of May Medical Tower,121,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0503,Dr. Ian Sanders,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-33,72 El Obour City Medical Tower,41,Hospital Clinic (AM),Practicing Specialist
+DOC-0504,Dr. Colton Martinez,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-23,55 Sheikh Zayed Beverly Hills Medical Tower,154,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0505,Dr. Ryan Gibson,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-21,171 Helwan & 15th of May Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0506,Dr. Matthew May,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-29,166 Shubra El-Kheima Medical Tower,41,Hospital Clinic (AM),Practicing Specialist
+DOC-0507,Dr. Kyle Smith,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,7 Shubra Medical Tower,101,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0508,Dr. Richard Sanchez,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-32,85 El Manial & Roda Island Medical Tower,25,Evening Clinic (PM),Practicing Specialist
+DOC-0509,Dr. Cameron Cunningham,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-26,117 Hadayek October Medical Tower,42,Evening Clinic (PM),Practicing Specialist
+DOC-0510,Dr. Barry Hubbard,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-24,136 6th October Dist 1-5 Medical Tower,103,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0511,Dr. Daniel Robinson,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-12,31 Shubra Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0512,Dr. Sergio Murphy,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-32,84 El Manial & Roda Island Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0513,Dr. Charles Lester,Endocrinology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-21,26 Helwan & 15th of May Medical Tower,91,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0514,Dr. Aaron Garrison,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-31,20 Ain Shams & Matareya Medical Tower,52,Hospital Clinic (AM),Consultant Physician
+DOC-0515,Dr. Charles Anderson,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-35,16 Old Cairo & Sayeda Zeinab Medical Tower,82,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0516,Dr. David Thompson,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,61 Shubra Medical Tower,82,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0517,Dr. Matthew Johnson,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-32,23 El Manial & Roda Island Medical Tower,99,Evening Clinic (PM),Fellow of Royal College
+DOC-0518,Dr. Adrian Tyler,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-15,88 Agouza Medical Tower,82,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0519,Dr. David Morris,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-14,152 Dokki Medical Tower,143,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0520,Dr. Christopher Williams,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-27,161 Smart Village Complex Medical Tower,75,Hospital Clinic (AM),Consultant Physician
+DOC-0521,Dr. Patrick Fox,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-34,86 Hadayek El Kobba & El Zaytoun Medical Tower,90,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0522,Dr. Patrick Alvarez,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-07,14 First & Third Settlements Medical Tower,108,Evening Clinic (PM),Specialist Physician
+DOC-0523,Dr. Richard Palmer,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-08,158 Madinaty & Rehab Medical Tower,46,Evening Clinic (PM),Practicing Specialist
+DOC-0524,Dr. Brian Gordon,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-11,152 Garden City & Kasr Al-Ainy Medical Tower,130,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0525,Dr. Tony Williams,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-30,154 Imbaba & Al-Warraq Medical Tower,58,Hospital Clinic (AM),Practicing Specialist
+DOC-0526,Dr. Richard Camacho,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-08,104 Madinaty & Rehab Medical Tower,30,Evening Clinic (PM),Practicing Specialist
+DOC-0527,Dr. Joseph Ellis,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-10,83 Zamalek Medical Tower,99,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0528,Dr. Victor Brown,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-31,162 Ain Shams & Matareya Medical Tower,189,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0529,Dr. John Morales,Internal Medicine,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-19,168 New Maadi & Zahraa Medical Tower,138,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0530,Dr. Michael Henry,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-19,36 New Maadi & Zahraa Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0531,Dr. Theodore Jones,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,89 Agouza Medical Tower,99,Hospital Clinic (AM),Specialist Physician
+DOC-0532,Dr. Bobby Franklin,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,158 Smart Village Complex Medical Tower,58,Hospital Clinic (AM),Specialist Physician
+DOC-0533,Dr. Austin Hill,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-22,172 Sheikh Zayed Central Medical Tower,99,Evening Clinic (PM),Fellow of Royal College
+DOC-0534,Dr. Mark Kelley,Neurology,Class A (KOL),Daily_Sat_Thu,BRK-19,114 New Maadi & Zahraa Medical Tower,152,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0535,Dr. Frederick Vang,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-04,165 Sheraton & Nozha Medical Tower,151,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0536,Dr. Joseph Chavez,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-10,168 Zamalek Medical Tower,43,Hospital Clinic (AM),Practicing Specialist
+DOC-0537,Dr. Larry Garcia,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-19,124 New Maadi & Zahraa Medical Tower,50,Hospital Clinic (AM),Specialist Physician
+DOC-0538,Dr. Michael Farrell,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-30,111 Imbaba & Al-Warraq Medical Tower,30,Evening Clinic (PM),Practicing Specialist
+DOC-0539,Dr. Matthew Mack,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-02,60 Nasr City West Medical Tower,58,Evening Clinic (PM),Consultant Physician
+DOC-0540,Dr. Nathan Lewis,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-30,96 Imbaba & Al-Warraq Medical Tower,39,Evening Clinic (PM),Practicing Specialist
+DOC-0541,Dr. Jesse Perez,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-23,8 Sheikh Zayed Beverly Hills Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0542,Dr. Gerald Chavez,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-01,133 Nasr City East Medical Tower,77,Evening Clinic (PM),Specialist Physician
+DOC-0543,Dr. Jason Davis,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-16,161 Giza City & Faisal Medical Tower,45,Evening Clinic (PM),Practicing Specialist
+DOC-0544,Dr. Jeffery Ortega,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-13,87 Mohandessin Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0545,Dr. James Hernandez,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-30,27 Imbaba & Al-Warraq Medical Tower,105,Evening Clinic (PM),Consultant Physician
+DOC-0546,Dr. Thomas Jones,Neurology,Class A (KOL),Daily_Sat_Thu,BRK-19,36 New Maadi & Zahraa Medical Tower,144,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0547,Dr. Ronald Davis,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-27,101 Smart Village Complex Medical Tower,40,Evening Clinic (PM),Practicing Specialist
+DOC-0548,Dr. Brent Rodgers,Endocrinology,Class A (KOL),Daily_Sat_Thu,BRK-27,173 Smart Village Complex Medical Tower,128,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0549,Dr. Robert Hawkins,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-11,162 Garden City & Kasr Al-Ainy Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0550,Dr. Kevin Hoffman,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-24,116 6th October Dist 1-5 Medical Tower,135,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0551,Dr. Gary Martinez,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-11,98 Garden City & Kasr Al-Ainy Medical Tower,197,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0552,Dr. Hayden Ortega,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-32,119 El Manial & Roda Island Medical Tower,211,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0553,Dr. Paul Parrish,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-20,122 Mokattam Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0554,Dr. Nathan Schmitt,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-24,23 6th October Dist 1-5 Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0555,Dr. Kyle Bell,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-02,145 Nasr City West Medical Tower,58,Hospital Clinic (AM),Practicing Specialist
+DOC-0556,Dr. Kenneth Lewis,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-30,68 Imbaba & Al-Warraq Medical Tower,98,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0557,Dr. Matthew Walker,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-15,73 Agouza Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0558,Dr. Brian Bruce,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-18,66 Maadi Sarayat & Degla Medical Tower,25,Evening Clinic (PM),Practicing Specialist
+DOC-0559,Dr. Jacob Farmer,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-33,164 El Obour City Medical Tower,102,Evening Clinic (PM),Specialist Physician
+DOC-0560,Dr. Kenneth Aguirre,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-22,97 Sheikh Zayed Central Medical Tower,25,Hospital Clinic (AM),Practicing Specialist
+DOC-0561,Dr. Ryan Villegas,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-07,161 First & Third Settlements Medical Tower,90,Evening Clinic (PM),Specialist Physician
+DOC-0562,Dr. Robert Austin,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-27,61 Smart Village Complex Medical Tower,54,Hospital Clinic (AM),Practicing Specialist
+DOC-0563,Dr. Marvin Johnson,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-02,108 Nasr City West Medical Tower,71,Hospital Clinic (AM),Consultant Physician
+DOC-0564,Dr. Timothy Gallegos,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-18,81 Maadi Sarayat & Degla Medical Tower,26,Hospital Clinic (AM),Practicing Specialist
+DOC-0565,Dr. Derek White,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-02,71 Nasr City West Medical Tower,53,Evening Clinic (PM),Practicing Specialist
+DOC-0566,Dr. Michael Parker,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-34,64 Hadayek El Kobba & El Zaytoun Medical Tower,53,Evening Clinic (PM),Specialist Physician
+DOC-0567,Dr. Gerald Smith,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-20,66 Mokattam Medical Tower,26,Hospital Clinic (AM),Practicing Specialist
+DOC-0568,Dr. Sergio Knight,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-07,52 First & Third Settlements Medical Tower,39,Evening Clinic (PM),Practicing Specialist
+DOC-0569,Dr. James Thomas,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-22,43 Sheikh Zayed Central Medical Tower,94,Evening Clinic (PM),Consultant Physician
+DOC-0570,Dr. Mark Johnson,Neurology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-36,63 El Shorouk & Badr (NAC Axis) Medical Tower,133,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0571,Dr. Paul Lewis,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-04,148 Sheraton & Nozha Medical Tower,41,Evening Clinic (PM),Practicing Specialist
+DOC-0572,Dr. Jason Peterson,Chest & Pulmonology,Class C (Occasional),Daily_Sat_Thu,BRK-29,66 Shubra El-Kheima Medical Tower,46,Evening Clinic (PM),Practicing Specialist
+DOC-0573,Dr. Jacob Griffith,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-30,108 Imbaba & Al-Warraq Medical Tower,32,Evening Clinic (PM),Practicing Specialist
+DOC-0574,Dr. Ricardo Bradley,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-14,48 Dokki Medical Tower,61,Evening Clinic (PM),Consultant Physician
+DOC-0575,Dr. Bradley Williams,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-10,27 Zamalek Medical Tower,100,Evening Clinic (PM),Consultant Physician
+DOC-0576,Dr. Christopher Williamson,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-22,170 Sheikh Zayed Central Medical Tower,96,Evening Clinic (PM),Specialist Physician
+DOC-0577,Dr. Michael Nelson,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-14,114 Dokki Medical Tower,70,Evening Clinic (PM),Consultant Physician
+DOC-0578,Dr. Matthew Tucker,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,136 Agouza Medical Tower,64,Evening Clinic (PM),Specialist Physician
+DOC-0579,Dr. Jeremy Nelson,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-30,165 Imbaba & Al-Warraq Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0580,Dr. Paul Wilson,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-32,167 El Manial & Roda Island Medical Tower,70,Hospital Clinic (AM),Fellow of Royal College
+DOC-0581,Dr. Jeffrey Campbell,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-19,60 New Maadi & Zahraa Medical Tower,49,Evening Clinic (PM),Practicing Specialist
+DOC-0582,Dr. Michael Tucker,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-29,150 Shubra El-Kheima Medical Tower,37,Hospital Clinic (AM),Practicing Specialist
+DOC-0583,Dr. Michael Williams,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-34,24 Hadayek El Kobba & El Zaytoun Medical Tower,97,Hospital Clinic (AM),Specialist Physician
+DOC-0584,Dr. James Greene,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-23,113 Sheikh Zayed Beverly Hills Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0585,Dr. Adam Turner,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-02,153 Nasr City West Medical Tower,84,Evening Clinic (PM),Fellow of Royal College
+DOC-0586,Dr. Daniel Taylor,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-27,170 Smart Village Complex Medical Tower,84,Evening Clinic (PM),Consultant Physician
+DOC-0587,Dr. David Murphy,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-04,103 Sheraton & Nozha Medical Tower,39,Hospital Clinic (AM),Practicing Specialist
+DOC-0588,Dr. Adam Burgess,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-16,33 Giza City & Faisal Medical Tower,53,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0589,Dr. Christopher James,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-11,52 Garden City & Kasr Al-Ainy Medical Tower,44,Evening Clinic (PM),Practicing Specialist
+DOC-0590,Dr. Michael Mason,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-31,63 Ain Shams & Matareya Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0591,Dr. Roy Drake,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-03,170 Heliopolis (Masr El Gedida) Medical Tower,91,Evening Clinic (PM),Fellow of Royal College
+DOC-0592,Dr. Benjamin Hensley,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-02,124 Nasr City West Medical Tower,104,Hospital Clinic (AM),Consultant Physician
+DOC-0593,Dr. Andrew Smith,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,154 Shubra Medical Tower,74,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0594,Dr. Thomas Atkins,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-09,179 Downtown (Wust El Balad) Medical Tower,61,Evening Clinic (PM),Consultant Physician
+DOC-0595,Dr. Kenneth Berry,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-02,47 Nasr City West Medical Tower,208,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0596,Dr. Michael Butler,Internal Medicine,Class C (Occasional),Daily_Sat_Thu,BRK-08,94 Madinaty & Rehab Medical Tower,52,Evening Clinic (PM),Practicing Specialist
+DOC-0597,Dr. Brian Smith,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,30 Shubra Medical Tower,85,Evening Clinic (PM),Consultant Physician
+DOC-0598,Dr. Frederick Solis,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-07,162 First & Third Settlements Medical Tower,78,Hospital Clinic (AM),Fellow of Royal College
+DOC-0599,Dr. Luke Collier,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-23,49 Sheikh Zayed Beverly Hills Medical Tower,92,Hospital Clinic (AM),Specialist Physician
+DOC-0600,Dr. Thomas Davis,Chest & Pulmonology,Class B (Core),Daily_Sat_Thu,BRK-06,41 Fifth Settlement South Medical Tower,58,Hospital Clinic (AM),Specialist Physician
+DOC-0601,Dr. Ryan Sanchez,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-10,121 Zamalek Medical Tower,55,Evening Clinic (PM),Practicing Specialist
+DOC-0602,Dr. Kevin Warren,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-22,46 Sheikh Zayed Central Medical Tower,106,Hospital Clinic (AM),"Associate Professor, Al-Azhar University"
+DOC-0603,Dr. James Collins,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-29,38 Shubra El-Kheima Medical Tower,93,Evening Clinic (PM),Consultant Physician
+DOC-0604,Dr. Gerald Cook,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-17,88 Haram (Al-Ahram) Medical Tower,39,Hospital Clinic (AM),Practicing Specialist
+DOC-0605,Dr. Christopher Dixon,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-33,108 El Obour City Medical Tower,47,Evening Clinic (PM),Practicing Specialist
+DOC-0606,Dr. Brian Hicks,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-06,32 Fifth Settlement South Medical Tower,59,Evening Clinic (PM),Specialist Physician
+DOC-0607,Dr. Taylor Bailey,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-33,86 El Obour City Medical Tower,175,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0608,Dr. Nicholas Fuentes,Endocrinology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-13,123 Mohandessin Medical Tower,219,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0609,Dr. Robert Young,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-05,132 Fifth Settlement North Medical Tower,99,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0610,Dr. Charles Gonzalez,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-02,61 Nasr City West Medical Tower,66,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0611,Dr. Lance Wolf,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-13,22 Mohandessin Medical Tower,74,Evening Clinic (PM),Fellow of Royal College
+DOC-0612,Dr. Matthew Thompson,Neurology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-30,85 Imbaba & Al-Warraq Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0613,Dr. Raymond Snyder,Endocrinology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-18,80 Maadi Sarayat & Degla Medical Tower,166,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0614,Dr. Paul Wolf,Neurology,Class B (Core),Daily_Sat_Thu,BRK-09,43 Downtown (Wust El Balad) Medical Tower,67,Evening Clinic (PM),Fellow of Royal College
+DOC-0615,Dr. Jerry Glass,Neurology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-31,138 Ain Shams & Matareya Medical Tower,170,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0616,Dr. Justin Reid,Chest & Pulmonology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,43 Shubra Medical Tower,53,Hospital Clinic (AM),Fellow of Royal College
+DOC-0617,Dr. Marcus Lin,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-05,57 Fifth Settlement North Medical Tower,105,Evening Clinic (PM),Fellow of Royal College
+DOC-0618,Dr. Mark Hernandez,Cardiology,Class A (KOL),Daily_Sat_Thu,BRK-13,170 Mohandessin Medical Tower,185,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0619,Dr. Barry Ramos,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-06,135 Fifth Settlement South Medical Tower,188,Hospital Clinic (AM),"Professor of Cardiology, Ain Shams University"
+DOC-0620,Dr. Eric Hill,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-03,56 Heliopolis (Masr El Gedida) Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0621,Dr. Anthony Romero,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-16,154 Giza City & Faisal Medical Tower,88,Evening Clinic (PM),Specialist Physician
+DOC-0622,Dr. Eric Hayes,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-27,85 Smart Village Complex Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0623,Dr. Anthony Decker,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-20,113 Mokattam Medical Tower,107,Hospital Clinic (AM),Fellow of Royal College
+DOC-0624,Dr. Billy Lin,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-17,171 Haram (Al-Ahram) Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0625,Dr. Scott Gilbert,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-31,149 Ain Shams & Matareya Medical Tower,42,Evening Clinic (PM),Practicing Specialist
+DOC-0626,Dr. Jonathon Ford,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-25,175 6th October Dist 6-12 Medical Tower,67,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0627,Dr. Julian Conner,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,112 Agouza Medical Tower,101,Evening Clinic (PM),Specialist Physician
+DOC-0628,Dr. Steven Cole,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-01,115 Nasr City East Medical Tower,141,Evening Clinic (PM),"Professor of Medicine, Cairo University"
+DOC-0629,Dr. Robert Pearson,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-19,140 New Maadi & Zahraa Medical Tower,64,Evening Clinic (PM),Fellow of Royal College
+DOC-0630,Dr. Frank Alvarez,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-24,107 6th October Dist 1-5 Medical Tower,100,Evening Clinic (PM),Specialist Physician
+DOC-0631,Dr. Chris Brown,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-05,155 Fifth Settlement North Medical Tower,70,Hospital Clinic (AM),Fellow of Royal College
+DOC-0632,Dr. Brian Nolan,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-20,119 Mokattam Medical Tower,100,Evening Clinic (PM),Consultant Physician
+DOC-0633,Dr. Greg Klein,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-17,107 Haram (Al-Ahram) Medical Tower,43,Evening Clinic (PM),Practicing Specialist
+DOC-0634,Dr. Jonathan Thompson,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,42 Sheikh Zayed Central Medical Tower,26,Hospital Clinic (AM),Practicing Specialist
+DOC-0635,Dr. David Kim,Endocrinology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-08,56 Madinaty & Rehab Medical Tower,37,Evening Clinic (PM),Practicing Specialist
+DOC-0636,Dr. Jeffrey Mills,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-20,103 Mokattam Medical Tower,68,Evening Clinic (PM),Consultant Physician
+DOC-0637,Dr. Christopher Watson,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-36,118 El Shorouk & Badr (NAC Axis) Medical Tower,57,Hospital Clinic (AM),Practicing Specialist
+DOC-0638,Dr. Douglas Ortiz,Cardiology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-26,123 Hadayek October Medical Tower,165,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0639,Dr. George Harper,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-32,77 El Manial & Roda Island Medical Tower,103,Evening Clinic (PM),Consultant Physician
+DOC-0640,Dr. Richard Holland,Neurology,Class B (Core),Daily_Sat_Thu,BRK-27,31 Smart Village Complex Medical Tower,54,Evening Clinic (PM),Specialist Physician
+DOC-0641,Dr. Austin Davis,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-23,166 Sheikh Zayed Beverly Hills Medical Tower,75,Hospital Clinic (AM),Specialist Physician
+DOC-0642,Dr. Michael Mitchell,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,93 Sheikh Zayed Central Medical Tower,25,Evening Clinic (PM),Practicing Specialist
+DOC-0643,Dr. Nathaniel Douglas,Endocrinology,Class C (Occasional),Daily_Sat_Thu,BRK-20,120 Mokattam Medical Tower,46,Evening Clinic (PM),Practicing Specialist
+DOC-0644,Dr. Terrence Marks,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-32,25 El Manial & Roda Island Medical Tower,95,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0645,Dr. Gavin Aguilar,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-14,95 Dokki Medical Tower,93,Hospital Clinic (AM),Specialist Physician
+DOC-0646,Dr. Charles Bailey,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,142 Shubra Medical Tower,52,Evening Clinic (PM),Fellow of Royal College
+DOC-0647,Dr. Walter Hale,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-34,126 Hadayek El Kobba & El Zaytoun Medical Tower,29,Evening Clinic (PM),Practicing Specialist
+DOC-0648,Dr. James Larson,Internal Medicine,Class A (KOL),Daily_Sat_Thu,BRK-32,77 El Manial & Roda Island Medical Tower,182,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0649,Dr. Todd Collins,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-21,112 Helwan & 15th of May Medical Tower,35,Evening Clinic (PM),Practicing Specialist
+DOC-0650,Dr. James Conner,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,126 Shubra Medical Tower,103,Evening Clinic (PM),Fellow of Royal College
+DOC-0651,Dr. Robert Santiago,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-22,35 Sheikh Zayed Central Medical Tower,58,Evening Clinic (PM),Practicing Specialist
+DOC-0652,Dr. Ronald Rodgers,Chest & Pulmonology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-30,69 Imbaba & Al-Warraq Medical Tower,96,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0653,Dr. Michael Fox,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-15,170 Agouza Medical Tower,46,Hospital Clinic (AM),Practicing Specialist
+DOC-0654,Dr. Matthew Henderson,Neurology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-02,149 Nasr City West Medical Tower,179,Hospital Clinic (AM),"Professor of Medicine, Cairo University"
+DOC-0655,Dr. Ivan Cox,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-24,76 6th October Dist 1-5 Medical Tower,38,Hospital Clinic (AM),Practicing Specialist
+DOC-0656,Dr. Christopher Lewis,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-14,167 Dokki Medical Tower,102,Evening Clinic (PM),Fellow of Royal College
+DOC-0657,Dr. Travis Tucker,Chest & Pulmonology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-36,9 El Shorouk & Badr (NAC Axis) Medical Tower,115,Evening Clinic (PM),"Consultant, National Heart Institute"
+DOC-0658,Dr. Darrell Taylor,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-24,21 6th October Dist 1-5 Medical Tower,28,Hospital Clinic (AM),Practicing Specialist
+DOC-0659,Dr. Billy Richard,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-10,67 Zamalek Medical Tower,64,Hospital Clinic (AM),Specialist Physician
+DOC-0660,Dr. Brian Wise,Chest & Pulmonology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-16,164 Giza City & Faisal Medical Tower,189,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0661,Dr. Russell Stephenson,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-29,54 Shubra El-Kheima Medical Tower,56,Evening Clinic (PM),Specialist Physician
+DOC-0662,Dr. Andrew Rogers,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-15,116 Agouza Medical Tower,63,Evening Clinic (PM),"Lecturer, Kasr Al Ainy"
+DOC-0663,Dr. Ralph Anderson,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-32,136 El Manial & Roda Island Medical Tower,65,Evening Clinic (PM),Consultant Physician
+DOC-0664,Dr. James Martin,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-32,28 El Manial & Roda Island Medical Tower,32,Hospital Clinic (AM),Practicing Specialist
+DOC-0665,Dr. Ronald Wise,Internal Medicine,Class B (Core),Daily_Sat_Thu,BRK-28,112 Hadayek Al-Ahram Medical Tower,56,Hospital Clinic (AM),Fellow of Royal College
+DOC-0666,Dr. Robert Martin,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-01,150 Nasr City East Medical Tower,34,Evening Clinic (PM),Practicing Specialist
+DOC-0667,Dr. Jeffrey Jenkins,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-26,98 Hadayek October Medical Tower,94,Evening Clinic (PM),Specialist Physician
+DOC-0668,Dr. Michael Young,Neurology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-09,36 Downtown (Wust El Balad) Medical Tower,72,Evening Clinic (PM),Consultant Physician
+DOC-0669,Dr. Jeremy Mitchell,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-34,10 Hadayek El Kobba & El Zaytoun Medical Tower,59,Evening Clinic (PM),Fellow of Royal College
+DOC-0670,Dr. Paul Cole,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-12,136 Shubra Medical Tower,66,Evening Clinic (PM),Fellow of Royal College
+DOC-0671,Dr. Joseph Collins,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-19,39 New Maadi & Zahraa Medical Tower,105,Hospital Clinic (AM),Consultant Physician
+DOC-0672,Dr. Robert Harrison,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-24,141 6th October Dist 1-5 Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0673,Dr. Russell Richardson,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-28,27 Hadayek Al-Ahram Medical Tower,33,Evening Clinic (PM),Practicing Specialist
+DOC-0674,Dr. Travis Joyce,Endocrinology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-12,29 Shubra Medical Tower,72,Evening Clinic (PM),Consultant Physician
+DOC-0675,Dr. Joel Campbell,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-23,62 Sheikh Zayed Beverly Hills Medical Tower,63,Evening Clinic (PM),Consultant Physician
+DOC-0676,Dr. James Rose,Neurology,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-24,14 6th October Dist 1-5 Medical Tower,137,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0677,Dr. Vincent Montoya,Cardiology,Class C (Occasional),Daily_Sat_Thu,BRK-21,130 Helwan & 15th of May Medical Tower,41,Hospital Clinic (AM),Practicing Specialist
+DOC-0678,Dr. Robert Taylor,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-02,22 Nasr City West Medical Tower,60,Hospital Clinic (AM),Fellow of Royal College
+DOC-0679,Dr. David Davidson,Neurology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-34,81 Hadayek El Kobba & El Zaytoun Medical Tower,36,Evening Clinic (PM),Practicing Specialist
+DOC-0680,Dr. Shane Spencer,Cardiology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-35,76 Old Cairo & Sayeda Zeinab Medical Tower,168,Hospital Clinic (AM),"Consultant, National Heart Institute"
+DOC-0681,Dr. Brian Singleton,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-11,47 Garden City & Kasr Al-Ainy Medical Tower,61,Hospital Clinic (AM),"Lecturer, Kasr Al Ainy"
+DOC-0682,Dr. Samuel Mitchell,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-18,40 Maadi Sarayat & Degla Medical Tower,54,Evening Clinic (PM),Consultant Physician
+DOC-0683,Dr. Phillip Nelson,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-12,18 Shubra Medical Tower,40,Evening Clinic (PM),Practicing Specialist
+DOC-0684,Dr. Taylor Hernandez,Cardiology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-13,179 Mohandessin Medical Tower,52,Evening Clinic (PM),Specialist Physician
+DOC-0685,Dr. Jeffrey Potts,Cardiology,Class B (Core),Daily_Sat_Thu,BRK-17,33 Haram (Al-Ahram) Medical Tower,76,Evening Clinic (PM),Specialist Physician
+DOC-0686,Dr. Daniel Hayes,Internal Medicine,Class B (Core),Alternate_Sun_Tue_Thu,BRK-23,104 Sheikh Zayed Beverly Hills Medical Tower,65,Evening Clinic (PM),Consultant Physician
+DOC-0687,Dr. Gregory Johnson,Internal Medicine,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-28,104 Hadayek Al-Ahram Medical Tower,53,Hospital Clinic (AM),Practicing Specialist
+DOC-0688,Dr. Anthony Shaw,Endocrinology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-26,74 Hadayek October Medical Tower,68,Hospital Clinic (AM),Consultant Physician
+DOC-0689,Dr. David Vang,Neurology,Class A (KOL),Alternate_Sun_Tue_Thu,BRK-16,9 Giza City & Faisal Medical Tower,139,Evening Clinic (PM),"Professor of Cardiology, Ain Shams University"
+DOC-0690,Dr. James Johnson,Neurology,Class B (Core),Alternate_Sun_Tue_Thu,BRK-20,38 Mokattam Medical Tower,78,Evening Clinic (PM),Fellow of Royal College
+DOC-0691,Dr. Timothy Combs,Internal Medicine,Class B (Core),Alternate_Sat_Mon_Wed,BRK-28,163 Hadayek Al-Ahram Medical Tower,91,Evening Clinic (PM),Consultant Physician
+DOC-0692,Dr. Matthew Moody,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-15,70 Agouza Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0693,Dr. Chad Mitchell,Internal Medicine,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-16,148 Giza City & Faisal Medical Tower,56,Evening Clinic (PM),Practicing Specialist
+DOC-0694,Dr. Ronald Horton,Cardiology,Class B (Core),Alternate_Sat_Mon_Wed,BRK-22,89 Sheikh Zayed Central Medical Tower,60,Evening Clinic (PM),Specialist Physician
+DOC-0695,Dr. Charles Thornton,Cardiology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-32,96 El Manial & Roda Island Medical Tower,57,Evening Clinic (PM),Practicing Specialist
+DOC-0696,Dr. Jerry Smith,Chest & Pulmonology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-13,8 Mohandessin Medical Tower,48,Evening Clinic (PM),Practicing Specialist
+DOC-0697,Dr. Bobby Scott,Cardiology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-29,16 Shubra El-Kheima Medical Tower,27,Evening Clinic (PM),Practicing Specialist
+DOC-0698,Dr. Ruben Dunn,Endocrinology,Class C (Occasional),Alternate_Sun_Tue_Thu,BRK-11,64 Garden City & Kasr Al-Ainy Medical Tower,26,Evening Clinic (PM),Practicing Specialist
+DOC-0699,Dr. Nicholas Rose,Internal Medicine,Class A (KOL),Alternate_Sat_Mon_Wed,BRK-06,46 Fifth Settlement South Medical Tower,99,Evening Clinic (PM),"Associate Professor, Al-Azhar University"
+DOC-0700,Dr. Brian Roberts,Chest & Pulmonology,Class C (Occasional),Alternate_Sat_Mon_Wed,BRK-09,26 Downtown (Wust El Balad) Medical Tower,40,Evening Clinic (PM),Practicing Specialist

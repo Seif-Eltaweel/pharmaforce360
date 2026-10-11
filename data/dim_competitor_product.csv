@@ -1,0 +1,8 @@
+Competitor_Product_ID,Competitor_Name,Competitor_Company,Target_Product_ID,Market_Price_EGP,Therapeutic_Class,Market_Position
+COMP-01,Concor 10mg,Merck Healthcare,PRD-CARD-01,165.0,Anti-Hypertensive Beta-Blocker,Market Leader
+COMP-02,Crestor 20mg,AstraZeneca,PRD-CARD-02,295.0,Statin Dyslipidemia,Original Innovator
+COMP-03,Jardiance 10mg,Boehringer Ingelheim,PRD-CARD-03,390.0,SGLT2 Inhibitor T2D,Original Innovator
+COMP-04,Vastarel MR 35mg,Servier,PRD-SHARED-04,188.0,Anti-Ischemic Agent,Established Brand
+COMP-05,Symbicort Turbuhaler,AstraZeneca,PRD-RESP-01,410.0,ICS / LABA Inhaler,Market Leader
+COMP-06,Cipralex 10mg,Lundbeck,PRD-RESP-02,240.0,SSRI Antidepressant,Original Innovator
+COMP-07,Singulair 10mg,Organon,PRD-RESP-03,225.0,LTRA Anti-Asthmatic,Original Innovator

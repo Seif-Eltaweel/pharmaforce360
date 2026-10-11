@@ -1,0 +1,79 @@
+table fact_ims_market_audit
+	lineageTag: ecb9d8e7-f6e6-446a-a66f-c610169b4548
+
+	column Audit_ID
+		dataType: string
+		lineageTag: 8cdff5ef-d0d6-4cf8-a82c-8ec09f77f32e
+		summarizeBy: none
+		sourceColumn: Audit_ID
+
+	column Date_Key
+		dataType: int64
+		formatString: 0
+		lineageTag: 3f3501fe-0f91-4c32-8f7b-b8ecbabbc732
+		summarizeBy: none
+		sourceColumn: Date_Key
+
+	column Year_Month
+		dataType: string
+		lineageTag: 9153febd-b78e-4aa0-ac88-04a0e214d976
+		summarizeBy: none
+		sourceColumn: Year_Month
+
+	column Brick_ID
+		dataType: string
+		lineageTag: 06d96de9-b187-4956-b52e-41fc728245ba
+		summarizeBy: none
+		sourceColumn: Brick_ID
+
+	column Product_ID
+		dataType: string
+		lineageTag: dfb5ce29-9cb2-499a-b138-65c9d5754f1c
+		summarizeBy: none
+		sourceColumn: Product_ID
+
+	column Our_Market_Share_Pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: f8580837-a9ca-49f0-b1cb-e7b2fb8df37d
+		summarizeBy: none
+		sourceColumn: Our_Market_Share_Pct
+
+	column Evolution_Index_EI
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 3d8a1c7d-e36e-4abc-b693-c72417d7f236
+		summarizeBy: none
+		sourceColumn: Evolution_Index_EI
+
+	column Total_Market_Volume_Units
+		dataType: int64
+		formatString: #,0
+		lineageTag: 2e490840-bec6-4579-897f-695d2eec07f5
+		summarizeBy: none
+		sourceColumn: Total_Market_Volume_Units
+
+	column Total_Market_Value_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: eb17ae71-3b70-4b98-ae46-d48c865df4df
+		summarizeBy: none
+		sourceColumn: Total_Market_Value_EGP
+
+	column Competitor_Combined_Share_Pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 67c16e53-7f7b-4b37-907a-228f294e5dd0
+		summarizeBy: none
+		sourceColumn: Competitor_Combined_Share_Pct
+
+	partition fact_ims_market_audit = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_ims_market_audit.csv"), [Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Audit_ID", type text}, {"Date_Key", Int64.Type}, {"Year_Month", type text}, {"Brick_ID", type text}, {"Product_ID", type text}, {"Our_Market_Share_Pct", type number}, {"Evolution_Index_EI", type number}, {"Total_Market_Volume_Units", Int64.Type}, {"Total_Market_Value_EGP", type number}, {"Competitor_Combined_Share_Pct", type number}})
+				in
+				    #"Changed Type"
+

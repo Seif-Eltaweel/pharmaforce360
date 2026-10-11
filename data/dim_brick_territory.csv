@@ -1,0 +1,37 @@
+Brick_ID,Brick_Name,Zone,Tier,Latitude,Longitude,Territory_Potential_Index
+BRK-01,Nasr City East,East Cairo,2,30.0561,31.3412,1.15
+BRK-02,Nasr City West,East Cairo,2,30.061,31.325,1.1
+BRK-03,Heliopolis (Masr El Gedida),East Cairo,1,30.0898,31.3285,1.45
+BRK-04,Sheraton & Nozha,East Cairo,1,30.1054,31.3789,1.3
+BRK-31,Ain Shams & Matareya,East Cairo,2,30.13,31.315,1.05
+BRK-34,Hadayek El Kobba & El Zaytoun,East Cairo,2,30.098,31.305,1.1
+BRK-05,Fifth Settlement North,New Cairo,1,30.0245,31.472,1.5
+BRK-06,Fifth Settlement South,New Cairo,1,30.005,31.485,1.4
+BRK-07,First & Third Settlements,New Cairo,2,30.045,31.432,1.05
+BRK-08,Madinaty & Rehab,New Cairo,1,30.082,31.632,1.35
+BRK-33,El Obour City,New Cairo,2,30.221,31.475,1.05
+BRK-36,El Shorouk & Badr (NAC Axis),New Cairo,2,30.141,31.625,1.0
+BRK-09,Downtown (Wust El Balad),Downtown & Central,2,30.0444,31.2357,1.05
+BRK-10,Zamalek,Downtown & Central,1,30.0634,31.2185,1.4
+BRK-11,Garden City & Kasr Al-Ainy,Downtown & Central,1,30.035,31.231,1.5
+BRK-12,Shubra,Downtown & Central,3,30.0815,31.246,0.85
+BRK-29,Shubra El-Kheima,Downtown & Central,3,30.1286,31.2422,0.85
+BRK-32,El Manial & Roda Island,Downtown & Central,1,30.02,31.228,1.4
+BRK-35,Old Cairo & Sayeda Zeinab,Downtown & Central,2,30.015,31.233,1.15
+BRK-13,Mohandessin,Giza & Dokki,1,30.0528,31.1995,1.45
+BRK-14,Dokki,Giza & Dokki,1,30.0384,31.2124,1.35
+BRK-15,Agouza,Giza & Dokki,2,30.0601,31.2115,1.15
+BRK-16,Giza City & Faisal,Giza & Dokki,3,30.008,31.185,0.8
+BRK-17,Haram (Al-Ahram),Giza & Dokki,2,29.998,31.155,0.95
+BRK-30,Imbaba & Al-Warraq,Giza & Dokki,3,30.075,31.215,0.9
+BRK-18,Maadi Sarayat & Degla,South Cairo,1,29.958,31.275,1.4
+BRK-19,New Maadi & Zahraa,South Cairo,2,29.969,31.299,1.1
+BRK-20,Mokattam,South Cairo,2,30.019,31.302,1.0
+BRK-21,Helwan & 15th of May,South Cairo,3,29.845,31.332,0.75
+BRK-22,Sheikh Zayed Central,West Cairo (October),1,30.052,30.985,1.45
+BRK-23,Sheikh Zayed Beverly Hills,West Cairo (October),1,30.068,30.942,1.35
+BRK-24,6th October Dist 1-5,West Cairo (October),2,29.972,30.945,1.1
+BRK-25,6th October Dist 6-12,West Cairo (October),3,29.951,30.915,0.8
+BRK-26,Hadayek October,West Cairo (October),2,29.925,31.025,0.95
+BRK-27,Smart Village Complex,West Cairo (October),1,30.075,31.018,1.25
+BRK-28,Hadayek Al-Ahram,West Cairo (October),2,29.98,31.115,0.95

@@ -1,0 +1,2060 @@
+{
+  "crs": {
+    "type": "name", 
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  }, 
+  "type": "FeatureCollection", 
+  "name": "cairo_commercial_bricks", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.1165, 
+              30.127261
+            ], 
+            [
+              31.19633, 
+              30.071525
+            ], 
+            [
+              31.209931, 
+              30.049166
+            ], 
+            [
+              31.18985, 
+              30.031177
+            ], 
+            [
+              31.157071, 
+              30.041786
+            ], 
+            [
+              31.110655, 
+              30.079478
+            ], 
+            [
+              31.1165, 
+              30.127261
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Mohandessin", 
+      "properties": {
+        "Brick_ID": "BRK-13", 
+        "name": "Mohandessin", 
+        "District": "Kism Agouza (Mohandessin, Gameat El Dowal)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Giza", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.45, 
+        "id": "Mohandessin", 
+        "Zone": "Giza & Dokki", 
+        "Brick_Name": "Mohandessin"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.18985, 
+              30.031177
+            ], 
+            [
+              31.209931, 
+              30.049166
+            ], 
+            [
+              31.218038, 
+              30.048655
+            ], 
+            [
+              31.221141, 
+              30.037561
+            ], 
+            [
+              31.217502, 
+              30.008043
+            ], 
+            [
+              31.18985, 
+              30.031177
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Dokki", 
+      "properties": {
+        "Brick_ID": "BRK-14", 
+        "name": "Dokki", 
+        "District": "Kism Dokki (Tahrir St, Mossadak, Mehaqi)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Giza", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.35, 
+        "id": "Dokki", 
+        "Zone": "Giza & Dokki", 
+        "Brick_Name": "Dokki"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.209931, 
+              30.049166
+            ], 
+            [
+              31.19633, 
+              30.071525
+            ], 
+            [
+              31.211721, 
+              30.067909
+            ], 
+            [
+              31.216014, 
+              30.055311
+            ], 
+            [
+              31.217903, 
+              30.048772
+            ], 
+            [
+              31.209931, 
+              30.049166
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Agouza", 
+      "properties": {
+        "Brick_ID": "BRK-15", 
+        "name": "Agouza", 
+        "District": "Kism Agouza (Nile Corniche, Kit Kat)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Giza", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.15, 
+        "id": "Agouza", 
+        "Zone": "Giza & Dokki", 
+        "Brick_Name": "Agouza"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.157071, 
+              30.041786
+            ], 
+            [
+              31.18985, 
+              30.031177
+            ], 
+            [
+              31.21837, 
+              30.007099
+            ], 
+            [
+              31.214188, 
+              30.001024
+            ], 
+            [
+              31.21918, 
+              29.992145
+            ], 
+            [
+              31.222552, 
+              29.971109
+            ], 
+            [
+              31.251555, 
+              29.94872
+            ], 
+            [
+              31.272096, 
+              29.913405
+            ], 
+            [
+              31.288621, 
+              29.850868
+            ], 
+            [
+              31.247356, 
+              29.853295
+            ], 
+            [
+              31.248755, 
+              29.895445
+            ], 
+            [
+              31.205701, 
+              29.94137
+            ], 
+            [
+              31.176901, 
+              29.991192
+            ], 
+            [
+              31.157071, 
+              30.041786
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Giza City & Faisal", 
+      "properties": {
+        "Brick_ID": "BRK-16", 
+        "name": "Giza City & Faisal", 
+        "District": "Kism El Giza & King Faisal Corridor", 
+        "Tier": "Tier 1", 
+        "Governorate": "Giza", 
+        "Tier_Number": 1, 
+        "Potential_Index": 0.8, 
+        "id": "Giza City & Faisal", 
+        "Zone": "Giza & Dokki", 
+        "Brick_Name": "Giza City & Faisal"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.101564, 
+              30.063302
+            ], 
+            [
+              31.110655, 
+              30.079478
+            ], 
+            [
+              31.157071, 
+              30.041786
+            ], 
+            [
+              31.172365, 
+              30.001856
+            ], 
+            [
+              31.191114, 
+              29.964818
+            ], 
+            [
+              31.216699, 
+              29.928461
+            ], 
+            [
+              31.248155, 
+              29.89575
+            ], 
+            [
+              31.246307, 
+              29.852992
+            ], 
+            [
+              31.225022, 
+              29.88248
+            ], 
+            [
+              31.192103, 
+              29.857541
+            ], 
+            [
+              31.101564, 
+              30.063302
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Haram (Al-Ahram)", 
+      "properties": {
+        "Brick_ID": "BRK-17", 
+        "name": "Haram (Al-Ahram)", 
+        "District": "Kism El Haram & Al-Ahram Axis", 
+        "Tier": "Tier 1", 
+        "Governorate": "Giza", 
+        "Tier_Number": 1, 
+        "Potential_Index": 0.95, 
+        "id": "Haram (Al-Ahram)", 
+        "Zone": "Giza & Dokki", 
+        "Brick_Name": "Haram (Al-Ahram)"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.12, 
+              30.15
+            ], 
+            [
+              31.153927, 
+              30.15753
+            ], 
+            [
+              31.173653, 
+              30.13706
+            ], 
+            [
+              31.204228, 
+              30.132796
+            ], 
+            [
+              31.235243, 
+              30.121259
+            ], 
+            [
+              31.233244, 
+              30.096289
+            ], 
+            [
+              31.223285, 
+              30.076599
+            ], 
+            [
+              31.214246, 
+              30.068193
+            ], 
+            [
+              31.211721, 
+              30.067909
+            ], 
+            [
+              31.19633, 
+              30.071525
+            ], 
+            [
+              31.1165, 
+              30.127261
+            ], 
+            [
+              31.1165, 
+              30.1493
+            ], 
+            [
+              31.12, 
+              30.15
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Imbaba & Al-Warraq", 
+      "properties": {
+        "Brick_ID": "BRK-30", 
+        "name": "Imbaba & Al-Warraq", 
+        "District": "Kism Imbaba & Kism Al-Warraq", 
+        "Tier": "Tier 2", 
+        "Governorate": "Giza", 
+        "Tier_Number": 2, 
+        "Potential_Index": 0.9, 
+        "id": "Imbaba & Al-Warraq", 
+        "Zone": "Giza & Dokki", 
+        "Brick_Name": "Imbaba & Al-Warraq"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.043184, 
+              30.003693
+            ], 
+            [
+              31.041059, 
+              29.999857
+            ], 
+            [
+              31.009295, 
+              29.989853
+            ], 
+            [
+              30.948676, 
+              30.020162
+            ], 
+            [
+              30.977575, 
+              30.097827
+            ], 
+            [
+              31.043184, 
+              30.003693
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Sheikh Zayed Central", 
+      "properties": {
+        "Brick_ID": "BRK-22", 
+        "name": "Sheikh Zayed Central", 
+        "District": "Sheikh Zayed City Authority (Central, Zayed 2000)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Giza", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.45, 
+        "id": "Sheikh Zayed Central", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "Sheikh Zayed Central"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.977575, 
+              30.097827
+            ], 
+            [
+              30.948676, 
+              30.020162
+            ], 
+            [
+              30.890426, 
+              30.018935
+            ], 
+            [
+              30.875835, 
+              30.033511
+            ], 
+            [
+              30.815225, 
+              30.033511
+            ], 
+            [
+              30.819715, 
+              30.066543
+            ], 
+            [
+              30.90614, 
+              30.068486
+            ], 
+            [
+              30.97, 
+              30.12
+            ], 
+            [
+              30.975433, 
+              30.121087
+            ], 
+            [
+              30.977575, 
+              30.097827
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Sheikh Zayed Beverly Hills", 
+      "properties": {
+        "Brick_ID": "BRK-23", 
+        "name": "Sheikh Zayed Beverly Hills", 
+        "District": "Sheikh Zayed City (Beverly Hills, West Somid)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Giza", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.35, 
+        "id": "Sheikh Zayed Beverly Hills", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "Sheikh Zayed Beverly Hills"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.964055, 
+              29.91285
+            ], 
+            [
+              30.890216, 
+              30.018335
+            ], 
+            [
+              30.948676, 
+              30.020162
+            ], 
+            [
+              31.009295, 
+              29.989853
+            ], 
+            [
+              30.964055, 
+              29.91285
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "6th October Dist 1-5", 
+      "properties": {
+        "Brick_ID": "BRK-24", 
+        "name": "6th October Dist 1-5", 
+        "District": "6th of October City (Districts 1 through 5, Hosary)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Giza", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.1, 
+        "id": "6th October Dist 1-5", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "6th October Dist 1-5"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.87566, 
+              30.033466
+            ], 
+            [
+              30.891262, 
+              30.018442
+            ], 
+            [
+              30.897705, 
+              30.006727
+            ], 
+            [
+              30.922509, 
+              29.972131
+            ], 
+            [
+              30.964055, 
+              29.91285
+            ], 
+            [
+              30.96036, 
+              29.900425
+            ], 
+            [
+              30.934109, 
+              29.909528
+            ], 
+            [
+              30.888357, 
+              29.888721
+            ], 
+            [
+              30.854509, 
+              29.926567
+            ], 
+            [
+              30.795022, 
+              29.984914
+            ], 
+            [
+              30.825327, 
+              29.989775
+            ], 
+            [
+              30.81747, 
+              30.032539
+            ], 
+            [
+              30.87566, 
+              30.033466
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "6th October Dist 6-12", 
+      "properties": {
+        "Brick_ID": "BRK-25", 
+        "name": "6th October Dist 6-12", 
+        "District": "6th of October City (Districts 6 through 12, Industrial)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Giza", 
+        "Tier_Number": 2, 
+        "Potential_Index": 0.8, 
+        "id": "6th October Dist 6-12", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "6th October Dist 6-12"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              30.964055, 
+              29.91285
+            ], 
+            [
+              31.009295, 
+              29.989853
+            ], 
+            [
+              31.041059, 
+              29.999857
+            ], 
+            [
+              31.114306, 
+              29.88
+            ], 
+            [
+              31.084116, 
+              29.887343
+            ], 
+            [
+              31.071365, 
+              29.86791
+            ], 
+            [
+              31.012863, 
+              29.877015
+            ], 
+            [
+              30.964055, 
+              29.91285
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Hadayek October", 
+      "properties": {
+        "Brick_ID": "BRK-26", 
+        "name": "Hadayek October", 
+        "District": "October Gardens & New October", 
+        "Tier": "Tier 3", 
+        "Governorate": "Giza", 
+        "Tier_Number": 3, 
+        "Potential_Index": 0.95, 
+        "id": "Hadayek October", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "Hadayek October"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.1165, 
+              30.127261
+            ], 
+            [
+              31.110655, 
+              30.079478
+            ], 
+            [
+              31.101564, 
+              30.063302
+            ], 
+            [
+              31.043184, 
+              30.003693
+            ], 
+            [
+              30.977575, 
+              30.097827
+            ], 
+            [
+              30.975433, 
+              30.121087
+            ], 
+            [
+              31.042274, 
+              30.093131
+            ], 
+            [
+              31.084804, 
+              30.133956
+            ], 
+            [
+              31.1165, 
+              30.1493
+            ], 
+            [
+              31.1165, 
+              30.127261
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Smart Village Complex", 
+      "properties": {
+        "Brick_ID": "BRK-27", 
+        "name": "Smart Village Complex", 
+        "District": "Smart Village Business Park & Desert Road Corridor", 
+        "Tier": "Tier 3", 
+        "Governorate": "Giza", 
+        "Tier_Number": 3, 
+        "Potential_Index": 1.25, 
+        "id": "Smart Village Complex", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "Smart Village Complex"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.041059, 
+              29.999857
+            ], 
+            [
+              31.043184, 
+              30.003693
+            ], 
+            [
+              31.101564, 
+              30.063302
+            ], 
+            [
+              31.166536, 
+              29.91392
+            ], 
+            [
+              31.136231, 
+              29.906137
+            ], 
+            [
+              31.105927, 
+              29.898353
+            ], 
+            [
+              31.114306, 
+              29.88
+            ], 
+            [
+              31.041059, 
+              29.999857
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Hadayek Al-Ahram", 
+      "properties": {
+        "Brick_ID": "BRK-28", 
+        "name": "Hadayek Al-Ahram", 
+        "District": "Al-Ahram Plateau (Hadayek Al-Ahram gates)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Giza", 
+        "Tier_Number": 2, 
+        "Potential_Index": 0.95, 
+        "id": "Hadayek Al-Ahram", 
+        "Zone": "West Cairo (October)", 
+        "Brick_Name": "Hadayek Al-Ahram"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.366569, 
+              29.990036
+            ], 
+            [
+              31.325501, 
+              30.033428
+            ], 
+            [
+              31.337791, 
+              30.074058
+            ], 
+            [
+              31.358564, 
+              30.081887
+            ], 
+            [
+              31.387706, 
+              30.059601
+            ], 
+            [
+              31.378496, 
+              29.984257
+            ], 
+            [
+              31.366569, 
+              29.990036
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Nasr City East", 
+      "properties": {
+        "Brick_ID": "BRK-01", 
+        "name": "Nasr City East", 
+        "District": "Kism 1st Nasr City (East Nasr City, Abbas El-Akkad)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.15, 
+        "id": "Nasr City East", 
+        "Zone": "East Cairo", 
+        "Brick_Name": "Nasr City East"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.281884, 
+              30.057314
+            ], 
+            [
+              31.283177, 
+              30.062298
+            ], 
+            [
+              31.310964, 
+              30.077318
+            ], 
+            [
+              31.337791, 
+              30.074058
+            ], 
+            [
+              31.325501, 
+              30.033428
+            ], 
+            [
+              31.281884, 
+              30.057314
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Nasr City West", 
+      "properties": {
+        "Brick_ID": "BRK-02", 
+        "name": "Nasr City West", 
+        "District": "Kism 2nd Nasr City (West Nasr City, Cairo Stadium)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.1, 
+        "id": "Nasr City West", 
+        "Zone": "East Cairo", 
+        "Brick_Name": "Nasr City West"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.32241, 
+              30.110122
+            ], 
+            [
+              31.347243, 
+              30.118461
+            ], 
+            [
+              31.358564, 
+              30.081887
+            ], 
+            [
+              31.337791, 
+              30.074058
+            ], 
+            [
+              31.310964, 
+              30.077318
+            ], 
+            [
+              31.32241, 
+              30.110122
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Heliopolis (Masr El Gedida)", 
+      "properties": {
+        "Brick_ID": "BRK-03", 
+        "name": "Heliopolis (Masr El Gedida)", 
+        "District": "Kism Masr El Gedida (Korba, Roxy, Merghany)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.45, 
+        "id": "Heliopolis (Masr El Gedida)", 
+        "Zone": "East Cairo", 
+        "Brick_Name": "Heliopolis (Masr El Gedida)"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.347243, 
+              30.118461
+            ], 
+            [
+              31.379615, 
+              30.20255
+            ], 
+            [
+              31.467348, 
+              30.129617
+            ], 
+            [
+              31.387706, 
+              30.059601
+            ], 
+            [
+              31.358564, 
+              30.081887
+            ], 
+            [
+              31.347243, 
+              30.118461
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Sheraton & Nozha", 
+      "properties": {
+        "Brick_ID": "BRK-04", 
+        "name": "Sheraton & Nozha", 
+        "District": "Kism El Nozha & Sheraton Residences", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.3, 
+        "id": "Sheraton & Nozha", 
+        "Zone": "East Cairo", 
+        "Brick_Name": "Sheraton & Nozha"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.318116, 
+              30.193708
+            ], 
+            [
+              31.36, 
+              30.22
+            ], 
+            [
+              31.368146, 
+              30.222715
+            ], 
+            [
+              31.379615, 
+              30.20255
+            ], 
+            [
+              31.347243, 
+              30.118461
+            ], 
+            [
+              31.32241, 
+              30.110122
+            ], 
+            [
+              31.287235, 
+              30.121982
+            ], 
+            [
+              31.318116, 
+              30.193708
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Ain Shams & Matareya", 
+      "properties": {
+        "Brick_ID": "BRK-31", 
+        "name": "Ain Shams & Matareya", 
+        "District": "Kism Ain Shams & Kism El Matareya", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.05, 
+        "id": "Ain Shams & Matareya", 
+        "Zone": "East Cairo", 
+        "Brick_Name": "Ain Shams & Matareya"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.270485, 
+              30.110353
+            ], 
+            [
+              31.285031, 
+              30.113022
+            ], 
+            [
+              31.287235, 
+              30.121791
+            ], 
+            [
+              31.32241, 
+              30.110122
+            ], 
+            [
+              31.310964, 
+              30.077318
+            ], 
+            [
+              31.283177, 
+              30.062298
+            ], 
+            [
+              31.270485, 
+              30.110353
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Hadayek El Kobba & El Zaytoun", 
+      "properties": {
+        "Brick_ID": "BRK-34", 
+        "name": "Hadayek El Kobba & El Zaytoun", 
+        "District": "Kism Hadayek El Kobba & Kism El Zaytoun", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.1, 
+        "id": "Hadayek El Kobba & El Zaytoun", 
+        "Zone": "East Cairo", 
+        "Brick_Name": "Hadayek El Kobba & El Zaytoun"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.518566, 
+              30.122062
+            ], 
+            [
+              31.535051, 
+              30.100413
+            ], 
+            [
+              31.548956, 
+              30.061721
+            ], 
+            [
+              31.422677, 
+              29.977535
+            ], 
+            [
+              31.496917, 
+              30.122392
+            ], 
+            [
+              31.518566, 
+              30.122062
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Fifth Settlement North", 
+      "properties": {
+        "Brick_ID": "BRK-05", 
+        "name": "Fifth Settlement North", 
+        "District": "New Cairo 1st (North 90th St, Golden Square)", 
+        "Tier": "Tier 1", 
+        "Governorate": "New Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.5, 
+        "id": "Fifth Settlement North", 
+        "Zone": "New Cairo", 
+        "Brick_Name": "Fifth Settlement North"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.402978, 
+              29.93028
+            ], 
+            [
+              31.39972, 
+              29.947116
+            ], 
+            [
+              31.422677, 
+              29.977535
+            ], 
+            [
+              31.548956, 
+              30.061721
+            ], 
+            [
+              31.601659, 
+              29.961106
+            ], 
+            [
+              31.577312, 
+              29.939261
+            ], 
+            [
+              31.550375, 
+              29.962601
+            ], 
+            [
+              31.526804, 
+              29.935371
+            ], 
+            [
+              31.46772, 
+              29.868371
+            ], 
+            [
+              31.402978, 
+              29.93028
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Fifth Settlement South", 
+      "properties": {
+        "Brick_ID": "BRK-06", 
+        "name": "Fifth Settlement South", 
+        "District": "New Cairo 5th (South 90th St, Investors Area)", 
+        "Tier": "Tier 1", 
+        "Governorate": "New Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.4, 
+        "id": "Fifth Settlement South", 
+        "Zone": "New Cairo", 
+        "Brick_Name": "Fifth Settlement South"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.496917, 
+              30.122392
+            ], 
+            [
+              31.422677, 
+              29.977535
+            ], 
+            [
+              31.39972, 
+              29.947116
+            ], 
+            [
+              31.378496, 
+              29.984257
+            ], 
+            [
+              31.387706, 
+              30.059601
+            ], 
+            [
+              31.467348, 
+              30.129617
+            ], 
+            [
+              31.496917, 
+              30.122392
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "First & Third Settlements", 
+      "properties": {
+        "Brick_ID": "BRK-07", 
+        "name": "First & Third Settlements", 
+        "District": "New Cairo 1st & 3rd Districts", 
+        "Tier": "Tier 2", 
+        "Governorate": "New Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.05, 
+        "id": "First & Third Settlements", 
+        "Zone": "New Cairo", 
+        "Brick_Name": "First & Third Settlements"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.548956, 
+              30.061721
+            ], 
+            [
+              31.535051, 
+              30.100413
+            ], 
+            [
+              31.718477, 
+              30.122175
+            ], 
+            [
+              31.72, 
+              30.12
+            ], 
+            [
+              31.748297, 
+              30.096018
+            ], 
+            [
+              31.703401, 
+              30.015385
+            ], 
+            [
+              31.627078, 
+              30.011498
+            ], 
+            [
+              31.601659, 
+              29.961106
+            ], 
+            [
+              31.548956, 
+              30.061721
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Madinaty & Rehab", 
+      "properties": {
+        "Brick_ID": "BRK-08", 
+        "name": "Madinaty & Rehab", 
+        "District": "New Cairo City Extension (Madinaty & Al Rehab)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.35, 
+        "id": "Madinaty & Rehab", 
+        "Zone": "New Cairo", 
+        "Brick_Name": "Madinaty & Rehab"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.518566, 
+              30.122062
+            ], 
+            [
+              31.496917, 
+              30.122392
+            ], 
+            [
+              31.467348, 
+              30.129617
+            ], 
+            [
+              31.379615, 
+              30.20255
+            ], 
+            [
+              31.368146, 
+              30.222715
+            ], 
+            [
+              31.406395, 
+              30.237114
+            ], 
+            [
+              31.407193, 
+              30.278453
+            ], 
+            [
+              31.441492, 
+              30.277764
+            ], 
+            [
+              31.460635, 
+              30.280661
+            ], 
+            [
+              31.470207, 
+              30.271017
+            ], 
+            [
+              31.478184, 
+              30.281897
+            ], 
+            [
+              31.520459, 
+              30.249518
+            ], 
+            [
+              31.549972, 
+              30.253652
+            ], 
+            [
+              31.560342, 
+              30.24056
+            ], 
+            [
+              31.579631, 
+              30.236557
+            ], 
+            [
+              31.518566, 
+              30.122062
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "El Obour City", 
+      "properties": {
+        "Brick_ID": "BRK-33", 
+        "name": "El Obour City", 
+        "District": "El Obour City Authority (Residential & Medical)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Qalyubia", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.05, 
+        "id": "El Obour City", 
+        "Zone": "New Cairo", 
+        "Brick_Name": "El Obour City"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.535051, 
+              30.100413
+            ], 
+            [
+              31.518566, 
+              30.122062
+            ], 
+            [
+              31.579631, 
+              30.236557
+            ], 
+            [
+              31.625993, 
+              30.183026
+            ], 
+            [
+              31.701381, 
+              30.218271
+            ], 
+            [
+              31.739542, 
+              30.183349
+            ], 
+            [
+              31.798842, 
+              30.205339
+            ], 
+            [
+              31.833636, 
+              30.135474
+            ], 
+            [
+              31.535051, 
+              30.100413
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "El Shorouk & Badr (NAC Axis)", 
+      "properties": {
+        "Brick_ID": "BRK-36", 
+        "name": "El Shorouk & Badr (NAC Axis)", 
+        "District": "El Shorouk & Badr (NAC Axis)", 
+        "Tier": "Tier 3", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 3, 
+        "Potential_Index": 1, 
+        "id": "El Shorouk & Badr (NAC Axis)", 
+        "Zone": "New Cairo", 
+        "Brick_Name": "El Shorouk & Badr (NAC Axis)"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.276979, 
+              30.052919
+            ], 
+            [
+              31.266937, 
+              30.026707
+            ], 
+            [
+              31.257625, 
+              30.027562
+            ], 
+            [
+              31.231, 
+              30.040875
+            ], 
+            [
+              31.231, 
+              30.05
+            ], 
+            [
+              31.226052, 
+              30.062992
+            ], 
+            [
+              31.226854, 
+              30.066986
+            ], 
+            [
+              31.276979, 
+              30.052919
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Downtown (Wust El Balad)", 
+      "properties": {
+        "Brick_ID": "BRK-09", 
+        "name": "Downtown (Wust El Balad)", 
+        "District": "Kism Abdeen, Bab El Louq, Azbakeya", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.05, 
+        "id": "Downtown (Wust El Balad)", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "Downtown (Wust El Balad)"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.257625, 
+              30.027562
+            ], 
+            [
+              31.231402, 
+              30.02494
+            ], 
+            [
+              31.228652, 
+              30.036361
+            ], 
+            [
+              31.231, 
+              30.040875
+            ], 
+            [
+              31.257625, 
+              30.027562
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Garden City & Kasr Al-Ainy", 
+      "properties": {
+        "Brick_ID": "BRK-11", 
+        "name": "Garden City & Kasr Al-Ainy", 
+        "District": "Kism Qasr El Nil & Medical District (Kasr Al-Ainy)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.5, 
+        "id": "Garden City & Kasr Al-Ainy", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "Garden City & Kasr Al-Ainy"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.269824, 
+              30.110544
+            ], 
+            [
+              31.283177, 
+              30.062298
+            ], 
+            [
+              31.281884, 
+              30.057314
+            ], 
+            [
+              31.276979, 
+              30.052919
+            ], 
+            [
+              31.226654, 
+              30.066986
+            ], 
+            [
+              31.227858, 
+              30.076885
+            ], 
+            [
+              31.231284, 
+              30.085559
+            ], 
+            [
+              31.242795, 
+              30.105056
+            ], 
+            [
+              31.269824, 
+              30.110544
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Shubra", 
+      "properties": {
+        "Brick_ID": "BRK-12", 
+        "name": "Shubra", 
+        "District": "Kism Shubra & Kism Rod El Farag", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 0.85, 
+        "id": "Shubra", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "Shubra"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.187646, 
+              30.162627
+            ], 
+            [
+              31.318557, 
+              30.193518
+            ], 
+            [
+              31.288043, 
+              30.124535
+            ], 
+            [
+              31.284937, 
+              30.112804
+            ], 
+            [
+              31.242983, 
+              30.105359
+            ], 
+            [
+              31.238, 
+              30.13
+            ], 
+            [
+              31.187646, 
+              30.162627
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Shubra El-Kheima", 
+      "properties": {
+        "Brick_ID": "BRK-29", 
+        "name": "Shubra El-Kheima", 
+        "District": "Kism 1st & 2nd Shubra El-Kheima", 
+        "Tier": "Tier 2", 
+        "Governorate": "Qalyubia", 
+        "Tier_Number": 2, 
+        "Potential_Index": 0.85, 
+        "id": "Shubra El-Kheima", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "Shubra El-Kheima"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.257625, 
+              30.027562
+            ], 
+            [
+              31.266937, 
+              30.026707
+            ], 
+            [
+              31.268643, 
+              29.997289
+            ], 
+            [
+              31.242281, 
+              29.977865
+            ], 
+            [
+              31.238, 
+              29.985
+            ], 
+            [
+              31.232, 
+              30.01
+            ], 
+            [
+              31.231402, 
+              30.02494
+            ], 
+            [
+              31.257625, 
+              30.027562
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Old Cairo & Sayeda Zeinab", 
+      "properties": {
+        "Brick_ID": "BRK-35", 
+        "name": "Old Cairo & Sayeda Zeinab", 
+        "District": "Kism Masr El Qadima & Kism El Sayeda Zeinab", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.15, 
+        "id": "Old Cairo & Sayeda Zeinab", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "Old Cairo & Sayeda Zeinab"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.268643, 
+              29.997289
+            ], 
+            [
+              31.272244, 
+              29.995695
+            ], 
+            [
+              31.313179, 
+              29.906382
+            ], 
+            [
+              31.284278, 
+              29.891804
+            ], 
+            [
+              31.265, 
+              29.94
+            ], 
+            [
+              31.25, 
+              29.965
+            ], 
+            [
+              31.242281, 
+              29.977865
+            ], 
+            [
+              31.268643, 
+              29.997289
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Maadi Sarayat & Degla", 
+      "properties": {
+        "Brick_ID": "BRK-18", 
+        "name": "Maadi Sarayat & Degla", 
+        "District": "Kism Maadi (Sarayat El Maadi, Degla)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.4, 
+        "id": "Maadi Sarayat & Degla", 
+        "Zone": "South Cairo", 
+        "Brick_Name": "Maadi Sarayat & Degla"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.313179, 
+              29.906382
+            ], 
+            [
+              31.272244, 
+              29.995695
+            ], 
+            [
+              31.366569, 
+              29.990036
+            ], 
+            [
+              31.378496, 
+              29.984257
+            ], 
+            [
+              31.39972, 
+              29.947116
+            ], 
+            [
+              31.402978, 
+              29.93028
+            ], 
+            [
+              31.313179, 
+              29.906382
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "New Maadi & Zahraa", 
+      "properties": {
+        "Brick_ID": "BRK-19", 
+        "name": "New Maadi & Zahraa", 
+        "District": "Kism Basatin (New Maadi, Zahraa El Maadi)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.1, 
+        "id": "New Maadi & Zahraa", 
+        "Zone": "South Cairo", 
+        "Brick_Name": "New Maadi & Zahraa"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.272244, 
+              29.995695
+            ], 
+            [
+              31.268643, 
+              29.997289
+            ], 
+            [
+              31.266937, 
+              30.026707
+            ], 
+            [
+              31.276979, 
+              30.052919
+            ], 
+            [
+              31.281884, 
+              30.057314
+            ], 
+            [
+              31.325501, 
+              30.033428
+            ], 
+            [
+              31.366569, 
+              29.990036
+            ], 
+            [
+              31.272244, 
+              29.995695
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Mokattam", 
+      "properties": {
+        "Brick_ID": "BRK-20", 
+        "name": "Mokattam", 
+        "District": "Kism Mokattam & Mokattam Plateau", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1, 
+        "id": "Mokattam", 
+        "Zone": "South Cairo", 
+        "Brick_Name": "Mokattam"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.313179, 
+              29.906382
+            ], 
+            [
+              31.402978, 
+              29.93028
+            ], 
+            [
+              31.46772, 
+              29.868371
+            ], 
+            [
+              31.407831, 
+              29.844664
+            ], 
+            [
+              31.413443, 
+              29.780389
+            ], 
+            [
+              31.296713, 
+              29.776493
+            ], 
+            [
+              31.301203, 
+              29.849532
+            ], 
+            [
+              31.285, 
+              29.89
+            ], 
+            [
+              31.284278, 
+              29.891804
+            ], 
+            [
+              31.313179, 
+              29.906382
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Helwan & 15th of May", 
+      "properties": {
+        "Brick_ID": "BRK-21", 
+        "name": "Helwan & 15th of May", 
+        "District": "Kism Helwan & 15th of May City", 
+        "Tier": "Tier 3", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 3, 
+        "Potential_Index": 0.75, 
+        "id": "Helwan & 15th of May", 
+        "Zone": "South Cairo", 
+        "Brick_Name": "Helwan & 15th of May"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.221547, 
+              30.073515
+            ], 
+            [
+              31.223659, 
+              30.0673
+            ], 
+            [
+              31.22587, 
+              30.055363
+            ], 
+            [
+              31.227918, 
+              30.045318
+            ], 
+            [
+              31.225529, 
+              30.039409
+            ], 
+            [
+              31.222798, 
+              30.039113
+            ], 
+            [
+              31.218873, 
+              30.047682
+            ], 
+            [
+              31.216654, 
+              30.058613
+            ], 
+            [
+              31.215118, 
+              30.065555
+            ], 
+            [
+              31.216654, 
+              30.067918
+            ], 
+            [
+              31.221547, 
+              30.073515
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "Zamalek", 
+      "properties": {
+        "Brick_ID": "BRK-10", 
+        "name": "Zamalek", 
+        "District": "Kism Qasr El Nil (Zamalek Island)", 
+        "Tier": "Tier 1", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 1, 
+        "Potential_Index": 1.4, 
+        "id": "Zamalek", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "Zamalek"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              31.228, 
+              30.035
+            ], 
+            [
+              31.230062, 
+              30.030144
+            ], 
+            [
+              31.229388, 
+              30.024654
+            ], 
+            [
+              31.227094, 
+              30.014142
+            ], 
+            [
+              31.224801, 
+              30.007483
+            ], 
+            [
+              31.222642, 
+              30.01017
+            ], 
+            [
+              31.222103, 
+              30.015894
+            ], 
+            [
+              31.222912, 
+              30.027107
+            ], 
+            [
+              31.226, 
+              30.034
+            ], 
+            [
+              31.228, 
+              30.035
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "id": "El Manial & Roda Island", 
+      "properties": {
+        "Brick_ID": "BRK-32", 
+        "name": "El Manial & Roda Island", 
+        "District": "Kism Masr El Qadima (El Roda Island & El Manial)", 
+        "Tier": "Tier 2", 
+        "Governorate": "Cairo", 
+        "Tier_Number": 2, 
+        "Potential_Index": 1.4, 
+        "id": "El Manial & Roda Island", 
+        "Zone": "Downtown & Central", 
+        "Brick_Name": "El Manial & Roda Island"
+      }
+    }
+  ]
+}

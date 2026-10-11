@@ -1,0 +1,61 @@
+table dim_doctor_schedule
+	lineageTag: ccb15cf9-3e9a-4fc3-90b2-171467651a1d
+
+	column Doctor_ID
+		dataType: string
+		lineageTag: 256e1859-38ea-4e54-b2a8-7ac814e7eb96
+		summarizeBy: none
+		sourceColumn: Doctor_ID
+
+	column Saturday
+		dataType: string
+		lineageTag: 4cc5a52f-5046-4a31-9079-ef3a6dad9af1
+		summarizeBy: none
+		sourceColumn: Saturday
+
+	column Sunday
+		dataType: string
+		lineageTag: 3263537f-c607-4612-806f-eb118a29081d
+		summarizeBy: none
+		sourceColumn: Sunday
+
+	column Monday
+		dataType: string
+		lineageTag: c6e5a1b6-7fa8-4a3b-8ad5-1eae9ce4ca21
+		summarizeBy: none
+		sourceColumn: Monday
+
+	column Tuesday
+		dataType: string
+		lineageTag: c85ba5a6-306e-4989-afc3-b7218ca92858
+		summarizeBy: none
+		sourceColumn: Tuesday
+
+	column Wednesday
+		dataType: string
+		lineageTag: 67e690cc-69c9-4a6a-a1f0-fee8b0afd75c
+		summarizeBy: none
+		sourceColumn: Wednesday
+
+	column Thursday
+		dataType: string
+		lineageTag: 23e6f37b-2f46-4539-9025-5eee306febbe
+		summarizeBy: none
+		sourceColumn: Thursday
+
+	column Friday
+		dataType: string
+		lineageTag: 21481eb6-ba96-45f6-a0b2-a9918ddc1f41
+		summarizeBy: none
+		sourceColumn: Friday
+
+	partition dim_doctor_schedule = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_doctor_schedule.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Doctor_ID", type text}, {"Saturday", type text}, {"Sunday", type text}, {"Monday", type text}, {"Tuesday", type text}, {"Wednesday", type text}, {"Thursday", type text}, {"Friday", type text}})
+				in
+				    #"Changed Type"
+

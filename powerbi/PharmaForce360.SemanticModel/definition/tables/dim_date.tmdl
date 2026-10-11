@@ -1,0 +1,121 @@
+table dim_date
+	lineageTag: e87582e9-4c92-4415-8717-f4f17fe45544
+
+	column Date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 0c7be5cd-3002-441e-bfa4-3aa4f89da1e4
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 1264aeab-8c74-41f3-a45a-80524c1594ad
+			defaultHierarchy: LocalDateTable_4e286065-d10a-4497-8ed3-56d74e6ee415.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Date_Key
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ea4f020-0716-4d54-84ee-0cb61cfe40cf
+		summarizeBy: none
+		sourceColumn: Date_Key
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 8448f33f-7aa4-4310-aba1-a4c5a3558671
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: a922156a-2b8f-45c7-b6fb-7ae4b6ab0226
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: b38ef6a1-47a5-4b6d-a886-74a456e85073
+		summarizeBy: sum
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month_Name
+		dataType: string
+		lineageTag: bd5f3082-ca59-4560-a36a-a41afd6d336b
+		summarizeBy: none
+		sourceColumn: Month_Name
+
+	column Day
+		dataType: int64
+		formatString: 0
+		lineageTag: 3de3ad83-1547-490f-986f-7aa4b422713d
+		summarizeBy: sum
+		sourceColumn: Day
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day_Of_Week
+		dataType: string
+		lineageTag: a8de00da-d91f-4c58-9486-36d446ca58a8
+		summarizeBy: none
+		sourceColumn: Day_Of_Week
+
+	column Year_Month
+		dataType: string
+		lineageTag: 64970b71-8a0e-407c-8f22-6cb273f43d21
+		summarizeBy: none
+		sourceColumn: Year_Month
+
+	column Is_Weekend
+		dataType: boolean
+		lineageTag: 42796668-2062-45c5-b82e-1c01310530d7
+		summarizeBy: none
+		sourceColumn: Is_Weekend
+
+	column Is_Ramadan
+		dataType: boolean
+		lineageTag: 4af9b83d-c6fd-4bfd-b134-a2cad570147f
+		summarizeBy: none
+		sourceColumn: Is_Ramadan
+
+	column Holiday_Name
+		dataType: string
+		lineageTag: fbd7c6d6-398a-4d37-88aa-6c64ad0ac1b3
+		summarizeBy: none
+		sourceColumn: Holiday_Name
+
+	column Is_Egyptian_Holiday
+		dataType: boolean
+		lineageTag: e78ca570-98c8-49ea-a0b4-0b57f518b853
+		summarizeBy: none
+		sourceColumn: Is_Egyptian_Holiday
+
+	column Is_Workday
+		dataType: boolean
+		lineageTag: a8e66f02-d509-42c5-ae2a-a9ce9a211d62
+		summarizeBy: none
+		sourceColumn: Is_Workday
+
+	column Is_Winter_Rain_Event
+		dataType: boolean
+		lineageTag: f79898b5-46ce-4178-90e6-74f09f9841cf
+		summarizeBy: none
+		sourceColumn: Is_Winter_Rain_Event
+
+	partition dim_date = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_date.csv"), [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Date", type date}, {"Date_Key", Int64.Type}, {"Year", Int64.Type}, {"Quarter", type text}, {"Month", Int64.Type}, {"Month_Name", type text}, {"Day", Int64.Type}, {"Day_Of_Week", type text}, {"Year_Month", type text}, {"Is_Weekend", type logical}, {"Is_Ramadan", type logical}, {"Holiday_Name", type text}, {"Is_Egyptian_Holiday", type logical}, {"Is_Workday", type logical}, {"Is_Winter_Rain_Event", type logical}})
+				in
+				    #"Changed Type"
+

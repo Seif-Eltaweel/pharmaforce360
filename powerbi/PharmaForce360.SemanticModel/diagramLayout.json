@@ -1,0 +1,269 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 208.26387474107059
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1956.2972119524313,
+            "y": 835.653127469016
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "78130a4e-7e7a-4352-b44e-3cdb9bf0936f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 893.48563971293481,
+            "y": 252.1678641549945
+          },
+          "nodeIndex": "dim_account",
+          "nodeLineageTag": "a2a22907-3b2b-4615-b6da-9d3a9b528f88",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 977.72734978600261,
+            "y": 759.49897894493165
+          },
+          "nodeIndex": "dim_brick_territory",
+          "nodeLineageTag": "ab9cd420-97ef-4040-96a7-481f2d41a600",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 1142.5279234364591
+          },
+          "nodeIndex": "dim_competitor_product",
+          "nodeLineageTag": "dbf9f527-9fdc-43e1-8f0f-567fbe46ed32",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 810.31029248511027,
+            "y": 1014.2693212185477
+          },
+          "nodeIndex": "dim_date",
+          "nodeLineageTag": "e87582e9-4c92-4415-8717-f4f17fe45544",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 413.2540918827624,
+            "y": 252.2378542029935
+          },
+          "nodeIndex": "dim_distributor",
+          "nodeLineageTag": "11cd069b-c899-4505-b108-463ada92f147",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1200.6485596455429,
+            "y": 163.83856425577051
+          },
+          "nodeIndex": "dim_doctor",
+          "nodeLineageTag": "08563534-1942-4290-a354-9cf27f47668b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1652.3424777026244,
+            "y": 310.84364341331275
+          },
+          "nodeIndex": "dim_doctor_schedule",
+          "nodeLineageTag": "ccb15cf9-3e9a-4fc3-90b2-171467651a1d",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1119.84119168931,
+            "y": 1143.296778274495
+          },
+          "nodeIndex": "dim_medical_rep",
+          "nodeLineageTag": "b92c8a5a-9e28-4ec9-b2fb-0883509fc0bf",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50.094952666283461,
+            "y": 512.18391955755851
+          },
+          "nodeIndex": "dim_pharmacy",
+          "nodeLineageTag": "1b0b4bde-82d5-4572-9a9e-b3cb863208b0",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 499.98749661976194,
+            "y": 1153.7451574452853
+          },
+          "nodeIndex": "dim_product",
+          "nodeLineageTag": "df4704e1-7ac4-4202-9f34-e510bdbad3a1",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1475.6206034352483,
+            "y": 0
+          },
+          "nodeIndex": "fact_doctor_predictions",
+          "nodeLineageTag": "4afa792c-a129-4972-bd2f-e68fcd5aa029",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1554.0453369084269,
+            "y": 645.03521616911212
+          },
+          "nodeIndex": "fact_dr_expense",
+          "nodeLineageTag": "77d5e5bd-3ae2-456b-8ab2-51bf6db2acba",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 815.65247187987984,
+            "y": 1365.0397440729225
+          },
+          "nodeIndex": "fact_ims_market_audit",
+          "nodeLineageTag": "ecb9d8e7-f6e6-446a-a66f-c610169b4548",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 339.96323823911086,
+            "y": 796.79637788690764
+          },
+          "nodeIndex": "fact_pharmacy_sales",
+          "nodeLineageTag": "7c4ece04-d084-47ac-98c6-f7f7b8d24f22",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 632.29722050523048,
+            "y": 532.75328245174228
+          },
+          "nodeIndex": "fact_pharmacy_visits",
+          "nodeLineageTag": "de619494-eaf4-4f0d-80aa-1ff9549efac8",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 252.98210006416053,
+            "y": 1514.8530448346849
+          },
+          "nodeIndex": "fact_rep_targets",
+          "nodeLineageTag": "232f0e23-e367-46ab-9b22-91390d277684",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1267.5572344428638,
+            "y": 518.82821659076626
+          },
+          "nodeIndex": "fact_rep_visits",
+          "nodeLineageTag": "bd958ffb-a62d-4c0b-809a-09cffaf9d630",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1142.3010736407364,
+            "y": 1601.7115359422214
+          },
+          "nodeIndex": "fact_rep_weekly_plan",
+          "nodeLineageTag": "f04852d0-b731-4056-a440-76ba43ea84f0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 35.723911128792075,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

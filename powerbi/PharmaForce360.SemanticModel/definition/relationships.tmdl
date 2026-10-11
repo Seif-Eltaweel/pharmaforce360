@@ -1,0 +1,159 @@
+relationship Rel_Sales_Date
+	fromColumn: fact_pharmacy_sales.Date_Key
+	toColumn: dim_date.Date_Key
+
+relationship Rel_RepVisits_Date
+	fromColumn: fact_rep_visits.Date_Key
+	toColumn: dim_date.Date_Key
+
+relationship Rel_PharmVisits_Date
+	fromColumn: fact_pharmacy_visits.Date_Key
+	toColumn: dim_date.Date_Key
+
+relationship Rel_Targets_Date
+	fromColumn: fact_rep_targets.Date_Key
+	toColumn: dim_date.Date_Key
+
+relationship Rel_Expense_Date
+	fromColumn: fact_dr_expense.Date_Key
+	toColumn: dim_date.Date_Key
+
+relationship Rel_IMS_Date
+	fromColumn: fact_ims_market_audit.Date_Key
+	toColumn: dim_date.Date_Key
+
+relationship Rel_Plan_Date
+	fromColumn: fact_rep_weekly_plan.Week_Start_Date
+	toColumn: dim_date.Date
+
+relationship Rel_Sales_Brick
+	fromColumn: fact_pharmacy_sales.Brick_ID
+	toColumn: dim_brick_territory.Brick_ID
+
+relationship Rel_RepVisits_Brick
+	fromColumn: fact_rep_visits.Brick_ID
+	toColumn: dim_brick_territory.Brick_ID
+
+relationship Rel_PharmVisits_Brick
+	fromColumn: fact_pharmacy_visits.Brick_ID
+	toColumn: dim_brick_territory.Brick_ID
+
+relationship Rel_IMS_Brick
+	fromColumn: fact_ims_market_audit.Brick_ID
+	toColumn: dim_brick_territory.Brick_ID
+
+relationship Rel_Expense_Brick
+	fromColumn: fact_dr_expense.Brick_ID
+	toColumn: dim_brick_territory.Brick_ID
+
+relationship Rel_Sales_Product
+	fromColumn: fact_pharmacy_sales.Product_ID
+	toColumn: dim_product.Product_ID
+
+relationship Rel_Targets_Product
+	fromColumn: fact_rep_targets.Product_ID
+	toColumn: dim_product.Product_ID
+
+relationship Rel_IMS_Product
+	fromColumn: fact_ims_market_audit.Product_ID
+	toColumn: dim_product.Product_ID
+
+relationship Rel_PharmVisits_Product
+	fromColumn: fact_pharmacy_visits.Product_Audited_ID
+	toColumn: dim_product.Product_ID
+
+relationship Rel_RepVisits_Product1
+	fromColumn: fact_rep_visits.Product_Detailed_1
+	toColumn: dim_product.Product_ID
+
+relationship Rel_RepVisits_Product2
+	isActive: false
+	fromColumn: fact_rep_visits.Product_Detailed_2
+	toColumn: dim_product.Product_ID
+
+relationship Rel_Competitor_TargetProduct
+	fromColumn: dim_competitor_product.Target_Product_ID
+	toColumn: dim_product.Product_ID
+
+relationship Rel_RepVisits_Rep
+	fromColumn: fact_rep_visits.Rep_ID
+	toColumn: dim_medical_rep.Rep_ID
+
+relationship Rel_PharmVisits_Rep
+	fromColumn: fact_pharmacy_visits.Rep_ID
+	toColumn: dim_medical_rep.Rep_ID
+
+relationship Rel_Targets_Rep
+	fromColumn: fact_rep_targets.Rep_ID
+	toColumn: dim_medical_rep.Rep_ID
+
+relationship Rel_Plan_Rep
+	fromColumn: fact_rep_weekly_plan.Rep_ID
+	toColumn: dim_medical_rep.Rep_ID
+
+relationship Rel_Expense_Rep
+	fromColumn: fact_dr_expense.Rep_ID
+	toColumn: dim_medical_rep.Rep_ID
+
+relationship Rel_RepVisits_Doctor
+	fromColumn: fact_rep_visits.Doctor_ID
+	toColumn: dim_doctor.Doctor_ID
+
+relationship Rel_Expense_Doctor
+	fromColumn: fact_dr_expense.Doctor_ID
+	toColumn: dim_doctor.Doctor_ID
+
+relationship Rel_Predictions_Doctor
+	fromColumn: fact_doctor_predictions.Doctor_ID
+	toColumn: dim_doctor.Doctor_ID
+
+relationship Rel_Schedule_Doctor
+	fromColumn: dim_doctor_schedule.Doctor_ID
+	toColumn: dim_doctor.Doctor_ID
+
+relationship Rel_Sales_Pharmacy
+	fromColumn: fact_pharmacy_sales.Pharmacy_ID
+	toColumn: dim_pharmacy.Pharmacy_ID
+
+relationship Rel_PharmVisits_Pharmacy
+	fromColumn: fact_pharmacy_visits.Pharmacy_ID
+	toColumn: dim_pharmacy.Pharmacy_ID
+
+relationship Rel_Sales_Distributor
+	fromColumn: fact_pharmacy_sales.Distributor_ID
+	toColumn: dim_distributor.Distributor_ID
+
+relationship Rel_Pharmacy_Distributor
+	isActive: false
+	fromColumn: dim_pharmacy.Primary_Distributor_ID
+	toColumn: dim_distributor.Distributor_ID
+
+relationship Rel_PharmVisits_Distributor
+	isActive: false
+	fromColumn: fact_pharmacy_visits.Fulfilled_Distributor_ID
+	toColumn: dim_distributor.Distributor_ID
+
+relationship Rel_RepVisits_Account
+	fromColumn: fact_rep_visits.Account_ID
+	toColumn: dim_account.Account_ID
+
+relationship Rel_ClosedLoop_Visit
+	isActive: false
+	fromColumn: fact_pharmacy_visits.Related_Doctor_Visit_ID
+	toColumn: fact_rep_visits.Visit_ID
+
+relationship 1264aeab-8c74-41f3-a45a-80524c1594ad
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_date.Date
+	toColumn: LocalDateTable_4e286065-d10a-4497-8ed3-56d74e6ee415.Date
+
+relationship 45ee6c3a-0d33-4fb6-997f-3b60d8d0bd39
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_medical_rep.Hire_Date
+	toColumn: LocalDateTable_1a782bb4-5a36-46a5-a642-b38190d31b2e.Date
+
+relationship 6303c546-df2b-484e-bb32-ad7c90e049b0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact_rep_weekly_plan.Submission_Date
+	toColumn: LocalDateTable_806422c2-cef7-4c30-9b92-0fca7f746e37.Date
+

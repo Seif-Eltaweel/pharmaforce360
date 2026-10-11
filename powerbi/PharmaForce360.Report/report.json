@@ -1,0 +1,904 @@
+{
+  "config": "{\"version\":\"5.74\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"type\":2,\"version\":{\"visual\":\"1.8.92\",\"report\":\"2.0.92\",\"page\":\"1.3.92\"}},\"customTheme\":{\"name\":\"PharmaForce360Theme\",\"type\":0,\"version\":{\"visual\":\"2.13.0\",\"report\":\"3.4.0\",\"page\":\"2.3.1\"}}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"isPersistentUserStateDisabled\":false,\"hideVisualContainerHeader\":false,\"useStylableVisualContainerHeader\":false,\"exportDataMode\":0,\"useNewFilterPaneExperience\":false,\"optOutNewFilterPaneExperience\":false,\"defaultFilterActionIsDataFilter\":false,\"useCrossReportDrillthrough\":false,\"allowChangeFilterTypes\":false,\"allowInlineExploration\":false,\"disableFilterPaneSearch\":false,\"enableDeveloperMode\":false,\"useEnhancedTooltips\":false,\"useScaledTooltips\":false,\"useDefaultAggregateDisplayName\":false,\"queryLimitOption\":0,\"customMemoryLimit\":\"1048576\",\"customTimeoutLimit\":\"225\",\"fieldParameterSkipHierarchyLevelPersistence\":false,\"locale\":null,\"defaultDisplayUnitsToNone\":false,\"defaultDataExplorePerspective\":\"\"},\"objects\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "cairo_basemap829787130905711.png",
+            "path": "cairo_basemap829787130905711.png",
+            "type": 100
+          },
+          {
+            "name": "cairo_commercial_bricks5739189556477071.geojson",
+            "path": "cairo_commercial_bricks5739189556477071.geojson",
+            "type": 200
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "02 Commercial and IQVIA Audit",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "Section2",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"Card_S2_1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":5000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Revenue EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue EGP\"},\"Name\":\"_Measures.Total Revenue EGP\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 20.00,
+          "y": 90.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S2_2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":6000,\"x\":270}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Target Revenue EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Target Revenue EGP\"},\"Name\":\"_Measures.Target Revenue EGP\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 270.00,
+          "y": 90.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S2_3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":7000,\"x\":520}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Target Attainment Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Target Attainment Pct\"},\"Name\":\"_Measures.Target Attainment Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 520.00,
+          "y": 90.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S2_4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":8000,\"x\":770}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.IMS Market Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 770.00,
+          "y": 90.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S2_5\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":240,\"z\":9000,\"x\":1020}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Evolution Index EI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Evolution Index EI\"},\"Name\":\"_Measures.Evolution Index EI\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 240.00,
+          "x": 1020.00,
+          "y": 90.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"Header_Commercial\",\"layouts\":[{\"id\":0,\"position\":{\"y\":15,\"height\":65,\"width\":1240,\"z\":0,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Executive Commercial Performance and IQVIA Market Audit (EGP)\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 65.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 15.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"Title_S2_Chart1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":750,\"z\":1000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Monthly Sales Trajectory vs Rep Target Quota (EGP)\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 215.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S2_Chart2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":470,\"z\":2000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Primary Distributors vs Local Wholesalers (El-Makhazen)\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 215.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S2_Chart3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":750,\"z\":3000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Greater Cairo Brick Market Share and Evolution Index (EI) Ranking\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 495.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S2_Chart4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":470,\"z\":4000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Portfolio Price Benchmark vs Market Competitor Brands\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 495.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S2_Dist\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":470,\"z\":11000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Local Wholesalers (El-Makhazen) Revenue Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Local Wholesalers (El-Makhazen) Revenue Pct\"},\"Name\":\"_Measures.Local Wholesalers (El-Makhazen) Revenue Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 255.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S2_EI\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":750,\"z\":12000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Competitor Market Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Competitor Market Share Pct\"},\"Name\":\"_Measures.Competitor Market Share Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 535.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S2_Prices\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":470,\"z\":13000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Avg Selling Price EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Avg Selling Price EGP\"},\"Name\":\"_Measures.Avg Selling Price EGP\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 535.00,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S2_Traj\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":750,\"z\":10000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Target Revenue Variance EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Target Revenue Variance EGP\"},\"Name\":\"_Measures.Target Revenue Variance EGP\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 255.00,
+          "z": 10000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "03 Field Force and Detailing",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "Section3",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"Card_S3_1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":5000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Field Visits\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Field Visits\"},\"Name\":\"_Measures.Total Field Visits\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 20.00,
+          "y": 90.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S3_2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":6000,\"x\":270}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Plan Adherence Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Plan Adherence Pct\"},\"Name\":\"_Measures.Plan Adherence Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 270.00,
+          "y": 90.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S3_3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":7000,\"x\":520}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Tier A KOL Doctor Coverage Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Tier A KOL Doctor Coverage Pct\"},\"Name\":\"_Measures.Tier A KOL Doctor Coverage Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 520.00,
+          "y": 90.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S3_4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":8000,\"x\":770}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Avg Detailing Score\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Avg Detailing Score\"},\"Name\":\"_Measures.Avg Detailing Score\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 770.00,
+          "y": 90.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S3_5\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":240,\"z\":9000,\"x\":1020}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Samples Dropped\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Samples Dropped\"},\"Name\":\"_Measures.Total Samples Dropped\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 240.00,
+          "x": 1020.00,
+          "y": 90.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"Header_Field\",\"layouts\":[{\"id\":0,\"position\":{\"y\":15,\"height\":65,\"width\":1240,\"z\":0,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Field Force Activity and HCP Detailing Operations\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 65.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 15.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"Title_S3_Chart1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":680,\"z\":1000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Medical Rep Detailing Volume and Quality Leaderboard\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 680.00,
+          "x": 20.00,
+          "y": 215.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S3_Chart2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":540,\"z\":2000,\"x\":720}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Detailing Allocation: AM Institutional vs PM Clinics\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 540.00,
+          "x": 720.00,
+          "y": 215.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S3_Chart3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":680,\"z\":3000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Weekly Call Plan Discipline: On-Time vs Delinquent Submissions\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 680.00,
+          "x": 20.00,
+          "y": 495.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S3_Chart4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":540,\"z\":4000,\"x\":720}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Operational Reality: Cairo Rain Traffic Delays and S-Curve Ramp-ups\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 540.00,
+          "x": 720.00,
+          "y": 495.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S3_AMPM\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":540,\"z\":11000,\"x\":720}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.AM Visit Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"AM Visit Share Pct\"},\"Name\":\"_Measures.AM Visit Share Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 540.00,
+          "x": 720.00,
+          "y": 255.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S3_Disrupt\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":540,\"z\":13000,\"x\":720}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Rain Delayed Calls Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Rain Delayed Calls Count\"},\"Name\":\"_Measures.Rain Delayed Calls Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 540.00,
+          "x": 720.00,
+          "y": 535.00,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S3_Leaderboard\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":680,\"z\":10000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Active Prescribing Doctors\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Active Prescribing Doctors\"},\"Name\":\"_Measures.Active Prescribing Doctors\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 680.00,
+          "x": 20.00,
+          "y": 255.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S3_Plan\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":680,\"z\":12000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Weekly Plan On-Time Submission Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Weekly Plan On-Time Submission Pct\"},\"Name\":\"_Measures.Weekly Plan On-Time Submission Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 680.00,
+          "x": 20.00,
+          "y": 535.00,
+          "z": 12000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "04 Brick and Pharmacy Dynamics",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "Section4",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"Card_S4_1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":5000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Pharmacy Audits\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Pharmacy Audits\"},\"Name\":\"_Measures.Total Pharmacy Audits\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 20.00,
+          "y": 90.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S4_2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":6000,\"x\":270}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.In-Stock Rate Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"In-Stock Rate Pct\"},\"Name\":\"_Measures.In-Stock Rate Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 270.00,
+          "y": 90.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S4_3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":7000,\"x\":520}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Stock-Out Rate Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Stock-Out Rate Pct\"},\"Name\":\"_Measures.Stock-Out Rate Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 520.00,
+          "y": 90.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S4_4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":8000,\"x\":770}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Transfer Orders Placed Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Transfer Orders Placed Count\"},\"Name\":\"_Measures.Transfer Orders Placed Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 770.00,
+          "y": 90.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S4_5\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":240,\"z\":9000,\"x\":1020}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Closed-Loop Verification Rate Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Closed-Loop Verification Rate Pct\"},\"Name\":\"_Measures.Closed-Loop Verification Rate Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 240.00,
+          "x": 1020.00,
+          "y": 90.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"Header_Brick\",\"layouts\":[{\"id\":0,\"position\":{\"y\":15,\"height\":65,\"width\":1240,\"z\":0,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Territory Brick Dynamics and Pharmacy Audit Intelligence\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 65.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 15.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"Title_S4_Chart1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":750,\"z\":1000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Greater Cairo Commercial Bricks: Revenue vs Territory Potential\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 215.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S4_Chart2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":470,\"z\":2000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Pharmacy Stock-Out Audit by Chain Affiliation\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 215.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S4_Chart3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":750,\"z\":3000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Closed-Loop Detailing Verification: Doctor Detailing to Retail Sell-Out\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 495.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S4_Chart4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":470,\"z\":4000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Transfer Order Units by Fulfillment Wholesaler\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 495.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S4_Bricks\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":750,\"z\":10000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Units Sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Units Sold\"},\"Name\":\"_Measures.Total Units Sold\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 255.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S4_Chains\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":470,\"z\":11000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Audits Stock-Out Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Audits Stock-Out Count\"},\"Name\":\"_Measures.Audits Stock-Out Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 255.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S4_ClosedLoop\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":750,\"z\":12000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Closed-Loop Verified Visits\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Closed-Loop Verified Visits\"},\"Name\":\"_Measures.Closed-Loop Verified Visits\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 750.00,
+          "x": 20.00,
+          "y": 535.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S4_Transfers\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":470,\"z\":13000,\"x\":790}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Transfer Units\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Transfer Units\"},\"Name\":\"_Measures.Total Transfer Units\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 470.00,
+          "x": 790.00,
+          "y": 535.00,
+          "z": 13000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "05 AI Prescriber Copilot",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "Section5",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"Card_S5_1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":5000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.High Churn Risk Doctor Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"High Churn Risk Doctor Count\"},\"Name\":\"_Measures.High Churn Risk Doctor Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 20.00,
+          "y": 90.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S5_2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":6000,\"x\":270}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Avg Churn Probability Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Avg Churn Probability Pct\"},\"Name\":\"_Measures.Avg Churn Probability Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 270.00,
+          "y": 90.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S5_3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":7000,\"x\":520}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Promotional Expense EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Promotional Expense EGP\"},\"Name\":\"_Measures.Total Promotional Expense EGP\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 520.00,
+          "y": 90.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S5_4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":235,\"z\":8000,\"x\":770}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Free Rider Budget Leakage Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Free Rider Budget Leakage Pct\"},\"Name\":\"_Measures.Free Rider Budget Leakage Pct\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 235.00,
+          "x": 770.00,
+          "y": 90.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"Card_S5_5\",\"layouts\":[{\"id\":0,\"position\":{\"y\":90,\"height\":105,\"width\":240,\"z\":9000,\"x\":1020}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Promotional ROI Ratio\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Promotional ROI Ratio\"},\"Name\":\"_Measures.Promotional ROI Ratio\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 105.00,
+          "width": 240.00,
+          "x": 1020.00,
+          "y": 90.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"Header_AI\",\"layouts\":[{\"id\":0,\"position\":{\"y\":15,\"height\":65,\"width\":1240,\"z\":0,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"AI Prescriber Retention Copilot and Promotional ROI Optimization\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 65.00,
+          "width": 1240.00,
+          "x": 20.00,
+          "y": 15.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"Title_S5_Chart1\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":460,\"z\":1000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Prescriber Churn Risk Tier Distribution\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 460.00,
+          "x": 20.00,
+          "y": 215.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S5_Chart2\",\"layouts\":[{\"id\":0,\"position\":{\"y\":215,\"height\":35,\"width\":760,\"z\":2000,\"x\":500}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"AI Next-Best-Action (NBA) Prescriber Prioritization Queue\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 760.00,
+          "x": 500.00,
+          "y": 215.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S5_Chart3\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":610,\"z\":3000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Promotional Investment vs Free-Rider Leakage by Expense Category\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 610.00,
+          "x": 20.00,
+          "y": 495.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"Title_S5_Chart4\",\"layouts\":[{\"id\":0,\"position\":{\"y\":495,\"height\":35,\"width\":610,\"z\":4000,\"x\":650}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Promotional ROI: Incremental Rx Lift vs Commercial Investment\",\"textStyle\":{\"color\":\"#0A2540\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"15pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 35.00,
+          "width": 610.00,
+          "x": 650.00,
+          "y": 495.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S5_Leakage\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":610,\"z\":12000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Free Rider Expense EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Free Rider Expense EGP\"},\"Name\":\"_Measures.Free Rider Expense EGP\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 610.00,
+          "x": 20.00,
+          "y": 535.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S5_NBA\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":760,\"z\":11000,\"x\":500}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Doctors Scored\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Doctors Scored\"},\"Name\":\"_Measures.Total Doctors Scored\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 760.00,
+          "x": 500.00,
+          "y": 255.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S5_ROI\",\"layouts\":[{\"id\":0,\"position\":{\"y\":535,\"height\":165,\"width\":610,\"z\":13000,\"x\":650}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Incremental Rx Lift Units\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Incremental Rx Lift Units\"},\"Name\":\"_Measures.Incremental Rx Lift Units\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 165.00,
+          "width": 610.00,
+          "x": 650.00,
+          "y": 535.00,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"Visual_S5_RiskTiers\",\"layouts\":[{\"id\":0,\"position\":{\"y\":255,\"height\":220,\"width\":460,\"z\":10000,\"x\":20}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Loyal Prescriber Doctor Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Loyal Prescriber Doctor Count\"},\"Name\":\"_Measures.Loyal Prescriber Doctor Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 220.00,
+          "width": 460.00,
+          "x": 20.00,
+          "y": 255.00,
+          "z": 10000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Executive Overview",
+      "displayOption": 0,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "Section_Executive_Overview",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1a9429b8f386195c3689\",\"layouts\":[{\"id\":0,\"position\":{\"height\":266.09522655682093,\"width\":387.91087153460586,\"x\":0,\"y\":0,\"z\":27000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"image\":[{\"properties\":{\"sourceFile\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'cairo_basemap.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"cairo_basemap829787130905711.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"cornerRadiusAdvanced\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"cornerRadiusRightTop\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"cornerRadiusRightBottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"cornerRadiusLeftBottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"cornerRadiusLeftTop\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"effects\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"blur\":{\"expr\":{\"Literal\":{\"Value\":\"14L\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"padding\":[{\"properties\":{\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}},\"parentGroupName\":\"3b904feec40801cbae3a\"}",
+          "filters": "[]",
+          "height": 266.10,
+          "width": 387.91,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 27000.00
+        },
+        {
+          "config": "{\"name\":\"3b904feec40801cbae3a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":867.5,\"y\":172.65477344317907,\"z\":28001,\"width\":393.75,\"height\":266.09522655682093}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0,\"objects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "height": 266.10,
+          "width": 393.75,
+          "x": 867.50,
+          "y": 172.65,
+          "z": 28001.00
+        },
+        {
+          "config": "{\"name\":\"Accent_Kpi_1\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":226.40419947506567,\"height\":88,\"z\":23000,\"width\":5},\"id\":0}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 5.00,
+          "x": 226.40,
+          "y": 68.80,
+          "z": 23000.00
+        },
+        {
+          "config": "{\"name\":\"Accent_Kpi_2\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":492.4041994750657,\"height\":88,\"z\":24000,\"width\":5},\"id\":0}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00B4D8'\"}}}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00B4D8'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 5.00,
+          "x": 492.40,
+          "y": 68.80,
+          "z": 24000.00
+        },
+        {
+          "config": "{\"name\":\"Accent_Kpi_3\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":758.4041994750656,\"height\":88,\"z\":25000,\"width\":5},\"id\":0}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0070BA'\"}}}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0070BA'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 5.00,
+          "x": 758.40,
+          "y": 68.80,
+          "z": 25000.00
+        },
+        {
+          "config": "{\"name\":\"Accent_Kpi_4\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":1024.4041994750655,\"height\":88,\"z\":26000,\"width\":5},\"id\":0}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 5.00,
+          "x": 1024.40,
+          "y": 68.80,
+          "z": 26000.00
+        },
+        {
+          "config": "{\"name\":\"Card_Call_Attainment\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":758.4041994750656,\"height\":88,\"z\":17000,\"width\":254},\"id\":0}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Plan Adherence Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Plan Adherence Pct\"},\"Name\":\"_Measures.Plan Adherence Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0F172A'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Bold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Call Attainment'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#64748B'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 254.00,
+          "x": 758.40,
+          "y": 68.80,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"Card_Gross_Revenue\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":226.40419947506567,\"height\":88,\"z\":15000,\"width\":254},\"id\":0}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Total Revenue EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue EGP\"},\"Name\":\"_Measures.Total Revenue EGP\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0F172A'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Bold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gross Revenue'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#64748B'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 254.00,
+          "x": 226.40,
+          "y": 68.80,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"Card_High_Risk_KOLs\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":1024.4041994750655,\"height\":88,\"z\":18000,\"width\":257},\"id\":0}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.High Churn Risk Doctor Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"High Churn Risk Doctor Count\"},\"Name\":\"_Measures.High Churn Risk Doctor Count\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0F172A'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Bold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'High-Risk KOLs'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#64748B'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 257.00,
+          "x": 1024.40,
+          "y": 68.80,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"Card_Market_Share\",\"layouts\":[{\"position\":{\"y\":68.79542911413948,\"x\":492.4041994750657,\"height\":88,\"z\":16000,\"width\":254},\"id\":0}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.IMS Market Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0F172A'\"}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Bold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Market Share'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#64748B'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.00,
+          "width": 254.00,
+          "x": 492.40,
+          "y": 68.80,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"Chart_Attainment_Tier\",\"layouts\":[{\"position\":{\"y\":442,\"x\":879,\"height\":266,\"z\":22000,\"width\":391},\"id\":0}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_doctor.Classification\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Total Field Visits\"}],\"Y2\":[{\"queryRef\":\"_Measures.Plan Adherence Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"doc\",\"Entity\":\"dim_doctor\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"doc\"}},\"Property\":\"Classification\"},\"Name\":\"dim_doctor.Classification\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Field Visits\"},\"Name\":\"_Measures.Total Field Visits\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Plan Adherence Pct\"},\"Name\":\"_Measures.Plan Adherence Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00B4D8'\"}}}}}}}],\"lineStyles\":[{\"properties\":{\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Call Attainment Tier Segmentation'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 266.00,
+          "width": 391.00,
+          "x": 879.00,
+          "y": 442.00,
+          "z": 22000.00
+        },
+        {
+          "config": "{\"name\":\"Chart_Brick_Ranking\",\"layouts\":[{\"position\":{\"y\":442,\"x\":215,\"height\":266,\"z\":20000,\"width\":340},\"id\":0}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_brick_territory.Brick_Name\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.IMS Market Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"dim_brick_territory\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Brick_Name\"},\"Name\":\"dim_brick_territory.Brick_Name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0F172A'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Cairo Briking Cairo Brick'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 266.00,
+          "width": 340.00,
+          "x": 215.00,
+          "y": 442.00,
+          "z": 20000.00
+        },
+        {
+          "config": "{\"name\":\"Chart_Distributor_Share\",\"layouts\":[{\"position\":{\"y\":442,\"x\":567,\"height\":266,\"z\":21000,\"width\":300},\"id\":0}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_distributor.Distributor_Name\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.IMS Market Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_distributor\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Distributor_Name\"},\"Name\":\"dim_distributor.Distributor_Name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0F172A'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Distributor Market Share'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 266.00,
+          "width": 300.00,
+          "x": 567.00,
+          "y": 442.00,
+          "z": 21000.00
+        },
+        {
+          "config": "{\"name\":\"Chart_Revenue_MarketShare\",\"layouts\":[{\"position\":{\"x\":215,\"y\":183.75,\"z\":19000,\"width\":611.25,\"height\":250},\"id\":0}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_date.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Total Revenue EGP\"}],\"Y2\":[{\"queryRef\":\"_Measures.IMS Market Share Pct\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_date\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"dim_date.Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue EGP\"},\"Name\":\"_Measures.Total Revenue EGP\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00C2FF'\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"lineStyles\":[{\"properties\":{\"strokeWidth\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gross Revenue and Market Share'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 250.00,
+          "width": 611.25,
+          "x": 215.00,
+          "y": 183.75,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Active_Pill\",\"layouts\":[{\"position\":{\"y\":138,\"x\":10,\"height\":42,\"z\":1000,\"width\":185},\"id\":0}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'roundRectangle'\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00A3E0'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 42.00,
+          "width": 185.00,
+          "x": 10.00,
+          "y": 138.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Brand_Logo\",\"layouts\":[{\"position\":{\"y\":16,\"x\":10,\"height\":55,\"z\":2000,\"width\":185},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"⚕ PharmaForce 360°\",\"textStyle\":{\"color\":\"#FFFFFF\",\"fontFamily\":\"Segoe UI Bold\",\"fontSize\":\"14pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 55.00,
+          "width": 185.00,
+          "x": 10.00,
+          "y": 16.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_1_Active\",\"layouts\":[{\"position\":{\"y\":145,\"x\":18,\"height\":32,\"z\":3000,\"width\":170},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"⊞  Executive Overview\",\"textStyle\":{\"color\":\"#FFFFFF\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"11pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 170.00,
+          "x": 18.00,
+          "y": 145.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_2\",\"layouts\":[{\"position\":{\"y\":198,\"x\":18,\"height\":32,\"z\":4000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Doctors (KOLs)\",\"textStyle\":{\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\",\"color\":\"#cfe0f5\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 198.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_3\",\"layouts\":[{\"position\":{\"y\":248,\"x\":18,\"height\":32,\"z\":5000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Medical Representatives\",\"textStyle\":{\"color\":\"#CFE0F5\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 248.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_4\",\"layouts\":[{\"position\":{\"y\":298,\"x\":18,\"height\":32,\"z\":6000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Bricks\",\"textStyle\":{\"color\":\"#CFE0F5\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 298.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_5\",\"layouts\":[{\"position\":{\"y\":348,\"x\":18,\"height\":32,\"z\":7000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Visits\",\"textStyle\":{\"color\":\"#CFE0F5\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 348.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_6\",\"layouts\":[{\"position\":{\"y\":398,\"x\":18,\"height\":32,\"z\":8000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Drugs & Comparisons\",\"textStyle\":{\"color\":\"#CFE0F5\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 398.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_7\",\"layouts\":[{\"position\":{\"y\":448,\"x\":18,\"height\":32,\"z\":9000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Distributors & Stock\",\"textStyle\":{\"color\":\"#CFE0F5\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 448.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Item_8\",\"layouts\":[{\"position\":{\"y\":498,\"x\":18,\"height\":32,\"z\":10000,\"width\":175},\"id\":0}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Expenses & Budget\",\"textStyle\":{\"color\":\"#CFE0F5\",\"fontFamily\":\"Segoe UI Semibold\",\"fontSize\":\"10pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 32.00,
+          "width": 175.00,
+          "x": 18.00,
+          "y": 498.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"Nav_Sidebar_Bg\",\"layouts\":[{\"position\":{\"y\":0,\"x\":0,\"height\":720,\"z\":0,\"width\":205},\"id\":0}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#071E54'\"}}}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#071E54'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 205.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"Slicer_Line\",\"layouts\":[{\"position\":{\"y\":18.795429114139477,\"x\":226.40419947506567,\"height\":44,\"z\":11000,\"width\":254},\"id\":0}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_product.Therapeutic_Line\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"dim_product\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Therapeutic_Line\"},\"Name\":\"dim_product.Therapeutic_Line\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Line: Cardio-Metabolic'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 44.00,
+          "width": 254.00,
+          "x": 226.40,
+          "y": 18.80,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"Slicer_Period\",\"layouts\":[{\"position\":{\"y\":18.795429114139477,\"x\":758.4041994750656,\"height\":44,\"z\":13000,\"width\":254},\"id\":0}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_date.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"dim_date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Year\"},\"Name\":\"dim_date.Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Period: 2025-2026'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 44.00,
+          "width": 254.00,
+          "x": 758.40,
+          "y": 18.80,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"Slicer_Tier\",\"layouts\":[{\"position\":{\"y\":18.795429114139477,\"x\":1024.4041994750655,\"height\":44,\"z\":14000,\"width\":257},\"id\":0}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_doctor.Classification\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"dim_doctor\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Classification\"},\"Name\":\"dim_doctor.Classification\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tier: Class A'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 44.00,
+          "width": 257.00,
+          "x": 1024.40,
+          "y": 18.80,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"Slicer_Zone\",\"layouts\":[{\"position\":{\"y\":18.795429114139477,\"x\":492.4041994750657,\"height\":44,\"z\":12000,\"width\":254},\"id\":0}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_brick_territory.Zone\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"dim_brick_territory\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Zone\"},\"Name\":\"dim_brick_territory.Zone\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Zone: Greater Cairo'\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E2E8F0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 44.00,
+          "width": 254.00,
+          "x": 492.40,
+          "y": 18.80,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"bbd908fa5bfdfc29dabb\",\"layouts\":[{\"position\":{\"x\":0,\"y\":7.5,\"z\":28000,\"width\":393.75,\"height\":255},\"id\":0}],\"singleVisual\":{\"visualType\":\"shapeMap\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_brick_territory.Brick_Name\",\"active\":true}],\"Tooltips\":[{\"queryRef\":\"dim_brick_territory.Zone\"},{\"queryRef\":\"dim_brick_territory.Tier\"},{\"queryRef\":\"_Measures.Total Revenue EGP\"},{\"queryRef\":\"_Measures.IMS Market Share Pct\"},{\"queryRef\":\"_Measures.Evolution Index EI\"},{\"queryRef\":\"_Measures.Target Attainment Pct\"}],\"ColorSaturation\":[{\"queryRef\":\"_Measures.Total Revenue EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"dim_brick_territory\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Brick_Name\"},\"Name\":\"dim_brick_territory.Brick_Name\",\"NativeReferenceName\":\"Brick_Name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue EGP\"},\"Name\":\"_Measures.Total Revenue EGP\",\"NativeReferenceName\":\"Total Revenue EGP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Zone\"},\"Name\":\"dim_brick_territory.Zone\",\"NativeReferenceName\":\"Zone\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Tier\"},\"Name\":\"dim_brick_territory.Tier\",\"NativeReferenceName\":\"Tier\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\",\"NativeReferenceName\":\"IMS Market Share Pct\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Evolution Index EI\"},\"Name\":\"_Measures.Evolution Index EI\",\"NativeReferenceName\":\"Evolution Index EI\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Target Attainment Pct\"},\"Name\":\"_Measures.Target Attainment Pct\",\"NativeReferenceName\":\"Target Attainment Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"datasourceType\":{\"expr\":{\"Literal\":{\"Value\":\"'file_upload'\"}}},\"map\":{\"geoJson\":{\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'packaged'\"}}},\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'cairo_commercial_bricks.geojson'\"}}},\"content\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"cairo_commercial_bricks5739189556477071.geojson\"}}}}},\"projectionEnum\":{\"expr\":{\"Literal\":{\"Value\":\"'albersUsa'\"}}}}}],\"dataPoint\":[{\"properties\":{}}],\"defaultColors\":[{\"properties\":{\"borderColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"zoom\":[{\"properties\":{\"selectionZoom\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"manualZoom\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"autoZoom\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top Performing Cairo Bricks (Spatial Distribution)'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}},\"parentGroupName\":\"3b904feec40801cbae3a\"}",
+          "filters": "[]",
+          "height": 255.00,
+          "width": 393.75,
+          "x": 0.00,
+          "y": 7.50,
+          "z": 28000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "cd062f19f9ca363f1198",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"dbf6ff9077a209e9288c\",\"layouts\":[{\"position\":{\"x\":355,\"y\":56.25,\"z\":1000,\"width\":892.5,\"height\":522.5},\"id\":0}],\"singleVisual\":{\"visualType\":\"shapeMap\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_brick_territory.Brick_Name\",\"active\":true}],\"Tooltips\":[{\"queryRef\":\"dim_brick_territory.Zone\"},{\"queryRef\":\"dim_brick_territory.Tier\"},{\"queryRef\":\"_Measures.Total Revenue EGP\"},{\"queryRef\":\"_Measures.IMS Market Share Pct\"},{\"queryRef\":\"_Measures.Evolution Index EI\"},{\"queryRef\":\"_Measures.Target Attainment Pct\"}],\"ColorSaturation\":[{\"queryRef\":\"_Measures.Total Revenue EGP\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"dim_brick_territory\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Brick_Name\"},\"Name\":\"dim_brick_territory.Brick_Name\",\"NativeReferenceName\":\"Brick_Name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue EGP\"},\"Name\":\"_Measures.Total Revenue EGP\",\"NativeReferenceName\":\"Total Revenue EGP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Zone\"},\"Name\":\"dim_brick_territory.Zone\",\"NativeReferenceName\":\"Zone\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Tier\"},\"Name\":\"dim_brick_territory.Tier\",\"NativeReferenceName\":\"Tier\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"IMS Market Share Pct\"},\"Name\":\"_Measures.IMS Market Share Pct\",\"NativeReferenceName\":\"IMS Market Share Pct\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Evolution Index EI\"},\"Name\":\"_Measures.Evolution Index EI\",\"NativeReferenceName\":\"Evolution Index EI\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Target Attainment Pct\"},\"Name\":\"_Measures.Target Attainment Pct\",\"NativeReferenceName\":\"Target Attainment Pct\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"datasourceType\":{\"expr\":{\"Literal\":{\"Value\":\"'file_upload'\"}}},\"map\":{\"geoJson\":{\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'packaged'\"}}},\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'cairo_commercial_bricks.geojson'\"}}},\"content\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"cairo_commercial_bricks5739189556477071.geojson\"}}}}},\"projectionEnum\":{\"expr\":{\"Literal\":{\"Value\":\"'albersUsa'\"}}}}}],\"dataPoint\":[{\"properties\":{}}],\"defaultColors\":[{\"properties\":{\"borderColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"zoom\":[{\"properties\":{\"selectionZoom\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"manualZoom\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"autoZoom\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0A2540'\"}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top Performing Cairo Bricks (Spatial Distribution)'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 522.50,
+          "width": 892.50,
+          "x": 355.00,
+          "y": 56.25,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"f29c5a94d6bfb0acb280\",\"layouts\":[{\"id\":0,\"position\":{\"height\":545,\"width\":880.6132075471697,\"x\":355,\"y\":50,\"z\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"image\":[{\"properties\":{\"sourceFile\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'cairo_basemap.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"cairo_basemap829787130905711.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"cornerRadiusAdvanced\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"cornerRadiusRightTop\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"cornerRadiusRightBottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"cornerRadiusLeftBottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"cornerRadiusLeftTop\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"effects\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"blur\":{\"expr\":{\"Literal\":{\"Value\":\"14L\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"padding\":[{\"properties\":{\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 545.00,
+          "width": 880.61,
+          "x": 355.00,
+          "y": 50.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "PharmaForce360Theme"
+}

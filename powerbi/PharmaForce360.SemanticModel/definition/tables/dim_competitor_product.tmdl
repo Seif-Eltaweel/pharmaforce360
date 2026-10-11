@@ -1,0 +1,56 @@
+table dim_competitor_product
+	lineageTag: dbf9f527-9fdc-43e1-8f0f-567fbe46ed32
+
+	column Competitor_Product_ID
+		dataType: string
+		lineageTag: ebe69434-6427-492e-b58e-cd4985a27cc5
+		summarizeBy: none
+		sourceColumn: Competitor_Product_ID
+
+	column Competitor_Name
+		dataType: string
+		lineageTag: 210e631a-ac2e-4772-988d-ec611795264b
+		summarizeBy: none
+		sourceColumn: Competitor_Name
+
+	column Competitor_Company
+		dataType: string
+		lineageTag: e6bdcf85-ccab-4dec-941c-a67508decb85
+		summarizeBy: none
+		sourceColumn: Competitor_Company
+
+	column Target_Product_ID
+		dataType: string
+		lineageTag: 4df2cd06-f756-4714-a683-147b502c79f1
+		summarizeBy: none
+		sourceColumn: Target_Product_ID
+
+	column Market_Price_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 2823c93e-c829-4fd0-874a-50961a421130
+		summarizeBy: none
+		sourceColumn: Market_Price_EGP
+
+	column Therapeutic_Class
+		dataType: string
+		lineageTag: 77e26625-85ae-476c-8ecb-01d27480d3d2
+		summarizeBy: none
+		sourceColumn: Therapeutic_Class
+
+	column Market_Position
+		dataType: string
+		lineageTag: e85f3397-8579-4f1b-b0eb-69060c27a5c0
+		summarizeBy: none
+		sourceColumn: Market_Position
+
+	partition dim_competitor_product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_competitor_product.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Competitor_Product_ID", type text}, {"Competitor_Name", type text}, {"Competitor_Company", type text}, {"Target_Product_ID", type text}, {"Market_Price_EGP", type number}, {"Therapeutic_Class", type text}, {"Market_Position", type text}})
+				in
+				    #"Changed Type"
+

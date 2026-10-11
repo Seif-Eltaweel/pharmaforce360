@@ -1,0 +1,63 @@
+table dim_product
+	lineageTag: df4704e1-7ac4-4202-9f34-e510bdbad3a1
+
+	column Product_ID
+		dataType: string
+		lineageTag: 0e077726-9bf0-41c1-b01e-d344f9c58f78
+		summarizeBy: none
+		sourceColumn: Product_ID
+
+	column Product_Name
+		dataType: string
+		lineageTag: 530b81af-ba7a-4afa-995f-685518288e3f
+		summarizeBy: none
+		sourceColumn: Product_Name
+
+	column Therapeutic_Line
+		dataType: string
+		lineageTag: fb8c0e06-dcba-465a-a3b7-aa6586d9e762
+		summarizeBy: none
+		sourceColumn: Therapeutic_Line
+
+	column Active_Ingredient
+		dataType: string
+		lineageTag: fd4ea8cc-6117-4f71-95f2-be4bafd3870f
+		summarizeBy: none
+		sourceColumn: Active_Ingredient
+
+	column Unit_Price_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 5abb572b-4492-48c4-885f-76a47576b883
+		summarizeBy: none
+		sourceColumn: Unit_Price_EGP
+
+	column Dosage_Form
+		dataType: string
+		lineageTag: b668c9b6-efa5-48d8-885c-3d699f9b23ac
+		summarizeBy: none
+		sourceColumn: Dosage_Form
+
+	column Pack_Size
+		dataType: int64
+		formatString: 0
+		lineageTag: d2286a62-9c49-4794-a9eb-88721c1aa95a
+		summarizeBy: none
+		sourceColumn: Pack_Size
+
+	column Is_Shared_Product
+		dataType: boolean
+		lineageTag: 17ab51bc-bcce-45b4-83ac-7a865cb284d5
+		summarizeBy: none
+		sourceColumn: Is_Shared_Product
+
+	partition dim_product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_product.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Product_ID", type text}, {"Product_Name", type text}, {"Therapeutic_Line", type text}, {"Active_Ingredient", type text}, {"Unit_Price_EGP", type number}, {"Dosage_Form", type text}, {"Pack_Size", Int64.Type}, {"Is_Shared_Product", type logical}})
+				in
+				    #"Changed Type"
+

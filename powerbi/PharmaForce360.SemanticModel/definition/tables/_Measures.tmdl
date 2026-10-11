@@ -1,0 +1,286 @@
+table _Measures
+	lineageTag: 78130a4e-7e7a-4352-b44e-3cdb9bf0936f
+
+	measure 'Total Revenue EGP' = SUM(fact_pharmacy_sales[Total_Revenue_EGP])
+		formatString: #,0 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: 7420194e-485c-4764-9544-83c301619be6
+
+	measure 'Total Units Sold' = SUM(fact_pharmacy_sales[Units_Sold])
+		formatString: #,0
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: 85dfd475-894b-4006-811a-dc437dc65462
+
+	measure 'Target Revenue EGP' = SUM(fact_rep_targets[Target_Revenue_EGP])
+		formatString: #,0 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: a284f5f9-fa7e-4aa2-b004-073ec89f58ed
+
+	measure 'Target Units' = SUM(fact_rep_targets[Target_Units])
+		formatString: #,0
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: d0c0d8e9-a0d8-474b-a7e9-b144e4f4c4c8
+
+	measure 'Target Attainment Pct' = DIVIDE([Total Revenue EGP], [Target Revenue EGP], 0)
+		formatString: 0.0%
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: a2f5e7f0-79a4-48c4-8ce8-bd725765fc9b
+
+	measure 'Target Revenue Variance EGP' = [Total Revenue EGP] - [Target Revenue EGP]
+		formatString: #,0 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: 68d39986-e904-4328-a343-7838435a69b4
+
+	measure 'Target Variance Indicator' = IF([Target Revenue Variance EGP] >= 0, "Surplus", "Deficit")
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: 56a3e684-01a7-4ff3-9edf-58db86a90381
+
+	measure 'Avg Selling Price EGP' = DIVIDE([Total Revenue EGP], [Total Units Sold], 0)
+		formatString: #,0.00 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: 5f059ad9-6b6f-4cb4-9526-a2201dcd3c67
+
+	measure 'Baseline RunRate Revenue EGP' = SUMX(fact_rep_targets, fact_rep_targets[Actual_Baseline_RunRate] * RELATED(dim_product[Unit_Price_EGP]))
+		formatString: #,0 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: fb978a4a-5973-4730-a8be-7f8adf6bc99f
+
+	measure 'Revenue RunRate Lift EGP' = [Total Revenue EGP] - [Baseline RunRate Revenue EGP]
+		formatString: #,0 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: abc544f4-b5af-4827-a723-487be1ac77b6
+
+	measure 'Disrupted Revenue EGP' = CALCULATE([Total Revenue EGP], fact_pharmacy_sales[Supply_Disruption_Flag] = TRUE())
+		formatString: #,0 "EGP"
+		displayFolder: 01 Commercial and Revenue
+		lineageTag: d37629f6-733b-4e8a-8d98-d76d23146b1d
+
+	measure 'Total Field Visits' = COUNTROWS(fact_rep_visits)
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: e4f2f422-e0de-4416-9266-688ce80a4d87
+
+	measure 'AM Institutional Visits' = CALCULATE([Total Field Visits], fact_rep_visits[Visit_Type] = "AM Institutional")
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 52777faf-b156-4f95-b4ce-b3956bab1e79
+
+	measure 'PM Clinic Visits' = CALCULATE([Total Field Visits], fact_rep_visits[Visit_Type] = "PM Private Clinic")
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 5b74cbd7-79e4-48cc-ac86-8f9b450abfd2
+
+	measure 'AM Visit Share Pct' = DIVIDE([AM Institutional Visits], [Total Field Visits], 0)
+		formatString: 0.0%
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: f8d03b07-2a6e-4b24-83a4-f174feecf033
+
+	measure 'PM Visit Share Pct' = DIVIDE([PM Clinic Visits], [Total Field Visits], 0)
+		formatString: 0.0%
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 483f5cc6-f7a2-458f-acbc-b2156aaf9ed2
+
+	measure 'Total Planned Doctor Visits' = SUM(fact_rep_weekly_plan[Planned_Doctor_Visits])
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: bc91d8b0-d287-4d49-a01a-490f450f57d3
+
+	measure 'Plan Adherence Pct' = DIVIDE([Total Field Visits], [Total Planned Doctor Visits], 0)
+		formatString: 0.0%
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 3c1e1845-81d7-4651-99b6-bbf6e4ddbe4b
+
+	measure 'Avg Detailing Score' = AVERAGE(fact_rep_visits[Detailing_Score])
+		formatString: 0.0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: a4b9b764-e803-4b1f-846f-fad1999d4937
+
+	measure 'Avg Call Duration Minutes' = AVERAGE(fact_rep_visits[Call_Duration_Minutes])
+		formatString: 0.0 "min"
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 19ef8ce9-d1f5-4954-bb5c-73c3e0343bac
+
+	measure 'Total Samples Dropped' = SUM(fact_rep_visits[Samples_Dropped_Count])
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 499f42bc-7a12-4b3b-a832-e5f6fdd22c53
+
+	measure 'Rain Delayed Calls Count' = CALCULATE([Total Field Visits], fact_rep_visits[Rain_Traffic_Delay_Flag] = TRUE())
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 360edb91-4a72-4f58-9543-4ed89fccb588
+
+	measure 'Replacement Rep Rampup Calls' = CALCULATE([Total Field Visits], fact_rep_visits[Is_Replacement_Rep_Rampup] = TRUE())
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 93b11f10-9e1e-47a4-98a1-5a06da979c09
+
+	measure 'Active Prescribing Doctors' = DISTINCTCOUNT(fact_rep_visits[Doctor_ID])
+		formatString: #,0
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 9ad3e58f-bea6-4796-9ce0-d34f7863edd1
+
+	measure 'Tier A KOL Doctor Coverage Pct' = DIVIDE(CALCULATE(DISTINCTCOUNT(fact_rep_visits[Doctor_ID]), dim_doctor[Classification] = "Class A (KOL)"), CALCULATE(DISTINCTCOUNT(dim_doctor[Doctor_ID]), dim_doctor[Classification] = "Class A (KOL)"), 0)
+		formatString: 0.0%
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 06bf874d-4f83-4075-a057-4be2bad8a539
+
+	measure 'Weekly Plan On-Time Submission Pct' = DIVIDE(CALCULATE(COUNTROWS(fact_rep_weekly_plan), fact_rep_weekly_plan[Plan_Submission_Status] = "On-Time Saturday Submission"), COUNTROWS(fact_rep_weekly_plan), 0)
+		formatString: 0.0%
+		displayFolder: 02 Field Operations and Detailing
+		lineageTag: 582691a8-5b45-4254-9f22-5555d62e1d02
+
+	measure 'Total Pharmacy Audits' = COUNTROWS(fact_pharmacy_visits)
+		formatString: #,0
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 9ad5fe77-192f-40bf-8bd8-10ca5336efa5
+
+	measure 'Audits In-Stock Count' = CALCULATE([Total Pharmacy Audits], fact_pharmacy_visits[Product_Availability] = "In-Stock")
+		formatString: #,0
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: db18cca7-6421-4ae5-a747-29ab662543df
+
+	measure 'Audits Stock-Out Count' = CALCULATE([Total Pharmacy Audits], fact_pharmacy_visits[Product_Availability] = "Stock-Out")
+		formatString: #,0
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 9f981fb2-0a9f-4a5c-979d-06ee0364a85e
+
+	measure 'In-Stock Rate Pct' = DIVIDE([Audits In-Stock Count], [Total Pharmacy Audits], 0)
+		formatString: 0.0%
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 53e7d2ce-64ed-45fd-a510-8ff53a2898df
+
+	measure 'Stock-Out Rate Pct' = DIVIDE([Audits Stock-Out Count], [Total Pharmacy Audits], 0)
+		formatString: 0.0%
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: cceaff7c-d649-49e9-9508-7957f6aa39c1
+
+	measure 'Transfer Orders Placed Count' = CALCULATE([Total Pharmacy Audits], fact_pharmacy_visits[Transfer_Order_Placed] = TRUE())
+		formatString: #,0
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 930158e0-068d-40c0-b37d-669e7a3603cd
+
+	measure 'Total Transfer Units' = SUM(fact_pharmacy_visits[Transfer_Units])
+		formatString: #,0
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 2e650144-4c78-4835-a2db-6fb0ec9c18ea
+
+	measure 'Closed-Loop Verified Visits' = CALCULATE(COUNTROWS(fact_pharmacy_visits), NOT(ISBLANK(fact_pharmacy_visits[Related_Doctor_Visit_ID])))
+		formatString: #,0
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: ba699b28-64e3-469e-a37d-f25ebc851644
+
+	measure 'Closed-Loop Verification Rate Pct' = DIVIDE([Closed-Loop Verified Visits], [Total Pharmacy Audits], 0)
+		formatString: 0.0%
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: a2cf7847-2e79-49c3-b0cb-0f9c2c344d1b
+
+	measure 'Big 5 Distributor Revenue Pct' = DIVIDE(CALCULATE([Total Revenue EGP], dim_distributor[Distributor_ID] IN {"DIST-01","DIST-02","DIST-03","DIST-04","DIST-05"}), [Total Revenue EGP], 0)
+		formatString: 0.0%
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 8b83b122-4328-4a5d-b184-a8ef2648f49f
+
+	measure 'Local Wholesalers (El-Makhazen) Revenue Pct' = DIVIDE(CALCULATE([Total Revenue EGP], dim_distributor[Distributor_ID] = "DIST-06"), [Total Revenue EGP], 0)
+		formatString: 0.0%
+		displayFolder: 03 Territory and Pharmacy Dynamics
+		lineageTag: 388340a3-3452-4a61-8369-d9b4264fdeda
+
+	measure 'IMS Market Share Pct' = AVERAGE(fact_ims_market_audit[Our_Market_Share_Pct])
+		formatString: 0.0%
+		displayFolder: 04 IMS Market Intelligence
+		lineageTag: 9b180138-9b6f-43fe-8149-3d8d67ff458e
+
+	measure 'Competitor Market Share Pct' = AVERAGE(fact_ims_market_audit[Competitor_Combined_Share_Pct])
+		formatString: 0.0%
+		displayFolder: 04 IMS Market Intelligence
+		lineageTag: 6675cf5e-f6ce-4e7a-b813-2239518ad386
+
+	measure 'Evolution Index EI' = AVERAGE(fact_ims_market_audit[Evolution_Index_EI])
+		formatString: 0.0
+		displayFolder: 04 IMS Market Intelligence
+		lineageTag: 024abe06-155a-4828-9319-0d539d565512
+
+	measure 'Total Market Volume Units' = SUM(fact_ims_market_audit[Total_Market_Volume_Units])
+		formatString: #,0
+		displayFolder: 04 IMS Market Intelligence
+		lineageTag: 9f2aa7a9-0708-4d3f-b6cb-fa27bcdfd792
+
+	measure 'Total Market Value EGP' = SUM(fact_ims_market_audit[Total_Market_Value_EGP])
+		formatString: #,0 "EGP"
+		displayFolder: 04 IMS Market Intelligence
+		lineageTag: 5166d58b-4b4b-48d9-ab7f-04c2e2979269
+
+	measure 'Market Benchmark Status' = IF([Evolution_Index_EI] >= 100, "Market Outperformer (EI >= 100)", "Market Underperformer (EI < 100)")
+		displayFolder: 04 IMS Market Intelligence
+		lineageTag: e2493275-4158-4f14-b72a-008761327dc1
+
+	measure 'Total Doctors Scored' = COUNTROWS(fact_doctor_predictions)
+		formatString: #,0
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: 2925e8d7-58da-4411-8e38-d76381907a88
+
+	measure 'High Churn Risk Doctor Count' = CALCULATE([Total Doctors Scored], fact_doctor_predictions[Retention_Risk_Tier] = "High Churn Risk")
+		formatString: #,0
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: 126272fa-ff13-4cf2-9ef3-4a8f8db63de0
+
+	measure 'Medium Risk Doctor Count' = CALCULATE([Total Doctors Scored], fact_doctor_predictions[Retention_Risk_Tier] = "Medium Risk")
+		formatString: #,0
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: 71802ca1-3bde-4900-a30c-c1ad19c348b3
+
+	measure 'Loyal Prescriber Doctor Count' = CALCULATE([Total Doctors Scored], fact_doctor_predictions[Retention_Risk_Tier] = "Loyal Prescriber")
+		formatString: #,0
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: eeefd46d-0a2e-4a93-8e75-67089c71c4d0
+
+	measure 'Avg Churn Probability Pct' = AVERAGE(fact_doctor_predictions[Prescriber_Churn_Probability])
+		formatString: 0.0%
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: 16579d2b-d45d-47f1-9bff-ca65f40da496
+
+	measure 'Total Promotional Expense EGP' = SUM(fact_dr_expense[Amount_Of_Money_EGP])
+		formatString: #,0 "EGP"
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: d5868691-f431-40e1-8c98-6bee3945cae9
+
+	measure 'Free Rider Expense EGP' = CALCULATE([Total Promotional Expense EGP], fact_dr_expense[Is_Free_Rider] = TRUE())
+		formatString: #,0 "EGP"
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: d286f65d-6b27-40d2-a155-9bafcf5f176d
+
+	measure 'Free Rider Budget Leakage Pct' = DIVIDE([Free Rider Expense EGP], [Total Promotional Expense EGP], 0)
+		formatString: 0.0%
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: 10c479cf-3b5c-4a3b-b4bb-01f94f98e176
+
+	measure 'Free Rider Doctor Count' = CALCULATE(DISTINCTCOUNT(fact_dr_expense[Doctor_ID]), fact_dr_expense[Is_Free_Rider] = TRUE())
+		formatString: #,0
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: b87cb4e3-63ce-40c4-b5f0-a91e5297218a
+
+	measure 'Incremental Rx Lift Units' = SUM(fact_dr_expense[Incremental_Rx_Lift_Units])
+		formatString: #,0
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: 8b6f6fa4-6481-47c8-9b86-ed806fbee13f
+
+	measure 'Promotional ROI Ratio' = DIVIDE(SUMX(fact_dr_expense, fact_dr_expense[Incremental_Rx_Lift_Units] * 150), [Total Promotional Expense EGP], 0)
+		formatString: 0.00 "x"
+		displayFolder: 05 AI Prescriber Copilot
+		lineageTag: d1c82da6-2a82-4de2-a138-1e774afd9207
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: c9446e58-13ce-46b0-88e4-3163058c03d1
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Placeholder = _t])
+				in
+				    Source
+

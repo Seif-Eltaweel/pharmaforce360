@@ -1,0 +1,2076 @@
+{
+  "objects": {
+    "cairo_commercial_bricks": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "properties": {
+            "Brick_ID": "BRK-13",
+            "name": "Mohandessin",
+            "District": "Kism Agouza (Mohandessin, Gameat El Dowal)",
+            "Tier": "Tier 1",
+            "Governorate": "Giza",
+            "Tier_Number": 1,
+            "Potential_Index": 1.45,
+            "id": "Mohandessin",
+            "Zone": "Giza & Dokki",
+            "Brick_Name": "Mohandessin"
+          },
+          "type": "Polygon",
+          "id": "Mohandessin",
+          "arcs": [
+            [
+              0
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-14",
+            "name": "Dokki",
+            "District": "Kism Dokki (Tahrir St, Mossadak, Mehaqi)",
+            "Tier": "Tier 1",
+            "Governorate": "Giza",
+            "Tier_Number": 1,
+            "Potential_Index": 1.35,
+            "id": "Dokki",
+            "Zone": "Giza & Dokki",
+            "Brick_Name": "Dokki"
+          },
+          "type": "Polygon",
+          "id": "Dokki",
+          "arcs": [
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-15",
+            "name": "Agouza",
+            "District": "Kism Agouza (Nile Corniche, Kit Kat)",
+            "Tier": "Tier 2",
+            "Governorate": "Giza",
+            "Tier_Number": 2,
+            "Potential_Index": 1.15,
+            "id": "Agouza",
+            "Zone": "Giza & Dokki",
+            "Brick_Name": "Agouza"
+          },
+          "type": "Polygon",
+          "id": "Agouza",
+          "arcs": [
+            [
+              2
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-16",
+            "name": "Giza City & Faisal",
+            "District": "Kism El Giza & King Faisal Corridor",
+            "Tier": "Tier 1",
+            "Governorate": "Giza",
+            "Tier_Number": 1,
+            "Potential_Index": 0.8,
+            "id": "Giza City & Faisal",
+            "Zone": "Giza & Dokki",
+            "Brick_Name": "Giza City & Faisal"
+          },
+          "type": "Polygon",
+          "id": "Giza City & Faisal",
+          "arcs": [
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-17",
+            "name": "Haram (Al-Ahram)",
+            "District": "Kism El Haram & Al-Ahram Axis",
+            "Tier": "Tier 1",
+            "Governorate": "Giza",
+            "Tier_Number": 1,
+            "Potential_Index": 0.95,
+            "id": "Haram (Al-Ahram)",
+            "Zone": "Giza & Dokki",
+            "Brick_Name": "Haram (Al-Ahram)"
+          },
+          "type": "Polygon",
+          "id": "Haram (Al-Ahram)",
+          "arcs": [
+            [
+              4
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-30",
+            "name": "Imbaba & Al-Warraq",
+            "District": "Kism Imbaba & Kism Al-Warraq",
+            "Tier": "Tier 2",
+            "Governorate": "Giza",
+            "Tier_Number": 2,
+            "Potential_Index": 0.9,
+            "id": "Imbaba & Al-Warraq",
+            "Zone": "Giza & Dokki",
+            "Brick_Name": "Imbaba & Al-Warraq"
+          },
+          "type": "Polygon",
+          "id": "Imbaba & Al-Warraq",
+          "arcs": [
+            [
+              5
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-22",
+            "name": "Sheikh Zayed Central",
+            "District": "Sheikh Zayed City Authority (Central, Zayed 2000)",
+            "Tier": "Tier 1",
+            "Governorate": "Giza",
+            "Tier_Number": 1,
+            "Potential_Index": 1.45,
+            "id": "Sheikh Zayed Central",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "Sheikh Zayed Central"
+          },
+          "type": "Polygon",
+          "id": "Sheikh Zayed Central",
+          "arcs": [
+            [
+              6
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-23",
+            "name": "Sheikh Zayed Beverly Hills",
+            "District": "Sheikh Zayed City (Beverly Hills, West Somid)",
+            "Tier": "Tier 2",
+            "Governorate": "Giza",
+            "Tier_Number": 2,
+            "Potential_Index": 1.35,
+            "id": "Sheikh Zayed Beverly Hills",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "Sheikh Zayed Beverly Hills"
+          },
+          "type": "Polygon",
+          "id": "Sheikh Zayed Beverly Hills",
+          "arcs": [
+            [
+              7
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-24",
+            "name": "6th October Dist 1-5",
+            "District": "6th of October City (Districts 1 through 5, Hosary)",
+            "Tier": "Tier 1",
+            "Governorate": "Giza",
+            "Tier_Number": 1,
+            "Potential_Index": 1.1,
+            "id": "6th October Dist 1-5",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "6th October Dist 1-5"
+          },
+          "type": "Polygon",
+          "id": "6th October Dist 1-5",
+          "arcs": [
+            [
+              8
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-25",
+            "name": "6th October Dist 6-12",
+            "District": "6th of October City (Districts 6 through 12, Industrial)",
+            "Tier": "Tier 2",
+            "Governorate": "Giza",
+            "Tier_Number": 2,
+            "Potential_Index": 0.8,
+            "id": "6th October Dist 6-12",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "6th October Dist 6-12"
+          },
+          "type": "Polygon",
+          "id": "6th October Dist 6-12",
+          "arcs": [
+            [
+              9
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-26",
+            "name": "Hadayek October",
+            "District": "October Gardens & New October",
+            "Tier": "Tier 3",
+            "Governorate": "Giza",
+            "Tier_Number": 3,
+            "Potential_Index": 0.95,
+            "id": "Hadayek October",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "Hadayek October"
+          },
+          "type": "Polygon",
+          "id": "Hadayek October",
+          "arcs": [
+            [
+              10
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-27",
+            "name": "Smart Village Complex",
+            "District": "Smart Village Business Park & Desert Road Corridor",
+            "Tier": "Tier 3",
+            "Governorate": "Giza",
+            "Tier_Number": 3,
+            "Potential_Index": 1.25,
+            "id": "Smart Village Complex",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "Smart Village Complex"
+          },
+          "type": "Polygon",
+          "id": "Smart Village Complex",
+          "arcs": [
+            [
+              11
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-28",
+            "name": "Hadayek Al-Ahram",
+            "District": "Al-Ahram Plateau (Hadayek Al-Ahram gates)",
+            "Tier": "Tier 2",
+            "Governorate": "Giza",
+            "Tier_Number": 2,
+            "Potential_Index": 0.95,
+            "id": "Hadayek Al-Ahram",
+            "Zone": "West Cairo (October)",
+            "Brick_Name": "Hadayek Al-Ahram"
+          },
+          "type": "Polygon",
+          "id": "Hadayek Al-Ahram",
+          "arcs": [
+            [
+              12
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-01",
+            "name": "Nasr City East",
+            "District": "Kism 1st Nasr City (East Nasr City, Abbas El-Akkad)",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.15,
+            "id": "Nasr City East",
+            "Zone": "East Cairo",
+            "Brick_Name": "Nasr City East"
+          },
+          "type": "Polygon",
+          "id": "Nasr City East",
+          "arcs": [
+            [
+              13
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-02",
+            "name": "Nasr City West",
+            "District": "Kism 2nd Nasr City (West Nasr City, Cairo Stadium)",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.1,
+            "id": "Nasr City West",
+            "Zone": "East Cairo",
+            "Brick_Name": "Nasr City West"
+          },
+          "type": "Polygon",
+          "id": "Nasr City West",
+          "arcs": [
+            [
+              14
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-03",
+            "name": "Heliopolis (Masr El Gedida)",
+            "District": "Kism Masr El Gedida (Korba, Roxy, Merghany)",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.45,
+            "id": "Heliopolis (Masr El Gedida)",
+            "Zone": "East Cairo",
+            "Brick_Name": "Heliopolis (Masr El Gedida)"
+          },
+          "type": "Polygon",
+          "id": "Heliopolis (Masr El Gedida)",
+          "arcs": [
+            [
+              15
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-04",
+            "name": "Sheraton & Nozha",
+            "District": "Kism El Nozha & Sheraton Residences",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.3,
+            "id": "Sheraton & Nozha",
+            "Zone": "East Cairo",
+            "Brick_Name": "Sheraton & Nozha"
+          },
+          "type": "Polygon",
+          "id": "Sheraton & Nozha",
+          "arcs": [
+            [
+              16
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-31",
+            "name": "Ain Shams & Matareya",
+            "District": "Kism Ain Shams & Kism El Matareya",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.05,
+            "id": "Ain Shams & Matareya",
+            "Zone": "East Cairo",
+            "Brick_Name": "Ain Shams & Matareya"
+          },
+          "type": "Polygon",
+          "id": "Ain Shams & Matareya",
+          "arcs": [
+            [
+              17
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-34",
+            "name": "Hadayek El Kobba & El Zaytoun",
+            "District": "Kism Hadayek El Kobba & Kism El Zaytoun",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.1,
+            "id": "Hadayek El Kobba & El Zaytoun",
+            "Zone": "East Cairo",
+            "Brick_Name": "Hadayek El Kobba & El Zaytoun"
+          },
+          "type": "Polygon",
+          "id": "Hadayek El Kobba & El Zaytoun",
+          "arcs": [
+            [
+              18
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-05",
+            "name": "Fifth Settlement North",
+            "District": "New Cairo 1st (North 90th St, Golden Square)",
+            "Tier": "Tier 1",
+            "Governorate": "New Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.5,
+            "id": "Fifth Settlement North",
+            "Zone": "New Cairo",
+            "Brick_Name": "Fifth Settlement North"
+          },
+          "type": "Polygon",
+          "id": "Fifth Settlement North",
+          "arcs": [
+            [
+              19
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-06",
+            "name": "Fifth Settlement South",
+            "District": "New Cairo 5th (South 90th St, Investors Area)",
+            "Tier": "Tier 1",
+            "Governorate": "New Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.4,
+            "id": "Fifth Settlement South",
+            "Zone": "New Cairo",
+            "Brick_Name": "Fifth Settlement South"
+          },
+          "type": "Polygon",
+          "id": "Fifth Settlement South",
+          "arcs": [
+            [
+              20
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-07",
+            "name": "First & Third Settlements",
+            "District": "New Cairo 1st & 3rd Districts",
+            "Tier": "Tier 2",
+            "Governorate": "New Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.05,
+            "id": "First & Third Settlements",
+            "Zone": "New Cairo",
+            "Brick_Name": "First & Third Settlements"
+          },
+          "type": "Polygon",
+          "id": "First & Third Settlements",
+          "arcs": [
+            [
+              21
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-08",
+            "name": "Madinaty & Rehab",
+            "District": "New Cairo City Extension (Madinaty & Al Rehab)",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.35,
+            "id": "Madinaty & Rehab",
+            "Zone": "New Cairo",
+            "Brick_Name": "Madinaty & Rehab"
+          },
+          "type": "Polygon",
+          "id": "Madinaty & Rehab",
+          "arcs": [
+            [
+              22
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-33",
+            "name": "El Obour City",
+            "District": "El Obour City Authority (Residential & Medical)",
+            "Tier": "Tier 2",
+            "Governorate": "Qalyubia",
+            "Tier_Number": 2,
+            "Potential_Index": 1.05,
+            "id": "El Obour City",
+            "Zone": "New Cairo",
+            "Brick_Name": "El Obour City"
+          },
+          "type": "Polygon",
+          "id": "El Obour City",
+          "arcs": [
+            [
+              23
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-36",
+            "name": "El Shorouk & Badr (NAC Axis)",
+            "District": "El Shorouk & Badr (NAC Axis)",
+            "Tier": "Tier 3",
+            "Governorate": "Cairo",
+            "Tier_Number": 3,
+            "Potential_Index": 1,
+            "id": "El Shorouk & Badr (NAC Axis)",
+            "Zone": "New Cairo",
+            "Brick_Name": "El Shorouk & Badr (NAC Axis)"
+          },
+          "type": "Polygon",
+          "id": "El Shorouk & Badr (NAC Axis)",
+          "arcs": [
+            [
+              24
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-09",
+            "name": "Downtown (Wust El Balad)",
+            "District": "Kism Abdeen, Bab El Louq, Azbakeya",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.05,
+            "id": "Downtown (Wust El Balad)",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "Downtown (Wust El Balad)"
+          },
+          "type": "Polygon",
+          "id": "Downtown (Wust El Balad)",
+          "arcs": [
+            [
+              25
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-11",
+            "name": "Garden City & Kasr Al-Ainy",
+            "District": "Kism Qasr El Nil & Medical District (Kasr Al-Ainy)",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.5,
+            "id": "Garden City & Kasr Al-Ainy",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "Garden City & Kasr Al-Ainy"
+          },
+          "type": "Polygon",
+          "id": "Garden City & Kasr Al-Ainy",
+          "arcs": [
+            [
+              26
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-12",
+            "name": "Shubra",
+            "District": "Kism Shubra & Kism Rod El Farag",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 0.85,
+            "id": "Shubra",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "Shubra"
+          },
+          "type": "Polygon",
+          "id": "Shubra",
+          "arcs": [
+            [
+              27
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-29",
+            "name": "Shubra El-Kheima",
+            "District": "Kism 1st & 2nd Shubra El-Kheima",
+            "Tier": "Tier 2",
+            "Governorate": "Qalyubia",
+            "Tier_Number": 2,
+            "Potential_Index": 0.85,
+            "id": "Shubra El-Kheima",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "Shubra El-Kheima"
+          },
+          "type": "Polygon",
+          "id": "Shubra El-Kheima",
+          "arcs": [
+            [
+              28
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-35",
+            "name": "Old Cairo & Sayeda Zeinab",
+            "District": "Kism Masr El Qadima & Kism El Sayeda Zeinab",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.15,
+            "id": "Old Cairo & Sayeda Zeinab",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "Old Cairo & Sayeda Zeinab"
+          },
+          "type": "Polygon",
+          "id": "Old Cairo & Sayeda Zeinab",
+          "arcs": [
+            [
+              29
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-18",
+            "name": "Maadi Sarayat & Degla",
+            "District": "Kism Maadi (Sarayat El Maadi, Degla)",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.4,
+            "id": "Maadi Sarayat & Degla",
+            "Zone": "South Cairo",
+            "Brick_Name": "Maadi Sarayat & Degla"
+          },
+          "type": "Polygon",
+          "id": "Maadi Sarayat & Degla",
+          "arcs": [
+            [
+              30
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-19",
+            "name": "New Maadi & Zahraa",
+            "District": "Kism Basatin (New Maadi, Zahraa El Maadi)",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.1,
+            "id": "New Maadi & Zahraa",
+            "Zone": "South Cairo",
+            "Brick_Name": "New Maadi & Zahraa"
+          },
+          "type": "Polygon",
+          "id": "New Maadi & Zahraa",
+          "arcs": [
+            [
+              31
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-20",
+            "name": "Mokattam",
+            "District": "Kism Mokattam & Mokattam Plateau",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1,
+            "id": "Mokattam",
+            "Zone": "South Cairo",
+            "Brick_Name": "Mokattam"
+          },
+          "type": "Polygon",
+          "id": "Mokattam",
+          "arcs": [
+            [
+              32
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-21",
+            "name": "Helwan & 15th of May",
+            "District": "Kism Helwan & 15th of May City",
+            "Tier": "Tier 3",
+            "Governorate": "Cairo",
+            "Tier_Number": 3,
+            "Potential_Index": 0.75,
+            "id": "Helwan & 15th of May",
+            "Zone": "South Cairo",
+            "Brick_Name": "Helwan & 15th of May"
+          },
+          "type": "Polygon",
+          "id": "Helwan & 15th of May",
+          "arcs": [
+            [
+              33
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-10",
+            "name": "Zamalek",
+            "District": "Kism Qasr El Nil (Zamalek Island)",
+            "Tier": "Tier 1",
+            "Governorate": "Cairo",
+            "Tier_Number": 1,
+            "Potential_Index": 1.4,
+            "id": "Zamalek",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "Zamalek"
+          },
+          "type": "Polygon",
+          "id": "Zamalek",
+          "arcs": [
+            [
+              34
+            ]
+          ]
+        },
+        {
+          "properties": {
+            "Brick_ID": "BRK-32",
+            "name": "El Manial & Roda Island",
+            "District": "Kism Masr El Qadima (El Roda Island & El Manial)",
+            "Tier": "Tier 2",
+            "Governorate": "Cairo",
+            "Tier_Number": 2,
+            "Potential_Index": 1.4,
+            "id": "El Manial & Roda Island",
+            "Zone": "Downtown & Central",
+            "Brick_Name": "El Manial & Roda Island"
+          },
+          "type": "Polygon",
+          "id": "El Manial & Roda Island",
+          "arcs": [
+            [
+              35
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "type": "Topology",
+  "bbox": [
+    30.795022,
+    29.776493,
+    31.833636,
+    30.281897
+  ],
+  "arcs": [
+    [
+      [
+        3095,
+        6940
+      ],
+      [
+        768,
+        -1103
+      ],
+      [
+        131,
+        -442
+      ],
+      [
+        -193,
+        -356
+      ],
+      [
+        -315,
+        210
+      ],
+      [
+        -447,
+        745
+      ],
+      [
+        56,
+        946
+      ]
+    ],
+    [
+      [
+        3801,
+        5039
+      ],
+      [
+        193,
+        356
+      ],
+      [
+        78,
+        -10
+      ],
+      [
+        30,
+        -220
+      ],
+      [
+        -35,
+        -584
+      ],
+      [
+        -266,
+        458
+      ]
+    ],
+    [
+      [
+        3994,
+        5395
+      ],
+      [
+        -131,
+        442
+      ],
+      [
+        149,
+        -72
+      ],
+      [
+        41,
+        -249
+      ],
+      [
+        18,
+        -129
+      ],
+      [
+        -77,
+        8
+      ]
+    ],
+    [
+      [
+        3486,
+        5249
+      ],
+      [
+        315,
+        -210
+      ],
+      [
+        275,
+        -477
+      ],
+      [
+        -41,
+        -120
+      ],
+      [
+        48,
+        -176
+      ],
+      [
+        33,
+        -416
+      ],
+      [
+        279,
+        -443
+      ],
+      [
+        198,
+        -698
+      ],
+      [
+        159,
+        -1238
+      ],
+      [
+        -397,
+        48
+      ],
+      [
+        13,
+        834
+      ],
+      [
+        -414,
+        909
+      ],
+      [
+        -278,
+        986
+      ],
+      [
+        -190,
+        1001
+      ]
+    ],
+    [
+      [
+        2951,
+        5674
+      ],
+      [
+        88,
+        320
+      ],
+      [
+        447,
+        -745
+      ],
+      [
+        147,
+        -790
+      ],
+      [
+        180,
+        -733
+      ],
+      [
+        247,
+        -719
+      ],
+      [
+        302,
+        -648
+      ],
+      [
+        -17,
+        -846
+      ],
+      [
+        -205,
+        584
+      ],
+      [
+        -317,
+        -494
+      ],
+      [
+        -872,
+        4071
+      ]
+    ],
+    [
+      [
+        3129,
+        7390
+      ],
+      [
+        326,
+        149
+      ],
+      [
+        190,
+        -405
+      ],
+      [
+        295,
+        -85
+      ],
+      [
+        298,
+        -228
+      ],
+      [
+        -19,
+        -494
+      ],
+      [
+        -96,
+        -390
+      ],
+      [
+        -87,
+        -166
+      ],
+      [
+        -24,
+        -6
+      ],
+      [
+        -149,
+        72
+      ],
+      [
+        -768,
+        1103
+      ],
+      [
+        0,
+        436
+      ],
+      [
+        34,
+        14
+      ]
+    ],
+    [
+      [
+        2389,
+        4495
+      ],
+      [
+        -20,
+        -76
+      ],
+      [
+        -306,
+        -198
+      ],
+      [
+        -584,
+        600
+      ],
+      [
+        278,
+        1536
+      ],
+      [
+        632,
+        -1862
+      ]
+    ],
+    [
+      [
+        1757,
+        6357
+      ],
+      [
+        -278,
+        -1536
+      ],
+      [
+        -561,
+        -24
+      ],
+      [
+        -140,
+        288
+      ],
+      [
+        -584,
+        0
+      ],
+      [
+        44,
+        653
+      ],
+      [
+        832,
+        39
+      ],
+      [
+        615,
+        1019
+      ],
+      [
+        52,
+        22
+      ],
+      [
+        20,
+        -461
+      ]
+    ],
+    [
+      [
+        1627,
+        2698
+      ],
+      [
+        -711,
+        2087
+      ],
+      [
+        563,
+        36
+      ],
+      [
+        584,
+        -600
+      ],
+      [
+        -436,
+        -1523
+      ]
+    ],
+    [
+      [
+        776,
+        5084
+      ],
+      [
+        151,
+        -297
+      ],
+      [
+        62,
+        -232
+      ],
+      [
+        238,
+        -684
+      ],
+      [
+        400,
+        -1173
+      ],
+      [
+        -35,
+        -246
+      ],
+      [
+        -253,
+        180
+      ],
+      [
+        -440,
+        -412
+      ],
+      [
+        -326,
+        749
+      ],
+      [
+        -573,
+        1154
+      ],
+      [
+        292,
+        97
+      ],
+      [
+        -76,
+        846
+      ],
+      [
+        560,
+        18
+      ]
+    ],
+    [
+      [
+        1627,
+        2698
+      ],
+      [
+        436,
+        1523
+      ],
+      [
+        306,
+        198
+      ],
+      [
+        705,
+        -2371
+      ],
+      [
+        -291,
+        145
+      ],
+      [
+        -123,
+        -384
+      ],
+      [
+        -563,
+        180
+      ],
+      [
+        -470,
+        709
+      ]
+    ],
+    [
+      [
+        3095,
+        6940
+      ],
+      [
+        -56,
+        -946
+      ],
+      [
+        -88,
+        -320
+      ],
+      [
+        -562,
+        -1179
+      ],
+      [
+        -632,
+        1862
+      ],
+      [
+        -20,
+        461
+      ],
+      [
+        643,
+        -554
+      ],
+      [
+        410,
+        808
+      ],
+      [
+        305,
+        304
+      ],
+      [
+        0,
+        -436
+      ]
+    ],
+    [
+      [
+        2369,
+        4419
+      ],
+      [
+        20,
+        76
+      ],
+      [
+        562,
+        1179
+      ],
+      [
+        626,
+        -2955
+      ],
+      [
+        -292,
+        -154
+      ],
+      [
+        -292,
+        -154
+      ],
+      [
+        81,
+        -363
+      ],
+      [
+        -705,
+        2371
+      ]
+    ],
+    [
+      [
+        5502,
+        4225
+      ],
+      [
+        -395,
+        858
+      ],
+      [
+        118,
+        804
+      ],
+      [
+        200,
+        155
+      ],
+      [
+        281,
+        -441
+      ],
+      [
+        -89,
+        -1491
+      ],
+      [
+        -115,
+        115
+      ]
+    ],
+    [
+      [
+        4687,
+        5556
+      ],
+      [
+        13,
+        98
+      ],
+      [
+        267,
+        298
+      ],
+      [
+        258,
+        -65
+      ],
+      [
+        -118,
+        -804
+      ],
+      [
+        -420,
+        473
+      ]
+    ],
+    [
+      [
+        5077,
+        6601
+      ],
+      [
+        239,
+        165
+      ],
+      [
+        109,
+        -724
+      ],
+      [
+        -200,
+        -155
+      ],
+      [
+        -258,
+        65
+      ],
+      [
+        110,
+        649
+      ]
+    ],
+    [
+      [
+        5316,
+        6766
+      ],
+      [
+        312,
+        1663
+      ],
+      [
+        845,
+        -1443
+      ],
+      [
+        -767,
+        -1385
+      ],
+      [
+        -281,
+        441
+      ],
+      [
+        -109,
+        724
+      ]
+    ],
+    [
+      [
+        5036,
+        8254
+      ],
+      [
+        403,
+        520
+      ],
+      [
+        79,
+        54
+      ],
+      [
+        110,
+        -399
+      ],
+      [
+        -312,
+        -1663
+      ],
+      [
+        -239,
+        -165
+      ],
+      [
+        -338,
+        234
+      ],
+      [
+        297,
+        1419
+      ]
+    ],
+    [
+      [
+        4577,
+        6605
+      ],
+      [
+        140,
+        53
+      ],
+      [
+        22,
+        173
+      ],
+      [
+        338,
+        -230
+      ],
+      [
+        -110,
+        -649
+      ],
+      [
+        -267,
+        -298
+      ],
+      [
+        -123,
+        951
+      ]
+    ],
+    [
+      [
+        6966,
+        6837
+      ],
+      [
+        158,
+        -429
+      ],
+      [
+        134,
+        -765
+      ],
+      [
+        -1215,
+        -1666
+      ],
+      [
+        714,
+        2866
+      ],
+      [
+        209,
+        -6
+      ]
+    ],
+    [
+      [
+        5853,
+        3043
+      ],
+      [
+        -31,
+        333
+      ],
+      [
+        221,
+        601
+      ],
+      [
+        1215,
+        1666
+      ],
+      [
+        508,
+        -1991
+      ],
+      [
+        -235,
+        -432
+      ],
+      [
+        -259,
+        462
+      ],
+      [
+        -227,
+        -539
+      ],
+      [
+        -569,
+        -1325
+      ],
+      [
+        -623,
+        1225
+      ]
+    ],
+    [
+      [
+        6757,
+        6843
+      ],
+      [
+        -714,
+        -2866
+      ],
+      [
+        -221,
+        -601
+      ],
+      [
+        -205,
+        734
+      ],
+      [
+        89,
+        1491
+      ],
+      [
+        767,
+        1385
+      ],
+      [
+        284,
+        -143
+      ]
+    ],
+    [
+      [
+        7258,
+        5643
+      ],
+      [
+        -134,
+        765
+      ],
+      [
+        1766,
+        431
+      ],
+      [
+        15,
+        -43
+      ],
+      [
+        272,
+        -474
+      ],
+      [
+        -432,
+        -1596
+      ],
+      [
+        -735,
+        -77
+      ],
+      [
+        -244,
+        -997
+      ],
+      [
+        -508,
+        1991
+      ]
+    ],
+    [
+      [
+        6966,
+        6837
+      ],
+      [
+        -209,
+        6
+      ],
+      [
+        -284,
+        143
+      ],
+      [
+        -845,
+        1443
+      ],
+      [
+        -110,
+        399
+      ],
+      [
+        368,
+        285
+      ],
+      [
+        8,
+        818
+      ],
+      [
+        330,
+        -14
+      ],
+      [
+        184,
+        58
+      ],
+      [
+        92,
+        -191
+      ],
+      [
+        77,
+        215
+      ],
+      [
+        407,
+        -641
+      ],
+      [
+        284,
+        82
+      ],
+      [
+        100,
+        -259
+      ],
+      [
+        186,
+        -79
+      ],
+      [
+        -588,
+        -2265
+      ]
+    ],
+    [
+      [
+        7124,
+        6408
+      ],
+      [
+        -158,
+        429
+      ],
+      [
+        588,
+        2265
+      ],
+      [
+        446,
+        -1059
+      ],
+      [
+        726,
+        697
+      ],
+      [
+        367,
+        -691
+      ],
+      [
+        571,
+        435
+      ],
+      [
+        335,
+        -1382
+      ],
+      [
+        -2875,
+        -694
+      ]
+    ],
+    [
+      [
+        4640,
+        5469
+      ],
+      [
+        -97,
+        -519
+      ],
+      [
+        -89,
+        17
+      ],
+      [
+        -257,
+        264
+      ],
+      [
+        0,
+        180
+      ],
+      [
+        -47,
+        257
+      ],
+      [
+        7,
+        79
+      ],
+      [
+        483,
+        -278
+      ]
+    ],
+    [
+      [
+        4454,
+        4967
+      ],
+      [
+        -253,
+        -52
+      ],
+      [
+        -26,
+        226
+      ],
+      [
+        22,
+        90
+      ],
+      [
+        257,
+        -264
+      ]
+    ],
+    [
+      [
+        4571,
+        6609
+      ],
+      [
+        129,
+        -955
+      ],
+      [
+        -13,
+        -98
+      ],
+      [
+        -47,
+        -87
+      ],
+      [
+        -485,
+        278
+      ],
+      [
+        12,
+        196
+      ],
+      [
+        33,
+        172
+      ],
+      [
+        111,
+        385
+      ],
+      [
+        260,
+        109
+      ]
+    ],
+    [
+      [
+        3780,
+        7639
+      ],
+      [
+        1260,
+        611
+      ],
+      [
+        -294,
+        -1364
+      ],
+      [
+        -29,
+        -232
+      ],
+      [
+        -404,
+        -148
+      ],
+      [
+        -48,
+        488
+      ],
+      [
+        -485,
+        645
+      ]
+    ],
+    [
+      [
+        4454,
+        4967
+      ],
+      [
+        89,
+        -17
+      ],
+      [
+        17,
+        -582
+      ],
+      [
+        -254,
+        -384
+      ],
+      [
+        -41,
+        141
+      ],
+      [
+        -58,
+        495
+      ],
+      [
+        -6,
+        295
+      ],
+      [
+        253,
+        52
+      ]
+    ],
+    [
+      [
+        4560,
+        4368
+      ],
+      [
+        34,
+        -31
+      ],
+      [
+        394,
+        -1767
+      ],
+      [
+        -278,
+        -289
+      ],
+      [
+        -185,
+        954
+      ],
+      [
+        -145,
+        494
+      ],
+      [
+        -74,
+        255
+      ],
+      [
+        254,
+        384
+      ]
+    ],
+    [
+      [
+        4988,
+        2570
+      ],
+      [
+        -394,
+        1767
+      ],
+      [
+        908,
+        -112
+      ],
+      [
+        115,
+        -115
+      ],
+      [
+        205,
+        -734
+      ],
+      [
+        31,
+        -333
+      ],
+      [
+        -865,
+        -473
+      ]
+    ],
+    [
+      [
+        4594,
+        4337
+      ],
+      [
+        -34,
+        31
+      ],
+      [
+        -17,
+        582
+      ],
+      [
+        97,
+        519
+      ],
+      [
+        47,
+        87
+      ],
+      [
+        420,
+        -473
+      ],
+      [
+        395,
+        -858
+      ],
+      [
+        -908,
+        112
+      ]
+    ],
+    [
+      [
+        4988,
+        2570
+      ],
+      [
+        865,
+        473
+      ],
+      [
+        623,
+        -1225
+      ],
+      [
+        -576,
+        -469
+      ],
+      [
+        54,
+        -1272
+      ],
+      [
+        -1124,
+        -77
+      ],
+      [
+        43,
+        1445
+      ],
+      [
+        -156,
+        801
+      ],
+      [
+        -7,
+        35
+      ],
+      [
+        278,
+        289
+      ]
+    ],
+    [
+      [
+        4106,
+        5876
+      ],
+      [
+        21,
+        -123
+      ],
+      [
+        21,
+        -236
+      ],
+      [
+        20,
+        -199
+      ],
+      [
+        -23,
+        -116
+      ],
+      [
+        -27,
+        -6
+      ],
+      [
+        -37,
+        169
+      ],
+      [
+        -22,
+        217
+      ],
+      [
+        -15,
+        137
+      ],
+      [
+        15,
+        47
+      ],
+      [
+        47,
+        110
+      ]
+    ],
+    [
+      [
+        4168,
+        5114
+      ],
+      [
+        20,
+        -96
+      ],
+      [
+        -6,
+        -108
+      ],
+      [
+        -22,
+        -208
+      ],
+      [
+        -22,
+        -132
+      ],
+      [
+        -21,
+        53
+      ],
+      [
+        -5,
+        113
+      ],
+      [
+        7,
+        222
+      ],
+      [
+        30,
+        137
+      ],
+      [
+        19,
+        19
+      ]
+    ]
+  ],
+  "transform": {
+    "translate": [
+      30.795022,
+      29.776493
+    ],
+    "scale": [
+      0.00010387178717871778,
+      5.0545454545454761E-05
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+table fact_pharmacy_sales
+	lineageTag: 7c4ece04-d084-47ac-98c6-f7f7b8d24f22
+
+	column Sales_ID
+		dataType: string
+		lineageTag: c83f10a3-c0ea-46bf-ac7a-d09ad03eadfd
+		summarizeBy: none
+		sourceColumn: Sales_ID
+
+	column Date_Key
+		dataType: int64
+		formatString: 0
+		lineageTag: 784da7a0-5a6e-4f65-a1e5-9b5ebdf7eab1
+		summarizeBy: none
+		sourceColumn: Date_Key
+
+	column Year_Month
+		dataType: string
+		lineageTag: 9e77e6e8-81d2-43fe-a706-a1d0a87a5269
+		summarizeBy: none
+		sourceColumn: Year_Month
+
+	column Pharmacy_ID
+		dataType: string
+		lineageTag: 860f99fe-9012-425e-a7e7-bf08cebd79c1
+		summarizeBy: none
+		sourceColumn: Pharmacy_ID
+
+	column Brick_ID
+		dataType: string
+		lineageTag: 3d84700a-82ec-4659-ae8e-beecb616e6d7
+		summarizeBy: none
+		sourceColumn: Brick_ID
+
+	column Product_ID
+		dataType: string
+		lineageTag: c8e11fa3-8076-49f7-9419-74f5a0772361
+		summarizeBy: none
+		sourceColumn: Product_ID
+
+	column Units_Sold
+		dataType: int64
+		formatString: #,0
+		lineageTag: 8cf04134-80fe-4e69-abf2-b1f21ba9cefd
+		summarizeBy: none
+		sourceColumn: Units_Sold
+
+	column Unit_Price_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 5724bbcf-c601-4181-94c8-9918e595c811
+		summarizeBy: none
+		sourceColumn: Unit_Price_EGP
+
+	column Total_Revenue_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 3f767f6b-13d4-4ce3-a958-a46838998354
+		summarizeBy: none
+		sourceColumn: Total_Revenue_EGP
+
+	column Distributor_ID
+		dataType: string
+		lineageTag: a399d8f4-3337-4757-a07e-bd37f1d357dc
+		summarizeBy: none
+		sourceColumn: Distributor_ID
+
+	column Supply_Disruption_Flag
+		dataType: boolean
+		lineageTag: c9ec4b37-277e-4a18-aadb-b718d43702a2
+		summarizeBy: none
+		sourceColumn: Supply_Disruption_Flag
+
+	partition fact_pharmacy_sales = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_pharmacy_sales.csv"), [Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Sales_ID", type text}, {"Date_Key", Int64.Type}, {"Year_Month", type text}, {"Pharmacy_ID", type text}, {"Brick_ID", type text}, {"Product_ID", type text}, {"Units_Sold", Int64.Type}, {"Unit_Price_EGP", type number}, {"Total_Revenue_EGP", type number}, {"Distributor_ID", type text}, {"Supply_Disruption_Flag", type logical}})
+				in
+				    #"Changed Type"
+

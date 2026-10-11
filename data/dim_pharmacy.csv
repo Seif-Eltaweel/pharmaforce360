@@ -1,0 +1,551 @@
+Pharmacy_ID,Pharmacy_Name,Brick_ID,Chain_Affiliation,Footfall_Category,Monthly_Capacity_Potential,Primary_Distributor_ID,Latitude,Longitude
+PHARM-0001,Seif Pharmacies - Dokki Branch #13,BRK-14,Seif Pharmacies,Low,250000,DIST-02,30.032291,31.205591
+PHARM-0002,Dr. Eric Williams Pharmacy,BRK-06,Independent Community Pharmacy,Low,150000,DIST-01,30.002784,31.491397
+PHARM-0003,Dr. Jason Bauer Pharmacy,BRK-27,Independent Community Pharmacy,Low,80000,DIST-03,30.075639,31.016535
+PHARM-0004,El Ezaby - El Shorouk & Badr (NAC Axis) Branch #13,BRK-36,El Ezaby,Medium,150000,DIST-02,30.138331,31.625415
+PHARM-0005,Dr. Jim Rodriguez Pharmacy,BRK-09,Independent Community Pharmacy,Low,250000,DIST-03,30.046434,31.242222
+PHARM-0006,Roushdy - Zamalek Branch #6,BRK-10,Roushdy,Medium,150000,DIST-01,30.062608,31.226772
+PHARM-0007,Roushdy - Sheikh Zayed Beverly Hills Branch #7,BRK-23,Roushdy,Medium,250000,DIST-02,30.063574,30.944291
+PHARM-0008,Seif Pharmacies - El Manial & Roda Island Branch #8,BRK-32,Seif Pharmacies,High,150000,DIST-01,30.017619,31.227859
+PHARM-0009,Dr. Taylor Carlson Pharmacy,BRK-26,Independent Community Pharmacy,Medium,150000,DIST-01,29.925244,31.019372
+PHARM-0010,El Ezaby - Old Cairo & Sayeda Zeinab Branch #6,BRK-35,El Ezaby,Medium,150000,DIST-02,30.016387,31.243046
+PHARM-0011,Seif Pharmacies - Fifth Settlement North Branch #9,BRK-05,Seif Pharmacies,Medium,250000,DIST-01,30.023415,31.469555
+PHARM-0012,El Ezaby - Downtown (Wust El Balad) Branch #1,BRK-09,El Ezaby,Medium,250000,DIST-01,30.04781,31.244182
+PHARM-0013,Roushdy - Old Cairo & Sayeda Zeinab Branch #4,BRK-35,Roushdy,Low,150000,DIST-02,30.010776,31.232939
+PHARM-0014,Dr. Alan Robertson Pharmacy,BRK-11,Independent Community Pharmacy,Medium,80000,DIST-01,30.028862,31.234355
+PHARM-0015,Seif Pharmacies - Haram (Al-Ahram) Branch #12,BRK-17,Seif Pharmacies,High,80000,DIST-01,29.993516,31.146925
+PHARM-0016,Dr. David Thomas Pharmacy,BRK-36,Independent Community Pharmacy,High,80000,DIST-02,30.143241,31.621758
+PHARM-0017,Dr. Jeffrey Mendez Pharmacy,BRK-13,Independent Community Pharmacy,Medium,250000,DIST-03,30.057727,31.192938
+PHARM-0018,Roushdy - Nasr City East Branch #10,BRK-01,Roushdy,Medium,80000,DIST-04,30.055671,31.345198
+PHARM-0019,Dr. David Butler Pharmacy,BRK-27,Independent Community Pharmacy,Medium,80000,DIST-02,30.077598,31.016544
+PHARM-0020,El Ezaby - First & Third Settlements Branch #5,BRK-07,El Ezaby,Low,250000,DIST-01,30.043429,31.426548
+PHARM-0021,Seif Pharmacies - El Manial & Roda Island Branch #7,BRK-32,Seif Pharmacies,High,150000,DIST-04,30.014602,31.226339
+PHARM-0022,Dr. Matthew Miller Pharmacy,BRK-03,Independent Community Pharmacy,Low,150000,DIST-02,30.092571,31.331439
+PHARM-0023,Dr. William Jones Pharmacy,BRK-04,Independent Community Pharmacy,Medium,250000,DIST-06,30.110179,31.382479
+PHARM-0024,Dr. Joseph Romero Pharmacy,BRK-28,Independent Community Pharmacy,Medium,150000,DIST-01,29.987591,31.111208
+PHARM-0025,Dr. William Spencer Pharmacy,BRK-35,Independent Community Pharmacy,Medium,150000,DIST-01,30.017386,31.230463
+PHARM-0026,Dr. James Harrison Pharmacy,BRK-07,Independent Community Pharmacy,Low,80000,DIST-02,30.043644,31.43348
+PHARM-0027,Dr. Mark Zavala Pharmacy,BRK-24,Independent Community Pharmacy,Medium,250000,DIST-02,29.96804,30.94486
+PHARM-0028,19011 Chain - Fifth Settlement North Branch #10,BRK-05,19011 Chain,Low,150000,DIST-01,30.021697,31.475531
+PHARM-0029,Dr. David Smith Pharmacy,BRK-01,Independent Community Pharmacy,Low,150000,DIST-01,30.056712,31.339587
+PHARM-0030,19011 Chain - Old Cairo & Sayeda Zeinab Branch #12,BRK-35,19011 Chain,Medium,80000,DIST-01,30.014484,31.234363
+PHARM-0031,Dr. Richard Cooper Pharmacy,BRK-23,Independent Community Pharmacy,Low,80000,DIST-03,30.071267,30.940295
+PHARM-0032,El Ezaby - Sheikh Zayed Beverly Hills Branch #8,BRK-23,El Ezaby,Medium,150000,DIST-03,30.073896,30.947326
+PHARM-0033,Seif Pharmacies - Helwan & 15th of May Branch #6,BRK-21,Seif Pharmacies,Low,250000,DIST-04,29.847019,31.330076
+PHARM-0034,Dr. Nicholas Fuller Pharmacy,BRK-15,Independent Community Pharmacy,Medium,150000,DIST-02,30.059181,31.203759
+PHARM-0035,Dr. Raymond Moss Pharmacy,BRK-36,Independent Community Pharmacy,Low,80000,DIST-06,30.137939,31.61541
+PHARM-0036,Dr. Gary Williams Pharmacy,BRK-04,Independent Community Pharmacy,High,150000,DIST-04,30.106656,31.374854
+PHARM-0037,Seif Pharmacies - Shubra El-Kheima Branch #11,BRK-29,Seif Pharmacies,High,150000,DIST-01,30.123058,31.245373
+PHARM-0038,19011 Chain - Sheikh Zayed Beverly Hills Branch #8,BRK-23,19011 Chain,Medium,80000,DIST-04,30.067646,30.942524
+PHARM-0039,El Ezaby - Fifth Settlement South Branch #13,BRK-06,El Ezaby,Medium,150000,DIST-01,30.009051,31.484367
+PHARM-0040,Misr Pharmacies - Ain Shams & Matareya Branch #8,BRK-31,Misr Pharmacies,High,150000,DIST-02,30.119523,31.309412
+PHARM-0041,Dr. Joshua Li Pharmacy,BRK-18,Independent Community Pharmacy,Medium,150000,DIST-02,29.959726,31.278513
+PHARM-0042,El Ezaby - 6th October Dist 1-5 Branch #4,BRK-24,El Ezaby,High,150000,DIST-01,29.975586,30.938311
+PHARM-0043,Dr. Christopher Maxwell Pharmacy,BRK-31,Independent Community Pharmacy,Low,150000,DIST-02,30.124364,31.313365
+PHARM-0044,El Ezaby - Sheraton & Nozha Branch #6,BRK-04,El Ezaby,Low,80000,DIST-04,30.108718,31.382502
+PHARM-0045,Dr. John Dominguez Pharmacy,BRK-08,Independent Community Pharmacy,High,150000,DIST-03,30.077741,31.628823
+PHARM-0046,El Ezaby - Madinaty & Rehab Branch #10,BRK-08,El Ezaby,Medium,250000,DIST-03,30.087011,31.630207
+PHARM-0047,Seif Pharmacies - Mohandessin Branch #10,BRK-13,Seif Pharmacies,Medium,80000,DIST-02,30.055617,31.203984
+PHARM-0048,El Ezaby - Hadayek El Kobba & El Zaytoun Branch #7,BRK-34,El Ezaby,High,150000,DIST-02,30.098993,31.298498
+PHARM-0049,Dr. Mark Cain Pharmacy,BRK-12,Independent Community Pharmacy,High,150000,DIST-04,30.075815,31.243931
+PHARM-0050,Dr. Arthur Parsons Pharmacy,BRK-06,Independent Community Pharmacy,Low,250000,DIST-01,30.000745,31.481841
+PHARM-0051,19011 Chain - Hadayek Al-Ahram Branch #9,BRK-28,19011 Chain,High,150000,DIST-01,29.972675,31.110086
+PHARM-0052,Dr. Jimmy Carter Pharmacy,BRK-19,Independent Community Pharmacy,Medium,150000,DIST-04,29.968399,31.297693
+PHARM-0053,Seif Pharmacies - Garden City & Kasr Al-Ainy Branch #14,BRK-11,Seif Pharmacies,High,80000,DIST-01,30.031065,31.234963
+PHARM-0054,Seif Pharmacies - Hadayek October Branch #1,BRK-26,Seif Pharmacies,Low,80000,DIST-01,29.921781,31.02534
+PHARM-0055,Dr. Andrew Gonzalez Pharmacy,BRK-30,Independent Community Pharmacy,Low,250000,DIST-01,30.081279,31.215275
+PHARM-0056,Dr. Andrew Mahoney Pharmacy,BRK-21,Independent Community Pharmacy,Low,80000,DIST-04,29.842443,31.328436
+PHARM-0057,Seif Pharmacies - Helwan & 15th of May Branch #14,BRK-21,Seif Pharmacies,Medium,150000,DIST-02,29.851568,31.335014
+PHARM-0058,19011 Chain - Mohandessin Branch #6,BRK-13,19011 Chain,Low,150000,DIST-02,30.048825,31.201181
+PHARM-0059,Misr Pharmacies - Mokattam Branch #13,BRK-20,Misr Pharmacies,Medium,250000,DIST-01,30.022606,31.306241
+PHARM-0060,Dr. Jose Hays Pharmacy,BRK-13,Independent Community Pharmacy,Medium,150000,DIST-01,30.052928,31.204669
+PHARM-0061,Dr. Joshua King Pharmacy,BRK-04,Independent Community Pharmacy,Medium,80000,DIST-02,30.111138,31.384436
+PHARM-0062,Misr Pharmacies - Fifth Settlement North Branch #10,BRK-05,Misr Pharmacies,Medium,150000,DIST-02,30.019502,31.467568
+PHARM-0063,Dr. Paul Lee Pharmacy,BRK-10,Independent Community Pharmacy,High,150000,DIST-02,30.061628,31.223227
+PHARM-0064,El Ezaby - Zamalek Branch #10,BRK-10,El Ezaby,High,150000,DIST-01,30.063953,31.221267
+PHARM-0065,Misr Pharmacies - Shubra El-Kheima Branch #14,BRK-29,Misr Pharmacies,Medium,150000,DIST-03,30.119408,31.240125
+PHARM-0066,Misr Pharmacies - Hadayek El Kobba & El Zaytoun Branch #12,BRK-34,Misr Pharmacies,High,250000,DIST-02,30.09356,31.309588
+PHARM-0067,El Ezaby - El Obour City Branch #6,BRK-33,El Ezaby,High,250000,DIST-02,30.215285,31.475888
+PHARM-0068,Misr Pharmacies - Shubra Branch #9,BRK-12,Misr Pharmacies,Low,250000,DIST-01,30.079349,31.250274
+PHARM-0069,El Ezaby - El Shorouk & Badr (NAC Axis) Branch #10,BRK-36,El Ezaby,Medium,150000,DIST-02,30.145014,31.625487
+PHARM-0070,Dr. Howard Norman Pharmacy,BRK-28,Independent Community Pharmacy,High,250000,DIST-02,29.979015,31.117383
+PHARM-0071,Roushdy - Ain Shams & Matareya Branch #2,BRK-31,Roushdy,Medium,150000,DIST-03,30.136686,31.322039
+PHARM-0072,El Ezaby - El Obour City Branch #12,BRK-33,El Ezaby,Medium,250000,DIST-01,30.222207,31.475702
+PHARM-0073,Roushdy - Nasr City East Branch #2,BRK-01,Roushdy,Low,80000,DIST-01,30.048857,31.343132
+PHARM-0074,Roushdy - New Maadi & Zahraa Branch #1,BRK-19,Roushdy,Medium,80000,DIST-01,29.973775,31.296779
+PHARM-0075,Dr. Sean Rivera Pharmacy,BRK-21,Independent Community Pharmacy,Medium,80000,DIST-02,29.843669,31.336375
+PHARM-0076,El Ezaby - Sheikh Zayed Beverly Hills Branch #10,BRK-23,El Ezaby,Medium,150000,DIST-02,30.077035,30.939287
+PHARM-0077,Misr Pharmacies - Old Cairo & Sayeda Zeinab Branch #10,BRK-35,Misr Pharmacies,High,250000,DIST-02,30.019038,31.22962
+PHARM-0078,Misr Pharmacies - Heliopolis (Masr El Gedida) Branch #13,BRK-03,Misr Pharmacies,Low,150000,DIST-01,30.094709,31.330317
+PHARM-0079,Seif Pharmacies - Garden City & Kasr Al-Ainy Branch #14,BRK-11,Seif Pharmacies,Medium,150000,DIST-06,30.030856,31.230414
+PHARM-0080,19011 Chain - Old Cairo & Sayeda Zeinab Branch #9,BRK-35,19011 Chain,High,150000,DIST-01,30.010723,31.226665
+PHARM-0081,El Ezaby - Old Cairo & Sayeda Zeinab Branch #14,BRK-35,El Ezaby,Low,150000,DIST-03,30.01855,31.236043
+PHARM-0082,Dr. Caleb Richardson Pharmacy,BRK-22,Independent Community Pharmacy,Medium,150000,DIST-02,30.050602,30.98191
+PHARM-0083,Dr. Steve Paul Pharmacy,BRK-31,Independent Community Pharmacy,Medium,150000,DIST-02,30.128351,31.318654
+PHARM-0084,Dr. Steven Hughes Pharmacy,BRK-11,Independent Community Pharmacy,Low,80000,DIST-01,30.03388,31.225884
+PHARM-0085,19011 Chain - Shubra El-Kheima Branch #3,BRK-29,19011 Chain,Medium,250000,DIST-03,30.131121,31.234693
+PHARM-0086,Dr. William Crawford Pharmacy,BRK-09,Independent Community Pharmacy,Medium,80000,DIST-02,30.045733,31.236379
+PHARM-0087,Misr Pharmacies - Mokattam Branch #10,BRK-20,Misr Pharmacies,High,250000,DIST-01,30.02132,31.304174
+PHARM-0088,Misr Pharmacies - Fifth Settlement South Branch #2,BRK-06,Misr Pharmacies,High,150000,DIST-01,30.00639,31.485347
+PHARM-0089,Dr. Jonathan Glass Pharmacy,BRK-27,Independent Community Pharmacy,Low,150000,DIST-04,30.077272,31.013801
+PHARM-0090,Dr. Joseph Owen Pharmacy,BRK-11,Independent Community Pharmacy,Medium,150000,DIST-02,30.035972,31.222672
+PHARM-0091,19011 Chain - Madinaty & Rehab Branch #13,BRK-08,19011 Chain,High,150000,DIST-03,30.08666,31.632088
+PHARM-0092,Dr. Nicholas Miller Pharmacy,BRK-32,Independent Community Pharmacy,High,250000,DIST-03,30.019017,31.231447
+PHARM-0093,Seif Pharmacies - Madinaty & Rehab Branch #13,BRK-08,Seif Pharmacies,Low,150000,DIST-03,30.084387,31.631071
+PHARM-0094,El Ezaby - Ain Shams & Matareya Branch #8,BRK-31,El Ezaby,Medium,150000,DIST-02,30.125265,31.320027
+PHARM-0095,19011 Chain - Sheraton & Nozha Branch #1,BRK-04,19011 Chain,Medium,150000,DIST-01,30.103447,31.381433
+PHARM-0096,19011 Chain - El Obour City Branch #10,BRK-33,19011 Chain,Low,150000,DIST-02,30.22571,31.47415
+PHARM-0097,Seif Pharmacies - Mohandessin Branch #3,BRK-13,Seif Pharmacies,High,80000,DIST-02,30.057961,31.194339
+PHARM-0098,Seif Pharmacies - Old Cairo & Sayeda Zeinab Branch #5,BRK-35,Seif Pharmacies,Low,250000,DIST-02,30.021394,31.236209
+PHARM-0099,Seif Pharmacies - Helwan & 15th of May Branch #3,BRK-21,Seif Pharmacies,Medium,250000,DIST-02,29.84201,31.329875
+PHARM-0100,El Ezaby - Fifth Settlement South Branch #2,BRK-06,El Ezaby,High,80000,DIST-02,30.008707,31.493817
+PHARM-0101,19011 Chain - Sheikh Zayed Central Branch #11,BRK-22,19011 Chain,Low,250000,DIST-01,30.053445,30.985895
+PHARM-0102,Dr. Lance Short Pharmacy,BRK-13,Independent Community Pharmacy,Low,150000,DIST-02,30.051142,31.203276
+PHARM-0103,El Ezaby - Maadi Sarayat & Degla Branch #5,BRK-18,El Ezaby,Low,150000,DIST-03,29.960452,31.271554
+PHARM-0104,Seif Pharmacies - El Manial & Roda Island Branch #8,BRK-32,Seif Pharmacies,Low,80000,DIST-01,30.023055,31.232509
+PHARM-0105,Seif Pharmacies - 6th October Dist 6-12 Branch #1,BRK-25,Seif Pharmacies,Low,250000,DIST-01,29.952258,30.915555
+PHARM-0106,Dr. Joshua Morris Pharmacy,BRK-27,Independent Community Pharmacy,Medium,150000,DIST-02,30.073413,31.019875
+PHARM-0107,Dr. Bobby Guerrero Pharmacy,BRK-24,Independent Community Pharmacy,Low,80000,DIST-01,29.969653,30.948977
+PHARM-0108,El Ezaby - Helwan & 15th of May Branch #1,BRK-21,El Ezaby,Medium,250000,DIST-02,29.848438,31.332319
+PHARM-0109,Roushdy - Hadayek El Kobba & El Zaytoun Branch #14,BRK-34,Roushdy,High,250000,DIST-03,30.095488,31.293433
+PHARM-0110,Dr. Eric Morrison Pharmacy,BRK-03,Independent Community Pharmacy,Medium,150000,DIST-01,30.092044,31.323486
+PHARM-0111,Dr. Jeffery Norris Pharmacy,BRK-20,Independent Community Pharmacy,High,250000,DIST-06,30.015548,31.295508
+PHARM-0112,19011 Chain - Dokki Branch #2,BRK-14,19011 Chain,Low,250000,DIST-01,30.034377,31.205563
+PHARM-0113,19011 Chain - Shubra El-Kheima Branch #5,BRK-29,19011 Chain,Medium,250000,DIST-02,30.133184,31.239091
+PHARM-0114,Roushdy - Nasr City West Branch #12,BRK-02,Roushdy,Medium,250000,DIST-02,30.060419,31.323718
+PHARM-0115,Misr Pharmacies - Hadayek El Kobba & El Zaytoun Branch #11,BRK-34,Misr Pharmacies,Medium,250000,DIST-01,30.101831,31.30583
+PHARM-0116,19011 Chain - Garden City & Kasr Al-Ainy Branch #6,BRK-11,19011 Chain,Medium,250000,DIST-02,30.037545,31.224506
+PHARM-0117,Seif Pharmacies - Nasr City West Branch #14,BRK-02,Seif Pharmacies,High,250000,DIST-04,30.061616,31.324831
+PHARM-0118,Roushdy - El Manial & Roda Island Branch #12,BRK-32,Roushdy,Low,150000,DIST-02,30.027143,31.229188
+PHARM-0119,Roushdy - Heliopolis (Masr El Gedida) Branch #14,BRK-03,Roushdy,Medium,80000,DIST-04,30.087741,31.329474
+PHARM-0120,Dr. Gregory Williams Pharmacy,BRK-36,Independent Community Pharmacy,High,150000,DIST-02,30.144961,31.624131
+PHARM-0121,19011 Chain - Sheikh Zayed Beverly Hills Branch #7,BRK-23,19011 Chain,Medium,80000,DIST-03,30.060552,30.942449
+PHARM-0122,Misr Pharmacies - Hadayek October Branch #2,BRK-26,Misr Pharmacies,Medium,250000,DIST-04,29.93232,31.025448
+PHARM-0123,Dr. Sergio Gomez Pharmacy,BRK-21,Independent Community Pharmacy,High,250000,DIST-01,29.849567,31.330231
+PHARM-0124,El Ezaby - El Manial & Roda Island Branch #7,BRK-32,El Ezaby,Medium,80000,DIST-02,30.027254,31.226628
+PHARM-0125,Dr. Zachary Hill Pharmacy,BRK-36,Independent Community Pharmacy,High,150000,DIST-01,30.137615,31.62266
+PHARM-0126,El Ezaby - Mokattam Branch #9,BRK-20,El Ezaby,Low,250000,DIST-01,30.021702,31.301469
+PHARM-0127,Misr Pharmacies - 6th October Dist 1-5 Branch #13,BRK-24,Misr Pharmacies,Medium,80000,DIST-01,29.97136,30.948746
+PHARM-0128,Misr Pharmacies - Hadayek El Kobba & El Zaytoun Branch #6,BRK-34,Misr Pharmacies,Medium,80000,DIST-02,30.097736,31.310983
+PHARM-0129,Dr. William Gould Pharmacy,BRK-23,Independent Community Pharmacy,Low,250000,DIST-01,30.071891,30.942471
+PHARM-0130,Seif Pharmacies - Giza City & Faisal Branch #9,BRK-16,Seif Pharmacies,Medium,150000,DIST-02,30.008442,31.182495
+PHARM-0131,El Ezaby - New Maadi & Zahraa Branch #6,BRK-19,El Ezaby,Medium,250000,DIST-01,29.968672,31.303363
+PHARM-0132,Dr. Benjamin Walsh Pharmacy,BRK-15,Independent Community Pharmacy,Medium,150000,DIST-02,30.062195,31.216422
+PHARM-0133,Dr. Jack Owen Pharmacy,BRK-14,Independent Community Pharmacy,Medium,150000,DIST-02,30.038524,31.210675
+PHARM-0134,Dr. Michael Cisneros Pharmacy,BRK-05,Independent Community Pharmacy,High,80000,DIST-03,30.024194,31.47141
+PHARM-0135,El Ezaby - El Obour City Branch #3,BRK-33,El Ezaby,High,150000,DIST-01,30.226147,31.47256
+PHARM-0136,19011 Chain - Agouza Branch #12,BRK-15,19011 Chain,Medium,250000,DIST-02,30.059851,31.210789
+PHARM-0137,Misr Pharmacies - New Maadi & Zahraa Branch #4,BRK-19,Misr Pharmacies,Medium,250000,DIST-03,29.969101,31.292828
+PHARM-0138,Seif Pharmacies - 6th October Dist 1-5 Branch #12,BRK-24,Seif Pharmacies,Medium,150000,DIST-01,29.975888,30.950214
+PHARM-0139,Dr. Charles Lawson Pharmacy,BRK-35,Independent Community Pharmacy,Medium,80000,DIST-01,30.010567,31.239376
+PHARM-0140,El Ezaby - Maadi Sarayat & Degla Branch #9,BRK-18,El Ezaby,Medium,250000,DIST-01,29.954999,31.270015
+PHARM-0141,Dr. Richard Johnson Pharmacy,BRK-28,Independent Community Pharmacy,Medium,150000,DIST-06,29.987803,31.116084
+PHARM-0142,Seif Pharmacies - Heliopolis (Masr El Gedida) Branch #4,BRK-03,Seif Pharmacies,High,80000,DIST-03,30.091451,31.32609
+PHARM-0143,El Ezaby - Sheikh Zayed Central Branch #10,BRK-22,El Ezaby,Medium,150000,DIST-04,30.051728,30.986456
+PHARM-0144,Roushdy - Hadayek El Kobba & El Zaytoun Branch #4,BRK-34,Roushdy,Low,150000,DIST-02,30.097682,31.295425
+PHARM-0145,El Ezaby - Dokki Branch #3,BRK-14,El Ezaby,Low,250000,DIST-02,30.037844,31.21722
+PHARM-0146,19011 Chain - Shubra El-Kheima Branch #3,BRK-29,19011 Chain,Low,250000,DIST-01,30.122526,31.241843
+PHARM-0147,Seif Pharmacies - Dokki Branch #8,BRK-14,Seif Pharmacies,High,250000,DIST-04,30.036706,31.206938
+PHARM-0148,Dr. Austin Osborne Pharmacy,BRK-06,Independent Community Pharmacy,Medium,150000,DIST-01,30.00248,31.487928
+PHARM-0149,El Ezaby - Maadi Sarayat & Degla Branch #12,BRK-18,El Ezaby,Medium,150000,DIST-01,29.958894,31.27352
+PHARM-0150,El Ezaby - 6th October Dist 6-12 Branch #1,BRK-25,El Ezaby,High,250000,DIST-02,29.944115,30.911335
+PHARM-0151,Dr. Jacob Reyes Pharmacy,BRK-01,Independent Community Pharmacy,Medium,80000,DIST-03,30.054237,31.334048
+PHARM-0152,Dr. Keith Jacobs Pharmacy,BRK-27,Independent Community Pharmacy,Low,250000,DIST-02,30.079336,31.024416
+PHARM-0153,Dr. Michael Rush Pharmacy,BRK-22,Independent Community Pharmacy,Low,150000,DIST-01,30.051198,30.977932
+PHARM-0154,Seif Pharmacies - New Maadi & Zahraa Branch #8,BRK-19,Seif Pharmacies,Low,150000,DIST-02,29.967195,31.30599
+PHARM-0155,El Ezaby - Sheraton & Nozha Branch #6,BRK-04,El Ezaby,Medium,250000,DIST-02,30.097255,31.37909
+PHARM-0156,Seif Pharmacies - Downtown (Wust El Balad) Branch #1,BRK-09,Seif Pharmacies,High,150000,DIST-02,30.042387,31.232242
+PHARM-0157,Dr. Jacob Hines Pharmacy,BRK-26,Independent Community Pharmacy,Low,150000,DIST-01,29.922873,31.024717
+PHARM-0158,Misr Pharmacies - Haram (Al-Ahram) Branch #2,BRK-17,Misr Pharmacies,Medium,150000,DIST-03,29.998387,31.153704
+PHARM-0159,El Ezaby - 6th October Dist 1-5 Branch #10,BRK-24,El Ezaby,Medium,150000,DIST-02,29.970876,30.944208
+PHARM-0160,Dr. Kenneth Moreno Pharmacy,BRK-21,Independent Community Pharmacy,Medium,150000,DIST-02,29.846668,31.331054
+PHARM-0161,Roushdy - Sheraton & Nozha Branch #13,BRK-04,Roushdy,Medium,250000,DIST-01,30.10297,31.377283
+PHARM-0162,Seif Pharmacies - Zamalek Branch #2,BRK-10,Seif Pharmacies,Low,80000,DIST-02,30.065251,31.206316
+PHARM-0163,Dr. James Banks Pharmacy,BRK-32,Independent Community Pharmacy,Low,250000,DIST-04,30.014506,31.218348
+PHARM-0164,Dr. David Wilson Pharmacy,BRK-28,Independent Community Pharmacy,Medium,80000,DIST-02,29.973042,31.11079
+PHARM-0165,El Ezaby - First & Third Settlements Branch #11,BRK-07,El Ezaby,Medium,150000,DIST-01,30.046409,31.428513
+PHARM-0166,Dr. Noah Porter Pharmacy,BRK-35,Independent Community Pharmacy,Medium,250000,DIST-04,30.019327,31.231174
+PHARM-0167,Dr. James Hoffman Pharmacy,BRK-21,Independent Community Pharmacy,High,150000,DIST-02,29.848107,31.331775
+PHARM-0168,Dr. Dennis Green Pharmacy,BRK-24,Independent Community Pharmacy,Medium,250000,DIST-01,29.971727,30.94592
+PHARM-0169,Misr Pharmacies - Fifth Settlement South Branch #13,BRK-06,Misr Pharmacies,Medium,150000,DIST-02,30.003642,31.484408
+PHARM-0170,Seif Pharmacies - Nasr City West Branch #5,BRK-02,Seif Pharmacies,High,250000,DIST-02,30.060982,31.326483
+PHARM-0171,Dr. Jeremy Davies Pharmacy,BRK-12,Independent Community Pharmacy,Medium,150000,DIST-03,30.078562,31.237921
+PHARM-0172,Dr. Dustin Hendricks Pharmacy,BRK-33,Independent Community Pharmacy,Medium,150000,DIST-01,30.230857,31.476307
+PHARM-0173,Dr. John Martinez Pharmacy,BRK-13,Independent Community Pharmacy,Medium,150000,DIST-02,30.056117,31.203191
+PHARM-0174,Dr. Samuel Hayes Pharmacy,BRK-28,Independent Community Pharmacy,Medium,80000,DIST-01,29.976138,31.113935
+PHARM-0175,Misr Pharmacies - Nasr City East Branch #5,BRK-01,Misr Pharmacies,High,150000,DIST-01,30.060479,31.334365
+PHARM-0176,Seif Pharmacies - Hadayek Al-Ahram Branch #11,BRK-28,Seif Pharmacies,Medium,80000,DIST-01,29.983924,31.119527
+PHARM-0177,Dr. Steven Wallace Pharmacy,BRK-19,Independent Community Pharmacy,Medium,150000,DIST-02,29.973219,31.29584
+PHARM-0178,Dr. Brandon Fleming Pharmacy,BRK-34,Independent Community Pharmacy,Medium,150000,DIST-01,30.101927,31.298416
+PHARM-0179,Seif Pharmacies - Garden City & Kasr Al-Ainy Branch #2,BRK-11,Seif Pharmacies,High,80000,DIST-03,30.033155,31.234026
+PHARM-0180,Dr. Ryan Flores Pharmacy,BRK-06,Independent Community Pharmacy,Low,250000,DIST-01,30.000222,31.486143
+PHARM-0181,Dr. Gregory Brown Pharmacy,BRK-22,Independent Community Pharmacy,High,150000,DIST-01,30.053683,30.982688
+PHARM-0182,Misr Pharmacies - Fifth Settlement South Branch #1,BRK-06,Misr Pharmacies,High,150000,DIST-04,30.005688,31.488674
+PHARM-0183,Seif Pharmacies - Madinaty & Rehab Branch #4,BRK-08,Seif Pharmacies,Medium,150000,DIST-03,30.082917,31.631821
+PHARM-0184,Seif Pharmacies - 6th October Dist 1-5 Branch #7,BRK-24,Seif Pharmacies,Medium,80000,DIST-01,29.965339,30.943834
+PHARM-0185,Dr. Joshua Vance Pharmacy,BRK-35,Independent Community Pharmacy,Low,250000,DIST-01,30.009699,31.235176
+PHARM-0186,Misr Pharmacies - 6th October Dist 6-12 Branch #13,BRK-25,Misr Pharmacies,High,150000,DIST-02,29.948644,30.911258
+PHARM-0187,El Ezaby - El Manial & Roda Island Branch #10,BRK-32,El Ezaby,High,150000,DIST-01,30.019278,31.224294
+PHARM-0188,Misr Pharmacies - New Maadi & Zahraa Branch #4,BRK-19,Misr Pharmacies,Low,250000,DIST-03,29.974387,31.293955
+PHARM-0189,Misr Pharmacies - Sheikh Zayed Beverly Hills Branch #7,BRK-23,Misr Pharmacies,Medium,250000,DIST-02,30.069692,30.930903
+PHARM-0190,El Ezaby - Sheikh Zayed Beverly Hills Branch #2,BRK-23,El Ezaby,Medium,150000,DIST-02,30.07097,30.93945
+PHARM-0191,El Ezaby - Shubra Branch #4,BRK-12,El Ezaby,Low,150000,DIST-03,30.074611,31.238267
+PHARM-0192,Seif Pharmacies - Sheikh Zayed Central Branch #10,BRK-22,Seif Pharmacies,Low,80000,DIST-03,30.050084,30.994173
+PHARM-0193,Dr. Samuel Joseph Pharmacy,BRK-28,Independent Community Pharmacy,High,250000,DIST-01,29.97466,31.110639
+PHARM-0194,Dr. Timothy Little Pharmacy,BRK-08,Independent Community Pharmacy,Medium,150000,DIST-02,30.08133,31.632758
+PHARM-0195,El Ezaby - Imbaba & Al-Warraq Branch #4,BRK-30,El Ezaby,Low,80000,DIST-02,30.07841,31.210083
+PHARM-0196,Dr. Riley Hicks Pharmacy,BRK-09,Independent Community Pharmacy,Medium,80000,DIST-04,30.042014,31.234503
+PHARM-0197,Seif Pharmacies - 6th October Dist 6-12 Branch #14,BRK-25,Seif Pharmacies,Medium,250000,DIST-03,29.945159,30.907754
+PHARM-0198,Misr Pharmacies - First & Third Settlements Branch #3,BRK-07,Misr Pharmacies,Low,80000,DIST-03,30.043645,31.431311
+PHARM-0199,El Ezaby - Ain Shams & Matareya Branch #2,BRK-31,El Ezaby,Medium,250000,DIST-01,30.129328,31.307263
+PHARM-0200,El Ezaby - El Manial & Roda Island Branch #9,BRK-32,El Ezaby,Low,80000,DIST-02,30.015653,31.228
+PHARM-0201,Dr. Bryan Harris Pharmacy,BRK-19,Independent Community Pharmacy,High,150000,DIST-01,29.967426,31.30264
+PHARM-0202,Roushdy - Agouza Branch #4,BRK-15,Roushdy,Low,150000,DIST-04,30.055445,31.218826
+PHARM-0203,El Ezaby - 6th October Dist 6-12 Branch #6,BRK-25,El Ezaby,High,150000,DIST-01,29.942939,30.912378
+PHARM-0204,19011 Chain - El Manial & Roda Island Branch #9,BRK-32,19011 Chain,Low,250000,DIST-02,30.023759,31.232972
+PHARM-0205,Seif Pharmacies - Nasr City East Branch #11,BRK-01,Seif Pharmacies,Medium,250000,DIST-01,30.051415,31.350296
+PHARM-0206,Misr Pharmacies - Old Cairo & Sayeda Zeinab Branch #9,BRK-35,Misr Pharmacies,Medium,250000,DIST-01,30.013548,31.235378
+PHARM-0207,Dr. Charles Tyler Pharmacy,BRK-13,Independent Community Pharmacy,High,150000,DIST-02,30.049839,31.199089
+PHARM-0208,Dr. Alexander Spencer Pharmacy,BRK-24,Independent Community Pharmacy,Medium,250000,DIST-02,29.969387,30.945241
+PHARM-0209,Dr. Jacob Lara Pharmacy,BRK-08,Independent Community Pharmacy,Low,150000,DIST-01,30.070395,31.633466
+PHARM-0210,El Ezaby - Helwan & 15th of May Branch #2,BRK-21,El Ezaby,Low,150000,DIST-01,29.847549,31.338465
+PHARM-0211,Misr Pharmacies - Smart Village Complex Branch #13,BRK-27,Misr Pharmacies,Medium,150000,DIST-01,30.074439,31.023055
+PHARM-0212,Misr Pharmacies - Sheikh Zayed Beverly Hills Branch #3,BRK-23,Misr Pharmacies,Medium,250000,DIST-04,30.064801,30.941009
+PHARM-0213,Dr. Juan Salazar Pharmacy,BRK-16,Independent Community Pharmacy,Low,250000,DIST-02,30.006706,31.180366
+PHARM-0214,Dr. Brandon Parker Pharmacy,BRK-15,Independent Community Pharmacy,Medium,150000,DIST-03,30.055161,31.21533
+PHARM-0215,Dr. Zachary Higgins Pharmacy,BRK-28,Independent Community Pharmacy,Low,250000,DIST-01,29.974968,31.117926
+PHARM-0216,Dr. Joseph Hammond Pharmacy,BRK-27,Independent Community Pharmacy,Medium,150000,DIST-03,30.070304,31.014845
+PHARM-0217,Dr. Rodney Jones Pharmacy,BRK-30,Independent Community Pharmacy,Medium,150000,DIST-02,30.072303,31.212024
+PHARM-0218,Seif Pharmacies - Sheikh Zayed Central Branch #11,BRK-22,Seif Pharmacies,High,150000,DIST-02,30.053241,30.982569
+PHARM-0219,Seif Pharmacies - Dokki Branch #3,BRK-14,Seif Pharmacies,Low,150000,DIST-01,30.039646,31.208857
+PHARM-0220,Dr. William Day Pharmacy,BRK-09,Independent Community Pharmacy,High,250000,DIST-02,30.04409,31.235996
+PHARM-0221,Misr Pharmacies - Shubra Branch #1,BRK-12,Misr Pharmacies,High,80000,DIST-01,30.08346,31.248191
+PHARM-0222,19011 Chain - Imbaba & Al-Warraq Branch #9,BRK-30,19011 Chain,Low,80000,DIST-03,30.076095,31.209849
+PHARM-0223,Roushdy - Garden City & Kasr Al-Ainy Branch #14,BRK-11,Roushdy,Medium,250000,DIST-06,30.037891,31.231447
+PHARM-0224,Dr. Jerry Frazier Pharmacy,BRK-19,Independent Community Pharmacy,High,150000,DIST-03,29.968676,31.286318
+PHARM-0225,El Ezaby - Heliopolis (Masr El Gedida) Branch #10,BRK-03,El Ezaby,Medium,150000,DIST-02,30.091427,31.324652
+PHARM-0226,19011 Chain - Dokki Branch #9,BRK-14,19011 Chain,Medium,250000,DIST-04,30.043437,31.215145
+PHARM-0227,Dr. Gregory Humphrey Pharmacy,BRK-23,Independent Community Pharmacy,High,250000,DIST-01,30.070465,30.942694
+PHARM-0228,19011 Chain - Imbaba & Al-Warraq Branch #8,BRK-30,19011 Chain,Low,150000,DIST-03,30.071527,31.215391
+PHARM-0229,Roushdy - Imbaba & Al-Warraq Branch #14,BRK-30,Roushdy,Low,80000,DIST-04,30.074489,31.215321
+PHARM-0230,Roushdy - Madinaty & Rehab Branch #2,BRK-08,Roushdy,High,150000,DIST-01,30.086737,31.62964
+PHARM-0231,19011 Chain - 6th October Dist 1-5 Branch #9,BRK-24,19011 Chain,High,80000,DIST-02,29.970123,30.949937
+PHARM-0232,Roushdy - Heliopolis (Masr El Gedida) Branch #3,BRK-03,Roushdy,Medium,250000,DIST-01,30.093918,31.331687
+PHARM-0233,El Ezaby - First & Third Settlements Branch #1,BRK-07,El Ezaby,Low,150000,DIST-02,30.0395,31.426607
+PHARM-0234,Misr Pharmacies - 6th October Dist 6-12 Branch #8,BRK-25,Misr Pharmacies,Low,150000,DIST-02,29.955835,30.914865
+PHARM-0235,Dr. Richard Bowman Pharmacy,BRK-15,Independent Community Pharmacy,Medium,150000,DIST-02,30.054079,31.213175
+PHARM-0236,Dr. Christopher Burch Pharmacy,BRK-05,Independent Community Pharmacy,Medium,250000,DIST-02,30.020962,31.469918
+PHARM-0237,Misr Pharmacies - Helwan & 15th of May Branch #3,BRK-21,Misr Pharmacies,High,150000,DIST-01,29.836799,31.334957
+PHARM-0238,Roushdy - Fifth Settlement North Branch #1,BRK-05,Roushdy,Medium,250000,DIST-06,30.017333,31.471921
+PHARM-0239,Dr. Jeffrey Bartlett Pharmacy,BRK-26,Independent Community Pharmacy,Medium,250000,DIST-01,29.917643,31.024631
+PHARM-0240,Dr. Anthony Martinez Pharmacy,BRK-22,Independent Community Pharmacy,Low,150000,DIST-04,30.057299,30.984378
+PHARM-0241,Dr. Christian Martin Pharmacy,BRK-01,Independent Community Pharmacy,Low,150000,DIST-01,30.053692,31.337768
+PHARM-0242,Seif Pharmacies - Madinaty & Rehab Branch #10,BRK-08,Seif Pharmacies,High,250000,DIST-02,30.084721,31.631205
+PHARM-0243,Misr Pharmacies - New Maadi & Zahraa Branch #12,BRK-19,Misr Pharmacies,Medium,150000,DIST-01,29.963293,31.299538
+PHARM-0244,El Ezaby - Madinaty & Rehab Branch #1,BRK-08,El Ezaby,Low,80000,DIST-02,30.074355,31.632372
+PHARM-0245,19011 Chain - Ain Shams & Matareya Branch #13,BRK-31,19011 Chain,Medium,150000,DIST-01,30.129206,31.311472
+PHARM-0246,Dr. Frank Fletcher Pharmacy,BRK-23,Independent Community Pharmacy,Low,150000,DIST-02,30.064751,30.940852
+PHARM-0247,Dr. Gregory Everett Pharmacy,BRK-29,Independent Community Pharmacy,High,150000,DIST-03,30.137952,31.241256
+PHARM-0248,Dr. Steven Singleton Pharmacy,BRK-15,Independent Community Pharmacy,Medium,250000,DIST-02,30.057391,31.213162
+PHARM-0249,Dr. David Reid Pharmacy,BRK-18,Independent Community Pharmacy,Medium,250000,DIST-01,29.952539,31.272158
+PHARM-0250,Misr Pharmacies - Hadayek El Kobba & El Zaytoun Branch #5,BRK-34,Misr Pharmacies,Low,150000,DIST-02,30.096484,31.297523
+PHARM-0251,Seif Pharmacies - Agouza Branch #6,BRK-15,Seif Pharmacies,High,150000,DIST-02,30.055122,31.212431
+PHARM-0252,19011 Chain - Smart Village Complex Branch #1,BRK-27,19011 Chain,Medium,150000,DIST-01,30.074,31.014471
+PHARM-0253,19011 Chain - Imbaba & Al-Warraq Branch #8,BRK-30,19011 Chain,Medium,250000,DIST-01,30.07678,31.211804
+PHARM-0254,Dr. Juan Martinez Pharmacy,BRK-14,Independent Community Pharmacy,Low,150000,DIST-03,30.036532,31.209895
+PHARM-0255,Dr. Eric Ferguson Pharmacy,BRK-24,Independent Community Pharmacy,High,150000,DIST-01,29.974998,30.944304
+PHARM-0256,Dr. Jonathan Jackson Pharmacy,BRK-27,Independent Community Pharmacy,Low,150000,DIST-01,30.070948,31.011251
+PHARM-0257,El Ezaby - Heliopolis (Masr El Gedida) Branch #8,BRK-03,El Ezaby,High,250000,DIST-02,30.090406,31.321534
+PHARM-0258,Dr. Todd Moore Pharmacy,BRK-31,Independent Community Pharmacy,Low,150000,DIST-01,30.135058,31.31347
+PHARM-0259,Roushdy - Shubra Branch #6,BRK-12,Roushdy,High,80000,DIST-01,30.079427,31.251301
+PHARM-0260,Dr. Matthew Le Pharmacy,BRK-35,Independent Community Pharmacy,Medium,250000,DIST-04,30.019251,31.231497
+PHARM-0261,Dr. Larry Kirby Pharmacy,BRK-11,Independent Community Pharmacy,Low,80000,DIST-02,30.041655,31.232221
+PHARM-0262,Dr. Justin Bryan Pharmacy,BRK-34,Independent Community Pharmacy,High,80000,DIST-02,30.096206,31.305954
+PHARM-0263,Misr Pharmacies - Mokattam Branch #8,BRK-20,Misr Pharmacies,Medium,250000,DIST-01,30.017275,31.301585
+PHARM-0264,Dr. Allen Williams Pharmacy,BRK-05,Independent Community Pharmacy,Low,80000,DIST-02,30.03225,31.461366
+PHARM-0265,19011 Chain - Fifth Settlement North Branch #12,BRK-05,19011 Chain,Low,80000,DIST-02,30.023338,31.469624
+PHARM-0266,Dr. Martin Ray Pharmacy,BRK-21,Independent Community Pharmacy,Low,250000,DIST-02,29.853822,31.336797
+PHARM-0267,Dr. Matthew Wang Pharmacy,BRK-33,Independent Community Pharmacy,Medium,80000,DIST-01,30.222956,31.473175
+PHARM-0268,Dr. Jason Fowler Pharmacy,BRK-13,Independent Community Pharmacy,Medium,250000,DIST-03,30.057035,31.200293
+PHARM-0269,Roushdy - Nasr City West Branch #8,BRK-02,Roushdy,Medium,150000,DIST-06,30.065041,31.320157
+PHARM-0270,Dr. Jonathan Burton Pharmacy,BRK-03,Independent Community Pharmacy,High,150000,DIST-02,30.08999,31.327806
+PHARM-0271,19011 Chain - Dokki Branch #12,BRK-14,19011 Chain,Medium,150000,DIST-02,30.043914,31.212863
+PHARM-0272,Seif Pharmacies - Sheraton & Nozha Branch #13,BRK-04,Seif Pharmacies,Medium,150000,DIST-02,30.10598,31.380024
+PHARM-0273,Dr. Dylan Frye Pharmacy,BRK-35,Independent Community Pharmacy,High,150000,DIST-02,30.027059,31.235506
+PHARM-0274,Seif Pharmacies - Giza City & Faisal Branch #1,BRK-16,Seif Pharmacies,High,150000,DIST-01,30.01112,31.186534
+PHARM-0275,19011 Chain - Haram (Al-Ahram) Branch #4,BRK-17,19011 Chain,Medium,150000,DIST-06,30.001232,31.151608
+PHARM-0276,19011 Chain - Mokattam Branch #14,BRK-20,19011 Chain,Medium,150000,DIST-01,30.020235,31.299166
+PHARM-0277,Dr. John Ballard Pharmacy,BRK-08,Independent Community Pharmacy,Low,80000,DIST-03,30.088729,31.62908
+PHARM-0278,Seif Pharmacies - Shubra Branch #7,BRK-12,Seif Pharmacies,High,250000,DIST-06,30.084649,31.246518
+PHARM-0279,Dr. Michael Evans Pharmacy,BRK-26,Independent Community Pharmacy,Medium,80000,DIST-02,29.923103,31.025757
+PHARM-0280,Misr Pharmacies - New Maadi & Zahraa Branch #13,BRK-19,Misr Pharmacies,Medium,150000,DIST-01,29.971085,31.303747
+PHARM-0281,Misr Pharmacies - El Shorouk & Badr (NAC Axis) Branch #5,BRK-36,Misr Pharmacies,Low,150000,DIST-01,30.143924,31.627154
+PHARM-0282,Dr. Benjamin Brown Pharmacy,BRK-33,Independent Community Pharmacy,Medium,150000,DIST-04,30.22974,31.472253
+PHARM-0283,Dr. Jeffrey Washington Pharmacy,BRK-36,Independent Community Pharmacy,Medium,150000,DIST-03,30.140318,31.621749
+PHARM-0284,Dr. Damon Lawson Pharmacy,BRK-34,Independent Community Pharmacy,Low,150000,DIST-02,30.089702,31.304912
+PHARM-0285,Roushdy - Imbaba & Al-Warraq Branch #11,BRK-30,Roushdy,Medium,80000,DIST-04,30.077036,31.215367
+PHARM-0286,Dr. Erik Higgins Pharmacy,BRK-12,Independent Community Pharmacy,High,150000,DIST-02,30.085667,31.242628
+PHARM-0287,19011 Chain - 6th October Dist 1-5 Branch #9,BRK-24,19011 Chain,High,150000,DIST-01,29.973076,30.946511
+PHARM-0288,Dr. Nicholas Valencia Pharmacy,BRK-08,Independent Community Pharmacy,Medium,80000,DIST-03,30.080428,31.628515
+PHARM-0289,Dr. William Anderson Pharmacy,BRK-11,Independent Community Pharmacy,Medium,150000,DIST-01,30.03485,31.237006
+PHARM-0290,19011 Chain - Sheikh Zayed Central Branch #9,BRK-22,19011 Chain,Medium,150000,DIST-03,30.053338,30.990912
+PHARM-0291,Dr. Jacob Hoffman Pharmacy,BRK-29,Independent Community Pharmacy,High,150000,DIST-01,30.132425,31.251499
+PHARM-0292,Dr. Francis Owens Pharmacy,BRK-22,Independent Community Pharmacy,High,150000,DIST-02,30.044717,30.982177
+PHARM-0293,Dr. Derek Wright Pharmacy,BRK-29,Independent Community Pharmacy,Medium,150000,DIST-01,30.12814,31.240816
+PHARM-0294,Seif Pharmacies - Nasr City East Branch #10,BRK-01,Seif Pharmacies,Low,150000,DIST-02,30.059266,31.34302
+PHARM-0295,Seif Pharmacies - Sheikh Zayed Central Branch #7,BRK-22,Seif Pharmacies,Low,250000,DIST-01,30.057621,30.984035
+PHARM-0296,Misr Pharmacies - Old Cairo & Sayeda Zeinab Branch #1,BRK-35,Misr Pharmacies,Low,250000,DIST-02,30.010705,31.233324
+PHARM-0297,Dr. Brent Roberts Pharmacy,BRK-27,Independent Community Pharmacy,Medium,250000,DIST-02,30.07484,31.012383
+PHARM-0298,Dr. James Gilbert Pharmacy,BRK-33,Independent Community Pharmacy,Medium,150000,DIST-02,30.21467,31.478267
+PHARM-0299,Roushdy - Ain Shams & Matareya Branch #5,BRK-31,Roushdy,Low,80000,DIST-01,30.125659,31.313915
+PHARM-0300,Misr Pharmacies - Helwan & 15th of May Branch #7,BRK-21,Misr Pharmacies,Medium,150000,DIST-06,29.847354,31.334667
+PHARM-0301,Dr. David Grimes Pharmacy,BRK-16,Independent Community Pharmacy,Medium,250000,DIST-04,30.010082,31.186704
+PHARM-0302,Dr. Christopher Murphy Pharmacy,BRK-13,Independent Community Pharmacy,High,80000,DIST-02,30.051021,31.197268
+PHARM-0303,19011 Chain - Mokattam Branch #13,BRK-20,19011 Chain,High,80000,DIST-03,30.022704,31.305615
+PHARM-0304,El Ezaby - Shubra El-Kheima Branch #9,BRK-29,El Ezaby,Low,80000,DIST-02,30.128103,31.241354
+PHARM-0305,Dr. Kenneth Edwards Pharmacy,BRK-22,Independent Community Pharmacy,Medium,150000,DIST-04,30.054072,30.982883
+PHARM-0306,Dr. Phillip Jimenez Pharmacy,BRK-13,Independent Community Pharmacy,Medium,250000,DIST-01,30.053349,31.211173
+PHARM-0307,El Ezaby - Downtown (Wust El Balad) Branch #13,BRK-09,El Ezaby,Medium,150000,DIST-02,30.040286,31.232198
+PHARM-0308,El Ezaby - Imbaba & Al-Warraq Branch #14,BRK-30,El Ezaby,Medium,80000,DIST-01,30.071032,31.212785
+PHARM-0309,Dr. Jose Jimenez Pharmacy,BRK-23,Independent Community Pharmacy,Medium,150000,DIST-01,30.059758,30.946364
+PHARM-0310,Roushdy - Fifth Settlement North Branch #14,BRK-05,Roushdy,High,250000,DIST-02,30.025338,31.472242
+PHARM-0311,Dr. Eric Johnson Pharmacy,BRK-12,Independent Community Pharmacy,Medium,80000,DIST-01,30.089988,31.246159
+PHARM-0312,Dr. Tony Wagner Pharmacy,BRK-30,Independent Community Pharmacy,Medium,150000,DIST-04,30.080046,31.211307
+PHARM-0313,Seif Pharmacies - Giza City & Faisal Branch #14,BRK-16,Seif Pharmacies,Medium,150000,DIST-01,30.012118,31.183652
+PHARM-0314,Dr. Vincent Lewis Pharmacy,BRK-35,Independent Community Pharmacy,High,150000,DIST-01,30.015598,31.236083
+PHARM-0315,Misr Pharmacies - Old Cairo & Sayeda Zeinab Branch #11,BRK-35,Misr Pharmacies,Medium,150000,DIST-02,30.00824,31.232293
+PHARM-0316,Dr. Harry Williams Pharmacy,BRK-02,Independent Community Pharmacy,Low,250000,DIST-04,30.061789,31.321909
+PHARM-0317,El Ezaby - Maadi Sarayat & Degla Branch #9,BRK-18,El Ezaby,Medium,250000,DIST-02,29.958123,31.265682
+PHARM-0318,Dr. Johnny Khan Pharmacy,BRK-32,Independent Community Pharmacy,Medium,150000,DIST-01,30.025283,31.228678
+PHARM-0319,19011 Chain - Nasr City East Branch #10,BRK-01,19011 Chain,Medium,150000,DIST-03,30.061277,31.340192
+PHARM-0320,Misr Pharmacies - Sheraton & Nozha Branch #8,BRK-04,Misr Pharmacies,Low,150000,DIST-04,30.10612,31.382251
+PHARM-0321,El Ezaby - 6th October Dist 1-5 Branch #3,BRK-24,El Ezaby,Low,150000,DIST-02,29.969777,30.946072
+PHARM-0322,Misr Pharmacies - Old Cairo & Sayeda Zeinab Branch #6,BRK-35,Misr Pharmacies,Medium,150000,DIST-01,30.013396,31.236263
+PHARM-0323,19011 Chain - Garden City & Kasr Al-Ainy Branch #10,BRK-11,19011 Chain,Medium,250000,DIST-01,30.035496,31.230062
+PHARM-0324,Dr. Matthew Ruiz Pharmacy,BRK-16,Independent Community Pharmacy,Low,150000,DIST-02,30.005421,31.18893
+PHARM-0325,El Ezaby - Garden City & Kasr Al-Ainy Branch #1,BRK-11,El Ezaby,Medium,250000,DIST-04,30.039368,31.228808
+PHARM-0326,19011 Chain - Downtown (Wust El Balad) Branch #13,BRK-09,19011 Chain,High,150000,DIST-01,30.048679,31.235965
+PHARM-0327,El Ezaby - Shubra El-Kheima Branch #11,BRK-29,El Ezaby,Low,80000,DIST-01,30.133053,31.237828
+PHARM-0328,El Ezaby - First & Third Settlements Branch #11,BRK-07,El Ezaby,Medium,250000,DIST-02,30.047285,31.434254
+PHARM-0329,Roushdy - Fifth Settlement North Branch #10,BRK-05,Roushdy,Medium,150000,DIST-01,30.019632,31.477454
+PHARM-0330,Dr. Joshua Boone Pharmacy,BRK-03,Independent Community Pharmacy,Medium,150000,DIST-01,30.083815,31.324827
+PHARM-0331,Misr Pharmacies - Mohandessin Branch #5,BRK-13,Misr Pharmacies,Low,250000,DIST-03,30.050053,31.19484
+PHARM-0332,Misr Pharmacies - Helwan & 15th of May Branch #10,BRK-21,Misr Pharmacies,High,80000,DIST-02,29.841714,31.331321
+PHARM-0333,Roushdy - Heliopolis (Masr El Gedida) Branch #1,BRK-03,Roushdy,Medium,80000,DIST-01,30.091034,31.330453
+PHARM-0334,El Ezaby - Haram (Al-Ahram) Branch #8,BRK-17,El Ezaby,Low,250000,DIST-02,29.99196,31.154118
+PHARM-0335,Dr. Jeffrey Khan Pharmacy,BRK-07,Independent Community Pharmacy,High,150000,DIST-01,30.049337,31.432841
+PHARM-0336,Misr Pharmacies - Hadayek El Kobba & El Zaytoun Branch #12,BRK-34,Misr Pharmacies,Medium,150000,DIST-06,30.098193,31.30094
+PHARM-0337,Dr. Nicholas Gallagher Pharmacy,BRK-35,Independent Community Pharmacy,Low,250000,DIST-01,30.012103,31.232769
+PHARM-0338,Dr. Jacob Morales Pharmacy,BRK-14,Independent Community Pharmacy,High,80000,DIST-02,30.047296,31.218951
+PHARM-0339,Misr Pharmacies - New Maadi & Zahraa Branch #4,BRK-19,Misr Pharmacies,Medium,250000,DIST-02,29.970346,31.30266
+PHARM-0340,19011 Chain - El Shorouk & Badr (NAC Axis) Branch #10,BRK-36,19011 Chain,Medium,250000,DIST-02,30.144199,31.618202
+PHARM-0341,El Ezaby - Downtown (Wust El Balad) Branch #4,BRK-09,El Ezaby,Medium,150000,DIST-02,30.049856,31.23374
+PHARM-0342,Dr. Kelly Lee Pharmacy,BRK-07,Independent Community Pharmacy,Medium,150000,DIST-04,30.041756,31.430555
+PHARM-0343,El Ezaby - Smart Village Complex Branch #12,BRK-27,El Ezaby,Medium,80000,DIST-02,30.072486,31.016829
+PHARM-0344,Misr Pharmacies - Haram (Al-Ahram) Branch #10,BRK-17,Misr Pharmacies,High,150000,DIST-01,30.00385,31.155718
+PHARM-0345,Dr. Juan Jones Pharmacy,BRK-26,Independent Community Pharmacy,Low,150000,DIST-06,29.925627,31.023324
+PHARM-0346,Dr. Jonathan Duran Pharmacy,BRK-25,Independent Community Pharmacy,High,150000,DIST-02,29.951588,30.917625
+PHARM-0347,Dr. Douglas Hays Pharmacy,BRK-32,Independent Community Pharmacy,Low,80000,DIST-03,30.016693,31.23108
+PHARM-0348,El Ezaby - El Obour City Branch #1,BRK-33,El Ezaby,High,150000,DIST-02,30.224369,31.475093
+PHARM-0349,Dr. Michael Wilson Pharmacy,BRK-29,Independent Community Pharmacy,Medium,150000,DIST-01,30.123277,31.233488
+PHARM-0350,Dr. William Long Pharmacy,BRK-23,Independent Community Pharmacy,High,80000,DIST-01,30.068411,30.942597
+PHARM-0351,El Ezaby - Old Cairo & Sayeda Zeinab Branch #14,BRK-35,El Ezaby,Medium,80000,DIST-01,30.009317,31.238658
+PHARM-0352,19011 Chain - Agouza Branch #10,BRK-15,19011 Chain,Low,150000,DIST-04,30.056669,31.205204
+PHARM-0353,19011 Chain - Fifth Settlement South Branch #3,BRK-06,19011 Chain,Low,150000,DIST-02,30.001546,31.489913
+PHARM-0354,Seif Pharmacies - Sheikh Zayed Central Branch #6,BRK-22,Seif Pharmacies,Medium,250000,DIST-01,30.048943,30.988505
+PHARM-0355,Dr. Robert Morgan Pharmacy,BRK-31,Independent Community Pharmacy,Medium,150000,DIST-01,30.127719,31.310284
+PHARM-0356,El Ezaby - Madinaty & Rehab Branch #3,BRK-08,El Ezaby,Medium,150000,DIST-02,30.084008,31.634628
+PHARM-0357,Misr Pharmacies - Garden City & Kasr Al-Ainy Branch #10,BRK-11,Misr Pharmacies,High,150000,DIST-01,30.029173,31.229314
+PHARM-0358,19011 Chain - Maadi Sarayat & Degla Branch #3,BRK-18,19011 Chain,Medium,80000,DIST-01,29.952666,31.271606
+PHARM-0359,Dr. Todd Fischer Pharmacy,BRK-28,Independent Community Pharmacy,Low,250000,DIST-02,29.975059,31.121093
+PHARM-0360,Dr. Curtis Hicks Pharmacy,BRK-17,Independent Community Pharmacy,Medium,250000,DIST-02,29.999196,31.15602
+PHARM-0361,19011 Chain - Hadayek El Kobba & El Zaytoun Branch #11,BRK-34,19011 Chain,Low,250000,DIST-04,30.104818,31.300568
+PHARM-0362,Dr. Jonathan Williams Pharmacy,BRK-18,Independent Community Pharmacy,Medium,250000,DIST-02,29.953855,31.274186
+PHARM-0363,Dr. Chad Cook Pharmacy,BRK-01,Independent Community Pharmacy,Medium,80000,DIST-02,30.048231,31.341115
+PHARM-0364,Dr. John Bryant Pharmacy,BRK-29,Independent Community Pharmacy,Medium,250000,DIST-04,30.134662,31.243727
+PHARM-0365,El Ezaby - Smart Village Complex Branch #2,BRK-27,El Ezaby,Low,250000,DIST-01,30.078998,31.017671
+PHARM-0366,Dr. Larry Robertson Pharmacy,BRK-06,Independent Community Pharmacy,Medium,150000,DIST-02,29.99695,31.485398
+PHARM-0367,Dr. Garrett Austin Pharmacy,BRK-22,Independent Community Pharmacy,Low,150000,DIST-04,30.054444,30.986161
+PHARM-0368,Dr. Christopher Ewing Pharmacy,BRK-17,Independent Community Pharmacy,High,250000,DIST-02,30.00547,31.159036
+PHARM-0369,Dr. Patrick Evans Pharmacy,BRK-29,Independent Community Pharmacy,High,150000,DIST-01,30.125004,31.240767
+PHARM-0370,Dr. George Clayton Pharmacy,BRK-30,Independent Community Pharmacy,Medium,150000,DIST-02,30.073731,31.206934
+PHARM-0371,Dr. Joseph Erickson Pharmacy,BRK-17,Independent Community Pharmacy,Low,150000,DIST-01,29.999379,31.156618
+PHARM-0372,Seif Pharmacies - Fifth Settlement North Branch #4,BRK-05,Seif Pharmacies,High,150000,DIST-02,30.02705,31.473035
+PHARM-0373,Seif Pharmacies - Garden City & Kasr Al-Ainy Branch #11,BRK-11,Seif Pharmacies,High,150000,DIST-02,30.040784,31.227004
+PHARM-0374,Roushdy - Sheikh Zayed Beverly Hills Branch #7,BRK-23,Roushdy,Low,250000,DIST-01,30.065327,30.938875
+PHARM-0375,Dr. Elijah Cabrera Pharmacy,BRK-02,Independent Community Pharmacy,High,150000,DIST-01,30.059467,31.327167
+PHARM-0376,El Ezaby - Hadayek Al-Ahram Branch #6,BRK-28,El Ezaby,Medium,150000,DIST-02,29.983224,31.11329
+PHARM-0377,Dr. Jacob Nunez Pharmacy,BRK-14,Independent Community Pharmacy,High,150000,DIST-02,30.041433,31.20704
+PHARM-0378,Misr Pharmacies - Garden City & Kasr Al-Ainy Branch #14,BRK-11,Misr Pharmacies,Low,150000,DIST-04,30.043143,31.232876
+PHARM-0379,Dr. William Silva Pharmacy,BRK-31,Independent Community Pharmacy,Medium,250000,DIST-02,30.129309,31.317555
+PHARM-0380,Dr. Robert Swanson Pharmacy,BRK-22,Independent Community Pharmacy,High,150000,DIST-01,30.052302,30.989195
+PHARM-0381,Dr. Michael Johnson Pharmacy,BRK-13,Independent Community Pharmacy,Medium,250000,DIST-02,30.050302,31.202488
+PHARM-0382,Dr. John Coffey Pharmacy,BRK-19,Independent Community Pharmacy,Low,150000,DIST-04,29.973351,31.301766
+PHARM-0383,El Ezaby - Fifth Settlement South Branch #2,BRK-06,El Ezaby,High,250000,DIST-02,30.005165,31.48822
+PHARM-0384,El Ezaby - First & Third Settlements Branch #5,BRK-07,El Ezaby,Low,150000,DIST-01,30.046188,31.426902
+PHARM-0385,Dr. Richard Parsons Pharmacy,BRK-03,Independent Community Pharmacy,Medium,150000,DIST-02,30.088272,31.334523
+PHARM-0386,Misr Pharmacies - Heliopolis (Masr El Gedida) Branch #8,BRK-03,Misr Pharmacies,High,150000,DIST-02,30.089771,31.329308
+PHARM-0387,Dr. Kenneth Griffith Pharmacy,BRK-13,Independent Community Pharmacy,High,150000,DIST-02,30.056443,31.197563
+PHARM-0388,Dr. Kevin Jackson Pharmacy,BRK-24,Independent Community Pharmacy,Low,150000,DIST-01,29.969634,30.941098
+PHARM-0389,Misr Pharmacies - Fifth Settlement South Branch #13,BRK-06,Misr Pharmacies,Medium,150000,DIST-02,30.006675,31.485882
+PHARM-0390,Roushdy - Fifth Settlement North Branch #8,BRK-05,Roushdy,Medium,150000,DIST-01,30.02187,31.473367
+PHARM-0391,Dr. Mark Harvey Pharmacy,BRK-12,Independent Community Pharmacy,Low,150000,DIST-02,30.081934,31.245317
+PHARM-0392,El Ezaby - Smart Village Complex Branch #2,BRK-27,El Ezaby,High,150000,DIST-02,30.082975,31.016178
+PHARM-0393,19011 Chain - First & Third Settlements Branch #9,BRK-07,19011 Chain,Medium,250000,DIST-02,30.047686,31.436715
+PHARM-0394,Misr Pharmacies - Imbaba & Al-Warraq Branch #9,BRK-30,Misr Pharmacies,High,150000,DIST-02,30.07187,31.217828
+PHARM-0395,Roushdy - Sheikh Zayed Central Branch #1,BRK-22,Roushdy,Low,250000,DIST-02,30.055317,30.982728
+PHARM-0396,Dr. Ryan Hernandez Pharmacy,BRK-17,Independent Community Pharmacy,Medium,150000,DIST-02,30.002006,31.151413
+PHARM-0397,El Ezaby - Smart Village Complex Branch #3,BRK-27,El Ezaby,Medium,150000,DIST-04,30.068273,31.016818
+PHARM-0398,19011 Chain - New Maadi & Zahraa Branch #3,BRK-19,19011 Chain,Low,80000,DIST-02,29.965946,31.297901
+PHARM-0399,Dr. Michael Johnson Pharmacy,BRK-08,Independent Community Pharmacy,Medium,150000,DIST-02,30.080384,31.628812
+PHARM-0400,Misr Pharmacies - New Maadi & Zahraa Branch #2,BRK-19,Misr Pharmacies,Medium,150000,DIST-02,29.97899,31.299184
+PHARM-0401,Dr. Travis Rodriguez Pharmacy,BRK-05,Independent Community Pharmacy,Medium,250000,DIST-02,30.025218,31.477381
+PHARM-0402,El Ezaby - 6th October Dist 1-5 Branch #2,BRK-24,El Ezaby,Low,150000,DIST-03,29.975575,30.946296
+PHARM-0403,El Ezaby - New Maadi & Zahraa Branch #5,BRK-19,El Ezaby,Medium,150000,DIST-04,29.962134,31.293513
+PHARM-0404,Dr. Albert Edwards Pharmacy,BRK-32,Independent Community Pharmacy,High,150000,DIST-02,30.015275,31.228122
+PHARM-0405,Dr. Christian Vaughn Pharmacy,BRK-03,Independent Community Pharmacy,Medium,80000,DIST-02,30.087626,31.326994
+PHARM-0406,Seif Pharmacies - Haram (Al-Ahram) Branch #9,BRK-17,Seif Pharmacies,Low,150000,DIST-04,29.990434,31.158352
+PHARM-0407,Dr. Jason Hampton Pharmacy,BRK-10,Independent Community Pharmacy,Low,150000,DIST-01,30.062247,31.221883
+PHARM-0408,El Ezaby - Helwan & 15th of May Branch #9,BRK-21,El Ezaby,High,150000,DIST-02,29.845348,31.327855
+PHARM-0409,Seif Pharmacies - Helwan & 15th of May Branch #10,BRK-21,Seif Pharmacies,Medium,250000,DIST-01,29.842471,31.324488
+PHARM-0410,Dr. Thomas Salas Pharmacy,BRK-12,Independent Community Pharmacy,Medium,150000,DIST-04,30.07886,31.250329
+PHARM-0411,Dr. Noah Brown Pharmacy,BRK-17,Independent Community Pharmacy,Medium,150000,DIST-02,29.990048,31.147387
+PHARM-0412,Dr. Charles Clark Pharmacy,BRK-05,Independent Community Pharmacy,High,250000,DIST-01,30.021265,31.479559
+PHARM-0413,Dr. Frederick Bates Pharmacy,BRK-17,Independent Community Pharmacy,Medium,250000,DIST-06,30.003213,31.155441
+PHARM-0414,Dr. Joseph Edwards Pharmacy,BRK-27,Independent Community Pharmacy,Low,150000,DIST-04,30.076156,31.017602
+PHARM-0415,Misr Pharmacies - Giza City & Faisal Branch #10,BRK-16,Misr Pharmacies,Medium,80000,DIST-01,30.007819,31.180068
+PHARM-0416,Seif Pharmacies - Sheraton & Nozha Branch #12,BRK-04,Seif Pharmacies,High,150000,DIST-02,30.111348,31.374475
+PHARM-0417,El Ezaby - Maadi Sarayat & Degla Branch #2,BRK-18,El Ezaby,Medium,80000,DIST-01,29.95038,31.27603
+PHARM-0418,Seif Pharmacies - El Manial & Roda Island Branch #6,BRK-32,Seif Pharmacies,Low,150000,DIST-01,30.018577,31.224984
+PHARM-0419,Dr. Christopher Barr Pharmacy,BRK-09,Independent Community Pharmacy,Medium,150000,DIST-01,30.046699,31.233556
+PHARM-0420,Dr. Gordon Gomez Pharmacy,BRK-06,Independent Community Pharmacy,High,250000,DIST-02,30.010974,31.493476
+PHARM-0421,19011 Chain - Sheikh Zayed Central Branch #5,BRK-22,19011 Chain,High,250000,DIST-01,30.053829,30.993393
+PHARM-0422,Dr. Raymond Le Pharmacy,BRK-34,Independent Community Pharmacy,Medium,150000,DIST-02,30.091011,31.305378
+PHARM-0423,Misr Pharmacies - Zamalek Branch #3,BRK-10,Misr Pharmacies,Medium,150000,DIST-02,30.064296,31.216376
+PHARM-0424,19011 Chain - Nasr City West Branch #8,BRK-02,19011 Chain,Medium,150000,DIST-03,30.056441,31.331419
+PHARM-0425,19011 Chain - Sheraton & Nozha Branch #9,BRK-04,19011 Chain,High,150000,DIST-03,30.109813,31.384668
+PHARM-0426,El Ezaby - Agouza Branch #7,BRK-15,El Ezaby,High,250000,DIST-02,30.054836,31.208599
+PHARM-0427,Dr. Mason Steele Pharmacy,BRK-12,Independent Community Pharmacy,Medium,80000,DIST-02,30.082585,31.250642
+PHARM-0428,Dr. Leonard Lee Pharmacy,BRK-07,Independent Community Pharmacy,Low,250000,DIST-01,30.050209,31.428444
+PHARM-0429,El Ezaby - Zamalek Branch #14,BRK-10,El Ezaby,Medium,150000,DIST-01,30.064655,31.221164
+PHARM-0430,19011 Chain - Ain Shams & Matareya Branch #7,BRK-31,19011 Chain,Medium,150000,DIST-01,30.140628,31.315553
+PHARM-0431,Misr Pharmacies - Hadayek Al-Ahram Branch #9,BRK-28,Misr Pharmacies,Medium,150000,DIST-02,29.974026,31.106504
+PHARM-0432,Seif Pharmacies - Zamalek Branch #2,BRK-10,Seif Pharmacies,Medium,80000,DIST-03,30.059679,31.216062
+PHARM-0433,El Ezaby - Zamalek Branch #4,BRK-10,El Ezaby,Medium,150000,DIST-02,30.059796,31.208652
+PHARM-0434,Seif Pharmacies - Garden City & Kasr Al-Ainy Branch #10,BRK-11,Seif Pharmacies,Medium,150000,DIST-01,30.033661,31.223824
+PHARM-0435,19011 Chain - Agouza Branch #3,BRK-15,19011 Chain,High,150000,DIST-01,30.059025,31.217502
+PHARM-0436,Dr. David Grant Pharmacy,BRK-08,Independent Community Pharmacy,Low,80000,DIST-06,30.079407,31.634037
+PHARM-0437,Dr. Danny Dudley Pharmacy,BRK-01,Independent Community Pharmacy,Low,150000,DIST-01,30.055973,31.349351
+PHARM-0438,El Ezaby - El Manial & Roda Island Branch #4,BRK-32,El Ezaby,Low,250000,DIST-01,30.019429,31.221244
+PHARM-0439,Seif Pharmacies - Madinaty & Rehab Branch #1,BRK-08,Seif Pharmacies,Medium,150000,DIST-04,30.083804,31.636027
+PHARM-0440,Dr. Edward Roberts Pharmacy,BRK-07,Independent Community Pharmacy,Low,250000,DIST-01,30.04515,31.436367
+PHARM-0441,Roushdy - Smart Village Complex Branch #10,BRK-27,Roushdy,Medium,150000,DIST-02,30.075106,31.01779
+PHARM-0442,El Ezaby - Shubra El-Kheima Branch #2,BRK-29,El Ezaby,High,150000,DIST-03,30.129004,31.244078
+PHARM-0443,Dr. Daniel Bush Pharmacy,BRK-36,Independent Community Pharmacy,Medium,150000,DIST-01,30.145354,31.625838
+PHARM-0444,El Ezaby - Fifth Settlement South Branch #12,BRK-06,El Ezaby,Low,80000,DIST-01,30.005686,31.474725
+PHARM-0445,Dr. Evan Bailey Pharmacy,BRK-02,Independent Community Pharmacy,Low,250000,DIST-01,30.056486,31.328324
+PHARM-0446,Dr. Timothy Pope Pharmacy,BRK-07,Independent Community Pharmacy,High,250000,DIST-02,30.04726,31.43197
+PHARM-0447,Dr. Donald Martinez Pharmacy,BRK-01,Independent Community Pharmacy,Medium,150000,DIST-02,30.059296,31.343996
+PHARM-0448,Seif Pharmacies - Giza City & Faisal Branch #8,BRK-16,Seif Pharmacies,Medium,80000,DIST-03,30.010736,31.188544
+PHARM-0449,Seif Pharmacies - Shubra Branch #5,BRK-12,Seif Pharmacies,Medium,250000,DIST-03,30.081504,31.239822
+PHARM-0450,Dr. Michael James Pharmacy,BRK-14,Independent Community Pharmacy,Low,150000,DIST-03,30.031733,31.206421
+PHARM-0451,19011 Chain - Nasr City West Branch #10,BRK-02,19011 Chain,Medium,150000,DIST-01,30.060804,31.327205
+PHARM-0452,19011 Chain - El Shorouk & Badr (NAC Axis) Branch #7,BRK-36,19011 Chain,Medium,80000,DIST-04,30.147938,31.621099
+PHARM-0453,Misr Pharmacies - Shubra El-Kheima Branch #1,BRK-29,Misr Pharmacies,Medium,150000,DIST-02,30.130235,31.236272
+PHARM-0454,Dr. William Cardenas Pharmacy,BRK-04,Independent Community Pharmacy,Medium,150000,DIST-01,30.102189,31.372702
+PHARM-0455,Seif Pharmacies - First & Third Settlements Branch #12,BRK-07,Seif Pharmacies,Medium,250000,DIST-03,30.047743,31.423385
+PHARM-0456,El Ezaby - New Maadi & Zahraa Branch #14,BRK-19,El Ezaby,High,250000,DIST-03,29.968916,31.302041
+PHARM-0457,Dr. Troy Ballard Pharmacy,BRK-26,Independent Community Pharmacy,Medium,150000,DIST-03,29.929761,31.029075
+PHARM-0458,Misr Pharmacies - Fifth Settlement South Branch #13,BRK-06,Misr Pharmacies,High,150000,DIST-02,30.006994,31.488015
+PHARM-0459,Dr. Dylan Roberts Pharmacy,BRK-31,Independent Community Pharmacy,Low,250000,DIST-01,30.133755,31.310107
+PHARM-0460,19011 Chain - Sheikh Zayed Beverly Hills Branch #2,BRK-23,19011 Chain,Low,80000,DIST-02,30.069743,30.944231
+PHARM-0461,Dr. Miguel Reed Pharmacy,BRK-21,Independent Community Pharmacy,Medium,150000,DIST-03,29.842746,31.331867
+PHARM-0462,Dr. Jeremy Scott Pharmacy,BRK-17,Independent Community Pharmacy,Low,80000,DIST-01,30.000292,31.150965
+PHARM-0463,El Ezaby - 6th October Dist 6-12 Branch #6,BRK-25,El Ezaby,Medium,150000,DIST-03,29.950411,30.918856
+PHARM-0464,Dr. John Harris Pharmacy,BRK-05,Independent Community Pharmacy,Medium,150000,DIST-03,30.023229,31.472466
+PHARM-0465,Seif Pharmacies - Helwan & 15th of May Branch #6,BRK-21,Seif Pharmacies,High,80000,DIST-02,29.840246,31.329612
+PHARM-0466,Dr. Joshua Fitzpatrick Pharmacy,BRK-25,Independent Community Pharmacy,High,150000,DIST-02,29.955216,30.917802
+PHARM-0467,El Ezaby - Garden City & Kasr Al-Ainy Branch #8,BRK-11,El Ezaby,Medium,80000,DIST-04,30.038311,31.234877
+PHARM-0468,Dr. Michael Taylor Pharmacy,BRK-03,Independent Community Pharmacy,Medium,250000,DIST-02,30.094983,31.330766
+PHARM-0469,Misr Pharmacies - Hadayek October Branch #5,BRK-26,Misr Pharmacies,Medium,150000,DIST-02,29.923547,31.028418
+PHARM-0470,Dr. Luis Matthews Pharmacy,BRK-13,Independent Community Pharmacy,Low,150000,DIST-02,30.063368,31.201892
+PHARM-0471,Dr. David Santiago Pharmacy,BRK-22,Independent Community Pharmacy,High,250000,DIST-06,30.052197,30.98789
+PHARM-0472,Dr. Joseph Little Pharmacy,BRK-02,Independent Community Pharmacy,High,80000,DIST-02,30.057657,31.329389
+PHARM-0473,Seif Pharmacies - Sheraton & Nozha Branch #9,BRK-04,Seif Pharmacies,High,250000,DIST-03,30.106234,31.382773
+PHARM-0474,El Ezaby - Sheikh Zayed Beverly Hills Branch #4,BRK-23,El Ezaby,Low,150000,DIST-02,30.065762,30.943182
+PHARM-0475,El Ezaby - Maadi Sarayat & Degla Branch #7,BRK-18,El Ezaby,Medium,250000,DIST-02,29.964195,31.276281
+PHARM-0476,Misr Pharmacies - Mokattam Branch #14,BRK-20,Misr Pharmacies,High,150000,DIST-03,30.021418,31.295487
+PHARM-0477,El Ezaby - Fifth Settlement North Branch #2,BRK-05,El Ezaby,Medium,150000,DIST-01,30.024635,31.473212
+PHARM-0478,Dr. Anthony Gutierrez Pharmacy,BRK-24,Independent Community Pharmacy,Medium,80000,DIST-01,29.974813,30.944511
+PHARM-0479,Misr Pharmacies - Helwan & 15th of May Branch #8,BRK-21,Misr Pharmacies,High,150000,DIST-02,29.848348,31.330584
+PHARM-0480,Dr. Mitchell Garcia Pharmacy,BRK-31,Independent Community Pharmacy,Medium,150000,DIST-02,30.131924,31.311272
+PHARM-0481,El Ezaby - Hadayek El Kobba & El Zaytoun Branch #2,BRK-34,El Ezaby,Low,150000,DIST-03,30.100137,31.302093
+PHARM-0482,Seif Pharmacies - Dokki Branch #9,BRK-14,Seif Pharmacies,High,80000,DIST-02,30.038599,31.216387
+PHARM-0483,Dr. Randy Smith Pharmacy,BRK-08,Independent Community Pharmacy,Low,150000,DIST-02,30.080821,31.632144
+PHARM-0484,El Ezaby - Ain Shams & Matareya Branch #13,BRK-31,El Ezaby,Low,150000,DIST-02,30.124233,31.318307
+PHARM-0485,Roushdy - First & Third Settlements Branch #14,BRK-07,Roushdy,Medium,150000,DIST-01,30.04326,31.435092
+PHARM-0486,Dr. Joshua Hickman Pharmacy,BRK-32,Independent Community Pharmacy,Medium,150000,DIST-01,30.018413,31.234324
+PHARM-0487,Dr. Jason Donovan Pharmacy,BRK-28,Independent Community Pharmacy,Medium,150000,DIST-02,29.97598,31.110848
+PHARM-0488,Roushdy - Dokki Branch #5,BRK-14,Roushdy,Medium,150000,DIST-04,30.03249,31.21343
+PHARM-0489,Roushdy - Imbaba & Al-Warraq Branch #3,BRK-30,Roushdy,Medium,250000,DIST-02,30.076721,31.218384
+PHARM-0490,19011 Chain - Hadayek October Branch #5,BRK-26,19011 Chain,Low,80000,DIST-01,29.92213,31.023622
+PHARM-0491,El Ezaby - Old Cairo & Sayeda Zeinab Branch #12,BRK-35,El Ezaby,Low,80000,DIST-03,30.013083,31.227103
+PHARM-0492,Dr. Shawn Woods Pharmacy,BRK-22,Independent Community Pharmacy,Medium,150000,DIST-02,30.059171,30.989996
+PHARM-0493,Dr. Curtis Maynard Pharmacy,BRK-25,Independent Community Pharmacy,Medium,80000,DIST-01,29.958138,30.916359
+PHARM-0494,Dr. Frank Brewer Pharmacy,BRK-20,Independent Community Pharmacy,Low,250000,DIST-04,30.01087,31.29723
+PHARM-0495,Roushdy - Fifth Settlement North Branch #6,BRK-05,Roushdy,Low,80000,DIST-01,30.023872,31.467159
+PHARM-0496,Dr. Terry Davis Pharmacy,BRK-06,Independent Community Pharmacy,Medium,80000,DIST-02,29.998083,31.492812
+PHARM-0497,El Ezaby - Hadayek Al-Ahram Branch #3,BRK-28,El Ezaby,Low,80000,DIST-02,29.981283,31.111641
+PHARM-0498,Seif Pharmacies - Zamalek Branch #5,BRK-10,Seif Pharmacies,Medium,150000,DIST-03,30.057677,31.216594
+PHARM-0499,El Ezaby - Mokattam Branch #10,BRK-20,El Ezaby,High,250000,DIST-01,30.013098,31.30609
+PHARM-0500,Dr. Kenneth Nichols Pharmacy,BRK-21,Independent Community Pharmacy,Medium,150000,DIST-01,29.845353,31.335896
+PHARM-0501,Misr Pharmacies - Garden City & Kasr Al-Ainy Branch #4,BRK-11,Misr Pharmacies,Medium,150000,DIST-02,30.041113,31.228918
+PHARM-0502,El Ezaby - New Maadi & Zahraa Branch #13,BRK-19,El Ezaby,Medium,80000,DIST-02,29.967094,31.293782
+PHARM-0503,Seif Pharmacies - Agouza Branch #9,BRK-15,Seif Pharmacies,High,150000,DIST-02,30.06093,31.209803
+PHARM-0504,Misr Pharmacies - Sheikh Zayed Central Branch #12,BRK-22,Misr Pharmacies,Low,150000,DIST-04,30.052772,30.988858
+PHARM-0505,19011 Chain - Maadi Sarayat & Degla Branch #12,BRK-18,19011 Chain,Low,250000,DIST-01,29.953535,31.270906
+PHARM-0506,Dr. Nathaniel Zuniga Pharmacy,BRK-19,Independent Community Pharmacy,Low,150000,DIST-01,29.967093,31.30554
+PHARM-0507,Dr. Thomas Thompson Pharmacy,BRK-05,Independent Community Pharmacy,Low,150000,DIST-02,30.033218,31.47035
+PHARM-0508,El Ezaby - Dokki Branch #6,BRK-14,El Ezaby,Low,250000,DIST-02,30.03598,31.214391
+PHARM-0509,Dr. Stephen Thompson Pharmacy,BRK-20,Independent Community Pharmacy,Medium,150000,DIST-03,30.016721,31.300569
+PHARM-0510,Misr Pharmacies - Dokki Branch #8,BRK-14,Misr Pharmacies,Medium,150000,DIST-02,30.041436,31.213467
+PHARM-0511,19011 Chain - Shubra El-Kheima Branch #14,BRK-29,19011 Chain,High,80000,DIST-02,30.131109,31.246647
+PHARM-0512,Seif Pharmacies - Haram (Al-Ahram) Branch #8,BRK-17,Seif Pharmacies,High,80000,DIST-01,30.001187,31.151902
+PHARM-0513,Dr. Thomas Osborn Pharmacy,BRK-08,Independent Community Pharmacy,Low,80000,DIST-01,30.085554,31.638428
+PHARM-0514,Dr. James Simpson Pharmacy,BRK-23,Independent Community Pharmacy,High,150000,DIST-01,30.067043,30.944683
+PHARM-0515,Roushdy - Ain Shams & Matareya Branch #6,BRK-31,Roushdy,Medium,250000,DIST-01,30.132661,31.310916
+PHARM-0516,19011 Chain - Hadayek El Kobba & El Zaytoun Branch #13,BRK-34,19011 Chain,Low,150000,DIST-02,30.100022,31.306745
+PHARM-0517,Dr. Timothy Hayden Pharmacy,BRK-34,Independent Community Pharmacy,Medium,150000,DIST-01,30.096613,31.302657
+PHARM-0518,19011 Chain - Hadayek El Kobba & El Zaytoun Branch #4,BRK-34,19011 Chain,Low,150000,DIST-02,30.093882,31.299767
+PHARM-0519,Dr. Timothy Mcdowell Pharmacy,BRK-20,Independent Community Pharmacy,Medium,250000,DIST-01,30.017363,31.302642
+PHARM-0520,Dr. Adam Bradley Pharmacy,BRK-05,Independent Community Pharmacy,Medium,150000,DIST-03,30.018044,31.468814
+PHARM-0521,Dr. Brian Bird Pharmacy,BRK-17,Independent Community Pharmacy,Medium,250000,DIST-01,29.99486,31.150196
+PHARM-0522,Dr. Dustin Hays Pharmacy,BRK-07,Independent Community Pharmacy,Medium,250000,DIST-02,30.038767,31.437676
+PHARM-0523,Dr. Joshua Snyder Pharmacy,BRK-28,Independent Community Pharmacy,Low,80000,DIST-04,29.983236,31.112604
+PHARM-0524,Misr Pharmacies - Sheraton & Nozha Branch #10,BRK-04,Misr Pharmacies,Medium,250000,DIST-01,30.103672,31.38613
+PHARM-0525,El Ezaby - Hadayek Al-Ahram Branch #8,BRK-28,El Ezaby,High,150000,DIST-03,29.976101,31.114386
+PHARM-0526,Dr. Todd Rosales Pharmacy,BRK-28,Independent Community Pharmacy,Medium,80000,DIST-04,29.975586,31.113027
+PHARM-0527,Dr. John Lee Pharmacy,BRK-15,Independent Community Pharmacy,Low,250000,DIST-01,30.052132,31.206367
+PHARM-0528,Dr. Brian Martin Pharmacy,BRK-06,Independent Community Pharmacy,High,250000,DIST-01,30.002953,31.487256
+PHARM-0529,19011 Chain - New Maadi & Zahraa Branch #2,BRK-19,19011 Chain,Medium,150000,DIST-01,29.96695,31.301733
+PHARM-0530,Dr. Jimmy Scott Pharmacy,BRK-16,Independent Community Pharmacy,Medium,150000,DIST-02,30.004716,31.183293
+PHARM-0531,19011 Chain - Mokattam Branch #3,BRK-20,19011 Chain,Medium,80000,DIST-01,30.027395,31.296458
+PHARM-0532,Dr. Cody Doyle Pharmacy,BRK-04,Independent Community Pharmacy,Low,250000,DIST-02,30.104374,31.373552
+PHARM-0533,Dr. Richard Bradley Pharmacy,BRK-35,Independent Community Pharmacy,Low,150000,DIST-03,30.009932,31.234755
+PHARM-0534,Misr Pharmacies - Mohandessin Branch #14,BRK-13,Misr Pharmacies,Low,250000,DIST-03,30.044531,31.198655
+PHARM-0535,Dr. Peter Thompson Pharmacy,BRK-16,Independent Community Pharmacy,Low,150000,DIST-01,30.007844,31.184544
+PHARM-0536,El Ezaby - Fifth Settlement North Branch #4,BRK-05,El Ezaby,Low,250000,DIST-01,30.026586,31.477348
+PHARM-0537,Dr. Scott Prince Pharmacy,BRK-25,Independent Community Pharmacy,Medium,250000,DIST-02,29.952758,30.914607
+PHARM-0538,Misr Pharmacies - Zamalek Branch #10,BRK-10,Misr Pharmacies,High,150000,DIST-01,30.063631,31.216409
+PHARM-0539,Dr. Ronald Robertson Pharmacy,BRK-08,Independent Community Pharmacy,Medium,80000,DIST-01,30.076778,31.62929
+PHARM-0540,Dr. Brandon Caldwell Pharmacy,BRK-23,Independent Community Pharmacy,Low,250000,DIST-01,30.067984,30.949522
+PHARM-0541,Dr. Cody Taylor Pharmacy,BRK-11,Independent Community Pharmacy,Medium,150000,DIST-01,30.029384,31.217989
+PHARM-0542,Dr. Franklin Wright Pharmacy,BRK-05,Independent Community Pharmacy,High,250000,DIST-04,30.024009,31.472383
+PHARM-0543,Dr. Dean Young Pharmacy,BRK-16,Independent Community Pharmacy,Medium,250000,DIST-02,30.010945,31.180201
+PHARM-0544,Dr. Paul Finley Pharmacy,BRK-28,Independent Community Pharmacy,High,250000,DIST-06,29.977317,31.110356
+PHARM-0545,Dr. Eric Sharp Pharmacy,BRK-17,Independent Community Pharmacy,High,150000,DIST-02,29.999642,31.151931
+PHARM-0546,El Ezaby - Fifth Settlement South Branch #8,BRK-06,El Ezaby,Medium,150000,DIST-01,30.007468,31.478272
+PHARM-0547,El Ezaby - El Manial & Roda Island Branch #2,BRK-32,El Ezaby,Medium,250000,DIST-01,30.025637,31.22605
+PHARM-0548,Roushdy - Garden City & Kasr Al-Ainy Branch #7,BRK-11,Roushdy,Medium,250000,DIST-04,30.037123,31.228346
+PHARM-0549,El Ezaby - Mokattam Branch #4,BRK-20,El Ezaby,Medium,250000,DIST-02,30.020237,31.302654
+PHARM-0550,Dr. Adam Valdez Pharmacy,BRK-28,Independent Community Pharmacy,High,150000,DIST-01,29.98118,31.110206

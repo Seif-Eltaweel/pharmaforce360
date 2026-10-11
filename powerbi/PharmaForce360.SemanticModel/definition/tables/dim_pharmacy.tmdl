@@ -1,0 +1,70 @@
+table dim_pharmacy
+	lineageTag: 1b0b4bde-82d5-4572-9a9e-b3cb863208b0
+
+	column Pharmacy_ID
+		dataType: string
+		lineageTag: 134d65f7-3c5c-4d26-9513-332cfa193fbe
+		summarizeBy: none
+		sourceColumn: Pharmacy_ID
+
+	column Pharmacy_Name
+		dataType: string
+		lineageTag: 71ec9baf-c28a-45e5-a77c-bfcc47ddf869
+		summarizeBy: none
+		sourceColumn: Pharmacy_Name
+
+	column Brick_ID
+		dataType: string
+		lineageTag: f83141c5-89a5-427a-bf91-bb6f9926d87f
+		summarizeBy: none
+		sourceColumn: Brick_ID
+
+	column Chain_Affiliation
+		dataType: string
+		lineageTag: d04b0771-6219-473a-8724-e2a8631e6c50
+		summarizeBy: none
+		sourceColumn: Chain_Affiliation
+
+	column Footfall_Category
+		dataType: string
+		lineageTag: c0d42183-400a-4029-8484-b7c44ff277da
+		summarizeBy: none
+		sourceColumn: Footfall_Category
+
+	column Monthly_Capacity_Potential
+		dataType: double
+		formatString: #,0
+		lineageTag: e34086d6-aee9-43c5-88c8-117108ba27c2
+		summarizeBy: none
+		sourceColumn: Monthly_Capacity_Potential
+
+	column Primary_Distributor_ID
+		dataType: string
+		lineageTag: 4271d365-2cd3-49db-ae91-23384116d194
+		summarizeBy: none
+		sourceColumn: Primary_Distributor_ID
+
+	column Latitude
+		dataType: double
+		formatString: #,0.0000
+		lineageTag: b52ccafe-3385-459c-87a8-655ac2f58a4e
+		summarizeBy: none
+		sourceColumn: Latitude
+
+	column Longitude
+		dataType: double
+		formatString: #,0.0000
+		lineageTag: ae379262-daf9-4dff-a682-f5be2eaf75e1
+		summarizeBy: none
+		sourceColumn: Longitude
+
+	partition dim_pharmacy = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_pharmacy.csv"), [Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Pharmacy_ID", type text}, {"Pharmacy_Name", type text}, {"Brick_ID", type text}, {"Chain_Affiliation", type text}, {"Footfall_Category", type text}, {"Monthly_Capacity_Potential", type number}, {"Primary_Distributor_ID", type text}, {"Latitude", type number}, {"Longitude", type number}})
+				in
+				    #"Changed Type"
+

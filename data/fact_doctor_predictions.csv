@@ -1,0 +1,701 @@
+Doctor_ID,Prescriber_Churn_Probability,Retention_Risk_Tier,Next_Best_Action_Recommendation,Key_Risk_Driver,Model_Name,Model_AUC_Score,Scored_Date
+DOC-0001,0.005,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0002,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0003,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0004,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0005,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0006,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0007,0.0026,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0008,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0009,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0010,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0011,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0012,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0013,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0014,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0015,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0016,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0017,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0018,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0019,0.0101,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0020,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0021,0.0048,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0022,0.7372,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Competitor Substitution Pressure,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0023,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0024,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0025,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0026,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0027,0.003,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0028,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0029,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0030,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0031,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0032,0.0021,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0033,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0034,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0035,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0036,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0037,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0038,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0039,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0040,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0041,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0042,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0043,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0044,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0045,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0046,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0047,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0048,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0049,0.0065,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0050,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0051,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0052,0.0013,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0053,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0054,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0055,0.0114,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0056,0.0031,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0057,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0058,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0059,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0060,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0061,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0062,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0063,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0064,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0065,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0066,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0067,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0068,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0069,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0070,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0071,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0072,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0073,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0074,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0075,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0076,0.0025,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0077,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0078,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0079,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0080,0.0031,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0081,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0082,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0083,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0084,0.002,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0085,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0086,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0087,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0088,0.0016,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0089,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0090,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0091,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0092,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0093,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0094,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0095,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0096,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0097,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0098,0.007,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0099,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0100,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0101,0.002,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0102,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0103,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0104,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0105,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0106,0.0026,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0107,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0108,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0109,0.0109,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0110,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0111,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0112,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0113,0.0022,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0114,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0115,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0116,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0117,0.005,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0118,0.0014,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0119,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0120,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0121,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0122,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0123,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0124,0.0028,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0125,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0126,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0127,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0128,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0129,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0130,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0131,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0132,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0133,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0134,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0135,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0136,0.9996,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0137,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0138,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0139,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0140,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0141,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0142,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0143,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0144,0.0026,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0145,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0146,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0147,0.0024,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0148,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0149,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0150,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0151,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0152,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0153,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0154,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0155,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0156,0.0531,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0157,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0158,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0159,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0160,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0161,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0162,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0163,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0164,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0165,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0166,0.0051,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0167,0.0099,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0168,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0169,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0170,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0171,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0172,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0173,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0174,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0175,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0176,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0177,0.0126,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0178,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0179,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0180,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0181,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0182,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0183,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0184,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0185,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0186,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0187,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0188,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0189,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0190,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0191,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0192,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0193,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0194,0.0022,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0195,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0196,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0197,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0198,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0199,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0200,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0201,0.0056,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0202,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0203,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0204,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0205,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0206,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0207,0.0059,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0208,0.0132,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0209,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0210,0.0014,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0211,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0212,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0213,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0214,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0215,0.9988,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0216,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0217,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0218,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0219,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0220,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0221,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0222,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0223,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0224,0.0013,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0225,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0226,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0227,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0228,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0229,0.0019,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0230,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0231,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0232,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0233,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0234,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0235,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0236,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0237,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0238,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0239,0.0029,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0240,0.0257,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0241,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0242,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0243,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0244,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0245,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0246,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0247,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0248,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0249,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0250,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0251,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0252,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0253,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0254,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0255,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0256,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0257,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0258,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0259,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0260,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0261,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0262,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0263,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0264,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0265,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0266,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0267,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0268,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0269,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0270,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0271,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0272,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0273,0.007,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0274,0.0068,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0275,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0276,0.0018,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0277,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0278,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0279,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0280,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0281,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0282,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0283,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0284,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0285,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0286,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0287,0.0279,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0288,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0289,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0290,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0291,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0292,0.0028,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0293,0.011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0294,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0295,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0296,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0297,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0298,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0299,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0300,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0301,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0302,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0303,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0304,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0305,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0306,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0307,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0308,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0309,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0310,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0311,0.0037,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0312,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0313,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0314,0.0026,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0315,0.0129,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0316,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0317,0.0019,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0318,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0319,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0320,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0321,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0322,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0323,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0324,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0325,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0326,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0327,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0328,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0329,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0330,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0331,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0332,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0333,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0334,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0335,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0336,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0337,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0338,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0339,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0340,0.9989,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0341,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0342,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0343,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0344,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0345,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0346,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0347,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0348,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0349,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0350,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0351,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0352,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0353,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0354,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0355,0.005,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0356,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0357,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0358,0.0014,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0359,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0360,0.0051,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0361,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0362,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0363,0.9996,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0364,0.9996,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0365,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0366,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0367,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0368,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0369,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0370,0.0127,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0371,0.0014,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0372,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0373,0.0014,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0374,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0375,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0376,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0377,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0378,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0379,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0380,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0381,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0382,0.0092,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0383,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0384,0.0018,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0385,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0386,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0387,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0388,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0389,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0390,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0391,0.0064,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0392,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0393,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0394,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0395,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0396,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0397,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0398,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0399,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0400,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0401,0.0026,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0402,0.0026,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0403,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0404,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0405,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0406,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0407,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0408,0.0035,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0409,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0410,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0411,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0412,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0413,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0414,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0415,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0416,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0417,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0418,0.0022,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0419,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0420,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0421,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0422,0.0047,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0423,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0424,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0425,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0426,0.0031,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0427,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0428,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0429,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0430,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0431,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0432,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0433,0.0022,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0434,0.002,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0435,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0436,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0437,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0438,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0439,0.0444,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0440,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0441,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0442,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0443,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0444,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0445,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0446,0.0024,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0447,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0448,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0449,0.0016,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0450,0.6055,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Competitor Substitution Pressure,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0451,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0452,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0453,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0454,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0455,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0456,0.003,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0457,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0458,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0459,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0460,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0461,0.0013,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0462,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0463,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0464,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0465,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0466,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0467,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0468,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0469,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0470,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0471,0.0051,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0472,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0473,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0474,0.0027,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0475,0.0016,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0476,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0477,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0478,0.0419,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0479,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0480,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0481,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0482,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0483,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0484,0.0285,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0485,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0486,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0487,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0488,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0489,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0490,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0491,0.0071,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0492,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0493,0.0436,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0494,0.011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0495,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0496,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0497,0.0021,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0498,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0499,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0500,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0501,0.9996,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0502,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0503,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0504,0.0016,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0505,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0506,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0507,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0508,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0509,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0510,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0511,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0512,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0513,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0514,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0515,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0516,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0517,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0518,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0519,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0520,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0521,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0522,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0523,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0524,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0525,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0526,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0527,0.0022,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0528,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0529,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0530,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0531,0.0593,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0532,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0533,0.0052,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0534,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0535,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0536,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0537,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0538,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0539,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0540,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0541,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0542,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0543,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0544,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0545,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0546,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0547,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0548,0.9996,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0549,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0550,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0551,0.0021,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0552,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0553,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0554,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0555,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0556,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0557,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0558,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0559,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0560,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0561,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0562,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0563,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0564,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0565,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0566,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0567,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0568,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0569,0.0024,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0570,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0571,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0572,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0573,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0574,0.0023,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0575,0.0028,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0576,0.0531,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0577,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0578,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0579,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0580,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0581,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0582,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0583,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0584,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0585,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0586,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0587,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0588,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0589,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0590,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0591,0.002,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0592,0.005,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0593,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0594,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0595,0.0009,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0596,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0597,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0598,0.0628,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0599,0.0033,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0600,0.0084,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0601,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0602,0.0539,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0603,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0604,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0605,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0606,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0607,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0608,0.0021,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0609,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0610,0.0087,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0611,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0612,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0613,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0614,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0615,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0616,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0617,0.0196,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0618,0.0017,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0619,0.0102,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0620,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0621,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0622,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0623,0.0029,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0624,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0625,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0626,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0627,0.0013,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0628,0.0101,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0629,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0630,0.0013,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0631,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0632,0.0022,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0633,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0634,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0635,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0636,0.0012,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0637,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0638,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0639,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0640,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0641,0.0016,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0642,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0643,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0644,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0645,0.0024,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0646,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0647,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0648,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0649,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0650,0.9994,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0651,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0652,0.9991,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0653,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0654,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0655,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0656,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0657,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0658,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0659,0.0011,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0660,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0661,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0662,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0663,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0664,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0665,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0666,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0667,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0668,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0669,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0670,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0671,0.002,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0672,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0673,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0674,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0675,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0676,0.001,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0677,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0678,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0679,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0680,0.999,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0681,0.0131,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0682,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0683,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0684,0.0085,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0685,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0686,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0687,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0688,0.9995,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0689,0.9993,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0690,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0691,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0692,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0693,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0694,0.0068,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0695,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0696,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0697,0.9992,Critical Churn Risk,Urgent Joint Call with First-Line Manager + Full Scientific Monograph Delivery,Low Detailing Frequency,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0698,0.0015,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0699,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08
+DOC-0700,0.0008,Loyal Prescriber,Maintain Standard Bi-Weekly Detailing Cycle & CME Loyalty Engagement,Stable High-Engagement Profile,HistGradientBoosting-PrescriberRetention-v2.0,1.0,2026-10-08

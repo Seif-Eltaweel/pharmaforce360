@@ -1,0 +1,8 @@
+Product_ID,Product_Name,Therapeutic_Line,Active_Ingredient,Unit_Price_EGP,Dosage_Form,Pack_Size,Is_Shared_Product
+PRD-CARD-01,CardioFix 10mg,Cardiovascular,Bisoprolol / Amlodipine,145.0,Tablet,30,False
+PRD-CARD-02,LipidoStat 20mg,Cardiovascular,Rosuvastatin,210.0,Tablet,28,False
+PRD-CARD-03,GlycoNorm Plus,Cardiovascular,Empagliflozin / Metformin,285.0,Film-Coated Tablet,30,False
+PRD-SHARED-04,VascuPro 50mg,Cardiovascular & Neuro,Trimetazidine MR,175.0,Modified Release Tablet,60,True
+PRD-RESP-01,RespiAir Inhaler,Respiratory / CNS,Budesonide / Formoterol,340.0,Dry Powder Inhaler (DPI),120,False
+PRD-RESP-02,NeuroCalm 10mg,Respiratory / CNS,Escitalopram,195.0,Tablet,28,False
+PRD-RESP-03,BronchoFree 10mg,Respiratory / CNS,Montelukast,160.0,Chewable Tablet,30,False

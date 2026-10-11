@@ -1,0 +1,7 @@
+﻿Distributor_ID,Distributor_Name,Market_Share_Pct,Channel_Type,Payment_Terms_Days,Delivery_SLA_Hours
+DIST-01,Ibn Sina Pharma,0.28,Primary Wholesaler,60,24
+DIST-02,United Company of Pharmacists (UCP),0.31,Primary Wholesaler,60,24
+DIST-03,Soficopharm,0.16,Primary Wholesaler,45,36
+DIST-04,PharmaOverseas,0.13,Primary Wholesaler,45,36
+DIST-05,Ramco Pharm,0.07,Primary Wholesaler,30,48
+DIST-06,Parallel Cash Warehouses (المخازن),0.05,Secondary Parallel Cash Wholesaler,0,4

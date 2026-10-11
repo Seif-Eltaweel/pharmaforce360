@@ -1,0 +1,63 @@
+table fact_doctor_predictions
+	lineageTag: 4afa792c-a129-4972-bd2f-e68fcd5aa029
+
+	column Doctor_ID
+		dataType: string
+		lineageTag: 87e67b20-7ff3-4a77-bcb9-1eaa421bd41c
+		summarizeBy: none
+		sourceColumn: Doctor_ID
+
+	column Prescriber_Churn_Probability
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 15a79e0a-17f7-486a-a809-dce325e1a9bb
+		summarizeBy: none
+		sourceColumn: Prescriber_Churn_Probability
+
+	column Retention_Risk_Tier
+		dataType: string
+		lineageTag: e5b53e9a-bd88-4c0d-95e6-435bfd9e7213
+		summarizeBy: none
+		sourceColumn: Retention_Risk_Tier
+
+	column Next_Best_Action_Recommendation
+		dataType: string
+		lineageTag: 5487754a-505a-4991-a46e-91156dd189a7
+		summarizeBy: none
+		sourceColumn: Next_Best_Action_Recommendation
+
+	column Key_Risk_Driver
+		dataType: string
+		lineageTag: b84e4d3a-69a9-452f-a0fe-ab5eefd59f0b
+		summarizeBy: none
+		sourceColumn: Key_Risk_Driver
+
+	column Model_Name
+		dataType: string
+		lineageTag: 2d05cf7c-71ca-415b-a41e-e7355228fea9
+		summarizeBy: none
+		sourceColumn: Model_Name
+
+	column Model_AUC_Score
+		dataType: double
+		formatString: 0.00
+		lineageTag: 24cec8ab-f09d-44e3-97b5-f8d863f358ce
+		summarizeBy: none
+		sourceColumn: Model_AUC_Score
+
+	column Scored_Date
+		dataType: string
+		lineageTag: 5c34ad92-9432-4cfc-ab8a-321e8b80c858
+		summarizeBy: none
+		sourceColumn: Scored_Date
+
+	partition fact_doctor_predictions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_doctor_predictions.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Doctor_ID", type text}, {"Prescriber_Churn_Probability", type number}, {"Retention_Risk_Tier", type text}, {"Next_Best_Action_Recommendation", type text}, {"Key_Risk_Driver", type text}, {"Model_Name", type text}, {"Model_AUC_Score", type number}, {"Scored_Date", type text}})
+				in
+				    #"Changed Type"
+

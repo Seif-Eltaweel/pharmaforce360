@@ -1,0 +1,93 @@
+table dim_medical_rep
+	lineageTag: b92c8a5a-9e28-4ec9-b2fb-0883509fc0bf
+
+	column Rep_ID
+		dataType: string
+		lineageTag: aecadc81-bd22-488b-9c22-81c312231430
+		summarizeBy: none
+		sourceColumn: Rep_ID
+
+	column Rep_Name
+		dataType: string
+		lineageTag: ec0dbcb2-0f66-4041-b9b6-94fbf24cff4c
+		summarizeBy: none
+		sourceColumn: Rep_Name
+
+	column Assigned_Line
+		dataType: string
+		lineageTag: c2f1a1c6-ee3c-43c2-bb35-8d652872ce02
+		summarizeBy: none
+		sourceColumn: Assigned_Line
+
+	column Home_Zone
+		dataType: string
+		lineageTag: f48ba6b2-4d59-4d0e-852a-54e486eca87c
+		summarizeBy: none
+		sourceColumn: Home_Zone
+
+	column Assigned_Brick_IDs
+		dataType: string
+		lineageTag: dd98e6fe-569a-432e-a6f2-539973c5cf3b
+		summarizeBy: none
+		sourceColumn: Assigned_Brick_IDs
+
+	column Hire_Date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: aa164f66-af75-4557-a0ce-08f93d722b0d
+		summarizeBy: none
+		sourceColumn: Hire_Date
+
+		variation Variation
+			isDefault
+			relationship: 45ee6c3a-0d33-4fb6-997f-3b60d8d0bd39
+			defaultHierarchy: LocalDateTable_1a782bb4-5a36-46a5-a642-b38190d31b2e.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Tenure_Months
+		dataType: int64
+		formatString: 0
+		lineageTag: 45c79753-952c-458d-93bf-6df0bfc86e5a
+		summarizeBy: sum
+		sourceColumn: Tenure_Months
+
+		annotation SummarizationSetBy = Automatic
+
+	column Predecessor_Rep_ID
+		dataType: string
+		lineageTag: 7d17d524-19a8-48d6-94ea-e6a4fcaf79f9
+		summarizeBy: none
+		sourceColumn: Predecessor_Rep_ID
+
+	column Handover_Date
+		dataType: string
+		lineageTag: fada32c4-f18b-47a5-bcdf-a0d3bd70300e
+		summarizeBy: none
+		sourceColumn: Handover_Date
+
+	column Is_Replacement_Rep
+		dataType: boolean
+		lineageTag: b391b51c-2bf8-42ee-b6b0-b770b0f3e0f3
+		summarizeBy: none
+		sourceColumn: Is_Replacement_Rep
+
+	column Target_Bonus_Pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 4245b3ad-dcdc-47d3-b928-7155f84a08fb
+		summarizeBy: sum
+		sourceColumn: Target_Bonus_Pct
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_medical_rep = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "dim_medical_rep.csv"), [Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Rep_ID", type text}, {"Rep_Name", type text}, {"Assigned_Line", type text}, {"Home_Zone", type text}, {"Assigned_Brick_IDs", type text}, {"Hire_Date", type date}, {"Tenure_Months", Int64.Type}, {"Predecessor_Rep_ID", type text}, {"Handover_Date", type text}, {"Is_Replacement_Rep", type logical}, {"Target_Bonus_Pct", type number}})
+				in
+				    #"Changed Type"
+

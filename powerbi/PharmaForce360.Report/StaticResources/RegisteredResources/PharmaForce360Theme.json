@@ -1,0 +1,72 @@
+{
+  "foreground": "#0F172A",
+  "name": "PharmaForce360_Clinical",
+  "background": "#F8FAFC",
+  "dataColors": [
+    "#0A2540",
+    "#00A3E0",
+    "#00B4D8",
+    "#10B981",
+    "#F59E0B",
+    "#EF4444",
+    "#6366F1",
+    "#8B5CF6",
+    "#3B82F6",
+    "#14B8A6",
+    "#F97316",
+    "#64748B"
+  ],
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "transparency": 0,
+            "color": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "transparency": 0,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "foreground": {
+              "solid": {
+                "color": "#0A2540"
+              }
+            }
+          }
+        ],
+        "*": {
+          "responsive": true
+        },
+        "border": [
+          {
+            "radius": 8,
+            "color": {
+              "solid": {
+                "color": "#E2E8F0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tableAccent": "#00A3E0"
+}

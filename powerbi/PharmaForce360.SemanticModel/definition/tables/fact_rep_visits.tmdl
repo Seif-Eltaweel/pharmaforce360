@@ -1,0 +1,107 @@
+table fact_rep_visits
+	lineageTag: bd958ffb-a62d-4c0b-809a-09cffaf9d630
+
+	column Visit_ID
+		dataType: string
+		lineageTag: 63e40bad-bd83-4113-b99d-0161ee723aef
+		summarizeBy: none
+		sourceColumn: Visit_ID
+
+	column Date_Key
+		dataType: int64
+		formatString: 0
+		lineageTag: ca29dfe4-92b0-4aa6-9634-a18dd8dce32c
+		summarizeBy: none
+		sourceColumn: Date_Key
+
+	column Rep_ID
+		dataType: string
+		lineageTag: 87eeba57-bb39-4a0b-b77b-fa14a2224324
+		summarizeBy: none
+		sourceColumn: Rep_ID
+
+	column Doctor_ID
+		dataType: string
+		lineageTag: 9b2e7540-7a84-4127-8386-7c466249c310
+		summarizeBy: none
+		sourceColumn: Doctor_ID
+
+	column Account_ID
+		dataType: string
+		lineageTag: 1851d78d-4e07-4ced-9329-b08241c447f3
+		summarizeBy: none
+		sourceColumn: Account_ID
+
+	column Brick_ID
+		dataType: string
+		lineageTag: cbbb25f3-a227-4be0-8090-05523a853f5a
+		summarizeBy: none
+		sourceColumn: Brick_ID
+
+	column Visit_Type
+		dataType: string
+		lineageTag: eced2c4b-0cdc-4694-963b-1aa3e4afe0c9
+		summarizeBy: none
+		sourceColumn: Visit_Type
+
+	column Time_Slot
+		dataType: string
+		lineageTag: d4ae2778-a4c4-45ad-ab11-5e63a0a92c57
+		summarizeBy: none
+		sourceColumn: Time_Slot
+
+	column Call_Duration_Minutes
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ba7bd6c-7961-4a35-bf6c-699a305daf00
+		summarizeBy: none
+		sourceColumn: Call_Duration_Minutes
+
+	column Detailing_Score
+		dataType: int64
+		formatString: 0
+		lineageTag: 775b67e1-4cc8-4465-b78f-ceb3f503651d
+		summarizeBy: none
+		sourceColumn: Detailing_Score
+
+	column Product_Detailed_1
+		dataType: string
+		lineageTag: dc4106c7-6dda-44f8-8dd2-6a1ec65e481f
+		summarizeBy: none
+		sourceColumn: Product_Detailed_1
+
+	column Product_Detailed_2
+		dataType: string
+		lineageTag: 34319389-c296-4fc9-9c48-33b4cf4567f0
+		summarizeBy: none
+		sourceColumn: Product_Detailed_2
+
+	column Samples_Dropped_Count
+		dataType: int64
+		formatString: 0
+		lineageTag: bca7f3c0-bb70-4783-80de-7337c3fd3446
+		summarizeBy: none
+		sourceColumn: Samples_Dropped_Count
+
+	column Rain_Traffic_Delay_Flag
+		dataType: boolean
+		lineageTag: 6f019d0a-618b-4060-9ecc-d66dc0367ccb
+		summarizeBy: none
+		sourceColumn: Rain_Traffic_Delay_Flag
+
+	column Is_Replacement_Rep_Rampup
+		dataType: boolean
+		lineageTag: 13fd387d-93bb-44c7-8065-a347a7a9fb6c
+		summarizeBy: none
+		sourceColumn: Is_Replacement_Rep_Rampup
+
+	partition fact_rep_visits = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_rep_visits.csv"), [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Visit_ID", type text}, {"Date_Key", Int64.Type}, {"Rep_ID", type text}, {"Doctor_ID", type text}, {"Account_ID", type text}, {"Brick_ID", type text}, {"Visit_Type", type text}, {"Time_Slot", type text}, {"Call_Duration_Minutes", Int64.Type}, {"Detailing_Score", Int64.Type}, {"Product_Detailed_1", type text}, {"Product_Detailed_2", type text}, {"Samples_Dropped_Count", Int64.Type}, {"Rain_Traffic_Delay_Flag", type logical}, {"Is_Replacement_Rep_Rampup", type logical}})
+				in
+				    #"Changed Type"
+

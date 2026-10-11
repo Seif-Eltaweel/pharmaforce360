@@ -1,0 +1,66 @@
+table fact_rep_targets
+	lineageTag: 232f0e23-e367-46ab-9b22-91390d277684
+
+	column Target_ID
+		dataType: string
+		lineageTag: fba2aa1a-07f3-43f7-b869-18f6e2debf0e
+		summarizeBy: none
+		sourceColumn: Target_ID
+
+	column Date_Key
+		dataType: int64
+		formatString: 0
+		lineageTag: bf3deebf-3015-4033-acda-016f830ad596
+		summarizeBy: none
+		sourceColumn: Date_Key
+
+	column Rep_ID
+		dataType: string
+		lineageTag: a8310369-c8c4-4b81-8e01-10a1b7fff35d
+		summarizeBy: none
+		sourceColumn: Rep_ID
+
+	column Product_ID
+		dataType: string
+		lineageTag: 620a78f1-98aa-4103-9804-eb5d54a30302
+		summarizeBy: none
+		sourceColumn: Product_ID
+
+	column Territory_Potential_Index
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 7960cc8c-c8e0-49cc-87d9-2f489a2668f7
+		summarizeBy: none
+		sourceColumn: Territory_Potential_Index
+
+	column Target_Units
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1446db9f-0247-4ca6-8136-bb137e4c6b3f
+		summarizeBy: none
+		sourceColumn: Target_Units
+
+	column Target_Revenue_EGP
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 1feba3bd-df4e-46c9-aaf8-70e5990f6fec
+		summarizeBy: none
+		sourceColumn: Target_Revenue_EGP
+
+	column Actual_Baseline_RunRate
+		dataType: int64
+		formatString: #,0
+		lineageTag: 998d681e-c63c-4aff-ba17-767ba3039fe3
+		summarizeBy: none
+		sourceColumn: Actual_Baseline_RunRate
+
+	partition fact_rep_targets = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolderPath & "fact_rep_targets.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"Target_ID", type text}, {"Date_Key", Int64.Type}, {"Rep_ID", type text}, {"Product_ID", type text}, {"Territory_Potential_Index", type number}, {"Target_Units", Int64.Type}, {"Target_Revenue_EGP", type number}, {"Actual_Baseline_RunRate", Int64.Type}})
+				in
+				    #"Changed Type"
+

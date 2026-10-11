@@ -1,0 +1,7 @@
+expression DataFolderPath = "d:\portfolio2026\02_PharmaForce360\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 4cf6447a-786a-4f82-b613-f86670586c85
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,41 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	maxParallelismPerRefresh: 1
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DataFolderPath","dim_date","dim_brick_territory","dim_product","dim_competitor_product","dim_medical_rep","dim_doctor","dim_doctor_schedule","dim_pharmacy","dim_distributor","dim_account","fact_pharmacy_sales","fact_rep_visits","fact_pharmacy_visits","fact_rep_targets","fact_rep_weekly_plan","fact_dr_expense","fact_ims_market_audit","fact_doctor_predictions","_Measures"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_date
+ref table dim_brick_territory
+ref table dim_product
+ref table dim_competitor_product
+ref table dim_medical_rep
+ref table dim_doctor
+ref table dim_doctor_schedule
+ref table dim_pharmacy
+ref table dim_distributor
+ref table dim_account
+ref table fact_pharmacy_sales
+ref table fact_rep_visits
+ref table fact_pharmacy_visits
+ref table fact_rep_targets
+ref table fact_rep_weekly_plan
+ref table fact_dr_expense
+ref table fact_ims_market_audit
+ref table fact_doctor_predictions
+ref table _Measures
+ref table DateTableTemplate_2a6b65b6-5a79-4f22-bd55-856bd7628aad
+ref table LocalDateTable_4e286065-d10a-4497-8ed3-56d74e6ee415
+ref table LocalDateTable_1a782bb4-5a36-46a5-a642-b38190d31b2e
+ref table LocalDateTable_806422c2-cef7-4c30-9b92-0fca7f746e37
+
+ref cultureInfo en-US
+

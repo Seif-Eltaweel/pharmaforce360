@@ -1,0 +1,687 @@
+Expense_ID,Date_Key,Rep_ID,Doctor_ID,Brick_ID,Expense_Category,Amount_Of_Money_EGP,Doctor_Persona,Is_Free_Rider,Incremental_Rx_Lift_Units,Approval_Status
+EXP-000001,20251201,REP-002,DOC-0001,BRK-06,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,89,Approved by Commercial Director
+EXP-000002,20251001,REP-002,DOC-0001,BRK-06,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,92,Approved by Commercial Director
+EXP-000003,20251101,REP-001,DOC-0002,BRK-02,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,46,Approved by Commercial Director
+EXP-000004,20251101,REP-001,DOC-0002,BRK-02,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,45,Approved by Commercial Director
+EXP-000005,20250501,REP-001,DOC-0002,BRK-02,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,69,Approved by Commercial Director
+EXP-000006,20260301,REP-003,DOC-0005,BRK-11,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000007,20260601,REP-003,DOC-0005,BRK-11,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,114,Approved by Commercial Director
+EXP-000008,20261201,REP-031,DOC-0008,BRK-27,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000009,20260201,REP-011,DOC-0008,BRK-27,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,56,Approved by Commercial Director
+EXP-000010,20260901,REP-005,DOC-0010,BRK-20,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000011,20260101,REP-001,DOC-0012,BRK-02,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000012,20250101,REP-001,DOC-0012,BRK-02,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000013,20250601,REP-003,DOC-0015,BRK-11,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,117,Approved by Commercial Director
+EXP-000014,20250701,REP-022,DOC-0016,BRK-25,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,108,Approved by Commercial Director
+EXP-000015,20260201,REP-001,DOC-0017,BRK-02,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,45,Approved by Commercial Director
+EXP-000016,20251001,REP-001,DOC-0017,BRK-02,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,91,Approved by Commercial Director
+EXP-000017,20250101,REP-015,DOC-0018,BRK-28,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000018,20250101,REP-028,DOC-0018,BRK-28,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000019,20260501,REP-003,DOC-0019,BRK-09,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,38,Approved by Commercial Director
+EXP-000020,20260801,REP-006,DOC-0020,BRK-27,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000021,20260801,REP-005,DOC-0021,BRK-19,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000022,20261201,REP-003,DOC-0022,BRK-11,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000023,20251201,REP-003,DOC-0022,BRK-11,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000024,20250101,REP-031,DOC-0024,BRK-32,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000025,20261101,REP-001,DOC-0025,BRK-01,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,69,Approved by Commercial Director
+EXP-000026,20260601,REP-028,DOC-0026,BRK-33,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000027,20260401,REP-005,DOC-0027,BRK-20,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000028,20260701,REP-026,DOC-0029,BRK-32,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,47,Approved by Commercial Director
+EXP-000029,20260701,REP-014,DOC-0030,BRK-08,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000030,20261001,REP-007,DOC-0034,BRK-34,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,38,Approved by Commercial Director
+EXP-000031,20260701,REP-008,DOC-0035,BRK-30,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,59,Approved by Commercial Director
+EXP-000032,20260901,REP-019,DOC-0035,BRK-30,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,97,Approved by Commercial Director
+EXP-000033,20260601,REP-030,DOC-0037,BRK-16,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000034,20250901,REP-025,DOC-0038,BRK-16,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000035,20250401,REP-012,DOC-0038,BRK-16,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,114,Approved by Commercial Director
+EXP-000036,20250801,REP-001,DOC-0040,BRK-03,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000037,20261001,REP-001,DOC-0040,BRK-03,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000038,20250301,REP-001,DOC-0042,BRK-27,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,152,Approved by Commercial Director
+EXP-000039,20250201,REP-010,DOC-0042,BRK-27,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,64,Approved by Commercial Director
+EXP-000040,20251001,REP-006,DOC-0046,BRK-28,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000041,20251201,REP-022,DOC-0047,BRK-35,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000042,20250401,REP-003,DOC-0049,BRK-09,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000043,20260401,REP-021,DOC-0050,BRK-31,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,40,Approved by Commercial Director
+EXP-000044,20260501,REP-001,DOC-0051,BRK-03,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000045,20260101,REP-001,DOC-0051,BRK-03,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000046,20250701,REP-003,DOC-0052,BRK-11,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000047,20260301,REP-003,DOC-0052,BRK-11,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000048,20250701,REP-003,DOC-0055,BRK-11,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000049,20251101,REP-003,DOC-0055,BRK-11,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000050,20250701,REP-002,DOC-0056,BRK-05,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,52,Approved by Commercial Director
+EXP-000051,20250701,REP-002,DOC-0056,BRK-05,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,52,Approved by Commercial Director
+EXP-000052,20250601,REP-031,DOC-0057,BRK-30,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000053,20250201,REP-009,DOC-0061,BRK-33,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000054,20260501,REP-026,DOC-0061,BRK-33,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000055,20260201,REP-028,DOC-0068,BRK-27,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,29,Approved by Commercial Director
+EXP-000056,20260501,REP-028,DOC-0068,BRK-27,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,58,Approved by Commercial Director
+EXP-000057,20260601,REP-024,DOC-0069,BRK-12,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000058,20260601,REP-018,DOC-0069,BRK-12,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000059,20250701,REP-005,DOC-0070,BRK-33,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000060,20250301,REP-025,DOC-0070,BRK-33,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000061,20250601,REP-005,DOC-0070,BRK-33,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000062,20250201,REP-006,DOC-0071,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,173,Approved by Commercial Director
+EXP-000063,20261101,REP-006,DOC-0071,BRK-22,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,58,Approved by Commercial Director
+EXP-000064,20261001,REP-003,DOC-0075,BRK-11,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,33,Approved by Commercial Director
+EXP-000065,20261101,REP-004,DOC-0076,BRK-14,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000066,20260101,REP-001,DOC-0079,BRK-03,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,29,Approved by Commercial Director
+EXP-000067,20251201,REP-001,DOC-0079,BRK-03,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,32,Approved by Commercial Director
+EXP-000068,20250301,REP-004,DOC-0080,BRK-14,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000069,20251001,REP-005,DOC-0081,BRK-18,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000070,20261101,REP-005,DOC-0081,BRK-18,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000071,20260801,REP-017,DOC-0082,BRK-32,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,74,Approved by Commercial Director
+EXP-000072,20260301,REP-003,DOC-0084,BRK-10,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,48,Approved by Commercial Director
+EXP-000073,20250701,REP-005,DOC-0088,BRK-18,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,93,Approved by Commercial Director
+EXP-000074,20260801,REP-005,DOC-0088,BRK-18,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,57,Approved by Commercial Director
+EXP-000075,20260101,REP-024,DOC-0090,BRK-08,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,47,Approved by Commercial Director
+EXP-000076,20261001,REP-019,DOC-0090,BRK-08,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000077,20261201,REP-013,DOC-0091,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,70,Approved by Commercial Director
+EXP-000078,20250301,REP-002,DOC-0091,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,96,Approved by Commercial Director
+EXP-000079,20251101,REP-023,DOC-0091,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,117,Approved by Commercial Director
+EXP-000080,20260301,REP-032,DOC-0093,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,70,Approved by Commercial Director
+EXP-000081,20250301,REP-003,DOC-0094,BRK-28,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,47,Approved by Commercial Director
+EXP-000082,20250701,REP-004,DOC-0094,BRK-28,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,159,Approved by Commercial Director
+EXP-000083,20261001,REP-010,DOC-0094,BRK-28,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,87,Approved by Commercial Director
+EXP-000084,20260301,REP-005,DOC-0097,BRK-20,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000085,20251101,REP-005,DOC-0097,BRK-20,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,81,Approved by Commercial Director
+EXP-000086,20260701,REP-005,DOC-0097,BRK-20,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000087,20260201,REP-005,DOC-0098,BRK-18,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000088,20250201,REP-022,DOC-0099,BRK-17,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,73,Approved by Commercial Director
+EXP-000089,20260601,REP-002,DOC-0101,BRK-07,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,48,Approved by Commercial Director
+EXP-000090,20260101,REP-029,DOC-0102,BRK-25,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000091,20260801,REP-013,DOC-0102,BRK-25,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000092,20251101,REP-020,DOC-0104,BRK-34,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000093,20250701,REP-017,DOC-0105,BRK-04,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000094,20250601,REP-013,DOC-0105,BRK-04,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000095,20250401,REP-017,DOC-0105,BRK-04,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,92,Approved by Commercial Director
+EXP-000096,20260701,REP-018,DOC-0107,BRK-08,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000097,20251101,REP-011,DOC-0108,BRK-33,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,60,Approved by Commercial Director
+EXP-000098,20261201,REP-005,DOC-0109,BRK-20,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000099,20250401,REP-005,DOC-0109,BRK-20,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000100,20250601,REP-023,DOC-0110,BRK-31,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,95,Approved by Commercial Director
+EXP-000101,20261101,REP-028,DOC-0112,BRK-30,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000102,20250201,REP-006,DOC-0113,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,126,Approved by Commercial Director
+EXP-000103,20260201,REP-009,DOC-0115,BRK-29,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000104,20260901,REP-001,DOC-0115,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000105,20260801,REP-007,DOC-0115,BRK-29,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000106,20260601,REP-003,DOC-0116,BRK-28,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,42,Approved by Commercial Director
+EXP-000107,20261001,REP-018,DOC-0116,BRK-28,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,67,Approved by Commercial Director
+EXP-000108,20250201,REP-001,DOC-0117,BRK-01,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,114,Approved by Commercial Director
+EXP-000109,20260901,REP-002,DOC-0118,BRK-06,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,60,Approved by Commercial Director
+EXP-000110,20260701,REP-008,DOC-0120,BRK-32,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000111,20251101,REP-004,DOC-0121,BRK-15,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,37,Approved by Commercial Director
+EXP-000112,20250401,REP-002,DOC-0122,BRK-06,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,66,Approved by Commercial Director
+EXP-000113,20251001,REP-007,DOC-0123,BRK-35,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,45,Approved by Commercial Director
+EXP-000114,20251001,REP-001,DOC-0123,BRK-35,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000115,20251201,REP-005,DOC-0124,BRK-20,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000116,20250201,REP-023,DOC-0125,BRK-33,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000117,20250101,REP-006,DOC-0125,BRK-33,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000118,20261101,REP-016,DOC-0125,BRK-33,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,78,Approved by Commercial Director
+EXP-000119,20261001,REP-006,DOC-0126,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,100,Approved by Commercial Director
+EXP-000120,20250901,REP-004,DOC-0133,BRK-13,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,55,Approved by Commercial Director
+EXP-000121,20260401,REP-018,DOC-0136,BRK-08,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000122,20261101,REP-011,DOC-0138,BRK-33,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,63,Approved by Commercial Director
+EXP-000123,20260801,REP-026,DOC-0140,BRK-26,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000124,20250801,REP-001,DOC-0141,BRK-01,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000125,20260201,REP-004,DOC-0142,BRK-14,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,51,Approved by Commercial Director
+EXP-000126,20250901,REP-004,DOC-0142,BRK-14,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,37,Approved by Commercial Director
+EXP-000127,20250301,REP-006,DOC-0143,BRK-24,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,37,Approved by Commercial Director
+EXP-000128,20250601,REP-001,DOC-0144,BRK-02,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,60,Approved by Commercial Director
+EXP-000129,20250601,REP-002,DOC-0145,BRK-06,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,47,Approved by Commercial Director
+EXP-000130,20260201,REP-002,DOC-0145,BRK-06,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000131,20251001,REP-029,DOC-0146,BRK-17,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000132,20250501,REP-021,DOC-0146,BRK-17,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000133,20261101,REP-004,DOC-0147,BRK-13,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,95,Approved by Commercial Director
+EXP-000134,20250901,REP-015,DOC-0148,BRK-12,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000135,20261101,REP-012,DOC-0148,BRK-12,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000136,20251001,REP-022,DOC-0149,BRK-04,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000137,20250701,REP-026,DOC-0151,BRK-34,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000138,20250101,REP-019,DOC-0151,BRK-34,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,125,Approved by Commercial Director
+EXP-000139,20250501,REP-017,DOC-0152,BRK-34,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,121,Approved by Commercial Director
+EXP-000140,20250101,REP-006,DOC-0153,BRK-24,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,72,Approved by Commercial Director
+EXP-000141,20260601,REP-006,DOC-0153,BRK-24,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,47,Approved by Commercial Director
+EXP-000142,20250301,REP-030,DOC-0155,BRK-27,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,38,Approved by Commercial Director
+EXP-000143,20251001,REP-002,DOC-0156,BRK-07,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000144,20261101,REP-002,DOC-0157,BRK-07,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000145,20260901,REP-002,DOC-0157,BRK-07,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000146,20250901,REP-009,DOC-0160,BRK-33,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000147,20251201,REP-016,DOC-0160,BRK-33,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,127,Approved by Commercial Director
+EXP-000148,20260701,REP-026,DOC-0161,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,69,Approved by Commercial Director
+EXP-000149,20260501,REP-003,DOC-0166,BRK-09,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000150,20260901,REP-004,DOC-0167,BRK-13,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000151,20251101,REP-004,DOC-0167,BRK-13,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000152,20260901,REP-012,DOC-0169,BRK-17,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,15,Approved by Commercial Director
+EXP-000153,20260301,REP-028,DOC-0171,BRK-26,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000154,20260501,REP-012,DOC-0171,BRK-26,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000155,20250101,REP-007,DOC-0172,BRK-21,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000156,20260601,REP-007,DOC-0172,BRK-21,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,119,Approved by Commercial Director
+EXP-000157,20250601,REP-002,DOC-0173,BRK-06,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,110,Approved by Commercial Director
+EXP-000158,20250501,REP-002,DOC-0173,BRK-06,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,40,Approved by Commercial Director
+EXP-000159,20251001,REP-003,DOC-0175,BRK-11,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,45,Approved by Commercial Director
+EXP-000160,20260101,REP-004,DOC-0177,BRK-15,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000161,20260101,REP-004,DOC-0177,BRK-15,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000162,20250401,REP-004,DOC-0177,BRK-15,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000163,20250901,REP-003,DOC-0181,BRK-11,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000164,20250601,REP-001,DOC-0182,BRK-01,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,36,Approved by Commercial Director
+EXP-000165,20260601,REP-003,DOC-0184,BRK-04,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000166,20260801,REP-003,DOC-0185,BRK-11,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000167,20260401,REP-003,DOC-0185,BRK-11,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000168,20250101,REP-003,DOC-0185,BRK-11,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000169,20250601,REP-001,DOC-0186,BRK-31,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000170,20260801,REP-030,DOC-0186,BRK-31,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000171,20260701,REP-001,DOC-0186,BRK-31,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000172,20260801,REP-001,DOC-0187,BRK-03,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000173,20260201,REP-004,DOC-0188,BRK-15,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000174,20261001,REP-004,DOC-0188,BRK-15,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,65,Approved by Commercial Director
+EXP-000175,20250801,REP-023,DOC-0189,BRK-31,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000176,20250401,REP-021,DOC-0190,BRK-25,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000177,20260801,REP-005,DOC-0191,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000178,20250301,REP-031,DOC-0192,BRK-32,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000179,20251101,REP-006,DOC-0193,BRK-24,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000180,20260901,REP-003,DOC-0194,BRK-10,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,59,Approved by Commercial Director
+EXP-000181,20250701,REP-002,DOC-0196,BRK-07,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,36,Approved by Commercial Director
+EXP-000182,20250801,REP-006,DOC-0197,BRK-23,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000183,20250401,REP-003,DOC-0201,BRK-09,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,39,Approved by Commercial Director
+EXP-000184,20260301,REP-003,DOC-0201,BRK-09,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,60,Approved by Commercial Director
+EXP-000185,20250201,REP-003,DOC-0201,BRK-09,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,43,Approved by Commercial Director
+EXP-000186,20250501,REP-002,DOC-0203,BRK-05,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,20,Approved by Commercial Director
+EXP-000187,20261001,REP-005,DOC-0207,BRK-19,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,60,Approved by Commercial Director
+EXP-000188,20251201,REP-005,DOC-0207,BRK-19,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,141,Approved by Commercial Director
+EXP-000189,20250701,REP-006,DOC-0208,BRK-22,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000190,20250801,REP-006,DOC-0208,BRK-22,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000191,20260401,REP-031,DOC-0209,BRK-04,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000192,20250101,REP-025,DOC-0215,BRK-12,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,33,Approved by Commercial Director
+EXP-000193,20250201,REP-003,DOC-0217,BRK-09,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,116,Approved by Commercial Director
+EXP-000194,20251001,REP-016,DOC-0218,BRK-27,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,82,Approved by Commercial Director
+EXP-000195,20260301,REP-031,DOC-0218,BRK-27,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,95,Approved by Commercial Director
+EXP-000196,20251201,REP-030,DOC-0219,BRK-21,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000197,20250601,REP-024,DOC-0219,BRK-21,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000198,20250701,REP-030,DOC-0219,BRK-21,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000199,20250301,REP-002,DOC-0220,BRK-07,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,37,Approved by Commercial Director
+EXP-000200,20260401,REP-009,DOC-0222,BRK-36,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000201,20250201,REP-006,DOC-0224,BRK-22,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,43,Approved by Commercial Director
+EXP-000202,20261001,REP-006,DOC-0224,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,123,Approved by Commercial Director
+EXP-000203,20250401,REP-021,DOC-0225,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000204,20250801,REP-016,DOC-0225,BRK-12,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000205,20250801,REP-002,DOC-0228,BRK-28,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,49,Approved by Commercial Director
+EXP-000206,20250101,REP-013,DOC-0228,BRK-28,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,32,Approved by Commercial Director
+EXP-000207,20250601,REP-022,DOC-0228,BRK-28,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,61,Approved by Commercial Director
+EXP-000208,20260101,REP-002,DOC-0229,BRK-05,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000209,20260701,REP-027,DOC-0230,BRK-04,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000210,20250901,REP-029,DOC-0231,BRK-27,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000211,20250901,REP-005,DOC-0231,BRK-27,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000212,20250701,REP-001,DOC-0232,BRK-01,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000213,20250801,REP-001,DOC-0232,BRK-01,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000214,20250301,REP-007,DOC-0234,BRK-12,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,69,Approved by Commercial Director
+EXP-000215,20251201,REP-006,DOC-0237,BRK-24,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000216,20250301,REP-006,DOC-0237,BRK-24,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000217,20260801,REP-006,DOC-0238,BRK-23,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,20,Approved by Commercial Director
+EXP-000218,20260201,REP-003,DOC-0239,BRK-10,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,70,Approved by Commercial Director
+EXP-000219,20260501,REP-003,DOC-0239,BRK-10,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000220,20250801,REP-005,DOC-0240,BRK-18,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000221,20260801,REP-019,DOC-0241,BRK-04,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,20,Approved by Commercial Director
+EXP-000222,20260601,REP-020,DOC-0242,BRK-33,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,121,Approved by Commercial Director
+EXP-000223,20250601,REP-010,DOC-0243,BRK-30,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000224,20260201,REP-001,DOC-0244,BRK-01,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000225,20260901,REP-001,DOC-0244,BRK-01,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000226,20260201,REP-013,DOC-0245,BRK-30,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000227,20250301,REP-024,DOC-0245,BRK-30,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000228,20251001,REP-014,DOC-0250,BRK-28,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000229,20250101,REP-002,DOC-0250,BRK-28,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,76,Approved by Commercial Director
+EXP-000230,20250701,REP-020,DOC-0250,BRK-28,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000231,20261101,REP-003,DOC-0255,BRK-10,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,41,Approved by Commercial Director
+EXP-000232,20260701,REP-008,DOC-0257,BRK-27,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,41,Approved by Commercial Director
+EXP-000233,20250801,REP-005,DOC-0257,BRK-27,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000234,20251201,REP-025,DOC-0257,BRK-27,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,99,Approved by Commercial Director
+EXP-000235,20260901,REP-022,DOC-0258,BRK-04,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000236,20250701,REP-025,DOC-0258,BRK-04,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,48,Approved by Commercial Director
+EXP-000237,20260201,REP-032,DOC-0261,BRK-04,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000238,20250301,REP-014,DOC-0263,BRK-25,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,120,Approved by Commercial Director
+EXP-000239,20260101,REP-020,DOC-0264,BRK-26,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000240,20260201,REP-013,DOC-0265,BRK-33,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,73,Approved by Commercial Director
+EXP-000241,20251101,REP-006,DOC-0267,BRK-25,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,184,Approved by Commercial Director
+EXP-000242,20261201,REP-020,DOC-0267,BRK-25,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,30,Approved by Commercial Director
+EXP-000243,20251101,REP-011,DOC-0267,BRK-25,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,51,Approved by Commercial Director
+EXP-000244,20250601,REP-009,DOC-0268,BRK-34,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000245,20250701,REP-009,DOC-0269,BRK-36,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000246,20251101,REP-014,DOC-0269,BRK-36,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000247,20251001,REP-021,DOC-0270,BRK-31,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000248,20261201,REP-012,DOC-0271,BRK-31,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,45,Approved by Commercial Director
+EXP-000249,20261101,REP-005,DOC-0273,BRK-18,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000250,20260801,REP-002,DOC-0274,BRK-06,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,45,Approved by Commercial Director
+EXP-000251,20260301,REP-002,DOC-0274,BRK-06,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000252,20260801,REP-002,DOC-0274,BRK-06,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000253,20260701,REP-001,DOC-0276,BRK-03,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,121,Approved by Commercial Director
+EXP-000254,20250701,REP-017,DOC-0277,BRK-34,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000255,20260801,REP-027,DOC-0279,BRK-26,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,44,Approved by Commercial Director
+EXP-000256,20251201,REP-004,DOC-0283,BRK-14,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,31,Approved by Commercial Director
+EXP-000257,20260301,REP-004,DOC-0283,BRK-14,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,61,Approved by Commercial Director
+EXP-000258,20260301,REP-021,DOC-0284,BRK-12,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000259,20260601,REP-016,DOC-0285,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000260,20260901,REP-002,DOC-0287,BRK-07,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000261,20250801,REP-004,DOC-0288,BRK-13,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000262,20251201,REP-012,DOC-0291,BRK-31,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000263,20250401,REP-001,DOC-0292,BRK-01,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,52,Approved by Commercial Director
+EXP-000264,20261001,REP-001,DOC-0292,BRK-01,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000265,20260801,REP-006,DOC-0293,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000266,20260401,REP-002,DOC-0294,BRK-05,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,146,Approved by Commercial Director
+EXP-000267,20250101,REP-002,DOC-0294,BRK-05,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,126,Approved by Commercial Director
+EXP-000268,20261001,REP-002,DOC-0294,BRK-05,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,63,Approved by Commercial Director
+EXP-000269,20260101,REP-019,DOC-0298,BRK-25,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000270,20250101,REP-028,DOC-0302,BRK-31,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,103,Approved by Commercial Director
+EXP-000271,20251001,REP-006,DOC-0302,BRK-31,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000272,20250501,REP-013,DOC-0303,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,147,Approved by Commercial Director
+EXP-000273,20261101,REP-005,DOC-0303,BRK-12,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,46,Approved by Commercial Director
+EXP-000274,20251101,REP-018,DOC-0303,BRK-12,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,43,Approved by Commercial Director
+EXP-000275,20250201,REP-010,DOC-0304,BRK-17,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000276,20251001,REP-017,DOC-0304,BRK-17,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000277,20260301,REP-014,DOC-0304,BRK-17,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000278,20250101,REP-029,DOC-0305,BRK-35,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000279,20251101,REP-001,DOC-0306,BRK-33,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000280,20250401,REP-026,DOC-0306,BRK-33,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000281,20250701,REP-010,DOC-0308,BRK-27,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000282,20260401,REP-002,DOC-0308,BRK-27,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000283,20250701,REP-004,DOC-0309,BRK-13,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000284,20260901,REP-004,DOC-0309,BRK-13,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000285,20250901,REP-004,DOC-0309,BRK-13,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000286,20260701,REP-008,DOC-0310,BRK-26,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,94,Approved by Commercial Director
+EXP-000287,20250901,REP-001,DOC-0311,BRK-01,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000288,20250401,REP-001,DOC-0311,BRK-01,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,51,Approved by Commercial Director
+EXP-000289,20250101,REP-001,DOC-0311,BRK-01,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000290,20261001,REP-004,DOC-0313,BRK-13,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,42,Approved by Commercial Director
+EXP-000291,20251201,REP-002,DOC-0314,BRK-05,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,24,Approved by Commercial Director
+EXP-000292,20250501,REP-002,DOC-0314,BRK-05,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,44,Approved by Commercial Director
+EXP-000293,20260101,REP-002,DOC-0315,BRK-07,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,13,Approved by Commercial Director
+EXP-000294,20260801,REP-002,DOC-0317,BRK-06,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,21,Approved by Commercial Director
+EXP-000295,20260901,REP-002,DOC-0318,BRK-05,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000296,20260101,REP-013,DOC-0319,BRK-28,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,30,Approved by Commercial Director
+EXP-000297,20260201,REP-020,DOC-0320,BRK-08,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,117,Approved by Commercial Director
+EXP-000298,20250601,REP-030,DOC-0320,BRK-08,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000299,20250501,REP-005,DOC-0321,BRK-32,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,50,Approved by Commercial Director
+EXP-000300,20250601,REP-026,DOC-0321,BRK-32,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,95,Approved by Commercial Director
+EXP-000301,20250901,REP-021,DOC-0321,BRK-32,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000302,20251001,REP-013,DOC-0322,BRK-35,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,50,Approved by Commercial Director
+EXP-000303,20260101,REP-032,DOC-0322,BRK-35,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,33,Approved by Commercial Director
+EXP-000304,20260201,REP-003,DOC-0323,BRK-10,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,47,Approved by Commercial Director
+EXP-000305,20260501,REP-003,DOC-0323,BRK-10,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,38,Approved by Commercial Director
+EXP-000306,20260901,REP-031,DOC-0327,BRK-25,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000307,20260801,REP-028,DOC-0327,BRK-25,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,68,Approved by Commercial Director
+EXP-000308,20260401,REP-020,DOC-0327,BRK-25,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,79,Approved by Commercial Director
+EXP-000309,20260101,REP-031,DOC-0329,BRK-29,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000310,20260901,REP-012,DOC-0329,BRK-29,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000311,20260101,REP-027,DOC-0329,BRK-29,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000312,20261101,REP-013,DOC-0330,BRK-04,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,92,Approved by Commercial Director
+EXP-000313,20250101,REP-006,DOC-0330,BRK-04,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000314,20261101,REP-015,DOC-0331,BRK-34,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,17,Approved by Commercial Director
+EXP-000315,20250701,REP-015,DOC-0333,BRK-32,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,125,Approved by Commercial Director
+EXP-000316,20250501,REP-001,DOC-0335,BRK-01,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,29,Approved by Commercial Director
+EXP-000317,20260401,REP-004,DOC-0336,BRK-15,Advisory Board Consultation Honorarium,18000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000318,20260801,REP-004,DOC-0336,BRK-15,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000319,20260601,REP-009,DOC-0339,BRK-33,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,125,Approved by Commercial Director
+EXP-000320,20250401,REP-029,DOC-0340,BRK-21,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,60,Approved by Commercial Director
+EXP-000321,20250101,REP-011,DOC-0341,BRK-28,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,32,Approved by Commercial Director
+EXP-000322,20260901,REP-027,DOC-0341,BRK-28,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000323,20261001,REP-005,DOC-0342,BRK-20,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,119,Approved by Commercial Director
+EXP-000324,20260401,REP-008,DOC-0343,BRK-28,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,102,Approved by Commercial Director
+EXP-000325,20260801,REP-025,DOC-0343,BRK-28,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,96,Approved by Commercial Director
+EXP-000326,20250301,REP-002,DOC-0345,BRK-06,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000327,20251001,REP-019,DOC-0347,BRK-08,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,38,Approved by Commercial Director
+EXP-000328,20260801,REP-007,DOC-0347,BRK-08,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000329,20260601,REP-023,DOC-0348,BRK-27,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,60,Approved by Commercial Director
+EXP-000330,20250401,REP-001,DOC-0349,BRK-03,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,118,Approved by Commercial Director
+EXP-000331,20251001,REP-001,DOC-0349,BRK-03,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,91,Approved by Commercial Director
+EXP-000332,20261201,REP-030,DOC-0350,BRK-17,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,52,Approved by Commercial Director
+EXP-000333,20251201,REP-028,DOC-0350,BRK-17,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000334,20250401,REP-005,DOC-0353,BRK-20,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,42,Approved by Commercial Director
+EXP-000335,20260201,REP-005,DOC-0353,BRK-20,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000336,20261201,REP-005,DOC-0353,BRK-20,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000337,20250201,REP-002,DOC-0354,BRK-07,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,47,Approved by Commercial Director
+EXP-000338,20250701,REP-002,DOC-0354,BRK-07,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,51,Approved by Commercial Director
+EXP-000339,20260601,REP-002,DOC-0354,BRK-07,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,36,Approved by Commercial Director
+EXP-000340,20251001,REP-001,DOC-0355,BRK-03,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,99,Approved by Commercial Director
+EXP-000341,20260701,REP-001,DOC-0355,BRK-03,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,116,Approved by Commercial Director
+EXP-000342,20251101,REP-001,DOC-0355,BRK-03,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,72,Approved by Commercial Director
+EXP-000343,20261101,REP-010,DOC-0357,BRK-17,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,42,Approved by Commercial Director
+EXP-000344,20260101,REP-001,DOC-0358,BRK-03,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000345,20250101,REP-001,DOC-0358,BRK-03,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000346,20260201,REP-012,DOC-0359,BRK-16,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,50,Approved by Commercial Director
+EXP-000347,20250601,REP-030,DOC-0359,BRK-16,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,123,Approved by Commercial Director
+EXP-000348,20260701,REP-021,DOC-0359,BRK-16,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,63,Approved by Commercial Director
+EXP-000349,20261101,REP-003,DOC-0360,BRK-10,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000350,20260101,REP-005,DOC-0361,BRK-12,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000351,20251001,REP-002,DOC-0362,BRK-05,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,167,Approved by Commercial Director
+EXP-000352,20250301,REP-002,DOC-0362,BRK-05,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,112,Approved by Commercial Director
+EXP-000353,20250101,REP-025,DOC-0363,BRK-16,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000354,20260101,REP-005,DOC-0363,BRK-16,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000355,20261001,REP-024,DOC-0363,BRK-16,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,96,Approved by Commercial Director
+EXP-000356,20260801,REP-011,DOC-0364,BRK-28,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,46,Approved by Commercial Director
+EXP-000357,20260801,REP-013,DOC-0367,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,74,Approved by Commercial Director
+EXP-000358,20250601,REP-022,DOC-0369,BRK-36,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000359,20260301,REP-003,DOC-0369,BRK-36,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,98,Approved by Commercial Director
+EXP-000360,20260601,REP-022,DOC-0369,BRK-36,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000361,20250201,REP-005,DOC-0370,BRK-19,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000362,20260201,REP-001,DOC-0372,BRK-36,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000363,20250701,REP-004,DOC-0372,BRK-36,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,44,Approved by Commercial Director
+EXP-000364,20261101,REP-004,DOC-0373,BRK-15,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,42,Approved by Commercial Director
+EXP-000365,20250801,REP-019,DOC-0375,BRK-12,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000366,20261201,REP-031,DOC-0375,BRK-12,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000367,20261201,REP-005,DOC-0376,BRK-32,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,42,Approved by Commercial Director
+EXP-000368,20250301,REP-012,DOC-0376,BRK-32,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,166,Approved by Commercial Director
+EXP-000369,20250201,REP-009,DOC-0377,BRK-33,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000370,20260401,REP-014,DOC-0377,BRK-33,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,120,Approved by Commercial Director
+EXP-000371,20250101,REP-002,DOC-0378,BRK-05,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,71,Approved by Commercial Director
+EXP-000372,20260901,REP-002,DOC-0378,BRK-05,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,53,Approved by Commercial Director
+EXP-000373,20250501,REP-001,DOC-0380,BRK-03,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,52,Approved by Commercial Director
+EXP-000374,20250801,REP-003,DOC-0382,BRK-11,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,38,Approved by Commercial Director
+EXP-000375,20260501,REP-003,DOC-0382,BRK-11,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000376,20260901,REP-003,DOC-0382,BRK-11,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000377,20251201,REP-006,DOC-0384,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,116,Approved by Commercial Director
+EXP-000378,20260901,REP-006,DOC-0384,BRK-22,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,36,Approved by Commercial Director
+EXP-000379,20260701,REP-022,DOC-0385,BRK-16,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000380,20261101,REP-007,DOC-0385,BRK-16,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000381,20261101,REP-009,DOC-0385,BRK-16,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000382,20260701,REP-004,DOC-0386,BRK-13,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,102,Approved by Commercial Director
+EXP-000383,20260901,REP-004,DOC-0386,BRK-13,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,62,Approved by Commercial Director
+EXP-000384,20250501,REP-004,DOC-0386,BRK-13,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,45,Approved by Commercial Director
+EXP-000385,20250201,REP-003,DOC-0387,BRK-11,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,151,Approved by Commercial Director
+EXP-000386,20260301,REP-001,DOC-0389,BRK-02,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000387,20250501,REP-001,DOC-0389,BRK-02,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,37,Approved by Commercial Director
+EXP-000388,20250501,REP-005,DOC-0391,BRK-18,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000389,20250701,REP-003,DOC-0393,BRK-32,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,14,Approved by Commercial Director
+EXP-000390,20250701,REP-016,DOC-0394,BRK-31,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,121,Approved by Commercial Director
+EXP-000391,20251201,REP-010,DOC-0396,BRK-16,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000392,20250801,REP-015,DOC-0396,BRK-16,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000393,20260701,REP-023,DOC-0397,BRK-25,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000394,20250301,REP-007,DOC-0397,BRK-25,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000395,20261101,REP-008,DOC-0399,BRK-27,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000396,20250801,REP-032,DOC-0399,BRK-27,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000397,20261201,REP-031,DOC-0403,BRK-29,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000398,20250801,REP-030,DOC-0405,BRK-29,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,71,Approved by Commercial Director
+EXP-000399,20260801,REP-005,DOC-0408,BRK-20,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,56,Approved by Commercial Director
+EXP-000400,20250601,REP-005,DOC-0408,BRK-20,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,47,Approved by Commercial Director
+EXP-000401,20260301,REP-002,DOC-0413,BRK-06,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,99,Approved by Commercial Director
+EXP-000402,20260601,REP-030,DOC-0414,BRK-30,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,55,Approved by Commercial Director
+EXP-000403,20260101,REP-029,DOC-0414,BRK-30,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,38,Approved by Commercial Director
+EXP-000404,20260601,REP-011,DOC-0416,BRK-29,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,63,Approved by Commercial Director
+EXP-000405,20250801,REP-026,DOC-0416,BRK-29,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,33,Approved by Commercial Director
+EXP-000406,20250101,REP-001,DOC-0417,BRK-03,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000407,20260901,REP-001,DOC-0417,BRK-03,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000408,20260601,REP-001,DOC-0417,BRK-03,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000409,20261101,REP-005,DOC-0418,BRK-20,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,36,Approved by Commercial Director
+EXP-000410,20251001,REP-001,DOC-0419,BRK-01,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000411,20250601,REP-009,DOC-0420,BRK-26,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000412,20260701,REP-025,DOC-0421,BRK-27,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000413,20260201,REP-003,DOC-0422,BRK-09,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000414,20251101,REP-007,DOC-0423,BRK-17,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,57,Approved by Commercial Director
+EXP-000415,20251001,REP-017,DOC-0423,BRK-17,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,47,Approved by Commercial Director
+EXP-000416,20261001,REP-017,DOC-0425,BRK-31,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000417,20260501,REP-004,DOC-0426,BRK-15,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000418,20260101,REP-004,DOC-0426,BRK-15,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,17,Approved by Commercial Director
+EXP-000419,20251101,REP-004,DOC-0427,BRK-14,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000420,20260301,REP-004,DOC-0429,BRK-13,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,57,Approved by Commercial Director
+EXP-000421,20250901,REP-005,DOC-0432,BRK-19,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000422,20250701,REP-005,DOC-0432,BRK-19,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,54,Approved by Commercial Director
+EXP-000423,20250101,REP-004,DOC-0433,BRK-14,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,37,Approved by Commercial Director
+EXP-000424,20260101,REP-005,DOC-0434,BRK-18,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,62,Approved by Commercial Director
+EXP-000425,20250501,REP-002,DOC-0435,BRK-35,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000426,20260101,REP-005,DOC-0436,BRK-28,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,48,Approved by Commercial Director
+EXP-000427,20251001,REP-020,DOC-0436,BRK-28,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,181,Approved by Commercial Director
+EXP-000428,20260701,REP-005,DOC-0439,BRK-19,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000429,20260801,REP-005,DOC-0439,BRK-19,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000430,20260901,REP-005,DOC-0439,BRK-19,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000431,20250401,REP-029,DOC-0440,BRK-30,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,122,Approved by Commercial Director
+EXP-000432,20250501,REP-004,DOC-0441,BRK-36,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,20,Approved by Commercial Director
+EXP-000433,20250601,REP-006,DOC-0441,BRK-36,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000434,20250301,REP-014,DOC-0441,BRK-36,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000435,20250101,REP-005,DOC-0443,BRK-18,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000436,20250101,REP-005,DOC-0443,BRK-18,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000437,20260501,REP-005,DOC-0443,BRK-18,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000438,20250901,REP-001,DOC-0445,BRK-01,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,100,Approved by Commercial Director
+EXP-000439,20250801,REP-004,DOC-0446,BRK-13,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,62,Approved by Commercial Director
+EXP-000440,20260901,REP-004,DOC-0446,BRK-13,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000441,20250701,REP-004,DOC-0446,BRK-13,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000442,20260701,REP-008,DOC-0447,BRK-35,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,118,Approved by Commercial Director
+EXP-000443,20251001,REP-005,DOC-0449,BRK-20,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,31,Approved by Commercial Director
+EXP-000444,20250301,REP-004,DOC-0450,BRK-14,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000445,20260701,REP-004,DOC-0450,BRK-14,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000446,20261101,REP-004,DOC-0450,BRK-14,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000447,20260601,REP-008,DOC-0452,BRK-21,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,42,Approved by Commercial Director
+EXP-000448,20250301,REP-029,DOC-0453,BRK-21,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,58,Approved by Commercial Director
+EXP-000449,20260701,REP-027,DOC-0455,BRK-25,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000450,20250801,REP-013,DOC-0455,BRK-25,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000451,20250101,REP-006,DOC-0456,BRK-23,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,41,Approved by Commercial Director
+EXP-000452,20260901,REP-022,DOC-0457,BRK-33,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,63,Approved by Commercial Director
+EXP-000453,20250101,REP-030,DOC-0458,BRK-34,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000454,20250901,REP-004,DOC-0461,BRK-15,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000455,20260701,REP-004,DOC-0461,BRK-15,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,93,Approved by Commercial Director
+EXP-000456,20251101,REP-004,DOC-0461,BRK-15,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000457,20250201,REP-019,DOC-0463,BRK-12,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000458,20251001,REP-004,DOC-0464,BRK-13,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,51,Approved by Commercial Director
+EXP-000459,20250801,REP-003,DOC-0466,BRK-09,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,82,Approved by Commercial Director
+EXP-000460,20250601,REP-003,DOC-0466,BRK-09,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000461,20260301,REP-003,DOC-0466,BRK-09,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,37,Approved by Commercial Director
+EXP-000462,20250401,REP-011,DOC-0467,BRK-08,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,91,Approved by Commercial Director
+EXP-000463,20260701,REP-001,DOC-0467,BRK-08,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000464,20250501,REP-006,DOC-0471,BRK-23,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000465,20261101,REP-006,DOC-0471,BRK-23,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000466,20260501,REP-018,DOC-0472,BRK-31,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,44,Approved by Commercial Director
+EXP-000467,20260901,REP-017,DOC-0472,BRK-31,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,157,Approved by Commercial Director
+EXP-000468,20250401,REP-006,DOC-0473,BRK-22,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000469,20260201,REP-006,DOC-0473,BRK-22,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000470,20250301,REP-005,DOC-0474,BRK-19,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000471,20261001,REP-005,DOC-0474,BRK-19,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000472,20260101,REP-003,DOC-0475,BRK-09,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,126,Approved by Commercial Director
+EXP-000473,20260701,REP-014,DOC-0476,BRK-30,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,16,Approved by Commercial Director
+EXP-000474,20261001,REP-005,DOC-0478,BRK-18,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000475,20260201,REP-005,DOC-0478,BRK-18,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000476,20250601,REP-018,DOC-0480,BRK-08,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,59,Approved by Commercial Director
+EXP-000477,20250201,REP-022,DOC-0480,BRK-08,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000478,20250401,REP-003,DOC-0484,BRK-11,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000479,20260901,REP-003,DOC-0484,BRK-11,Advisory Board Consultation Honorarium,18000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000480,20260901,REP-028,DOC-0486,BRK-26,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000481,20250801,REP-009,DOC-0486,BRK-26,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000482,20250801,REP-007,DOC-0490,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,92,Approved by Commercial Director
+EXP-000483,20250701,REP-032,DOC-0490,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,127,Approved by Commercial Director
+EXP-000484,20250101,REP-002,DOC-0491,BRK-06,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000485,20261201,REP-002,DOC-0493,BRK-07,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000486,20251101,REP-006,DOC-0494,BRK-22,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000487,20260401,REP-006,DOC-0494,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000488,20261101,REP-019,DOC-0495,BRK-26,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000489,20250301,REP-003,DOC-0495,BRK-26,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000490,20250801,REP-031,DOC-0496,BRK-28,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,97,Approved by Commercial Director
+EXP-000491,20260201,REP-004,DOC-0497,BRK-14,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,17,Approved by Commercial Director
+EXP-000492,20250601,REP-012,DOC-0498,BRK-21,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,36,Approved by Commercial Director
+EXP-000493,20260201,REP-005,DOC-0500,BRK-20,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000494,20261201,REP-005,DOC-0500,BRK-20,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,15,Approved by Commercial Director
+EXP-000495,20251101,REP-018,DOC-0501,BRK-28,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000496,20250401,REP-021,DOC-0502,BRK-21,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,46,Approved by Commercial Director
+EXP-000497,20250501,REP-024,DOC-0502,BRK-21,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,33,Approved by Commercial Director
+EXP-000498,20260601,REP-006,DOC-0504,BRK-23,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,81,Approved by Commercial Director
+EXP-000499,20250701,REP-006,DOC-0504,BRK-23,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,160,Approved by Commercial Director
+EXP-000500,20260501,REP-023,DOC-0507,BRK-12,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000501,20250301,REP-028,DOC-0507,BRK-12,Advisory Board Consultation Honorarium,18000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000502,20250801,REP-021,DOC-0507,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000503,20260401,REP-006,DOC-0510,BRK-24,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,53,Approved by Commercial Director
+EXP-000504,20260501,REP-005,DOC-0513,BRK-21,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,161,Approved by Commercial Director
+EXP-000505,20250401,REP-027,DOC-0514,BRK-31,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000506,20251001,REP-018,DOC-0515,BRK-35,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,70,Approved by Commercial Director
+EXP-000507,20261101,REP-028,DOC-0516,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,122,Approved by Commercial Director
+EXP-000508,20260201,REP-018,DOC-0516,BRK-12,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,37,Approved by Commercial Director
+EXP-000509,20260401,REP-007,DOC-0517,BRK-32,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000510,20250701,REP-011,DOC-0517,BRK-32,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000511,20261001,REP-004,DOC-0518,BRK-15,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000512,20260801,REP-004,DOC-0518,BRK-15,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,76,Approved by Commercial Director
+EXP-000513,20250201,REP-004,DOC-0519,BRK-14,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000514,20250401,REP-004,DOC-0520,BRK-27,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000515,20250601,REP-007,DOC-0521,BRK-34,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000516,20251101,REP-022,DOC-0521,BRK-34,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000517,20261001,REP-008,DOC-0521,BRK-34,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000518,20250401,REP-002,DOC-0522,BRK-07,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000519,20260601,REP-002,DOC-0522,BRK-07,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000520,20251201,REP-003,DOC-0524,BRK-11,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,79,Approved by Commercial Director
+EXP-000521,20260501,REP-003,DOC-0527,BRK-10,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000522,20250301,REP-008,DOC-0528,BRK-31,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,55,Approved by Commercial Director
+EXP-000523,20250201,REP-007,DOC-0528,BRK-31,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,58,Approved by Commercial Director
+EXP-000524,20251001,REP-005,DOC-0529,BRK-19,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,46,Approved by Commercial Director
+EXP-000525,20260101,REP-004,DOC-0531,BRK-15,Advisory Board Consultation Honorarium,18000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000526,20250201,REP-009,DOC-0532,BRK-27,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,53,Approved by Commercial Director
+EXP-000527,20250701,REP-006,DOC-0533,BRK-22,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000528,20261201,REP-005,DOC-0534,BRK-19,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,40,Approved by Commercial Director
+EXP-000529,20251201,REP-016,DOC-0535,BRK-04,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,168,Approved by Commercial Director
+EXP-000530,20251101,REP-026,DOC-0535,BRK-04,Clinic Scientific Literature & Educational Tools,5000,KOL Champion (High ROI),False,53,Approved by Commercial Director
+EXP-000531,20260501,REP-005,DOC-0537,BRK-19,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000532,20250601,REP-001,DOC-0539,BRK-02,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000533,20260501,REP-001,DOC-0542,BRK-01,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,53,Approved by Commercial Director
+EXP-000534,20260701,REP-001,DOC-0542,BRK-01,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000535,20250101,REP-007,DOC-0545,BRK-30,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,116,Approved by Commercial Director
+EXP-000536,20250901,REP-004,DOC-0545,BRK-30,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000537,20260601,REP-005,DOC-0546,BRK-19,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,33,Approved by Commercial Director
+EXP-000538,20250401,REP-005,DOC-0546,BRK-19,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,60,Approved by Commercial Director
+EXP-000539,20250501,REP-005,DOC-0546,BRK-19,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,112,Approved by Commercial Director
+EXP-000540,20261101,REP-016,DOC-0548,BRK-27,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000541,20251101,REP-028,DOC-0548,BRK-27,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000542,20250801,REP-006,DOC-0550,BRK-24,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,67,Approved by Commercial Director
+EXP-000543,20250301,REP-003,DOC-0551,BRK-11,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,52,Approved by Commercial Director
+EXP-000544,20260101,REP-003,DOC-0551,BRK-11,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,65,Approved by Commercial Director
+EXP-000545,20260401,REP-003,DOC-0551,BRK-11,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,36,Approved by Commercial Director
+EXP-000546,20260101,REP-026,DOC-0552,BRK-32,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000547,20250201,REP-010,DOC-0552,BRK-32,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000548,20260301,REP-007,DOC-0556,BRK-30,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000549,20260101,REP-012,DOC-0559,BRK-33,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000550,20260301,REP-018,DOC-0559,BRK-33,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000551,20260301,REP-002,DOC-0561,BRK-07,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000552,20260501,REP-001,DOC-0563,BRK-02,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000553,20261001,REP-030,DOC-0566,BRK-34,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000554,20250301,REP-005,DOC-0566,BRK-34,Advisory Board Consultation Honorarium,18000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000555,20260801,REP-006,DOC-0569,BRK-22,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000556,20250701,REP-006,DOC-0569,BRK-22,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,54,Approved by Commercial Director
+EXP-000557,20260601,REP-015,DOC-0570,BRK-36,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000558,20251001,REP-004,DOC-0574,BRK-14,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000559,20260401,REP-003,DOC-0575,BRK-10,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,17,Approved by Commercial Director
+EXP-000560,20261001,REP-006,DOC-0576,BRK-22,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000561,20260301,REP-004,DOC-0577,BRK-14,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,51,Approved by Commercial Director
+EXP-000562,20261201,REP-004,DOC-0577,BRK-14,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000563,20250201,REP-004,DOC-0578,BRK-15,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,53,Approved by Commercial Director
+EXP-000564,20251201,REP-004,DOC-0578,BRK-15,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,101,Approved by Commercial Director
+EXP-000565,20250301,REP-001,DOC-0580,BRK-32,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000566,20260901,REP-017,DOC-0580,BRK-32,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000567,20260401,REP-015,DOC-0583,BRK-34,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,14,Approved by Commercial Director
+EXP-000568,20250101,REP-001,DOC-0585,BRK-02,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000569,20260901,REP-002,DOC-0586,BRK-27,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,121,Approved by Commercial Director
+EXP-000570,20250601,REP-011,DOC-0586,BRK-27,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000571,20250401,REP-014,DOC-0588,BRK-16,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000572,20250401,REP-006,DOC-0588,BRK-16,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000573,20261101,REP-001,DOC-0591,BRK-03,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,15,Approved by Commercial Director
+EXP-000574,20251001,REP-001,DOC-0592,BRK-02,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,57,Approved by Commercial Director
+EXP-000575,20260501,REP-012,DOC-0593,BRK-12,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,52,Approved by Commercial Director
+EXP-000576,20251001,REP-006,DOC-0593,BRK-12,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,121,Approved by Commercial Director
+EXP-000577,20261201,REP-003,DOC-0594,BRK-09,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000578,20251001,REP-003,DOC-0594,BRK-09,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000579,20261201,REP-001,DOC-0595,BRK-02,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,32,Approved by Commercial Director
+EXP-000580,20250801,REP-001,DOC-0595,BRK-02,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,56,Approved by Commercial Director
+EXP-000581,20250101,REP-018,DOC-0597,BRK-12,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,62,Approved by Commercial Director
+EXP-000582,20251001,REP-002,DOC-0598,BRK-07,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000583,20251001,REP-002,DOC-0598,BRK-07,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000584,20260101,REP-006,DOC-0599,BRK-23,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,37,Approved by Commercial Director
+EXP-000585,20260701,REP-006,DOC-0599,BRK-23,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,35,Approved by Commercial Director
+EXP-000586,20260301,REP-006,DOC-0599,BRK-23,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,118,Approved by Commercial Director
+EXP-000587,20260601,REP-002,DOC-0600,BRK-06,Local Medical Conference Sponsorship,7500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000588,20260901,REP-006,DOC-0602,BRK-22,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000589,20260701,REP-006,DOC-0602,BRK-22,Clinic Scientific Literature & Educational Tools,3500,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000590,20251001,REP-010,DOC-0603,BRK-29,Advisory Board Consultation Honorarium,12000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000591,20251101,REP-027,DOC-0603,BRK-29,Clinic Scientific Literature & Educational Tools,2000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000592,20250801,REP-002,DOC-0606,BRK-06,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,18,Approved by Commercial Director
+EXP-000593,20251001,REP-002,DOC-0607,BRK-33,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,45,Approved by Commercial Director
+EXP-000594,20250101,REP-006,DOC-0607,BRK-33,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,41,Approved by Commercial Director
+EXP-000595,20260701,REP-004,DOC-0608,BRK-13,Advisory Board Consultation Honorarium,18000,KOL Champion (High ROI),False,68,Approved by Commercial Director
+EXP-000596,20260301,REP-002,DOC-0609,BRK-05,Local Medical Conference Sponsorship,10000,KOL Champion (High ROI),False,52,Approved by Commercial Director
+EXP-000597,20260201,REP-002,DOC-0609,BRK-05,Clinic Scientific Literature & Educational Tools,2000,KOL Champion (High ROI),False,25,Approved by Commercial Director
+EXP-000598,20260501,REP-001,DOC-0610,BRK-02,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000599,20261201,REP-001,DOC-0610,BRK-02,Clinic Scientific Literature & Educational Tools,5000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000600,20261201,REP-004,DOC-0611,BRK-13,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,75,Approved by Commercial Director
+EXP-000601,20260801,REP-005,DOC-0613,BRK-18,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,161,Approved by Commercial Director
+EXP-000602,20250801,REP-003,DOC-0614,BRK-09,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000603,20250801,REP-018,DOC-0615,BRK-31,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,117,Approved by Commercial Director
+EXP-000604,20251201,REP-001,DOC-0616,BRK-12,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,51,Approved by Commercial Director
+EXP-000605,20250201,REP-017,DOC-0616,BRK-12,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,53,Approved by Commercial Director
+EXP-000606,20250401,REP-002,DOC-0617,BRK-05,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000607,20260801,REP-004,DOC-0618,BRK-13,Advisory Board Consultation Honorarium,12000,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000608,20251201,REP-004,DOC-0618,BRK-13,Local Medical Conference Sponsorship,7500,KOL Champion (High ROI),False,38,Approved by Commercial Director
+EXP-000609,20250301,REP-002,DOC-0619,BRK-06,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000610,20261001,REP-006,DOC-0621,BRK-16,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,69,Approved by Commercial Director
+EXP-000611,20250701,REP-005,DOC-0623,BRK-20,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000612,20260901,REP-005,DOC-0623,BRK-20,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,102,Approved by Commercial Director
+EXP-000613,20250201,REP-014,DOC-0626,BRK-25,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000614,20250101,REP-029,DOC-0626,BRK-25,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,17,Approved by Commercial Director
+EXP-000615,20260101,REP-004,DOC-0627,BRK-15,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000616,20260101,REP-004,DOC-0627,BRK-15,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000617,20250301,REP-004,DOC-0627,BRK-15,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000618,20260401,REP-001,DOC-0628,BRK-01,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000619,20250101,REP-001,DOC-0628,BRK-01,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000620,20260101,REP-005,DOC-0629,BRK-19,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000621,20261101,REP-006,DOC-0630,BRK-24,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,58,Approved by Commercial Director
+EXP-000622,20250401,REP-002,DOC-0631,BRK-05,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,121,Approved by Commercial Director
+EXP-000623,20260101,REP-005,DOC-0632,BRK-20,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000624,20261001,REP-005,DOC-0632,BRK-20,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,118,Approved by Commercial Director
+EXP-000625,20261201,REP-005,DOC-0632,BRK-20,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,74,Approved by Commercial Director
+EXP-000626,20260101,REP-005,DOC-0636,BRK-20,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000627,20260601,REP-018,DOC-0638,BRK-26,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000628,20260201,REP-020,DOC-0638,BRK-26,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,54,Approved by Commercial Director
+EXP-000629,20261101,REP-009,DOC-0639,BRK-32,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000630,20260901,REP-002,DOC-0640,BRK-27,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,23,Approved by Commercial Director
+EXP-000631,20260801,REP-006,DOC-0641,BRK-23,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000632,20260501,REP-032,DOC-0644,BRK-32,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,65,Approved by Commercial Director
+EXP-000633,20250501,REP-004,DOC-0645,BRK-14,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,74,Approved by Commercial Director
+EXP-000634,20260501,REP-020,DOC-0646,BRK-12,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000635,20260501,REP-005,DOC-0648,BRK-32,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,103,Approved by Commercial Director
+EXP-000636,20260501,REP-007,DOC-0648,BRK-32,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,KOL Champion (High ROI),False,137,Approved by Commercial Director
+EXP-000637,20260601,REP-025,DOC-0650,BRK-12,Local Medical Conference Sponsorship,4000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000638,20260701,REP-026,DOC-0652,BRK-30,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,96,Approved by Commercial Director
+EXP-000639,20260801,REP-009,DOC-0652,BRK-30,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000640,20250801,REP-001,DOC-0654,BRK-02,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,KOL Champion (High ROI),False,162,Approved by Commercial Director
+EXP-000641,20250901,REP-004,DOC-0656,BRK-14,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,91,Approved by Commercial Director
+EXP-000642,20250901,REP-004,DOC-0656,BRK-14,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,38,Approved by Commercial Director
+EXP-000643,20250901,REP-004,DOC-0657,BRK-36,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,40,Approved by Commercial Director
+EXP-000644,20251101,REP-003,DOC-0659,BRK-10,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,32,Approved by Commercial Director
+EXP-000645,20251201,REP-003,DOC-0659,BRK-10,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,53,Approved by Commercial Director
+EXP-000646,20260301,REP-010,DOC-0660,BRK-16,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,94,Approved by Commercial Director
+EXP-000647,20251001,REP-032,DOC-0661,BRK-29,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000648,20260301,REP-004,DOC-0662,BRK-15,Clinic Scientific Literature & Educational Tools,2000,Core Prescriber (Consistent ROI),False,27,Approved by Commercial Director
+EXP-000649,20250601,REP-006,DOC-0663,BRK-32,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000650,20250801,REP-027,DOC-0663,BRK-32,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000651,20250701,REP-026,DOC-0665,BRK-28,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000652,20250501,REP-002,DOC-0667,BRK-26,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,113,Approved by Commercial Director
+EXP-000653,20261101,REP-003,DOC-0668,BRK-09,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,126,Approved by Commercial Director
+EXP-000654,20260701,REP-003,DOC-0668,BRK-09,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Core Prescriber (Consistent ROI),False,123,Approved by Commercial Director
+EXP-000655,20250301,REP-003,DOC-0668,BRK-09,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,17,Approved by Commercial Director
+EXP-000656,20260201,REP-001,DOC-0669,BRK-34,International Congress (ESC / EASD / ERS) Travel & Accommodation,48000,Core Prescriber (Consistent ROI),False,96,Approved by Commercial Director
+EXP-000657,20261001,REP-018,DOC-0670,BRK-12,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,30,Approved by Commercial Director
+EXP-000658,20260701,REP-019,DOC-0670,BRK-12,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,19,Approved by Commercial Director
+EXP-000659,20250401,REP-005,DOC-0671,BRK-19,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,33,Approved by Commercial Director
+EXP-000660,20260401,REP-011,DOC-0674,BRK-12,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,22,Approved by Commercial Director
+EXP-000661,20250701,REP-005,DOC-0674,BRK-12,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000662,20260801,REP-002,DOC-0674,BRK-12,Advisory Board Consultation Honorarium,12000,Core Prescriber (Consistent ROI),False,40,Approved by Commercial Director
+EXP-000663,20250301,REP-006,DOC-0675,BRK-23,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,34,Approved by Commercial Director
+EXP-000664,20260301,REP-006,DOC-0675,BRK-23,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,25,Approved by Commercial Director
+EXP-000665,20250201,REP-006,DOC-0676,BRK-24,Advisory Board Consultation Honorarium,25000,KOL Champion (High ROI),False,91,Approved by Commercial Director
+EXP-000666,20261101,REP-001,DOC-0678,BRK-02,Local Medical Conference Sponsorship,10000,Core Prescriber (Consistent ROI),False,39,Approved by Commercial Director
+EXP-000667,20260101,REP-001,DOC-0678,BRK-02,Clinic Scientific Literature & Educational Tools,3500,Core Prescriber (Consistent ROI),False,24,Approved by Commercial Director
+EXP-000668,20260201,REP-025,DOC-0680,BRK-35,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,KOL Champion (High ROI),False,115,Approved by Commercial Director
+EXP-000669,20250801,REP-003,DOC-0681,BRK-11,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000670,20260301,REP-005,DOC-0682,BRK-18,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,69,Approved by Commercial Director
+EXP-000671,20250501,REP-004,DOC-0684,BRK-13,Advisory Board Consultation Honorarium,25000,Free Rider (Zero Incremental Lift),True,0,Approved by Commercial Director
+EXP-000672,20250401,REP-004,DOC-0684,BRK-13,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,2,Approved by Commercial Director
+EXP-000673,20261101,REP-024,DOC-0685,BRK-17,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,28,Approved by Commercial Director
+EXP-000674,20260601,REP-014,DOC-0685,BRK-17,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000675,20251201,REP-006,DOC-0686,BRK-23,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,26,Approved by Commercial Director
+EXP-000676,20260501,REP-006,DOC-0686,BRK-23,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000677,20250901,REP-004,DOC-0688,BRK-26,Advisory Board Consultation Honorarium,25000,Core Prescriber (Consistent ROI),False,58,Approved by Commercial Director
+EXP-000678,20251001,REP-031,DOC-0688,BRK-26,Advisory Board Consultation Honorarium,18000,Core Prescriber (Consistent ROI),False,44,Approved by Commercial Director
+EXP-000679,20250201,REP-024,DOC-0689,BRK-16,Local Medical Conference Sponsorship,10000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000680,20261101,REP-030,DOC-0689,BRK-16,International Congress (ESC / EASD / ERS) Travel & Accommodation,62000,Free Rider (Zero Incremental Lift),True,1,Approved by Commercial Director
+EXP-000681,20250301,REP-005,DOC-0690,BRK-20,Local Medical Conference Sponsorship,7500,Core Prescriber (Consistent ROI),False,31,Approved by Commercial Director
+EXP-000682,20250601,REP-005,DOC-0690,BRK-20,Local Medical Conference Sponsorship,4000,Core Prescriber (Consistent ROI),False,29,Approved by Commercial Director
+EXP-000683,20260201,REP-021,DOC-0691,BRK-28,Clinic Scientific Literature & Educational Tools,5000,Core Prescriber (Consistent ROI),False,20,Approved by Commercial Director
+EXP-000684,20260101,REP-006,DOC-0694,BRK-22,International Congress (ESC / EASD / ERS) Travel & Accommodation,35000,Core Prescriber (Consistent ROI),False,76,Approved by Commercial Director
+EXP-000685,20251201,REP-002,DOC-0699,BRK-06,Clinic Scientific Literature & Educational Tools,3500,KOL Champion (High ROI),False,39,Approved by Commercial Director
+EXP-000686,20260101,REP-002,DOC-0699,BRK-06,Local Medical Conference Sponsorship,4000,KOL Champion (High ROI),False,31,Approved by Commercial Director
